@@ -1,0 +1,8 @@
+.program-date-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;  
+  padding: 30px 0;
+  gap: 50px;
+  border-bottom: solid 2px black;
+}

@@ -1,0 +1,23 @@
+{
+    "menu": {
+        "option_1": "QUIÉNES SOMOS",
+        "option_2": "EXPOSITORES",
+        "option_3": "VISITANTES",
+        "option_4": "HISTÓRICO",
+        "option_5": "MEDIA HUB"
+    },
+    "program": {
+        "title": "Conferences",
+        "subtitle": "Let's create the industry of tomorrow.",
+        "title_s": "Speakers",
+        "subtitle_s": "Get inspired by our amazing speakers.",
+        "day": "Day",
+        "month": "April",
+        "day_1": "Wednesday",
+        "day_2": "Thursday",
+        "day_3": "Friday",
+        "stages": "Stages",
+        "about": "About",
+        "speech": "Speech"
+    }
+}

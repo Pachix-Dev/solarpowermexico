@@ -1,0 +1,23 @@
+{
+    "menu": {
+        "option_1": "QUIÉNES SOMOS",
+        "option_2": "EXPOSITORES",
+        "option_3": "VISITANTES",
+        "option_4": "HISTÓRICO",
+        "option_5": "MEDIA HUB"
+    },
+    "program": {
+        "title": "Programa de conferencias",
+        "subtitle": "Construyamos la industria del mañana.",
+        "title_s": "Ponentes",
+        "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",
+        "day": "Día",
+        "month": "de abril",
+        "day_1": "miércoles",
+        "day_2": "jueves",
+        "day_3": "viernes",
+        "stages": "Escenarios",
+        "about": "Acerca de",
+        "speech": "Ponencia"
+    }
+}

@@ -19,5 +19,9 @@
         "stages": "Escenarios",
         "about": "Acerca de",
         "speech": "Ponencia"
+    },
+    "footer": {
+        "privacy_policy": "Aviso de privacidad",
+        "contact": "Contacto"
     }
 }

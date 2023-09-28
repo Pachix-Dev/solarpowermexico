@@ -19,5 +19,9 @@
         "stages": "Stages",
         "about": "About",
         "speech": "Speech"
+    },
+    "footer": {
+        "privacy_policy": "Privacy Policy",
+        "contact": "Contact Us"
     }
 }

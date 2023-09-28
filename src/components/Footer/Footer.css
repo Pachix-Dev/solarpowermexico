@@ -1,0 +1,28 @@
+.footer-socialmedia svg {
+    fill: #570587;
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: #570587;
+}
+
+.footer-language{
+    padding: 10px 0;
+    border-top: 1px solid #727272;
+    border-bottom: 1px solid #727272;
+}

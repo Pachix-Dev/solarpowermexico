@@ -1,13 +1,13 @@
-import { Accordion, Container, Tab, Tabs } from 'react-bootstrap'
+import { Container, Tab, Tabs } from 'react-bootstrap'
 import { programSolar } from '../../constans_program'
 import { useTranslation } from 'react-i18next'
 import './Program.css'
 export function Program () {
   const { t } = useTranslation()
   return (
-    <>
+    <div className='program-solar'>
       <Container className='mt-5'>
-        <h1>Enlightenment Area</h1>
+        <h1 className='fw-bold'>Enlightenment Area</h1>
 
         <Tabs
           defaultActiveKey='day1'
@@ -18,8 +18,9 @@ export function Program () {
             eventKey='day1'
             title={
               <>
-                <strong>{t('program.day')} 1</strong><br />
-                <span>{t('program.day_1')}, 17 {t('program.month')}</span>
+                <strong>{t('program.day')} 1<br />
+                  {t('program.day_1')}, 17 {t('program.month')}
+                </strong>
               </>
                 }
           >
@@ -49,8 +50,9 @@ export function Program () {
             eventKey='day2'
             title={
               <>
-                <strong>{t('program.day')} 2</strong><br />
-                <span>{t('program.day_2')}, 18 {t('program.month')}</span>
+                <strong>{t('program.day')} 2<br />
+                  {t('program.day_2')}, 18 {t('program.month')}
+                </strong>
               </>
                 }
           >
@@ -79,8 +81,9 @@ export function Program () {
             eventKey='day3'
             title={
               <>
-                <strong>{t('program.day')} 3</strong><br />
-                <span>{t('program.day_3')}, 19 {t('program.month')}</span>
+                <strong>{t('program.day')} 3<br />
+                  {t('program.day_3')}, 19 {t('program.month')}
+                </strong>
               </>
                 }
           >
@@ -97,20 +100,7 @@ export function Program () {
                   </div>
                   <div className='d-flex align-items-center justify-content-between w-100'>
                     <div>
-                      {program?.resume
-                        ? <Accordion>
-                          <Accordion.Item eventKey={index}>
-                            <Accordion.Header>
-                              <h2>{program.name}</h2>
-                              <p>{program.rol} <strong>{program?.company}</strong></p>
-                              <h6>{program.conference}</h6>
-                            </Accordion.Header>
-                            <Accordion.Body>
-                              {program.resume}
-                            </Accordion.Body>
-                          </Accordion.Item>
-                        </Accordion>
-                        : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
+                      <h2>{program.name}</h2>
                     </div>
                   </div>
                 </div>
@@ -119,6 +109,6 @@ export function Program () {
           </Tab>
         </Tabs>
       </Container>
-    </>
+    </div>
   )
 }

@@ -6,3 +6,10 @@
   gap: 50px;
   border-bottom: solid 2px black;
 }
+.program-solar .nav-item .nav-link{
+  color: black !important;
+}
+.nav-tabs .nav-link.active{
+  background-color: #570587;
+  color: white !important;
+}

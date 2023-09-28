@@ -1,0 +1,28 @@
+.home-solar-submenu{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.home-solar-submenu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: 0.3s ease-in-out;
+}
+.home-solar-submenu a:hover{
+    color: white;
+    background-color: #570587;
+    transform: scale(1.1);
+}
+.lg-react-element{
+    column-count: 4;    
+}
+.img-gallery{
+    cursor: pointer;
+}

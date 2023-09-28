@@ -22,6 +22,9 @@
     },
     "footer": {
         "privacy_policy": "Privacy Policy",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "subscription": "Suscribe"
     }
 }

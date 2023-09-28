@@ -26,3 +26,9 @@ footer a:hover {
     border-top: 1px solid #727272;
     border-bottom: 1px solid #727272;
 }
+.language-option-footer a{
+    color: black !important;
+}
+.language-option-footer svg{
+    fill: black;
+}

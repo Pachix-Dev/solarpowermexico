@@ -1,6 +1,7 @@
 import { Col, Container, NavDropdown, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
+import { Subscribe } from '../Suscribe/Suscribe'
 export function Footer () {
   const { t, i18n } = useTranslation()
   return (
@@ -35,7 +36,7 @@ export function Footer () {
             </svg>
           </a>
         </div>
-        <Row>
+        <Row className='mt-5'>
           <Col>
             <p><strong>SOLAR + STORAGE MEXICO 2024</strong></p>
             <p>17 – 19 de Abril, 2024<br />
@@ -45,7 +46,7 @@ export function Footer () {
           </Col>
           <Col>
             <p>
-              <strong>Directora de Proyecto Solar
+              <strong>Directora de Proyecto Solar<br />
                 + Storage México
               </strong><br />
               Sandra Elías<br />
@@ -64,6 +65,9 @@ export function Footer () {
               Tel. +52 55 7028 3335 ext. 806<br />
               marissa.franco@hfmexico.mx
             </p>
+          </Col>
+          <Col>
+            <Subscribe />
           </Col>
         </Row>
         <div className='mt-5 footer-language d-flex'>

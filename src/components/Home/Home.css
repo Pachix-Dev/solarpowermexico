@@ -26,3 +26,8 @@
 .img-gallery{
     cursor: pointer;
 }
+.home-whyexhibit{
+    background-color: #570587;
+    color: white;
+    padding: 20px;
+}

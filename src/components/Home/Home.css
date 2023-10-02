@@ -31,3 +31,44 @@
     color: white;
     padding: 20px;
 }
+.home-bg-solarvideo{
+    position: relative;
+    min-height: 400px;
+    color: white;
+}
+.home-bg-solarvideo video{
+    object-fit: cover;
+    width: 100%;
+    min-height: 480px; 
+}
+.home-text-video{
+   position: absolute;
+   top: 0;
+   display: flex;
+   align-items: center;
+   height: 100%;  
+   text-shadow: 4px 4px 4px black;    
+}
+.home-text-video span{
+    background-color: #F3736A;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.home-text-color{
+    color: #f3736a;
+}
+.whatssap-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;   
+    border-radius: 50%;
+    background-color: #25D366;
+    z-index: 10;    
+}
+.whatssap-button svg{      
+    fill: white;
+    width: 60px;
+    padding: 12px;        
+}

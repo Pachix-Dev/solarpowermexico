@@ -14,6 +14,9 @@ import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile
 import { ExhibitorServices } from './components/ExhibitorServices/ExhibitorServices'
 import { Toolkit } from './components/Toolkit/Toolkit'
 import { Rates } from './components/Rates/Rates'
+import { WhyVisit } from './components/WhyVisit/WhyVisit'
+import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
+import { GallgeryPage } from './components/Gallery/GalleryPage'
 
 function App () {
   return (
@@ -68,7 +71,18 @@ function App () {
         <Route
           path='/enlightenment-area' element={<Program />}
         />
-
+        <Route
+          path='why-visit'
+          element={<WhyVisit />}
+        />
+        <Route
+          path='visitor-profile'
+          element={<VisitorProfile />}
+        />
+        <Route
+          path='gallery'
+          element={<GallgeryPage />}
+        />
       </Routes>
 
       <Footer />

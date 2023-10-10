@@ -26,12 +26,12 @@
             "option_1": "Why Visit",
             "option_2": "Visitor Profile"
         },
-        "option_4": {
+        "submenu_4": {
             "title": "PAST EVENTS",
-            "results": "Resultados",
-            "directory": "Directorio de expositores"
+            "results": "Results Report",
+            "directory": "Exhibitor Directory"
         },
-        "option_5": {
+        "submenu_5": {
             "title": "MEDIA HUB",
             "option_1": "Gallery"                   
         }        
@@ -92,6 +92,14 @@
         "contact": "GENERAL EXHIBITOR CONTRACTING FORMAT",
         "contract_food": "FOOD AND BEVERAGE PROCUREMENT FORM",
         "instructions": "BOARDING INSTRUCTIONS"
+    },
+    "WhyVisit":{
+        "description": "<strong>SOLAR + STORAGE MEXICO</strong> brings together global solar energy expertise in one place for three days of research, discovery and real business. At this event you will have the opportunity to meet face to face with experts in the solar energy, energy storage and smart grid sectors, such as:<br /><br /><ul><li>Manufacturers</li ><li>System suppliers</li><li>Distributors</li><li>Suppliers</li></ul><br /><br /><strong>SOLAR + STORAGE MEXICO</strong> will feature an exhibition area as well as a comprehensive, first-class educational program. Do you want to learn about new trends, find the latest local and international products and/or get in touch with relevant companies on how they could help you with your next project? Then don't miss this unique opportunity and visit <strong>SOLAR + STORAGE MEXICO.</strong>"
+    }, 
+    "VisitorProfile":{
+        "title": "Attendee Profile",
+        "description": "<ul><li>Installers</li><li>Solar Integrators</li><li>Solar Technology Suppliers</li><li>Solar Panel Distributors</li><li>Companies in the Electrical industry </li><li>Project Engineering</li><li>EPC Contractors</li><li>Manufacturers</li><li>Consulting Services</li><li>Investors</li><li>Independent Power Generators</li></ul>",
+        "description2": "<ul><li>Legal/Legal Services</li><li>Press</li><li>Federal, State and Municipal Government and their Agencies</li><li>Solar Park Owners</li><li>Real Estate Developers</li><li>Corporate Developers</li><li>EIndustrial Park Developers</li><li>Sectoral Institutions</li><li>Research, Innovation Centers and Universities</li ></ul>"
     },  
     "program": {
         "title": "Conferences",

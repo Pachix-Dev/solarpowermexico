@@ -1,0 +1,23 @@
+.bg-visitorProfile{
+    background-image: url('/bgVisitorProfile.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-visitorProfile2{
+    background-image: url('/bgVisitorProfile2.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.visitor-profile ul{
+    list-style-image: url("/cog.svg");
+}
+.visitor-profile li::marker {
+    font-size: 2em;        
+}
+.visitor-profile ul li:hover  {
+    list-style-image: url("/flag.svg");     
+}

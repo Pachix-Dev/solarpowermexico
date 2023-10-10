@@ -54,6 +54,72 @@ export function Menu () {
                 <NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>{t('menu.submenu_2.option_10')}</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/toolkit' onClick={handleClose}>{t('menu.submenu_2.option_11')}</NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title={t('menu.submenu_3.title')} renderMenuOnMount disabled>
+                <NavDropdown.Item as={Link} to='/why-visit' onClick={handleClose}>{t('menu.submenu_3.option_1')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.submenu_3.option_2')}</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title={t('menu.submenu_4.title')} renderMenuOnMount disabled>
+                <p className='mb-0 fw-bold'>SSM 2023</p>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/RESULTS-REPORT-SSM-2023-ENG.pdf'
+                    : '/files/REPORTE-DE-RESULTADOS-SSM-2023-ESP.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  {t('menu.submenu_4.results')} SSM 2023
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/Directorio-SSM-2023.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_4.directory')} SSM 2023
+                </NavDropdown.Item>
+
+                <p className='mb-0 fw-bold'>SPM 2022</p>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/RESULTS-REPORT-SSM-2022-ENG.pdf'
+                    : '/files/REPORTE-DE-RESULTADOS-SSM-2022-ESP.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  {t('menu.submenu_4.results')} SPM 2022
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/Directorio-SSM-2022.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_4.directory')} SPM 2022
+                </NavDropdown.Item>
+
+                <p className='mb-0 fw-bold'>SPM 2021</p>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/RESULTS-REPORT-SSM-2021-ENG.pdf'
+                    : '/files/REPORTE-DE-RESULTADOS-SSM-2021-ESP.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  {t('menu.submenu_4.results')} SPM 2021
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/Directorio-SSM-2021.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_4.directory')} SPM 2021
+                </NavDropdown.Item>
+
+                <p className='mb-0 fw-bold'>SPM 2019</p>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/RESULTS-REPORT-SSM-2019-ENG.pdf'
+                    : '/files/REPORTE-DE-RESULTADOS-SSM-2019-ESP.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  {t('menu.submenu_4.results')} SPM 2019
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/Directorio-SSM-2019.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_4.directory')} SPM 2019
+                </NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title={t('menu.submenu_5.title')} renderMenuOnMount disabled>
+                <NavDropdown.Item as={Link} to='/gallery' onClick={handleClose}>
+                  {t('menu.submenu_5.option_1')}
+                </NavDropdown.Item>
+              </NavDropdown>
               <NavDropdown
                 className='language-dropdown'
                 title={

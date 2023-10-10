@@ -26,12 +26,12 @@
             "option_1": "Por qué visitar",
             "option_2": "Perfil del visitante"
         },
-        "option_4": {
+        "submenu_4": {
             "title": "HISTÓRICO",
             "results": "Resultados",
             "directory": "Directorio de expositores"
         },
-        "option_5": {
+        "submenu_5": {
             "title": "MEDIA HUB",
             "option_1": "Galería"                   
         }
@@ -93,6 +93,15 @@
         "contract_food": "FORMATO DE CONTRATACIÓN DE ALIMENTOS Y BEBIDAS",
         "instructions": "INSTRUCCIONES DE EMBARQUE"
     },
+    "WhyVisit":{
+        "description": "<strong>SOLAR + STORAGE MEXICO</strong> reúne la experiencia global en energía solar en un solo lugar durante tres días de investigación, descubrimiento y negocios reales. En este evento tendrá la oportunidad de encontrarse cara a cara con expertos en el sector de la energía solar, el almacenamiento de energía y las redes inteligentes, como:<br /><br /><ul><li>Fabricantes</li><li>Proveedores de sistemas</li><li>Distribuidores</li><li>Proveedores</li></ul><br /><br /><strong>SOLAR + STORAGE MEXICO</strong> contará con un área de exhibición, así como un programa educativo completo y de primera clase. ¿Desea conocer nuevas tendencias, encontrar los últimos productos locales e internacionales y / o ponerse en contacto con empresas relevantes sobre cómo podrían ayudarlo en su próximo proyecto? Entonces no se pierda esta única oportunidad y visite <strong>SOLAR + STORAGE MEXICO.</strong>"
+
+    },
+    "VisitorProfile":{
+        "title": "Perfil del Comprador",
+        "description": "<ul><li>Instaladores</li><li>Integradores Solares</li><li>Proveedores de Tecnología Solar</li><li>Distribuidores de Paneles Solares</li><li>Empresas de la industria Eléctrica</li><li>Ingeniería de Proyectos</li><li>Contratistas EPC</li><li>Fabricantes</li><li>Servicios de Consultoría</li><li>Inversionistas</li><li>Generadores de Energía Independientes</li></ul>",
+        "description2": "<ul><li>Servicios Legales/Jurídicos</li><li>Prensa</li><li>Gobierno Federal, Estatal y Municipal y sus Dependencias</li><li>Propietarios de Parques Solares</li><li>Desarrolladores Inmobiliarios</li><li>Desarrolladores Corporativos</li><li>EDesarrolladores de Parques Industriales</li><li>Instituciones Sectoriales</li><li>Centros de Investigación, Innovación y Universidades</li></ul>"
+    },  
     "program": {
         "title": "Programa de conferencias",
         "subtitle": "Construyamos la industria del mañana.",

@@ -1,0 +1,25 @@
+.bg-contact{
+    background-image: url('/BgContact.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.bg-contact a{
+    text-decoration: none;
+    color: white;    
+}
+.bg-contact a:hover{
+    text-decoration: none;
+    color: #02FF23;    
+}
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+    border-radius: 4px;
+    resize: none;
+    background-color: #F4F4F4;    
+}

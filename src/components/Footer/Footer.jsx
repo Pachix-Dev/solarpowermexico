@@ -5,9 +5,11 @@ import { Subscribe } from '../Suscribe/Suscribe'
 export function Footer () {
   const { t, i18n } = useTranslation()
   return (
-    <footer>
-      <Container className='mt-5'>
+    <footer className='mt-5'>
+      <Container fluid>
         <img src='/plecaSolar.webp' className='w-100' />
+      </Container>
+      <Container>
         <div className='footer-socialmedia mt-5'>
           <a href='https://www.facebook.com/solar.storage.mexico' target='_blank' rel='noreferrer'>
             <svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -37,14 +39,14 @@ export function Footer () {
           </a>
         </div>
         <Row className='mt-5'>
-          <Col>
+          <Col md>
             <p><strong>SOLAR + STORAGE MEXICO 2024</strong></p>
             <p>17 – 19 de Abril, 2024<br />
               Expo Guadalajara,<br />
               Guadalajara, Jalisco, México
             </p>
           </Col>
-          <Col>
+          <Col md>
             <p>
               <strong>Directora de Proyecto Solar<br />
                 + Storage México
@@ -66,7 +68,7 @@ export function Footer () {
               marissa.franco@hfmexico.mx
             </p>
           </Col>
-          <Col>
+          <Col md>
             <Subscribe />
           </Col>
         </Row>

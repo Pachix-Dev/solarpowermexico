@@ -1,0 +1,10 @@
+.bg-aboutssm{
+    background-image: url('/BGaboutSSM.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-secondary-text{
+    background-color: #EFEFEF;
+}

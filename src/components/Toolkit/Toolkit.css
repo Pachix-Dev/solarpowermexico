@@ -1,0 +1,5 @@
+.toollkit .lg-react-element{   
+    columns: inherit !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

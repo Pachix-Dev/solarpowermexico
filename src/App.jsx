@@ -5,6 +5,15 @@ import { Program } from './components/Program/Program'
 import { Footer } from './components/Footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home/Home'
+import { AboutSSM } from './components/AboutSSM/AboutSSM'
+import { AboutReEvents } from './components/AboutReEvents/AboutReEvents'
+import { AboutSNEC } from './components/AboutSNEC/AboutSNEC'
+import { Contact } from './components/Contact/Contact'
+import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
+import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
+import { ExhibitorServices } from './components/ExhibitorServices/ExhibitorServices'
+import { Toolkit } from './components/Toolkit/Toolkit'
+import { Rates } from './components/Rates/Rates'
 
 function App () {
   return (
@@ -21,8 +30,45 @@ function App () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route
+          path='about-ssm'
+          element={<AboutSSM />}
+        />
+        <Route
+          path='about-re-events'
+          element={<AboutReEvents />}
+        />
+        <Route
+          path='about-snec'
+          element={<AboutSNEC />}
+        />
+        <Route
+          path='contact'
+          element={<Contact />}
+        />
+        <Route
+          path='why-exhibit'
+          element={<WhyExhibit />}
+        />
+        <Route
+          path='exhibitor-profile'
+          element={<ExhibitorProfile />}
+        />
+        <Route
+          path='exhibitor-services'
+          element={<ExhibitorServices />}
+        />
+        <Route
+          path='rates'
+          element={<Rates />}
+        />
+        <Route
+          path='toolkit'
+          element={<Toolkit />}
+        />
+        <Route
           path='/enlightenment-area' element={<Program />}
         />
+
       </Routes>
 
       <Footer />

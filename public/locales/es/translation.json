@@ -1,10 +1,97 @@
 {
     "menu": {
-        "option_1": "QUIÉNES SOMOS",
-        "option_2": "EXPOSITORES",
-        "option_3": "VISITANTES",
-        "option_4": "HISTÓRICO",
-        "option_5": "MEDIA HUB"
+        "submenu_1": {
+            "title": "QUIÉNES SOMOS",
+            "option_1": "Acerca de SSM",
+            "option_2": "Acerca de RE+Events",
+            "option_3": "Acerca de SNEC",
+            "option_4": "Acerca de IGECO"                        
+        },     
+        "submenu_2": {
+            "title": "EXPOSITORES",
+            "option_1": "Contacto",
+            "option_2": "Por qué exponer",
+            "option_3": "Perfil del expositor",
+            "option_4": "Servicios a Expositores",
+            "option_5": "Patrocinios SSM 2024",
+            "option_6": "Factsheet SSM 2024",
+            "option_7": "Contrato SSM 2024",
+            "option_8": "Plano SSM 2024",
+            "option_9": "Enlightenment Area",
+            "option_10": "Tarifas",
+            "option_11": "Toolkit"
+        },        
+        "submenu_3": {
+            "title": "VISITANTES",
+            "option_1": "Por qué visitar",
+            "option_2": "Perfil del visitante"
+        },
+        "option_4": {
+            "title": "HISTÓRICO",
+            "results": "Resultados",
+            "directory": "Directorio de expositores"
+        },
+        "option_5": {
+            "title": "MEDIA HUB",
+            "option_1": "Galería"                   
+        }
+    },
+    "home":{
+        "sponsorship": "Patrocinios y experiencias",
+        "results": "Resultados 2023",
+        "floorplan": "Plano SSM 2024",
+        "exhibitor_directory": "Directorio del expositor",
+        "sponsor_platinum": "Patrocinador Platinum",
+        "sponsor_gold": "Patrocinador Gold",
+        "sponsor_silver": "Patrocinador Silver",
+        "sponsor": "Patrocinador",
+        "solar_description":"es la primera exposición y conferencia especializada en el segmento de energía y tecnología solar, un negocio con tasas de crecimiento superiores al 25% y una inversión esperada superior a los USD $100 mil millones en energías renovables hasta el 2031.<br><br>Esta exposición es operada por Deutsche Messe e Italian Exhibition Group, dos de los organizadores más importantes a nivel global, SNEC PV Power Expo, el evento de tecnología solar más importante del mundo con sede en Shanghai, China y Solar Power International, organizadores de los eventos y congresos más importantes de América del Norte.",
+        "gallery": "Galería",
+        "learn_more": "LEER MÁS",
+        "why_exhibit": "¿Por qué exponer?",
+        "why_exhibit_description1": "Aprovecha el gran potencial energético renovable de México y América Latina con el acceso a compradores líderes, nacionales e internacionales, de alto poder adquisitivo.",
+        "why_exhibit_description2": "Desarrolla tu negocio y conviértete en un innovador en el mercado naciente de la producción de carbono cero, negocios verdes y productos amigables con el medioambiente.",
+        "why_exhibit_description3": "Descubre las oportunidades de negocios que presenta la economía circular y su cadena de valor de la mano de las empresas líderes nacionales e internacionales del sector.",
+        "why_exhibit_select": "Seleccione y compare",
+        "why_exhibit_select_desc": "entre proveedores de tres continentes diferentes: América, Europa y Asia",
+        "why_exhibit_visit": "Visite",
+        "why_exhibit_visit_desc": "la primera exposición enfocada en la industria de la energía solar en México",
+        "why_exhibit_general": "Obtenga una visión general",
+        "why_exhibit_general_desc": "del mercado en un área de exposición de 5.000 m²",
+        "become_sponsor":"Conviértase en Patrocinador",
+        "become_sponsor_desc":"cuenta con el respaldo de los mayores eventos de energía solar del mundo. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado.",
+        "organized_by": "Organizado por",
+        "powered_by": "Powered by",
+        "strategic_partners": "Nuestros Aliados Estratégicos"
+    },
+    "AboutSSM":{
+        "title": "¿Quiénes Somos?",
+        "description": " es organizado por tres empresas líderes de eventos y ferias en el mundo: Deutsche Messe e Italian Exhibition Group, SNEC PV Power Expo, y RE+ han unido fuerzas para ayudar a desarrollar el mercado de la energía solar en México.<br /><br /> Debido a los niveles de irradiación solar diaria anuales oscilante entre 4,4 kWh / m2 y 6,3 kWh / m2, México ofrece una enorme oportunidad de inversión y negocio en la instalación de sistemas solares de pequeña a gran escala.<br /><br />México ocupa el quinto lugar mundial en nueva capacidad prevista para el año 2021, con una amplitud de 10.000 MW (un crecimiento del 84%).<br /><br />El Gobierno Federal recientemente ha aprobado el Programa de Desarrollo del Sistema Eléctrico Nacional (PRODESEN) con un gran enfoque en el desarrollo de energías sustentables."
+    },
+    "AboutReEvents":{
+        "title": "Acerca de RE+ Events",
+        "description": "<strong>RE+ Events (antes Solar Power Events)</strong> reúne a los líderes de las energías limpias en mercados de todo Estados Unidos e internacionales para ampliar las perspectivas de negocio y compartir las mejores prácticas. Estos eventos analizan la energía solar, la eólica, el almacenamiento de energía, el hidrógeno verde, los vehículos eléctricos, las microrredes y mucho más para fomentar el crecimiento empresarial entre los participantes e identificar colectivamente formas de hacer avanzar la industria de la energía limpia.<br /><br /> Desarrollado por las principales organizaciones de energía solar del país, la <strong>Solar Energy Industries Association (SEIA)</strong> y la <strong>Smart Electric Power Alliance (SEPA), RE+ Events </strong>(antes Solar Power Events) representa un enfoque empresarial continuo para renovar las mejores prácticas en todo el panorama de la energía limpia a medida que evoluciona el mercado. Durante todo el año, RE+ Events ofrece a los participantes acceso a recursos para hacer crecer sus negocios a medida que cambia el sector, así como oportunidades para influir en el futuro de las energías limpias mediante exposiciones en eventos y oportunidades para dar charlas en seminarios educativos."
+    },
+    "AboutSNEC":{
+        "title": "Acerca SNEC PV POWER EXPO",
+        "description": "SNEC 16ª (2023) Conferencia y Exposición Internacional de Generación de Energía Fotovoltaica y Energía Inteligente [SNEC PV POWER EXPO] se celebrará en Shanghai, China, del 24 al 26 de mayo de 2023. Fue iniciada y coorganizada por la Asociación Asiática de la Industria Fotovoltaica (APVIA), la Sociedad China de Energías Renovables (CRES), la Asociación China de Industrias de Energías Renovables (CREIA), la Federación de Organizaciones Económicas de Shanghái (SFEO), el Centro de Intercambio de Ciencia y Tecnología de Shanghái (SSTEC), la Asociación de la Industria de Nuevas Energías de Shanghái (SNEIA) y 25 asociaciones y organizaciones internacionales.<br /><br />El tamaño de la exposición de SNEC ha pasado de 15.000 m2 en 2007 a más de 200.000 m2 en 2021, cuando atrajo a más de 1.600 empresas expositoras de 95 países y regiones de todo el mundo, y el porcentaje de expositores extranjeros superó el 30%. SNEC se ha convertido en la mayor feria internacional fotovoltaica con una influencia incomparable en China, Asia e incluso en el mundo.<br /><br />SNEC, la exposición fotovoltaica más profesional, presenta instalaciones de fabricación, materiales, células fotovoltaicas, productos y módulos de aplicación fotovoltaica, proyectos y sistemas fotovoltaicos, almacenamiento de energía y energía móvil, cubriendo todas las secciones de la cadena de la industria fotovoltaica.<br /><br />La Conferencia SNEC consta de varios programas que incorporan diferentes temas, que cubren las tendencias del mercado de la industria fotovoltaica, las estrategias de colaboración y desarrollo, las direcciones políticas de diferentes países, las tecnologías avanzadas de la industria, la financiación y la inversión fotovoltaica, etc. Es una oportunidad que no puede perderse para mantenerse al día sobre la tecnología y el mercado, presentar sus resultados a la comunidad, y establecer contactos con expertos industriales, académicos y empresarios y colegas.<br /><br />Estamos deseando que los amigos de la industria fotovoltaica de todo el mundo se reúnan en Shanghai, China. Desde el punto de vista de la industria, tomemos el pulso al mercado de la energía fotovoltaica de China, Asia y el mundo, para guiar el desarrollo innovador de la industria fotovoltaica. Esperamos encontrarnos todos en Shanghai, del 24 al 26 de mayo de 2023."
+    },  
+    "contactForm": {
+        "title": "Déjenos un comentario",
+        "subject": "Asunto",
+        "message": "Mensaje",
+        "send": "Enviar"
+    }, 
+    "ExhibitorProfile":{
+        "description": "<strong>SOLAR + STORAGE MEXICO</strong> provee a toda la industria solar con una plataforma. Si su empresa se dedica a los campos de energía solar, energía solar térmica, almacenamiento de energía, generación de energía, suministro de redes, administración de redes y/o redes inteligentes, entonces no pierda la oportunidad de exponer en <strong>SOLAR + STORAGE MEXICO</strong>. Sus productos y servicios pueden ir desde celdas y módulos solares, piezas y componentes, nuevas tecnologías y sistemas de seguimiento, plantas tradicionales hasta planificadores, desarrolladores y proveedores de sistemas y servicios. A continuación se muestra una lista detallada de productos y servicios.",
+        "description2": "<strong>FOTOVOLTAICO</strong><br /><br />Sistemas de Tecnología Fotovoltaica<br />Sistemas Independientes<br />Sistemas Fotovoltaicos en Red<br />Cargadores Solares<br />Suministros de Energía Solar para el Tránsito<br />Sistemas de Rastreo<br />Otros Sistemas de Tecnología Fotovoltaica<br /><br /><strong>Componentes y Equipo de Energía Solar Fotovoltaica</strong><br /><br />Celdas Solares<br />Paneles Fotovoltaicos Cristalinos<br />Paneles Solares de Película Delgada<br />Inversores<br />Transformadores<br />Sistemas de monitoreo, medición y control<br />Frenos de circuito de CC<br />Cables<br />Conectores<br />Otros componentes y equipos<br /><br /><strong>TÉRMICA SOLAR</strong><br /><br />Tecnologías Térmicas Solares<br />Plantas de Energía Térmicas ST<br />Plantas de Energía Térmica Solar<br />Procesos de Calentamiento<br />Aire Acondicionado y Enfriamiento<br />Ingeniería y Diseño<br />Monitoreo y Medidas de Sistema de Control<br />Otros Componentes",
+        "description3": "<strong>INFRAESTRUCTURA DE RED</strong><br /><br />Servicios de Medición <br />Sistemas de Infraestructura de Red <br />Manejo de Red <br />Comercialización de Electricidad y Energía <br />Sistemas de Control de Comercio <br />Plantas Virtuales de Energía y Agregación de RED <br />(Recursos Energéticos Distribuidos) <br />Productos, Soluciones y Servicios para Redes Inteligentes <br />Productos, Soluciones y Servicios para Microrredes<br /><br /><strong>ALMACENAMIENTO</strong><br /><br />Almacenamiento de Productos Químicos <br />Almacenamiento de Productos no Químicos <br />Almacenamiento Térmico <br />Soluciones de Almacenamiento Comercial <br />Soluciones de almacenamiento Residencial <br />Almacenamiento Conectado a la Red <br />Almacenamiento Fuera de la Red <br />Fabricantes de Baterías <br />Software<br /><br /><strong>INFORMACIÓN, COMUNICACIONES Y SERVICIOS</strong><br /><br />Investigación y Desarrollo <br />Capacitación y Formación <br />Servicios de Consultoría <br />Contratos EPC y Desarrollo de Proyectos <br />Mantenimiento, Reparaciones y Operaciones <br />Servicios Financieros <br />Asociaciones y Sociedades <br />Editoriales"
+    },
+    "ExhibitorServicies":{
+        "kit": "KIT BANQUETES 2023",
+        "contact": "FORMATO GENERAL DE CONTRATACIÓN A EXPOSITORES",
+        "contract_food": "FORMATO DE CONTRATACIÓN DE ALIMENTOS Y BEBIDAS",
+        "instructions": "INSTRUCCIONES DE EMBARQUE"
     },
     "program": {
         "title": "Programa de conferencias",

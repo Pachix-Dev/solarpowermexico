@@ -5,6 +5,18 @@
     font-weight: bold;
     color: #02ff23 !important;
 }
+.nav-item:hover .dropdown-menu {
+    display: block !important;
+    color: #919191;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
 
 .nav-link svg {
     fill: white;

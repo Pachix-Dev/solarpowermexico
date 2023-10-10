@@ -1,11 +1,98 @@
 {
     "menu": {
-        "option_1": "QUIÉNES SOMOS",
-        "option_2": "EXPOSITORES",
-        "option_3": "VISITANTES",
-        "option_4": "HISTÓRICO",
-        "option_5": "MEDIA HUB"
+        "submenu_1": {
+            "title": "ABOUT US",
+            "option_1": "About SSM",
+            "option_2": "About RE+Events",
+            "option_3": "About SNEC",
+            "option_4": "About IGECO"                        
+        },     
+        "submenu_2": {
+            "title": "EXHIBITORS",
+            "option_1": "Contact",
+            "option_2": "Why Exhibit",
+            "option_3": "Exhibitor Profile",
+            "option_4": "Exhibitor Services",
+            "option_5": "Sponsorships SSM 2024",
+            "option_6": "Factsheet SSM 2024",
+            "option_7": "Contract SSM 2024",
+            "option_8": "Floor plan SSM 2024",
+            "option_9": "Enlightenment Area",
+            "option_10": "Rates",
+            "option_11": "Promotional Material"
+        },        
+        "submenu_3": {
+            "title": "VISITORS",
+            "option_1": "Why Visit",
+            "option_2": "Visitor Profile"
+        },
+        "option_4": {
+            "title": "PAST EVENTS",
+            "results": "Resultados",
+            "directory": "Directorio de expositores"
+        },
+        "option_5": {
+            "title": "MEDIA HUB",
+            "option_1": "Gallery"                   
+        }        
     },
+    "home":{
+        "sponsorship": "Sponsorship & Experiences",
+        "results": "Results report 2023",
+        "floorplan": "Floor Plan 2024",
+        "exhibitor_directory": "Exhibitor Directory",
+        "sponsor_platinum": "Platinum Sponsor",
+        "sponsor_gold": "Gold Sponsor",
+        "sponsor_silver": "Silver Sponsor",        
+        "sponsor": "Sponsor",
+        "solar_description":"is the first exhibition and conference specialized in the energy and solar technology segment, a business with growth rates of over 25% and an expected investment of over USD $100 billion in renewable energy by 2031. The event will feature a seminar programme and exhibition at Expo Guadalajara.<br><br> This exhibition is operated by Deutsche Messe and Italian Exhibition Group, two of the leading trade show organizers worldwide, SNEC PV Power Expo, the world’s leading solar technology event based in Shanghai, China and Solar Power International, the organizers of North America’s leading events and conferences.",
+        "gallery": "Gallery",
+        "learn_more": "LEARN MORE",
+        "why_exhibit": "Why Should You Exhibit?",
+        "why_exhibit_description1": "Showcase your brand at the forefront of a rapidly growing market",
+        "why_exhibit_description2": "Reach an audience of decision-makers from all segments of the solar and storage industries",
+        "why_exhibit_description3": "Hold meetings with your current clients and seek out new business partnerships",
+        "why_exhibit_select": "Select and compare",
+        "why_exhibit_select_desc": "among suppliers from three different continents: America, Europe and Asia",
+        "why_exhibit_visit": "Visit",
+        "why_exhibit_visit_desc": "the first exhibition focused on the solar energy industry in Mexico",
+        "why_exhibit_general": "Get a general market overview",
+        "why_exhibit_general_desc": "on an exhibition area of 5.000 sqms",
+        "become_sponsor":"Become a Sponsor",
+        "become_sponsor_desc":"has the backing of the world’s largest solar events. If you are looking to start new business opportunities, or increase your business in Latin America, a sponsorship can give you additional impressions in front of a paying, targeted audience. Learn more about the market opportunity.",
+        "organized_by": "Organized by",
+        "powered_by": "Powered by",
+        "strategic_partners": "Strategic Partners"
+    },
+    "AboutSSM":{
+        "title": "ABOUT US",
+        "description": " is organized by three leading event and trade fair companies in the world: Deutsche Messe and Italian Exhibition Group, SNEC PV Power Expo, and RE+ have joined forces to help develop the solar energy market in Mexico.<br /><br /> Due to annual daily solar irradiation levels ranging between 4.4 kWh/m2 and 6.3 kWh/m2, Mexico offers a huge investment and business opportunity in the installation of small to large scale solar systems. <br /><br />Mexico ranks fifth in the world in new capacity planned for 2021, with an area of ​​10,000 MW (a growth of 84%).<br /><br />The Federal Government has recently approved the Development Program of the National Electrical System (PRODESEN) with a great focus on the development of sustainable energies."
+    },
+    "AboutReEvents":{
+        "title": "About RE+ Events",
+        "description": "<strong>RE+ Events</strong> (formerly Solar Power Events) brings clean energy leaders together in marketplaces across the United States and internationally to expand business prospects and share best practices. These events examine solar, wind power, energy storage, green hydrogen, EVs, microgrids and more to foster business growth among participants and collectively identify ways to move the clean energy industry forward.<br /><br />Developed by the nation’s leading solar energy organizations, the <strong>Solar Energy Industries Association (SEIA)</strong> and the <strong>Smart Electric Power Alliance (SEPA), RE+ Events </strong>(formerly Solar Power Events) represents an ongoing entrepreneurial approach to renewing best practices across the clean energy landscape as the marketplace evolves. Year-round, RE+ Events offers participants access to resources for growing their businesses as the industry changes, as well as opportunities to have an impact on the future of clean energy through exhibition at events and speaking opportunities at educational seminars."
+    },
+    "AboutSNEC":{
+        "title": "About SNEC PV POWER EXPO",
+        "description": "SNEC 16th (2023) International Photovoltaic Power Generation and Smart Energy Conference & Exhibition [SNEC PV POWER EXPO] will be held in Shanghai, China, on May 24-26, 2023. It was initiated and co-organized by Asian Photovoltaic Industry Association (APVIA), Chinese Renewable Energy Society (CRES), Chinese Renewable Energy Industries Association (CREIA), Shanghai Federation of Economic Organizations (SFEO), Shanghai Science & Technology Exchange Center (SSTEC), Shanghai New Energy Industry Association (SNEIA) and 25 international associations and organizations.<br /><br />The exhibition scale of SNEC has evolved from 15,000sqm in 2007 to over 200,000sqm in 2021 when it attracted over 1600 exhibiting companies from 95 countries and regions all over the world and the overseas exhibitor ratio is over 30%. SNEC has become the biggest international PV tradeshow with incomparable influence in China, in Asia and even in the world.<br /><br />As the most professional PV exhibition, SNEC showcases PV manufacturing facilities, materials, PV cells, PV application products & modules,  PV project and system, energy storage and mobile energy, covering every section of the whole PV industry chain.<br /><br />The SNEC Conference consist of various programs incorporating different topics, covering the market trends of PV industry, collaboration and development strategies, policy directions of different countries, advanced industry technologies, PV finance and investment, etc. It is an opportunity that you cannot miss to stay up to date on the technology and market, present your results to the community, and network with industrial experts, scholars and entrepreneurs and colleagues.<br /><br />We are looking forward to the worldwide PV industry friends gathering at Shanghai, China. From the industry’s viewpoint, let us take pulse of the PV power market of China, Asia, and the world, so as to guide the innovative development of the PV industry! Hope all of us meet at Shanghai, on May 24-26, 2023!"
+    }, 
+    "contactForm": {
+        "title": "Leave us a message",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send"
+    }, 
+    "ExhibitorProfile":{
+        "description": "<strong>SOLAR + STORAGE MEXICO</strong> provides the entire solar industry with a platform. If your company is engaged in the fields of solar energy, solar thermal, energy storage, power generation, network supply, grid management and/or smart grids, then don’t miss out on exhibiting at <strong>SOLAR + STORAGE MEXICO</strong>. Your product and services can range from solar cells and modules, parts and components, new technology and tracking systems, traditional plants to planners & developers and systems & service providers. A detailed list of products and services is shown below.",
+        "description2": "<strong>PHOTOVOLTAIC</strong><br /><br /><strong>PV Technology Systems</strong><br />Stand-Alone Systems <br />Networked PV Systems <br />Solar Chargers <br />Solar Power Supplies for Traffic Control Systems <br />Tracking System <br />Other PV Technology Systems<br /><br /><strong>PV Components and Equipments</strong><br />Solar Cells <br />Crystalline PV Modules <br />Thin-Film Solar Modules <br />Inverters <br />Transformers <br />Monitoring, Measuring and Control Systems <br />DC Circuit Breaks <br />Cables <br />Connectors <br />Other Components and Equipments<br /><strong>SOLAR THERMAL</strong><br /><br />Solar Thermal Technologies <br />Solar Thermal Power Plants <br />Process Heat <br />Air Conditioning and Cooling <br />Engineering and Design <br />Monitoring, Measuring and Control Systems <br />Other Components <br />",
+        "description3": "<strong>GRID INFRASTRUCTURE</strong><br /><br />Metering Services <br />Grid Control Systems <br />Grid Management <br />Electricity Trading and Power Marketing <br />Trade Control Systems <br />Virtual Power Plants and DER Aggregation <br />Products, Solutions and Services for Smart Grids <br />Products, Solutions and Services for Micro Grids<br /><strong>STORAGE</strong><br /><br />Chemical Storage <br />Non-chemical Storage <br />Thermal Storage <br />Commercial storage solutions <br />Residential storage solutions<br /> Grid-Connected Storage<br /> Off-Grid Storage <br />Battery Manufacturers <br />Software<br /><br /><strong>INFORMATION, COMMUNICATION AND SERVICES</strong><br /><br />Research and Development <br />Training and Education <br />Consulting Services <br />EPC Contracting, Project Development <br />Maintenance, Repair and Operations <br />Financial Services <br />Associations, Societies <br />Publishers"
+    },
+    "ExhibitorServicies":{
+        "kit": "BANQUET KIT 2023",
+        "contact": "GENERAL EXHIBITOR CONTRACTING FORMAT",
+        "contract_food": "FOOD AND BEVERAGE PROCUREMENT FORM",
+        "instructions": "BOARDING INSTRUCTIONS"
+    },  
     "program": {
         "title": "Conferences",
         "subtitle": "Let's create the industry of tomorrow.",

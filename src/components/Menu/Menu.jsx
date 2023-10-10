@@ -25,21 +25,35 @@ export function Menu () {
           <Offcanvas.Header closeButton onClick={handleClose} />
           <Offcanvas.Body className='ms-auto'>
             <Nav className='align-items-center'>
-              <Nav.Link href='#about-us' onClick={handleClose}>
-                {t('menu.option_1')}
-              </Nav.Link>
-              <Nav.Link href='#exhibitors' onClick={handleClose}>
-                {t('menu.option_2')}
-              </Nav.Link>
-              <Nav.Link href='#visitors' onClick={handleClose}>
-                {t('menu.option_3')}
-              </Nav.Link>
-              <Nav.Link href='#visitors' onClick={handleClose}>
-                {t('menu.option_4')}
-              </Nav.Link>
-              <Nav.Link href='#visitors' onClick={handleClose}>
-                {t('menu.option_5')}
-              </Nav.Link>
+              <NavDropdown title={t('menu.submenu_1.title')} renderMenuOnMount disabled>
+                <NavDropdown.Item as={Link} to='/about-ssm' onClick={handleClose}>{t('menu.submenu_1.option_1')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/about-re-events' onClick={handleClose}>{t('menu.submenu_1.option_2')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/about-snec' onClick={handleClose}>{t('menu.submenu_1.option_3')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='https://hfmexico.mx/about-igeco' target='_blank' onClick={handleClose}>{t('menu.submenu_1.option_4')}</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title={t('menu.submenu_2.title')} renderMenuOnMount disabled>
+                <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.submenu_2.option_1')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/why-exhibit' onClick={handleClose}>{t('menu.submenu_2.option_2')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/exhibitor-profile' onClick={handleClose}>{t('menu.submenu_2.option_3')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/exhibitor-services' onClick={handleClose}>{t('menu.submenu_2.option_4')}</NavDropdown.Item>
+                <NavDropdown.Item href='/files/PATROCINIOS-SSM-2024-V4.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_2.option_5')}
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/SOLARSTORAGE-MEXICO_FACTSHEET.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_2.option_6')}
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/CONTRACT-SSM-2024-V6.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_2.option_7')}
+                </NavDropdown.Item>
+                <NavDropdown.Item href='https://spmx24.mapyourshow.com/8_0/floorplan/index.cfm' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_2.option_8')}
+                </NavDropdown.Item>
+                <NavDropdown.Item href='/files/SSM-2024-ENL-ESP-V8.pdf' target='_blank' onClick={handleClose}>
+                  {t('menu.submenu_2.option_9')}
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>{t('menu.submenu_2.option_10')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/toolkit' onClick={handleClose}>{t('menu.submenu_2.option_11')}</NavDropdown.Item>
+              </NavDropdown>
               <NavDropdown
                 className='language-dropdown'
                 title={

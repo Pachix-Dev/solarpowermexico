@@ -1,0 +1,12 @@
+.bg-exhibitor-profile{
+    background-image: url('/bgExhibitorProfile.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-exhibitor-profile2{
+    background-image: url('/bgExhibitorProfile2.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}

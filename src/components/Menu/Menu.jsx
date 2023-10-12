@@ -45,7 +45,7 @@ export function Menu () {
                 <NavDropdown.Item href='/files/CONTRACT-SSM-2024-V6.pdf' target='_blank' onClick={handleClose}>
                   {t('menu.submenu_2.option_7')}
                 </NavDropdown.Item>
-                <NavDropdown.Item href='https://spmx24.mapyourshow.com/8_0/floorplan/index.cfm' target='_blank' onClick={handleClose}>
+                <NavDropdown.Item href='https://spmx24.mapyourshow.com/8_0/exhview/index.cfm' target='_blank' onClick={handleClose}>
                   {t('menu.submenu_2.option_8')}
                 </NavDropdown.Item>
                 <NavDropdown.Item href='/files/SSM-2024-ENL-ESP-V8.pdf' target='_blank' onClick={handleClose}>

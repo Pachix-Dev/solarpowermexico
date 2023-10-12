@@ -19,6 +19,7 @@ export function Gallery () {
           src='/gallery/gallery1.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -29,6 +30,7 @@ export function Gallery () {
           src='/gallery/gallery2.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -39,6 +41,7 @@ export function Gallery () {
           src='/gallery/gallery3.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -49,6 +52,7 @@ export function Gallery () {
           src='/gallery/gallery4.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -59,6 +63,7 @@ export function Gallery () {
           src='/gallery/gallery5.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -69,6 +74,7 @@ export function Gallery () {
           src='/gallery/gallery6.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -79,6 +85,7 @@ export function Gallery () {
           src='/gallery/gallery7.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
       <a
@@ -89,6 +96,7 @@ export function Gallery () {
           src='/gallery/gallery8.webp'
           className='w-100 p-2 img-gallery'
           loading='lazy'
+          alt='Energy Night 2023'
         />
       </a>
     </LightGallery>

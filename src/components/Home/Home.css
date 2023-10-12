@@ -49,8 +49,10 @@
    height: 100%;  
    text-shadow: 4px 4px 4px black;    
 }
-.home-text-video span{
+.learnmore{
+    cursor: pointer;
     background-color: #F3736A;
+    color: white;
     padding: 12px 20px;
     border-radius: 20px;
     font-weight: bold;
@@ -83,4 +85,11 @@
     text-decoration: none;
     color: black;
     padding-top: 20px;
+}
+.exibitorSlider {
+    display: grid;
+    place-items: center;
+}
+.exibitorSlider img{
+    margin: 0 30px;
 }

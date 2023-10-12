@@ -1,0 +1,19 @@
+.bg-energy-night{
+    background-color: #47006B;
+    color: white;
+    text-align: center;
+}
+.counterdown-timer span{
+    color: #1E73BE;
+    font-size: 6em;
+    font-weight: 800;
+}
+.timer-numbers{
+    margin: 0 1.5em;
+}
+.timer-text{
+    font-size: 2em;
+    font-weight: bold;
+    color: #570687;
+    font-family: "Open Sans", sans-serif;
+}

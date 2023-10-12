@@ -17,6 +17,8 @@ import { Rates } from './components/Rates/Rates'
 import { WhyVisit } from './components/WhyVisit/WhyVisit'
 import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
 import { GallgeryPage } from './components/Gallery/GalleryPage'
+import { EnergyNight } from './components/EnergyNight/EnergyNight'
+import { Videos } from './components/Videos/Videos'
 
 function App () {
   return (
@@ -82,6 +84,14 @@ function App () {
         <Route
           path='gallery'
           element={<GallgeryPage />}
+        />
+        <Route
+          path='energy-night'
+          element={<EnergyNight />}
+        />
+        <Route
+          path='videos'
+          element={<Videos />}
         />
       </Routes>
 

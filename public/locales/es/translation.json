@@ -41,7 +41,7 @@
         "results": "Resultados 2023",
         "floorplan": "Plano SSM 2024",
         "exhibitor_directory": "Directorio del expositor",
-        "sponsor_platinum": "Patrocinador Platinum",
+        "sponsor_platinum": "Patrocinadores",
         "sponsor_gold": "Patrocinador Gold",
         "sponsor_silver": "Patrocinador Silver",
         "sponsor": "Patrocinador",
@@ -116,6 +116,13 @@
         "about": "Acerca de",
         "speech": "Ponencia"
     },
+    "counterDown":{
+        "description": "<strong>Un evento exclusivo de networking para empresarios y líderes de la industria donde podrás</strong> crear redes estratégicas Y conocer nuevos negocios.",
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos"
+    }, 
     "footer": {
         "privacy_policy": "Aviso de privacidad",
         "contact": "Contacto",

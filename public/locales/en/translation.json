@@ -115,6 +115,13 @@
         "about": "About",
         "speech": "Speech"
     },
+    "counterDown":{
+        "description": "<strong>An exclusive networking event for executives and industry leaders where you will be able to</strong> create strategic networks AND meet new business.",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds"
+    },    
     "footer": {
         "privacy_policy": "Privacy Policy",
         "contact": "Contact Us",

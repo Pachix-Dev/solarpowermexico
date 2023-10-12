@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 import { useLanguage } from '../hooks/useLanguage'
+import { Link } from 'react-router-dom'
 
 export function Slider () {
   const { stateLang } = useLanguage()
@@ -22,7 +23,7 @@ export function Slider () {
             }
         </Carousel.Item>
         <Carousel.Item>
-          <a href='' target='_blank' rel='noreferrer'>
+          <Link to='/energy-night'>
             {
             stateLang === 'en'
               ? <img
@@ -36,7 +37,7 @@ export function Slider () {
                   alt='energy night mexico'
                 />
             }
-          </a>
+          </Link>
         </Carousel.Item>
       </Carousel>
     </div>

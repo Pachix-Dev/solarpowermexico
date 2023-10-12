@@ -10,16 +10,8 @@ export function Slider () {
         <Carousel.Item>
           {
             stateLang === 'en'
-              ? <img
-                  className='d-block w-100'
-                  src='/banner1_eng.webp'
-                  alt='solar storage mexico'
-                />
-              : <img
-                  className='d-block w-100'
-                  src='/banner1_esp.webp'
-                  alt='solar storage mexico'
-                />
+              ? <video className='w-100' muted autoPlay loop playsInline src='/SSM-ENG.mp4' />
+              : <video className='w-100' muted autoPlay loop playsInline src='/SSM-ESP.mp4' />
             }
         </Carousel.Item>
         <Carousel.Item>

@@ -38,7 +38,7 @@ export function Subscribe () {
 
       try {
         const res = await fetch(
-          'https://industrialtransformation.mx/newsletter/index.php',
+          'https://solarpowermexico.mx/newsletter/suscribe.php',
           requestOptions
         )
         const data = await res.json()
@@ -69,17 +69,9 @@ export function Subscribe () {
           <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
             {
             stateLang === 'en'
-              ? <>
-                <p className='d-none'>hola</p>
-                <ReCAPTCHA
-                  sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
-                  ref={captchaRef}
-                  onChange={onChange}
-                  hl='en'
-                />
-                </>
+              ? <><p className='d-none'>hola</p><ReCAPTCHA sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3' ref={captchaRef} onChange={onChange} hl='en' /></>
               : <ReCAPTCHA
-                  sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
+                  sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
                   ref={captchaRef}
                   onChange={onChange}
                   hl='es'

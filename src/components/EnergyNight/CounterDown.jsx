@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
-import { useCountdown } from '../hooks/useCountDown'
+import { useCountdown } from '../hooks/useCountdown'
 
 export function CounterDown () {
   const { t } = useTranslation()

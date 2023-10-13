@@ -10,7 +10,7 @@ export function Home () {
 
   const YouTubeVideo = ({ videoId }) => {
     return (
-      <Col md={4} className='mt-3'>
+      <Col md={4} className='mt-3 text-center'>
         <a
           href={`https://www.youtube.com/watch?v=${videoId}`}
           target='_blank'
@@ -18,8 +18,9 @@ export function Home () {
         >
           <img
             src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
-            className='w-100'
             alt='YouTube video preview'
+            width={320}
+            height={180}
             loading='lazy'
           />
         </a>

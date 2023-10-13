@@ -107,24 +107,22 @@ export function Home () {
         </section>
         <article className='pt-5'>
           <Row className='pt-5'>
-            <Col md={8}>
+            <Col md={6}>
               <p className='fw-bold fs-2 home-text-color'>SOLAR + STORAGE MEXICO 2024</p>
               <p className='fs-5'><strong>SOLAR + STORAGE MEXICO </strong><span dangerouslySetInnerHTML={{ __html: t('home.solar_description') }} />
               </p>
             </Col>
-            <Col md={4}>
-              <img src='/SSM-2024_img.webp' alt='solar-2024' className='w-100' />
-            </Col>
-          </Row>
-        </article>
-        <div className='mt-5'>
-          {
+            <Col md={6} className='my-auto'>
+              {
           i18n.language === 'en'
             ? <video className='w-100' controls src='/SSM-2024-ENG.mp4' poster='/posterSolarVideo2024ENG.webp' />
             : <video className='w-100' controls src='/SSM-2024-ES.mp4' poster='/posterSolarVideo2024.webp' />
 
         }
-        </div>
+            </Col>
+          </Row>
+        </article>
+        <div className='mt-5' />
 
         <Row className='mt-5 mb-5'>
           <Col md={4} className='mt-3'>

@@ -14,7 +14,7 @@ const images = [
   { src: '/gallery/gallery5.webp', width: 300, height: 200 },
   { src: '/gallery/gallery6.webp', width: 300, height: 200 },
   { src: '/gallery/gallery7.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery8.webp', width: 300, height: 200 }
+  { src: '/gallery/gallery8.webp', width: 300, height: 169 }
 
 ]
 

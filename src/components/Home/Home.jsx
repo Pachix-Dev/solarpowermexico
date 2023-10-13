@@ -1,4 +1,4 @@
-import { Col, Container, Ratio, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import './Home.css'
 import { Slider } from './Slider'
 import { Gallery } from './Gallery'
@@ -7,6 +7,37 @@ import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 export function Home () {
   const { t, i18n } = useTranslation()
+
+  const YouTubeVideo = ({ videoId }) => {
+    return (
+      <Col md={4} className='mt-3'>
+        <a
+          href={`https://www.youtube.com/watch?v=${videoId}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img
+            src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
+            className='w-100'
+            alt='YouTube video preview'
+            loading='lazy'
+          />
+        </a>
+      </Col>
+    )
+  }
+
+  const VideosGallery = () => {
+    const videoIds = ['8sojVTHwz94', 'YaE8Iv6DeQM', 'Vgd9L5iemws']
+    return (
+      <Row className='mt-5 mb-5'>
+        {videoIds.map((videoId, index) => (
+          <YouTubeVideo key={index} videoId={videoId} />
+        ))}
+      </Row>
+    )
+  }
+
   return (
     <>
       <Container>
@@ -121,49 +152,14 @@ export function Home () {
             </Col>
           </Row>
         </article>
-        <div className='mt-5' />
-
         <Row className='mt-5 mb-5'>
-          <Col md={4} className='mt-3'>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/8sojVTHwz94'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-                loading='lazy'
-              />
-            </Ratio>
-          </Col>
-          <Col md={4} className='mt-3'>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/YaE8Iv6DeQM'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-                loading='lazy'
-              />
-            </Ratio>
-          </Col>
-          <Col md={4} className='mt-3'>
-            <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/Vgd9L5iemws'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-                loading='lazy'
-              />
-            </Ratio>
-          </Col>
+          <VideosGallery />
         </Row>
         <p className='text-center'>
           <Link to='/videos' aria-label='videos SSM' className='text-decoration-none'>
-            <span className='learnmore'>{t('home.learn_more')}</span>
+            <span className='learnmore'>{t('home.more_videos')}</span>
           </Link>
         </p>
-
       </Container>
       <section className='mt-5 home-whyexhibit'>
         <p className='fw-bold fs-2'>
@@ -218,7 +214,7 @@ export function Home () {
           <Gallery />
           <p className='mt-5 text-center'>
             <Link to='/gallery' aria-label='gallery SSM' className='text-decoration-none'>
-              <span className='learnmore'>{t('home.learn_more')}</span>
+              <span className='learnmore'>{t('home.more_gallery')}</span>
             </Link>
           </p>
         </section>

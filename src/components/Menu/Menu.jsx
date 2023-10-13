@@ -48,7 +48,7 @@ export function Menu () {
                 <NavDropdown.Item href='https://spmx24.mapyourshow.com/8_0/exhview/index.cfm' target='_blank' onClick={handleClose}>
                   {t('menu.submenu_2.option_8')}
                 </NavDropdown.Item>
-                <NavDropdown.Item href='/files/SSM-2024-ENL-ESP-V8.pdf' target='_blank' onClick={handleClose}>
+                <NavDropdown.Item as={Link} to='enlightenment-area' onClick={handleClose}>
                   {t('menu.submenu_2.option_9')}
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>{t('menu.submenu_2.option_10')}</NavDropdown.Item>

@@ -343,7 +343,7 @@ export function Home () {
           <Row className='text-center mb-5'>
             <Col md={3} className='mt-3 mx-auto my-auto'>
               <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/El_Heraldo_de_Mexico.webp' width={300} loading='lazy' alt='El_Heraldo_de_Mexico' />
+                <img src='/El_Heraldo_de_Mexico.webp' width={250} loading='lazy' alt='El_Heraldo_de_Mexico' />
               </a>
             </Col>
           </Row>

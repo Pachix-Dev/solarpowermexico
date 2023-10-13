@@ -13,3 +13,10 @@
   background-color: #570587;
   color: white !important;
 }
+
+
+@media (width < 425px) {
+  .nav-tabs{
+    justify-content: center;
+  }
+}

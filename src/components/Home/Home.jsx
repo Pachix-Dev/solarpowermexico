@@ -56,7 +56,7 @@ export function Home () {
               </svg> {t('home.exhibitor_directory')}
             </a>
             <a href='https://hfmexico.mx/ecomondo/' aria-label='ecomondo' style={{ padding: 0, background: 'none' }} target='_blank' rel='noreferrer'>
-              <img width={150} src='/botone-ECO-esp.jpg' alt='ecomondo' />
+              <img width={150} height={57} src='/botone-ECO-esp.jpg' alt='ecomondo' />
             </a>
           </nav>
         </header>
@@ -69,37 +69,37 @@ export function Home () {
             <Marquee gradient>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://consumer.huawei.com/mx/' target='_blank' rel='noreferrer'>
-                  <img width={200} src='/Huawei.webp' alt='Huawei' />
+                  <img width={200} height={45} src='/Huawei.webp' alt='Huawei' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://www.longi.com/mx/' target='_blank' rel='noreferrer'>
-                  <img width={150} src='/LONGI.webp' alt='LONGI' />
+                  <img width={150} height={68} src='/LONGI.webp' alt='LONGI' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://en.pylontech.com.cn/' target='_blank' rel='noreferrer'>
-                  <img width={200} src='/Pylontech.webp' alt='Pylontech' />
+                  <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://sunpower.maxeon.com/mx/por-que-sunpower' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={200} src='/SUNPOWER.webp' alt='SUNPOWER' />
+                  <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={150} src='/Ibedrola.webp' alt='Ibedrola' />
+                  <img width={150} height={101} src='/Ibedrola.webp' alt='Ibedrola' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://solar-distribution.baywa-re.mx/es/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={200} src='/BayWar.webp' alt='BayWar' />
+                  <img width={200} height={76} src='/BayWar.webp' alt='BayWar' />
                 </a>
               </div>
               <div className='exibitorSlider text-center h-100'>
                 <a href='https://es.s-5.com/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={100} src='/S-5logo.webp' alt='S-5logo' />
+                  <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' />
                 </a>
               </div>
             </Marquee>
@@ -230,22 +230,22 @@ export function Home () {
           <Row className='text-center'>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.iegexpo.it/en/' target='_blank' rel='noreferrer'>
-                <img src='/italianExhibitionGroup.webp' width={150} loading='lazy' alt='italianExhibitionGroup' />
+                <img src='/italianExhibitionGroup.webp' width={150} height={82} loading='lazy' alt='italianExhibitionGroup' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
-                <img src='/deutscheMesse.webp' width={250} loading='lazy' alt='deutscheMesse' />
+                <img src='/deutscheMesse.webp' width={250} height={54} loading='lazy' alt='deutscheMesse' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='http://www.snec.org.cn/' target='_blank' rel='noreferrer'>
-                <img src='/snecPower.webp' width={150} loading='lazy' alt='snecPower' />
+                <img src='/snecPower.webp' width={150} height={114} loading='lazy' alt='snecPower' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.re-plus.com/' target='_blank' rel='noreferrer'>
-                <img src='/replus.webp' width={100} loading='lazy' alt='replus' />
+                <img src='/replus.webp' width={100} height={53} loading='lazy' alt='replus' />
               </a>
             </Col>
           </Row>
@@ -253,22 +253,22 @@ export function Home () {
           <Row className='text-center'>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
-                <img src='/amif.webp' width={200} loading='lazy' alt='amif' />
+                <img src='/amif.webp' width={200} height={59} loading='lazy' alt='amif' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
-                <img src='/asolmex.webp' width={150} loading='lazy' alt='asolmex' />
+                <img src='/asolmex.webp' width={150} height={150} loading='lazy' alt='asolmex' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
-                <img src='/seiaSolarEnergy.webp' width={200} loading='lazy' alt='seiaSolarEnergy' />
+                <img src='/seiaSolarEnergy.webp' width={200} height={62} loading='lazy' alt='seiaSolarEnergy' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
-                <img src='/SmartElectric.webp' width={200} loading='lazy' alt='SmartElectric' />
+                <img src='/SmartElectric.webp' width={200} height={62} loading='lazy' alt='SmartElectric' />
               </a>
             </Col>
           </Row>
@@ -276,67 +276,67 @@ export function Home () {
           <Row className='text-center'>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.energypartnership.mx/es/home/' target='_blank' rel='noreferrer'>
-                <img src='/AlianzaEnergetica.webp' width={200} loading='lazy' alt='AlianzaEnergetica' />
+                <img src='/AlianzaEnergetica.webp' width={200} height={67} loading='lazy' alt='AlianzaEnergetica' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://amsoc.mx/es/inicio/' target='_blank' rel='noreferrer'>
-                <img src='/80-amsoc.webp' width={150} loading='lazy' alt='80-amsoc' />
+                <img src='/80-amsoc.webp' width={150} height={98} loading='lazy' alt='80-amsoc' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://mexiko.ahk.de/es/' target='_blank' rel='noreferrer'>
-                <img src='/ahk.webp' width={250} loading='lazy' alt='ahk' />
+                <img src='/ahk.webp' width={250} height={65} loading='lazy' alt='ahk' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.emergealliance.org/' target='_blank' rel='noreferrer'>
-                <img src='/emmerge.webp' width={200} loading='lazy' alt='emmerge' />
+                <img src='/emmerge.webp' width={200} height={85} loading='lazy' alt='emmerge' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.jalisco.gob.mx/' target='_blank' rel='noreferrer'>
-                <img src='/gobiernoJalisco.webp' width={150} loading='lazy' alt='gobiernoJalisco' />
+                <img src='/gobiernoJalisco.webp' width={150} height={150} loading='lazy' alt='gobiernoJalisco' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://mermx.org/' target='_blank' rel='noreferrer'>
-                <img src='/merm.webp' width={200} loading='lazy' alt='merm' />
+                <img src='/merm.webp' width={200} height={103} loading='lazy' alt='merm' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.eupd-research.com/' target='_blank' rel='noreferrer'>
-                <img src='/EUPD-Research.webp' width={200} loading='lazy' alt='EUPD-Research' />
+                <img src='/EUPD-Research.webp' width={200} height={38} loading='lazy' alt='EUPD-Research' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='http://www.galoenergy.com/' target='_blank' rel='noreferrer'>
-                <img src='/GaloEnergy.webp' width={150} loading='lazy' alt='GaloEnergy' />
+                <img src='/GaloEnergy.webp' width={150} height={76} loading='lazy' alt='GaloEnergy' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
-                <img src='/giz.webp' width={250} loading='lazy' alt='giz' />
+                <img src='/giz.webp' width={250} height={108} loading='lazy' alt='giz' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://h2mex.org/' target='_blank' rel='noreferrer'>
-                <img src='/h2mexico-asoc.webp' width={200} loading='lazy' alt='h2mexico-asoc' />
+                <img src='/h2mexico-asoc.webp' width={200} height={68} loading='lazy' alt='h2mexico-asoc' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.kas.de/es/web/mexiko' target='_blank' rel='noreferrer'>
-                <img src='/KAS.webp' width={150} loading='lazy' alt='KAS' />
+                <img src='/KAS.webp' width={150} height={46} loading='lazy' alt='KAS' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.mujeresenergia.org/' target='_blank' rel='noreferrer'>
-                <img src='/redMujeres.webp' width={200} loading='lazy' alt='redMujeres' />
+                <img src='/redMujeres.webp' width={200} height={65} loading='lazy' alt='redMujeres' />
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto'>
               <a href='https://www.solarenergy.org/' target='_blank' rel='noreferrer'>
-                <img src='/SEI.webp' width={150} loading='lazy' alt='SEI' />
+                <img src='/SEI.webp' width={150} height={107} loading='lazy' alt='SEI' />
               </a>
             </Col>
           </Row>
@@ -344,96 +344,96 @@ export function Home () {
           <Row className='text-center mb-5'>
             <Col md={3} className='mt-3 mx-auto my-auto'>
               <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/El_Heraldo_de_Mexico.webp' width={250} loading='lazy' alt='El_Heraldo_de_Mexico' />
+                <img src='/El_Heraldo_de_Mexico.webp' width={250} height={37} loading='lazy' alt='El_Heraldo_de_Mexico' />
               </a>
             </Col>
           </Row>
           <Marquee gradient direction='letf'>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://www.eleconomista.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/economista.webp' width={200} loading='lazy' alt='economista' />
+                <img src='/economista.webp' width={200} height={19} loading='lazy' alt='economista' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://www.pv-magazine-mexico.com/' target='_blank' rel='noreferrer'>
-                <img src='/pv-magazine-group.webp' width={200} loading='lazy' alt='pv-magazine-group' />
+                <img src='/pv-magazine-group.webp' width={200} height={68} loading='lazy' alt='pv-magazine-group' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://mexicoindustry.com/es' target='_blank' rel='noreferrer'>
-                <img src='/mexicoIndustry.webp' width={150} loading='lazy' alt='mexicoIndustry' />
+                <img src='/mexicoIndustry.webp' width={150} height={53} loading='lazy' alt='mexicoIndustry' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://www.cosmos.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/onlineCosmos.webp' width={200} loading='lazy' alt='onlineCosmos' />
+                <img src='/onlineCosmos.webp' width={200} height={88} loading='lazy' alt='onlineCosmos' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/Energy-Commerce.webp' width={150} loading='lazy' alt='Energy-Commerce' />
+                <img src='/Energy-Commerce.webp' width={150} height={60} loading='lazy' alt='Energy-Commerce' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
-                <img src='/energiadebate.webp' width={130} loading='lazy' alt='energiadebate' />
+                <img src='/energiadebate.webp' width={130} height={75} loading='lazy' alt='energiadebate' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://energiahoy.com/' target='_blank' rel='noreferrer'>
-                <img src='/EnergiaHoy.webp' width={200} loading='lazy' alt='EnergiaHoy' />
+                <img src='/EnergiaHoy.webp' width={200} height={45} loading='lazy' alt='EnergiaHoy' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://energy21.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/eneroy21.webp' width={200} loading='lazy' alt='eneroy21' />
+                <img src='/eneroy21.webp' width={200} height={40} loading='lazy' alt='eneroy21' />
               </a>
             </div>
           </Marquee>
           <Marquee gradient className='mt-3'>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://globalenergy.mx/' target='_blank' rel='noreferrer'>
-                <img src='/Global-Energy.webp' width={140} loading='lazy' alt='Global-Energy' />
+                <img src='/Global-Energy.webp' width={140} height={62} loading='lazy' alt='Global-Energy' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-                <img src='/global-industries.webp' width={200} loading='lazy' alt='global-industries' />
+                <img src='/global-industries.webp' width={200} height={62} loading='lazy' alt='global-industries' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
-                <img src='/greentology.webp' width={200} loading='lazy' alt='greentology' />
+                <img src='/greentology.webp' width={200} height={55} loading='lazy' alt='greentology' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/revistaConsultoria.webp' width={200} loading='lazy' alt='revistaConsultoria' />
+                <img src='/revistaConsultoria.webp' width={200} height={50} loading='lazy' alt='revistaConsultoria' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
-                <img src='/VanguardiaIndustrial.webp' width={150} loading='lazy' alt='VanguardiaIndustrial' />
+                <img src='/VanguardiaIndustrial.webp' width={150} height={79} loading='lazy' alt='VanguardiaIndustrial' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://worldconstruccion.mx/' target='_blank' rel='noreferrer'>
-                <img src='/worldConstruccion.webp' width={200} loading='lazy' alt='worldConstruccion' />
+                <img src='/worldConstruccion.webp' width={200} height={34} loading='lazy' alt='worldConstruccion' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://discovercleantech.com/' target='_blank' rel='noreferrer'>
-                <img src='/discoverCleanTech.webp' width={200} loading='lazy' alt='discoverCleanTech' />
+                <img src='/discoverCleanTech.webp' width={200} height={48} loading='lazy' alt='discoverCleanTech' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='http://www.revistadp.com/' target='_blank' rel='noreferrer'>
-                <img src='/revista-de-preferencia.webp' width={200} loading='lazy' alt='revista-de-preferencia' />
+                <img src='/revista-de-preferencia.webp' width={200} height={57} loading='lazy' alt='revista-de-preferencia' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://petroleoenergia.com/' target='_blank' rel='noreferrer'>
-                <img src='/petroleo_y_energia.webp' width={150} loading='lazy' alt='petroleo_y_energia' />
+                <img src='/petroleo_y_energia.webp' width={150} height={83} loading='lazy' alt='petroleo_y_energia' />
               </a>
             </div>
           </Marquee>

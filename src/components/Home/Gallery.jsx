@@ -17,7 +17,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery1.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -28,7 +29,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery2.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -39,7 +41,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery3.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -50,7 +53,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery4.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -61,7 +65,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery5.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -72,7 +77,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery6.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -83,7 +89,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery7.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -94,7 +101,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery8.webp'
-          className='w-100 p-2 img-gallery'
+          className='p-2 img-gallery'
+          width={300}
           loading='lazy'
           alt='Energy Night 2023'
         />

@@ -17,9 +17,9 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery1.webp'
-          className='w-100 p-2 img-gallery'
-          width={300}
-          height={200.30}
+          className='w-100 img-gallery'
+          width={312}
+          height={208}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -30,9 +30,9 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery2.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
-          height={200.30}
+          height={200}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -43,7 +43,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery3.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={200.30}
           loading='lazy'
@@ -56,7 +56,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery4.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={200.30}
           loading='lazy'
@@ -69,7 +69,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery5.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={200.30}
           loading='lazy'
@@ -82,7 +82,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery6.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={200.30}
           loading='lazy'
@@ -95,7 +95,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery7.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={200}
           loading='lazy'
@@ -108,7 +108,7 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery8.webp'
-          className='p-2 img-gallery'
+          className='img-gallery'
           width={300}
           height={168}
           loading='lazy'

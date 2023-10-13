@@ -14,7 +14,6 @@ export function Slider () {
               className='d-block w-100'
               src={i18n.language === 'en' ? '/banner2_eng.webp' : '/banner2_esp.webp'}
               alt='energy night mexico'
-              loading='lazy'
             />
           </Link>
         </Carousel.Item>

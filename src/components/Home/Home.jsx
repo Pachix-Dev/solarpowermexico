@@ -114,8 +114,8 @@ export function Home () {
             <Col md={6} className='my-auto'>
               {
           i18n.language === 'en'
-            ? <video className='w-100' controls src='/SSM-2024-ENG.mp4' poster='/posterSolarVideo2024ENG.webp' />
-            : <video className='w-100' controls src='/SSM-2024-ES.mp4' poster='/posterSolarVideo2024.webp' />
+            ? <video className='w-100' controls src='/SSM-2024-ENG.mp4' poster='/posterSolarVideo2024ENG.webp' loading='lazy' />
+            : <video className='w-100' controls src='/SSM-2024-ES.mp4' poster='/posterSolarVideo2024.webp' loading='lazy' />
 
         }
             </Col>

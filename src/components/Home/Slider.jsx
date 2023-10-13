@@ -22,11 +22,13 @@ export function Slider () {
                   className='d-block w-100'
                   src='/banner2_eng.webp'
                   alt='energy night mexico'
+                  loading='lazy'
                 />
               : <img
                   className='d-block w-100'
                   src='/banner2_esp.webp'
                   alt='energy night mexico'
+                  loading='lazy'
                 />
             }
           </Link>

@@ -17,9 +17,8 @@ export function Gallery () {
       >
         <img
           src='/gallery/gallery1.webp'
-          className='p-2 img-gallery'
+          className='w-100 p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -32,7 +31,6 @@ export function Gallery () {
           src='/gallery/gallery2.webp'
           className='p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -57,7 +55,6 @@ export function Gallery () {
           src='/gallery/gallery4.webp'
           className='p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -70,7 +67,6 @@ export function Gallery () {
           src='/gallery/gallery5.webp'
           className='p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -83,7 +79,6 @@ export function Gallery () {
           src='/gallery/gallery6.webp'
           className='p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -96,7 +91,6 @@ export function Gallery () {
           src='/gallery/gallery7.webp'
           className='p-2 img-gallery'
           width={300}
-          height={189}
           loading='lazy'
           alt='Energy Night 2023'
         />
@@ -109,7 +103,6 @@ export function Gallery () {
           src='/gallery/gallery8.webp'
           className='p-2 img-gallery'
           width={300}
-          height={159}
           loading='lazy'
           alt='Energy Night 2023'
         />

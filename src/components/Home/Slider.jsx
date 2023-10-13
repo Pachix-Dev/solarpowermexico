@@ -10,8 +10,8 @@ export function Slider () {
         <Carousel.Item>
           {
             stateLang === 'en'
-              ? <video className='w-100' muted autoPlay loop playsInline src='/SSM-ENG.mp4' />
-              : <video className='w-100' muted autoPlay loop playsInline src='/SSM-ESP.mp4' />
+              ? <video className='w-100' muted autoPlay loop playsInline src='/SSM-ENG.mp4' preload='auto' />
+              : <video className='w-100' muted autoPlay loop playsInline src='/SSM-ESP.mp4' preload='auto' />
             }
         </Carousel.Item>
         <Carousel.Item>

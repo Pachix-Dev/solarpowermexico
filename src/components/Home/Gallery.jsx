@@ -11,19 +11,20 @@ export function Gallery () {
       speed={500}
       plugins={[lgThumbnail, lgZoom]}
     >
-      <span
+      <figure
         data-src='/gallery/gallery1.webp'
-        className='gallery-item'
+        className='gallery-item w-100 h-100'
       >
         <img
           src='/gallery/gallery1.webp'
           className='w-100 p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery2.webp'
         className='gallery-item'
       >
@@ -31,11 +32,12 @@ export function Gallery () {
           src='/gallery/gallery2.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery3.webp'
         className='gallery-item'
       >
@@ -43,11 +45,12 @@ export function Gallery () {
           src='/gallery/gallery3.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery4.webp'
         className='gallery-item'
       >
@@ -55,11 +58,12 @@ export function Gallery () {
           src='/gallery/gallery4.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery5.webp'
         className='gallery-item'
       >
@@ -67,11 +71,12 @@ export function Gallery () {
           src='/gallery/gallery5.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery6.webp'
         className='gallery-item'
       >
@@ -79,11 +84,12 @@ export function Gallery () {
           src='/gallery/gallery6.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200.30}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery7.webp'
         className='gallery-item'
       >
@@ -91,11 +97,12 @@ export function Gallery () {
           src='/gallery/gallery7.webp'
           className='p-2 img-gallery'
           width={300}
+          height={200}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
-      <span
+      </figure>
+      <figure
         data-src='/gallery/gallery8.webp'
         className='gallery-item'
       >
@@ -103,10 +110,11 @@ export function Gallery () {
           src='/gallery/gallery8.webp'
           className='p-2 img-gallery'
           width={300}
+          height={168}
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </span>
+      </figure>
     </LightGallery>
   )
 }

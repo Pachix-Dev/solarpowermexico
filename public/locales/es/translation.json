@@ -37,6 +37,7 @@
         }
     },
     "home":{
+        "program": "Programa de Conferencias",
         "sponsorship": "Patrocinios y experiencias",
         "results": "Resultados 2023",
         "floorplan": "Plano SSM 2024",

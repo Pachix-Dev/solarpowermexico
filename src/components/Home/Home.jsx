@@ -12,6 +12,14 @@ export function Home () {
       <Container>
         <header>
           <nav className='mt-5 home-solar-submenu'>
+            <Link
+              to='/enlightenment-area'
+            >
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={40}>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z' />
+              </svg>
+              {t('home.program')}
+            </Link>
             <a
               href={i18n.language === 'en'
                 ? '/files/ENG-SPONSORSHIPS-SSM-v4.pdf'
@@ -66,43 +74,34 @@ export function Home () {
         <section>
           <div className='mt-5 pt-5 pb-5 text-center'>
             <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
-            <Marquee gradient>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://consumer.huawei.com/mx/' target='_blank' rel='noreferrer'>
-                  <img width={200} height={45} src='/Huawei.webp' alt='Huawei' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://www.longi.com/mx/' target='_blank' rel='noreferrer'>
-                  <img width={150} height={68} src='/LONGI.webp' alt='LONGI' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://en.pylontech.com.cn/' target='_blank' rel='noreferrer'>
-                  <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://sunpower.maxeon.com/mx/por-que-sunpower' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={150} height={101} src='/Ibedrola.webp' alt='Ibedrola' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://solar-distribution.baywa-re.mx/es/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={200} height={76} src='/BayWar.webp' alt='BayWar' />
-                </a>
-              </div>
-              <div className='exibitorSlider text-center h-100'>
-                <a href='https://es.s-5.com/' target='_blank' rel='noreferrer' className='p-3'>
-                  <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' />
-                </a>
-              </div>
-            </Marquee>
+            <a href='https://consumer.huawei.com/mx/' target='_blank' rel='noreferrer'>
+              <img width={200} height={45} src='/Huawei.webp' alt='Huawei' />
+            </a>
+            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
+            <a href='https://www.longi.com/mx/' target='_blank' rel='noreferrer'>
+              <img width={150} height={68} src='/LONGI.webp' alt='LONGI' />
+            </a>
+            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_silver')}</p>
+            <a href='https://en.pylontech.com.cn/' target='_blank' rel='noreferrer'>
+              <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' />
+            </a>
+            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
+
+            <a href='https://sunpower.maxeon.com/mx/por-que-sunpower' target='_blank' rel='noreferrer' className='p-3'>
+              <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' />
+            </a>
+
+            <a href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/' target='_blank' rel='noreferrer' className='p-3'>
+              <img width={150} height={101} src='/Ibedrola.webp' alt='Ibedrola' />
+            </a>
+
+            <a href='https://solar-distribution.baywa-re.mx/es/' target='_blank' rel='noreferrer' className='p-3'>
+              <img width={200} height={76} src='/BayWar.webp' alt='BayWar' />
+            </a>
+
+            <a href='https://es.s-5.com/' target='_blank' rel='noreferrer' className='p-3'>
+              <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' />
+            </a>
           </div>
         </section>
         <article className='pt-5'>
@@ -271,73 +270,76 @@ export function Home () {
             </Col>
           </Row>
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>{t('home.strategic_partners')}:</p>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
+          <Marquee gradient>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.energypartnership.mx/es/home/' target='_blank' rel='noreferrer'>
                 <img src='/AlianzaEnergetica.webp' width={200} height={67} loading='lazy' alt='AlianzaEnergetica' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://amsoc.mx/es/inicio/' target='_blank' rel='noreferrer'>
                 <img src='/80-amsoc.webp' width={150} height={98} loading='lazy' alt='80-amsoc' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://mexiko.ahk.de/es/' target='_blank' rel='noreferrer'>
                 <img src='/ahk.webp' width={250} height={65} loading='lazy' alt='ahk' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.emergealliance.org/' target='_blank' rel='noreferrer'>
                 <img src='/emmerge.webp' width={200} height={85} loading='lazy' alt='emmerge' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.jalisco.gob.mx/' target='_blank' rel='noreferrer'>
                 <img src='/gobiernoJalisco.webp' width={150} height={150} loading='lazy' alt='gobiernoJalisco' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://mermx.org/' target='_blank' rel='noreferrer'>
                 <img src='/merm.webp' width={200} height={103} loading='lazy' alt='merm' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+          </Marquee>
+          <Marquee gradient direction='letf'>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.eupd-research.com/' target='_blank' rel='noreferrer'>
                 <img src='/EUPD-Research.webp' width={200} height={38} loading='lazy' alt='EUPD-Research' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='http://www.galoenergy.com/' target='_blank' rel='noreferrer'>
                 <img src='/GaloEnergy.webp' width={150} height={76} loading='lazy' alt='GaloEnergy' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
                 <img src='/giz.webp' width={250} height={108} loading='lazy' alt='giz' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://h2mex.org/' target='_blank' rel='noreferrer'>
                 <img src='/h2mexico-asoc.webp' width={200} height={68} loading='lazy' alt='h2mexico-asoc' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.kas.de/es/web/mexiko' target='_blank' rel='noreferrer'>
                 <img src='/KAS.webp' width={150} height={46} loading='lazy' alt='KAS' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.mujeresenergia.org/' target='_blank' rel='noreferrer'>
                 <img src='/redMujeres.webp' width={200} height={65} loading='lazy' alt='redMujeres' />
               </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
               <a href='https://www.solarenergy.org/' target='_blank' rel='noreferrer'>
                 <img src='/SEI.webp' width={150} height={107} loading='lazy' alt='SEI' />
               </a>
-            </Col>
-          </Row>
+            </div>
+          </Marquee>
+
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>Broadcasting Media Partner</p>
           <Row className='text-center mb-5'>
             <Col md={3} className='mt-3 mx-auto my-auto'>

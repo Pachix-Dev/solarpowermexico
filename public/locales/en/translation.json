@@ -37,6 +37,7 @@
         }        
     },
     "home":{
+        "program": "Conference Program",
         "sponsorship": "Sponsorship & Experiences",
         "results": "Results report 2023",
         "floorplan": "Floor Plan 2024",

@@ -44,7 +44,9 @@
 .nav-link:focus {
     color: white;
 }
-
+.dropdown-item{
+    font-weight: 500 !important;
+}
 .dropdown-item:active {
     background-color: #02ff23;
 }

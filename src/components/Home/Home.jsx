@@ -4,6 +4,7 @@ import { Slider } from './Slider'
 import { Gallery } from './Gallery'
 import { useTranslation } from 'react-i18next'
 import Marquee from 'react-fast-marquee'
+import { Link } from 'react-router-dom'
 export function Home () {
   const { t, i18n } = useTranslation()
   return (
@@ -158,9 +159,9 @@ export function Home () {
           </Col>
         </Row>
         <p className='text-center'>
-          <a href='/videos' className='text-decoration-none'>
+          <Link to='/videos' aria-label='videos SSM' className='text-decoration-none'>
             <span className='learnmore'>{t('home.learn_more')}</span>
-          </a>
+          </Link>
         </p>
 
       </Container>
@@ -216,9 +217,9 @@ export function Home () {
           <p className='fw-bold fs-2 text-center home-text-color'>{t('home.gallery')} SSM 2023</p>
           <Gallery />
           <p className='mt-5 text-center'>
-            <a href='/gallery' className='text-decoration-none'>
+            <Link to='/gallery' aria-label='gallery SSM' className='text-decoration-none'>
               <span className='learnmore'>{t('home.learn_more')}</span>
-            </a>
+            </Link>
           </p>
         </section>
       </Container>

@@ -11,7 +11,7 @@ export function Gallery () {
       speed={500}
       plugins={[lgThumbnail, lgZoom]}
     >
-      <a
+      <span
         data-src='/gallery/gallery1.webp'
         className='gallery-item'
       >
@@ -21,8 +21,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery2.webp'
         className='gallery-item'
       >
@@ -32,8 +32,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery3.webp'
         className='gallery-item'
       >
@@ -43,8 +43,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery4.webp'
         className='gallery-item'
       >
@@ -54,8 +54,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery5.webp'
         className='gallery-item'
       >
@@ -65,8 +65,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery6.webp'
         className='gallery-item'
       >
@@ -76,8 +76,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery7.webp'
         className='gallery-item'
       >
@@ -87,8 +87,8 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
-      <a
+      </span>
+      <span
         data-src='/gallery/gallery8.webp'
         className='gallery-item'
       >
@@ -98,7 +98,7 @@ export function Gallery () {
           loading='lazy'
           alt='Energy Night 2023'
         />
-      </a>
+      </span>
     </LightGallery>
   )
 }

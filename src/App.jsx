@@ -19,10 +19,12 @@ import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
 import { GallgeryPage } from './components/Gallery/GalleryPage'
 import { EnergyNight } from './components/EnergyNight/EnergyNight'
 import { Videos } from './components/Videos/Videos'
+import ScrollToTop from './components/ScrollToTop'
 
 function App () {
   return (
     <>
+      <ScrollToTop />
       <Menu />
       <div className='whatssap-button'>
         <a href='https://wa.me/14791492406' target='_blank' rel='noreferrer'>

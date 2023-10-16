@@ -5,11 +5,10 @@ import { useTranslation } from 'react-i18next'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
-export function Subscribe () {
+const Subscribe = () => {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
   const captchaRef = useRef()
-
   const [captcha, setCaptcha] = useState(false)
   const [message, setMessage] = useState('')
 
@@ -55,6 +54,17 @@ export function Subscribe () {
     }
   }
 
+  const renderReCAPTCHA = () => {
+    return (
+      <ReCAPTCHA
+        sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
+        ref={captchaRef}
+        onChange={onChange}
+        hl={stateLang === 'en' ? 'en' : 'es'}
+      />
+    )
+  }
+
   return (
     <Row>
       <Col className='mx-auto'>
@@ -67,18 +77,7 @@ export function Subscribe () {
             <Form.Label>{t('footer.email')}</Form.Label>
             <Form.Control type='email' name='email' required />
           </Form.Group>
-          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
-            {stateLang === 'en'
-              ? (
-                <>
-                  <p className='d-none'>hola</p>
-                  <ReCAPTCHA sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3' ref={captchaRef} onChange={onChange} hl='en' />
-                </>
-                )
-              : (
-                <ReCAPTCHA sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3' ref={captchaRef} onChange={onChange} hl='es' />
-                )}
-          </Suspense>
+          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>{renderReCAPTCHA()}</Suspense>
           <div style={{ color: '#dc3545' }}>{message}</div>
           <Button variant='dark' type='submit' className='mt-3'>
             {t('footer.subscription')}
@@ -88,3 +87,5 @@ export function Subscribe () {
     </Row>
   )
 }
+
+export { Subscribe }

@@ -11,8 +11,10 @@ export function Slider () {
         <Carousel.Item>
           <Link to='/energy-night'>
             <img
-              className='d-block w-100'
+              className='d-block w-100 h-100'
               src={i18n.language === 'en' ? '/banner2_eng.webp' : '/banner2_esp.webp'}
+              width={2500}
+              height={1064}
               alt='energy night mexico'
               fetchpriority='high'
             />

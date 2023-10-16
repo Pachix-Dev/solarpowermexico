@@ -1,11 +1,12 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import './Home.css'
-import { Slider } from './Slider'
-import { Gallery } from './Gallery'
 import { useTranslation } from 'react-i18next'
-import Marquee from 'react-fast-marquee'
 import { Link } from 'react-router-dom'
 import { Header } from './Header'
+import { Slider } from './Slider'
+import Marquee from 'react-fast-marquee'
+import { Gallery } from './Gallery'
+
 export function Home () {
   const { t, i18n } = useTranslation()
 

@@ -58,7 +58,7 @@ export function Header () {
           </svg> {t('home.exhibitor_directory')}
         </a>
         <a href='https://hfmexico.mx/ecomondo/' aria-label='ecomondo' style={{ padding: 0, background: 'none' }} target='_blank' rel='noreferrer'>
-          <img width={150} height={57} src='/botone-ECO-esp.jpg' alt='ecomondo' />
+          <img width={150} height={57} src='/botone-ECO-esp.webp' alt='ecomondo' />
         </a>
       </nav>
     </header>

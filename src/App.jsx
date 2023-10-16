@@ -2,7 +2,6 @@ import './App.css'
 import { Menu } from './components/Menu/Menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Program } from './components/Program/Program'
-import { Footer } from './components/Footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './components/Home/Home'
 import { AboutSSM } from './components/AboutSSM/AboutSSM'
@@ -20,6 +19,7 @@ import { GallgeryPage } from './components/Gallery/GalleryPage'
 import { EnergyNight } from './components/EnergyNight/EnergyNight'
 import { Videos } from './components/Videos/Videos'
 import ScrollToTop from './components/ScrollToTop'
+import { Footer } from './components/Footer/Footer'
 
 function App () {
   return (
@@ -73,7 +73,7 @@ function App () {
           element={<Toolkit />}
         />
         <Route
-          path='/enlightenment-area' element={<Program />}
+          path='enlightenment-area' element={<Program />}
         />
         <Route
           path='why-visit'

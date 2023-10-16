@@ -96,5 +96,6 @@
 @media (width < 1440px) {
     .img-gallery{
         width: 100%;
+        height: 100%;
     }
   }

@@ -1,12 +1,14 @@
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
-import { Suspense, lazy, useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { Container } from 'react-bootstrap'
-const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
+import { CustomRecaptcha } from '../CustomRecaptcha'
+import { useLanguage } from '../hooks/useLanguage'
 
 export function ContactForm () {
   const { t } = useTranslation()
+  const { stateLang } = useLanguage()
   const captchaRef = useRef()
   const [captcha, setCaptcha] = useState(false)
   const [message, setMessage] = useState()
@@ -48,6 +50,17 @@ export function ContactForm () {
       document.getElementById('form-newsletter').reset()
     }
   }
+
+  const renderReCAPTCHA = () => {
+    return (
+      <CustomRecaptcha
+        sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
+        onChange={onChange}
+        language={stateLang === 'en' ? 'en' : 'es'}
+        ref={captchaRef}
+      />
+    )
+  }
   return (
     <>
       <Container className='mt-5 mb-5'>
@@ -69,13 +82,7 @@ export function ContactForm () {
             <Form.Label>{t('contactForm.message')}</Form.Label>
             <Form.Control type='text' name='message' required />
           </Form.Group>
-          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
-            <ReCAPTCHA
-              sitekey='6LeljqwnAAAAAHcToBhu6iq8o4kahL9sopQjC1A3'
-              ref={captchaRef}
-              onChange={onChange}
-            />
-          </Suspense>
+          {renderReCAPTCHA()}
           {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
           <Button variant='dark' type='submit' className='mt-3 fw-bold'>
             {t('contactForm.send')}

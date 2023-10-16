@@ -22,7 +22,7 @@ export function Slider () {
           {
           i18n.language === 'en'
             ? <video className='w-100' muted autoPlay loop playsInline><source src='/SSM-ENG.mp4' type='video/mp4' />Your browser does not support the video tag.</video>
-            : <video className='w-100' muted autoPlay loop playsInline><source src='/SSM-ESP.mp4' type='video/mp4' />Your browser does not support the video tag.</video>
+            : <video className='w-100' muted autoPlay loop playsInline><source src='/SSM-ESP.webm' type='video/mp4' />Your browser does not support the video tag.</video>
           }
 
         </Carousel.Item>

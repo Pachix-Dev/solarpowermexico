@@ -8,7 +8,7 @@ export function Footer () {
   return (
     <footer className='mt-5'>
       <Container fluid>
-        <img src='/plecaSolar.webp' className='w-100' alt='Italian Exhibition Group' loading='lazy' />
+        <img src='/plecaSolar.webp' className='w-100 h-100' alt='Italian Exhibition Group' loading='lazy' width={2560} height={207} />
       </Container>
       <Container>
         <div className='footer-socialmedia mt-5'>

@@ -107,32 +107,32 @@ export function Home () {
           <div className='mt-5 pt-5 pb-5 text-center'>
             <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
             <a href='https://consumer.huawei.com/mx/' target='_blank' rel='noreferrer'>
-              <img width={200} height={45} src='/Huawei.webp' alt='Huawei' />
+              <img width={200} height={45} src='/Huawei.webp' alt='Huawei' loading='lazy' />
             </a>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
             <a href='https://www.longi.com/mx/' target='_blank' rel='noreferrer'>
-              <img width={150} height={68} src='/LONGI.webp' alt='LONGI' />
+              <img width={150} height={68} src='/LONGI.webp' alt='LONGI' loading='lazy' />
             </a>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_silver')}</p>
             <a href='https://en.pylontech.com.cn/' target='_blank' rel='noreferrer'>
-              <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' />
+              <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' loading='lazy' />
             </a>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
 
             <a href='https://sunpower.maxeon.com/mx/por-que-sunpower' target='_blank' rel='noreferrer' className='p-3'>
-              <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' />
+              <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' loading='lazy' />
             </a>
 
             <a href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/' target='_blank' rel='noreferrer' className='p-3'>
-              <img width={150} height={101} src='/Ibedrola.webp' alt='Ibedrola' />
+              <img width={150} height={101} src='/Ibedrola.webp' alt='Ibedrola' loading='lazy' />
             </a>
 
             <a href='https://solar-distribution.baywa-re.mx/es/' target='_blank' rel='noreferrer' className='p-3'>
-              <img width={200} height={76} src='/BayWar.webp' alt='BayWar' />
+              <img width={200} height={76} src='/BayWar.webp' alt='BayWar' loading='lazy' />
             </a>
 
             <a href='https://es.s-5.com/' target='_blank' rel='noreferrer' className='p-3'>
-              <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' />
+              <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' loading='lazy' />
             </a>
           </div>
         </section>

@@ -1,45 +1,15 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import './Home.css'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import Marquee from 'react-fast-marquee'
+
+import './Home.css'
 import { Header } from './Header'
 import { Slider } from './Slider'
-import Marquee from 'react-fast-marquee'
 import { Gallery } from './Gallery'
 
 export function Home () {
   const { t, i18n } = useTranslation()
-
-  const YouTubeVideo = ({ videoId }) => {
-    return (
-      <Col md={4} className='mt-3 text-center'>
-        <a
-          href={`https://www.youtube.com/watch?v=${videoId}`}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <img
-            src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
-            alt='YouTube video preview'
-            width={320}
-            height={180}
-            loading='lazy'
-          />
-        </a>
-      </Col>
-    )
-  }
-
-  const VideosGallery = () => {
-    const videoIds = ['8sojVTHwz94', 'YaE8Iv6DeQM', 'Vgd9L5iemws']
-    return (
-      <Row className='mt-5 mb-5'>
-        {videoIds.map((videoId, index) => (
-          <YouTubeVideo key={index} videoId={videoId} />
-        ))}
-      </Row>
-    )
-  }
 
   return (
     <>
@@ -99,7 +69,51 @@ export function Home () {
           </Row>
         </article>
         <Row className='mt-5 mb-5'>
-          <VideosGallery />
+          <Col md={4} className='mt-3 text-center'>
+            <a
+              href='https://www.youtube.com/watch?v=8sojVTHwz94'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src='/youtube1.webp'
+                alt='YouTube video preview'
+                width={320}
+                height={180}
+                loading='lazy'
+              />
+            </a>
+          </Col>
+          <Col md={4} className='mt-3 text-center'>
+            <a
+              href='https://www.youtube.com/watch?v=YaE8Iv6DeQM'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src='/youtube2.webp'
+                alt='YouTube video preview'
+                width={320}
+                height={180}
+                loading='lazy'
+              />
+            </a>
+          </Col>
+          <Col md={4} className='mt-3 text-center'>
+            <a
+              href='https://www.youtube.com/watch?v=Vgd9L5iemws'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img
+                src='/youtube3.webp'
+                alt='YouTube video preview'
+                width={320}
+                height={180}
+                loading='lazy'
+              />
+            </a>
+          </Col>
         </Row>
         <p className='text-center'>
           <Link to='/videos' aria-label='videos SSM' className='text-decoration-none'>

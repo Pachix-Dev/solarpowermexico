@@ -13,8 +13,6 @@ export function Slider () {
             <img
               className='d-block w-100 h-100'
               src={i18n.language === 'es' ? '/banner2_esp.webp' : '/banner2_eng.webp'}
-              width={2500}
-              height={1064}
               alt='energy night mexico'
               fetchpriority='high'
             />

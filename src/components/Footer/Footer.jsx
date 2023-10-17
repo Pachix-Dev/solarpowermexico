@@ -78,7 +78,7 @@ export function Footer () {
         </Row>
         <div className='mt-5 footer-language d-flex'>
           <strong>Italian German Exhibition Company</strong>
-          <div className='language-option-footer ms-auto'>
+          <div className='language-option-footer ms-auto me-5'>
             <LanguageButton />
           </div>
         </div>

@@ -1,54 +1,11 @@
-.menu-solar{
-    background-color: #570587;    
-}
-.nav-link:hover {
-    font-weight: bold;
-    color: #02ff23 !important;
-}
-.nav-item:hover .dropdown-menu {
-    display: block !important;
-    color: #919191;
-    margin: 0;
-    border: none;
-    border-radius: 0;
-    padding: 10px;
-
-}
-.dropdown-toggle::after {
-    display: none !important;
+/* Base styles */
+.menu-solar {
+    background-color: #570587;
 }
 
-.nav-link svg {
-    fill: white;
-}
-
-.navbar-nav .nav-link.show {
+.nav-link, .navbar-nav .nav-link.show, .nav-link.active, .nav-link:focus, .nav-link:hover {
     color: white !important;
-}
-
-.language-dropdown {
-    color: white !important;
-    box-shadow: 4px 4px 6px black;
-}
-
-
-.language-dropdown a {
-    text-shadow: none !important;
-    padding: 3px;
-}
-
-.language-dropdown:hover svg {
-    fill: #02ff23 !important;
-}
-
-.nav-link:focus {
-    color: white;
-}
-.dropdown-item{
-    font-weight: 500 !important;
-}
-.dropdown-item:active {
-    background-color: #02ff23;
+    text-shadow: 4px 4px 6px black;
 }
 
 .dropdown-menu.show {
@@ -56,31 +13,31 @@
     min-width: auto;
 }
 
-.dropdown-toggle::after {
-    color: white;
-}
-
-.nav-link.active {
-    color: white !important;
-}
-
-.nav-link {
-    color: white !important;
-    text-shadow: 4px 4px 6px black;
-}
-
+/* Hover and active styles */
 .nav-link:hover {
-    color: white;
+    font-weight: bold;
+    color: #02ff23 !important;
 }
 
-.navbar-toggler {
-    border-color: white;
+.dropdown-item:active {
+    background-color: #02ff23;
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/* Dropdown styles */
+.nav-item:hover .dropdown-menu {
+    display: block !important;
+    color: #919191;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
 }
 
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+/* Offcanvas styles */
 .offcanvas {
     background-color: #1f1f1f !important;
     color: #979797;

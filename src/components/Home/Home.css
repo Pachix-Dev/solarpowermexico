@@ -1,9 +1,11 @@
-.home-solar-submenu{
+/* General Styles */
+.home-solar-submenu {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-.home-solar-submenu a{
+
+.home-solar-submenu a {
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -15,66 +17,72 @@
     line-height: 1;
     transition: 0.3s ease-in-out;
 }
-.home-solar-submenu a:hover{
+
+.home-solar-submenu a:hover {
     color: white;
     background-color: #570587;
     transform: scale(1.1);
 }
-.carousel-item img{
+
+.carousel-item img {
     width: 100%;
 }
-.lg-react-element{
-    column-count: 4;    
+
+.lg-react-element {
+    column-count: 4;
 }
-.img-gallery{
+
+.img-gallery, .home-whyexhibit .learnmore, .whatssap-button, .exibitorSlider img {
     cursor: pointer;
 }
-.home-whyexhibit{
+
+/* Home Styles */
+.home-whyexhibit {
     background-color: #570587;
     color: white;
     padding: 20px;
 }
-.learnmore{
-    cursor: pointer;
+
+.learnmore {
     background-color: #F3736A;
     color: white;
     padding: 12px 20px;
     border-radius: 20px;
     font-weight: bold;
     font-size: 12px;
+    cursor: pointer;
 }
-.home-text-color{
+
+.home-text-color {
     color: #f3736a;
 }
-.whatssap-button{
+
+/* WhatsApp Button Styles */
+.whatssap-button {
     position: fixed;
     bottom: 20px;
-    right: 20px;   
+    right: 20px;
     border-radius: 50%;
     background-color: #25D366;
     z-index: 10;
-    transition: 0.3s ease-in-out;    
+    transition: 0.3s ease-in-out;
 }
-.whatssap-button:hover{
+
+.whatssap-button:hover {
     background-color: #128c7e;
     transform: scale(1.1);
 }
-.whatssap-button svg{      
+
+.whatssap-button svg {
     fill: white;
     width: 60px;
-    padding: 12px;        
+    padding: 12px;
 }
-.img-gallery{
-    cursor: pointer;
-    text-decoration: none;
-    color: black;    
-}
-.exibitorSlider img{
-    margin: 0 30px;
-}
-@media (width < 1440px) {
-    .img-gallery{
+
+/* Media Query */
+@media (max-width: 1440px) {
+    .img-gallery {
         width: 100%;
         height: 100%;
     }
-  }
+}

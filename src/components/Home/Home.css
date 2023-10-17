@@ -31,24 +31,6 @@
     color: white;
     padding: 20px;
 }
-.home-bg-solarvideo{
-    position: relative;
-    min-height: 400px;
-    color: white;
-}
-.home-bg-solarvideo video{
-    object-fit: cover;
-    width: 100%;
-    min-height: 480px; 
-}
-.home-text-video{
-   position: absolute;
-   top: 0;
-   display: flex;
-   align-items: center;
-   height: 100%;  
-   text-shadow: 4px 4px 4px black;    
-}
 .learnmore{
     cursor: pointer;
     background-color: #F3736A;
@@ -84,10 +66,6 @@
     cursor: pointer;
     text-decoration: none;
     color: black;    
-}
-.exibitorSlider {
-    display: grid;
-    place-items: center;
 }
 .exibitorSlider img{
     margin: 0 30px;

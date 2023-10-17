@@ -64,7 +64,6 @@
     width: 60px;
     padding: 12px;        
 }
-
 .img-gallery{
     cursor: pointer;
     text-decoration: none;
@@ -73,7 +72,6 @@
 .exibitorSlider img{
     margin: 0 30px;
 }
-
 @media (width < 1440px) {
     .img-gallery{
         width: 100%;

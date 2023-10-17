@@ -12,7 +12,6 @@ import { useNearScreen } from '../hooks/useNearScreen'
 export function Home () {
   const { t, i18n } = useTranslation()
   const [show, ref] = useNearScreen()
-
   const partners = [
     { link: 'https://www.energypartnership.mx/es/home/', image: '/AlianzaEnergetica.webp', width: 200, height: 67 },
     { link: 'https://amsoc.mx/es/inicio/', image: '/80-amsoc.webp', width: 150, height: 98 },
@@ -108,7 +107,7 @@ export function Home () {
           </Row>
         </article>
         <Row className='mt-5 mb-5'>
-          <Col md={4} className='mt-3 text-center'>
+          <Col lg={4} className='mt-3 text-center'>
             <a
               href='https://www.youtube.com/watch?v=8sojVTHwz94'
               target='_blank'
@@ -123,7 +122,7 @@ export function Home () {
               />
             </a>
           </Col>
-          <Col md={4} className='mt-3 text-center'>
+          <Col lg={4} className='mt-3 text-center'>
             <a
               href='https://www.youtube.com/watch?v=YaE8Iv6DeQM'
               target='_blank'
@@ -138,7 +137,7 @@ export function Home () {
               />
             </a>
           </Col>
-          <Col md={4} className='mt-3 text-center'>
+          <Col lg={4} className='mt-3 text-center'>
             <a
               href='https://www.youtube.com/watch?v=Vgd9L5iemws'
               target='_blank'

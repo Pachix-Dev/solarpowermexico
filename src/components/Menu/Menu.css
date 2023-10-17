@@ -13,16 +13,6 @@
     min-width: auto;
 }
 
-/* Hover and active styles */
-.nav-link:hover {
-    font-weight: bold;
-    color: #02ff23 !important;
-}
-
-.dropdown-item:active {
-    background-color: #02ff23;
-}
-
 /* Dropdown styles */
 .nav-item:hover .dropdown-menu {
     display: block !important;

@@ -7,7 +7,7 @@ export function Slider () {
   const { i18n } = useTranslation()
   return (
     <div className='position-relative mt-5'>
-      <Carousel fade interval={5000} controls={false}>
+      <Carousel interval={5000} controls={false}>
         <Carousel.Item>
           <Link to='/energy-night'>
             <img

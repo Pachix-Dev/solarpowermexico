@@ -7,10 +7,11 @@ import './Home.css'
 import { Header } from './Header'
 import { Slider } from './Slider'
 import { Gallery } from './Gallery'
+import { useNearScreen } from '../hooks/useNearScreen'
 
 export function Home () {
   const { t, i18n } = useTranslation()
-
+  const [show, ref] = useNearScreen()
   return (
     <>
       <Container>
@@ -169,9 +170,9 @@ export function Home () {
             <p>{t('home.why_exhibit_general_desc')}</p>
           </Col>
         </Row>
-        <section className='pt-5'>
+        <section className='pt-5' ref={ref}>
           <p className='fw-bold fs-2 text-center home-text-color'>{t('home.gallery')} SSM 2023</p>
-          <Gallery />
+          {show && <Gallery />}
           <p className='mt-5 text-center'>
             <Link to='/gallery' aria-label='gallery SSM' className='text-decoration-none'>
               <span className='learnmore'>{t('home.more_gallery')}</span>

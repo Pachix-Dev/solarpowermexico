@@ -1,8 +1,8 @@
 import './App.css'
-import { Menu } from './components/Menu/Menu'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Program } from './components/Program/Program'
 import { Route, Routes } from 'react-router-dom'
+import { Menu } from './components/Menu/Menu'
+import { Program } from './components/Program/Program'
 import { Home } from './components/Home/Home'
 import { AboutSSM } from './components/AboutSSM/AboutSSM'
 import { AboutReEvents } from './components/AboutReEvents/AboutReEvents'
@@ -35,7 +35,10 @@ function App () {
         </a>
       </div>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route
+          path='/'
+          element={<Home />}
+        />
         <Route
           path='about-ssm'
           element={<AboutSSM />}
@@ -73,7 +76,8 @@ function App () {
           element={<Toolkit />}
         />
         <Route
-          path='enlightenment-area' element={<Program />}
+          path='enlightenment-area'
+          element={<Program />}
         />
         <Route
           path='why-visit'
@@ -96,7 +100,6 @@ function App () {
           element={<Videos />}
         />
       </Routes>
-
       <Footer />
     </>
   )

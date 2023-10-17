@@ -1,15 +1,11 @@
-import { Suspense, lazy } from 'react'
 import { useNearScreen } from '../hooks/useNearScreen'
+import { Footer } from './Footer'
 
-const Footer = lazy(() => import('./Footer'))
-
-export default function LazyFooter () {
-  const [isNear, fromRef] = useNearScreen()
+export function LazyFooter () {
+  const [show, ref] = useNearScreen()
   return (
-    <div className='footerweb' ref={fromRef}>
-      <Suspense fallback={<p>cargando...</p>}>
-        {isNear ? <Footer /> : ''}
-      </Suspense>
+    <div className='footerweb' ref={ref}>
+      {show && <Footer />}
     </div>
   )
 }

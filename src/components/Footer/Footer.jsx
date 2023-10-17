@@ -3,6 +3,7 @@ import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import { Subscribe } from '../Suscribe/Suscribe'
 import { LanguageButton } from '../Menu/LanguageButton'
+
 export function Footer () {
   const { t } = useTranslation()
   return (

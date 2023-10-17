@@ -19,7 +19,7 @@ import { GallgeryPage } from './components/Gallery/GalleryPage'
 import { EnergyNight } from './components/EnergyNight/EnergyNight'
 import { Videos } from './components/Videos/Videos'
 import ScrollToTop from './components/ScrollToTop'
-import { Footer } from './components/Footer/Footer'
+import { LazyFooter } from './components/Footer/LazyFooter'
 
 function App () {
   return (
@@ -97,7 +97,7 @@ function App () {
         />
       </Routes>
 
-      <Footer />
+      <LazyFooter />
     </>
   )
 }

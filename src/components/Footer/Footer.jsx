@@ -3,11 +3,14 @@ import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import { Subscribe } from '../Suscribe/Suscribe'
 import { LanguageButton } from '../Menu/LanguageButton'
+import { useNearScreen } from '../hooks/useNearScreen'
 
 export function Footer () {
   const { t } = useTranslation()
+  const [show, ref] = useNearScreen()
   return (
     <footer className='mt-5'>
+
       <Container fluid>
         <img src='/plecaSolar.webp' className='w-100 h-100' alt='Italian Exhibition Group' loading='lazy' width={2560} height={207} />
       </Container>
@@ -40,7 +43,7 @@ export function Footer () {
             </svg>
           </a>
         </div>
-        <Row className='mt-5'>
+        <Row className='mt-5' ref={ref}>
           <Col md>
             <p><strong>SOLAR + STORAGE MEXICO 2024</strong></p>
             <p>17 – 19 de Abril, 2024<br />
@@ -71,7 +74,7 @@ export function Footer () {
             </p>
           </Col>
           <Col md>
-            <Subscribe />
+            {show && <Subscribe />}
           </Col>
         </Row>
         <div className='mt-5 footer-language d-flex'>

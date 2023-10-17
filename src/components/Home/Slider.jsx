@@ -12,7 +12,7 @@ export function Slider () {
           <Link to='/energy-night'>
             <img
               className='d-block w-100 h-100'
-              src={i18n.language === 'en' ? '/banner2_eng.webp' : '/banner2_esp.webp'}
+              src={i18n.language === 'es' ? '/banner2_esp.webp' : '/banner2_eng.webp'}
               width={2500}
               height={1064}
               alt='energy night mexico'

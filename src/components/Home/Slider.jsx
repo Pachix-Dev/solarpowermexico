@@ -6,14 +6,16 @@ import { useTranslation } from 'react-i18next'
 export function Slider () {
   const { i18n } = useTranslation()
   return (
-    <div className='position-relative mt-5'>
+    <div className='mt-5'>
       <Carousel interval={5000} controls={false}>
         <Carousel.Item>
           <Link to='/energy-night'>
             <img
-              className='d-block w-100 h-100'
+              className='d-block'
               src={i18n.language === 'es' ? '/banner2_esp.webp' : '/banner2_eng.webp'}
               alt='energy night mexico'
+              width={1920}
+              height={817}
               fetchpriority='high'
             />
           </Link>

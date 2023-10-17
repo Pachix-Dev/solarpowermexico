@@ -20,6 +20,9 @@
     background-color: #570587;
     transform: scale(1.1);
 }
+.carousel-item img{
+    width: 100%;
+}
 .lg-react-element{
     column-count: 4;    
 }

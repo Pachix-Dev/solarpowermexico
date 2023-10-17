@@ -12,6 +12,45 @@ import { useNearScreen } from '../hooks/useNearScreen'
 export function Home () {
   const { t, i18n } = useTranslation()
   const [show, ref] = useNearScreen()
+
+  const partners = [
+    { link: 'https://www.energypartnership.mx/es/home/', image: '/AlianzaEnergetica.webp', width: 200, height: 67 },
+    { link: 'https://amsoc.mx/es/inicio/', image: '/80-amsoc.webp', width: 150, height: 98 },
+    { link: 'https://mexiko.ahk.de/es/', image: '/ahk.webp', width: 250, height: 65 },
+    { link: 'https://www.emergealliance.org/', image: '/emmerge.webp', width: 200, height: 85 },
+    { link: 'https://www.jalisco.gob.mx/', image: '/gobiernoJalisco.webp', width: 150, height: 150 },
+    { link: 'https://mermx.org/', image: '/merm.webp', width: 200, height: 103 }
+  ]
+  const partners2 = [
+    { link: 'https://www.eupd-research.com/', image: '/EUPD-Research.webp', width: 200, height: 38 },
+    { link: 'http://www.galoenergy.com/', image: '/GaloEnergy.webp', width: 150, height: 76 },
+    { link: 'https://www.giz.de/en/worldwide/33041.html', image: '/giz.webp', width: 250, height: 108 },
+    { link: 'https://h2mex.org/', image: '/h2mexico-asoc.webp', width: 200, height: 68 },
+    { link: 'https://www.kas.de/es/web/mexiko', image: '/KAS.webp', width: 150, height: 46 },
+    { link: 'https://www.mujeresenergia.org/', image: '/redMujeres.webp', width: 200, height: 65 },
+    { link: 'https://www.solarenergy.org/', image: '/SEI.webp', width: 150, height: 107 }
+  ]
+  const broadcasting = [
+    { link: 'https://www.eleconomista.com.mx/', image: '/economista.webp', width: 200, height: 19 },
+    { link: 'https://www.pv-magazine-mexico.com/', image: '/pv-magazine-group.webp', width: 200, height: 68 },
+    { link: 'https://mexicoindustry.com/es', image: '/mexicoIndustry.webp', width: 150, height: 53 },
+    { link: 'https://www.cosmos.com.mx/', image: '/onlineCosmos.webp', width: 200, height: 68 },
+    { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },
+    { link: 'https://energiaadebate.com/', image: '/energiadebate.webp', width: 130, height: 75 },
+    { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },
+    { link: 'https://energy21.com.mx/', image: '/eneroy21.webp', width: 200, height: 40 }
+  ]
+  const broadcasting2 = [
+    { link: 'https://globalenergy.mx/', image: '/Global-Energy.webp', width: 140, height: 62 },
+    { link: 'https://globalindustries.mx/', image: '/global-industries.webp', width: 200, height: 62 },
+    { link: 'https://greentology.life/', image: '/greentology.webp', width: 200, height: 55 },
+    { link: 'https://revistaconsultoria.com.mx/', image: '/revistaConsultoria.webp', width: 200, height: 50 },
+    { link: 'https://www.vanguardia-industrial.net/', image: '/VanguardiaIndustrial.webp', width: 150, height: 79 },
+    { link: 'https://worldconstruccion.mx/', image: '/worldConstruccion.webp', width: 200, height: 34 },
+    { link: 'https://discovercleantech.com/', image: '/discoverCleanTech.webp', width: 200, height: 48 },
+    { link: 'http://www.revistadp.com/', image: '/revista-de-preferencia.webp', width: 200, height: 57 },
+    { link: 'https://petroleoenergia.com/', image: '/petroleo_y_energia.webp', width: 150, height: 83 }
+  ]
   return (
     <>
       <Container>
@@ -180,7 +219,6 @@ export function Home () {
           </p>
         </section>
       </Container>
-
       <section className='mt-5'>
         <Container>
           <p className='fw-bold fs-2 text-secondary text-center'>{t('home.organized_by')}:</p>
@@ -231,75 +269,23 @@ export function Home () {
           </Row>
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>{t('home.strategic_partners')}:</p>
           <Marquee gradient>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.energypartnership.mx/es/home/' target='_blank' rel='noreferrer'>
-                <img src='/AlianzaEnergetica.webp' width={200} height={67} loading='lazy' alt='AlianzaEnergetica' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://amsoc.mx/es/inicio/' target='_blank' rel='noreferrer'>
-                <img src='/80-amsoc.webp' width={150} height={98} loading='lazy' alt='80-amsoc' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://mexiko.ahk.de/es/' target='_blank' rel='noreferrer'>
-                <img src='/ahk.webp' width={250} height={65} loading='lazy' alt='ahk' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.emergealliance.org/' target='_blank' rel='noreferrer'>
-                <img src='/emmerge.webp' width={200} height={85} loading='lazy' alt='emmerge' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.jalisco.gob.mx/' target='_blank' rel='noreferrer'>
-                <img src='/gobiernoJalisco.webp' width={150} height={150} loading='lazy' alt='gobiernoJalisco' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://mermx.org/' target='_blank' rel='noreferrer'>
-                <img src='/merm.webp' width={200} height={103} loading='lazy' alt='merm' />
-              </a>
-            </div>
+            {partners.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <a href={sponsor.link} target='_blank' rel='noreferrer'>
+                  <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`Sponsor ${index}`} loading='lazy' />
+                </a>
+              </div>
+            ))}
           </Marquee>
           <Marquee gradient direction='letf'>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.eupd-research.com/' target='_blank' rel='noreferrer'>
-                <img src='/EUPD-Research.webp' width={200} height={38} loading='lazy' alt='EUPD-Research' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='http://www.galoenergy.com/' target='_blank' rel='noreferrer'>
-                <img src='/GaloEnergy.webp' width={150} height={76} loading='lazy' alt='GaloEnergy' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
-                <img src='/giz.webp' width={250} height={108} loading='lazy' alt='giz' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://h2mex.org/' target='_blank' rel='noreferrer'>
-                <img src='/h2mexico-asoc.webp' width={200} height={68} loading='lazy' alt='h2mexico-asoc' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.kas.de/es/web/mexiko' target='_blank' rel='noreferrer'>
-                <img src='/KAS.webp' width={150} height={46} loading='lazy' alt='KAS' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.mujeresenergia.org/' target='_blank' rel='noreferrer'>
-                <img src='/redMujeres.webp' width={200} height={65} loading='lazy' alt='redMujeres' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.solarenergy.org/' target='_blank' rel='noreferrer'>
-                <img src='/SEI.webp' width={150} height={107} loading='lazy' alt='SEI' />
-              </a>
-            </div>
+            {partners2.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <a href={sponsor.link} target='_blank' rel='noreferrer'>
+                  <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`Sponsor ${index}`} loading='lazy' />
+                </a>
+              </div>
+            ))}
           </Marquee>
-
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>Broadcasting Media Partner</p>
           <Row className='text-center mb-5'>
             <Col md={3} className='mt-3 mx-auto my-auto'>
@@ -309,93 +295,22 @@ export function Home () {
             </Col>
           </Row>
           <Marquee gradient direction='letf'>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.eleconomista.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/economista.webp' width={200} height={19} loading='lazy' alt='economista' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.pv-magazine-mexico.com/' target='_blank' rel='noreferrer'>
-                <img src='/pv-magazine-group.webp' width={200} height={68} loading='lazy' alt='pv-magazine-group' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://mexicoindustry.com/es' target='_blank' rel='noreferrer'>
-                <img src='/mexicoIndustry.webp' width={150} height={53} loading='lazy' alt='mexicoIndustry' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.cosmos.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/onlineCosmos.webp' width={200} height={88} loading='lazy' alt='onlineCosmos' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/Energy-Commerce.webp' width={150} height={60} loading='lazy' alt='Energy-Commerce' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
-                <img src='/energiadebate.webp' width={130} height={75} loading='lazy' alt='energiadebate' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://energiahoy.com/' target='_blank' rel='noreferrer'>
-                <img src='/EnergiaHoy.webp' width={200} height={45} loading='lazy' alt='EnergiaHoy' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://energy21.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/eneroy21.webp' width={200} height={40} loading='lazy' alt='eneroy21' />
-              </a>
-            </div>
+            {broadcasting.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <a href={sponsor.link} target='_blank' rel='noreferrer'>
+                  <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`Sponsor ${index}`} loading='lazy' />
+                </a>
+              </div>
+            ))}
           </Marquee>
           <Marquee gradient className='mt-3'>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://globalenergy.mx/' target='_blank' rel='noreferrer'>
-                <img src='/Global-Energy.webp' width={140} height={62} loading='lazy' alt='Global-Energy' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-                <img src='/global-industries.webp' width={200} height={62} loading='lazy' alt='global-industries' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
-                <img src='/greentology.webp' width={200} height={55} loading='lazy' alt='greentology' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/revistaConsultoria.webp' width={200} height={50} loading='lazy' alt='revistaConsultoria' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
-                <img src='/VanguardiaIndustrial.webp' width={150} height={79} loading='lazy' alt='VanguardiaIndustrial' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://worldconstruccion.mx/' target='_blank' rel='noreferrer'>
-                <img src='/worldConstruccion.webp' width={200} height={34} loading='lazy' alt='worldConstruccion' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://discovercleantech.com/' target='_blank' rel='noreferrer'>
-                <img src='/discoverCleanTech.webp' width={200} height={48} loading='lazy' alt='discoverCleanTech' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='http://www.revistadp.com/' target='_blank' rel='noreferrer'>
-                <img src='/revista-de-preferencia.webp' width={200} height={57} loading='lazy' alt='revista-de-preferencia' />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a href='https://petroleoenergia.com/' target='_blank' rel='noreferrer'>
-                <img src='/petroleo_y_energia.webp' width={150} height={83} loading='lazy' alt='petroleo_y_energia' />
-              </a>
-            </div>
+            {broadcasting2.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <a href={sponsor.link} target='_blank' rel='noreferrer'>
+                  <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`Sponsor ${index}`} loading='lazy' />
+                </a>
+              </div>
+            ))}
           </Marquee>
         </Container>
       </section>

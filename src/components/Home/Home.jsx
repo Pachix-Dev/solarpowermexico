@@ -154,7 +154,7 @@ export function Home () {
           </Col>
         </Row>
         <p className='text-center'>
-          <Link to='/videos' aria-label='videos SSM' className='text-decoration-none'>
+          <Link to='/videos' aria-label='Videos' className='text-decoration-none'>
             <span className='learnmore'>{t('home.more_videos')}</span>
           </Link>
         </p>
@@ -211,7 +211,7 @@ export function Home () {
           <p className='fw-bold fs-2 text-center home-text-color'>{t('home.gallery')} SSM 2023</p>
           {show && <Gallery />}
           <p className='mt-5 text-center'>
-            <Link to='/gallery' aria-label='gallery SSM' className='text-decoration-none'>
+            <Link to='/gallery' aria-label='Galería' className='text-decoration-none'>
               <span className='learnmore'>{t('home.more_gallery')}</span>
             </Link>
           </p>

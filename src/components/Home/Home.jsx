@@ -211,7 +211,7 @@ export function Home () {
           <p className='fw-bold fs-2 text-center home-text-color'>{t('home.gallery')} SSM 2023</p>
           {show && <Gallery />}
           <p className='mt-5 text-center'>
-            <Link to='/gallery' aria-label='Galería' className='text-decoration-none'>
+            <Link to='/gallery' aria-label={t('home.more_gallery')} className='text-decoration-none'>
               <span className='learnmore'>{t('home.more_gallery')}</span>
             </Link>
           </p>

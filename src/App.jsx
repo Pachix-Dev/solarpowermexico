@@ -1,5 +1,4 @@
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { Menu } from './components/Menu/Menu'
 import { Program } from './components/Program/Program'

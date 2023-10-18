@@ -14,7 +14,7 @@ export function Slider () {
               <source media='(min-width: 1000px)' srcSet='/banner2_esp.webp' />
               <source media='(min-width: 800px)' srcSet='/banner2_800esp.webp' />
               <source media='(min-width: 401px)' srcSet='/banner2_768esp.webp' />
-              <img src={i18n.language === 'en' ? '/banner2_eng.webp' : '/banner2_400esp.webp'} alt='energy night' />
+              <img fetchpriority='high' src={i18n.language === 'en' ? '/banner2_eng.webp' : '/banner2_400esp.webp'} alt='energy night' />
             </picture>
           </Link>
         </Carousel.Item>

@@ -24,6 +24,8 @@
     transform: scale(1.1);
 }
 .slider-bg-energynight{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background-image: url('/bgEnergyNight.webp');
     background-size: cover;
     text-align: center;
@@ -144,6 +146,10 @@
     .slider-bg-energynight{
         background-color: #322248;
         background-image: none;
+        padding: 0.5px;        
+    }
+    .slider-bg-energynight .row{
+        padding: 0 !important;        
     }
     .bgsolarvideo>div{
         width: 100%;

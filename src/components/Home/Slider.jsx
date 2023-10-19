@@ -11,7 +11,7 @@ export function Slider () {
       <Carousel interval={5000} controls={false}>
         <Carousel.Item>
           <Link to='/energy-night' className='text-decoration-none'>
-            <div className='pt-5 pb-5 slider-bg-energynight'>
+            <div className='slider-bg-energynight'>
               <Container fluid>
                 <Row className='mt-5 pt-5'>
                   <Col md className='pt-5 mt-auto'>

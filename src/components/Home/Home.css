@@ -149,7 +149,9 @@
         padding: 0.5px;        
     }
     .slider-bg-energynight .row{
-        padding: 0 !important;        
+        padding-top: 0 !important;
+        padding-bottom: 20px;
+        margin: 0 !important;        
     }
     .bgsolarvideo>div{
         width: 100%;

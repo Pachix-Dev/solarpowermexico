@@ -14,7 +14,7 @@ export function Slider () {
             <div className='slider-bg-energynight'>
               <Container fluid>
                 <Row className='mt-5 pt-5'>
-                  <Col md className='pt-5 mt-auto'>
+                  <Col md className='pt-5 mt-auto d-none d-sm-block'>
                     <p className='text-light fs-1' dangerouslySetInnerHTML={{ __html: t('home.energy_night') }} />
                     <div className='d-flex justify-content-center'><ul dangerouslySetInnerHTML={{ __html: t('home.energy_night_tags') }} /></div>
                   </Col>
@@ -29,7 +29,6 @@ export function Slider () {
                       </svg>
                       <div className='energy-date' dangerouslySetInnerHTML={{ __html: t('home.energy_night_date') }} />
                     </div>
-
                   </Col>
                 </Row>
               </Container>

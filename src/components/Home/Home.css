@@ -140,3 +140,12 @@
         height: 100%;
     }
 }
+@media(max-width: 425px){
+    .slider-bg-energynight{
+        background-color: #322248;
+        background-image: none;
+    }
+    .bgsolarvideo>div{
+        width: 100%;
+    }
+}

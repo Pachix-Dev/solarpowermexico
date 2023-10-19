@@ -48,10 +48,10 @@ export function Slider () {
         </Carousel.Item>
         <Carousel.Item className='bgsolarvideo pt-5 pb-5'>
           <div className='mt-5 mb-5 pt-5 pb-5 text-center'>
-            <img src='/SSM-logo.webp' width={320} height={141} alt='Solarpowermexico' />
-            <p className='text-light text-center fs-4' dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }} />
+            <img src='/SSM-logo.webp' width={320} height={118} alt='Solarpowermexico' />
+            <p className='mt-5 text-light text-center fs-4' dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }} />
           </div>
-          <video className='w-100' muted autoPlay loop playsInline>
+          <video className='w-100' muted autoPlay loop playsInline poster='/bgVideo.webp'>
             <source src='/solarpowerBG.webm' type='video/webm' />
             Your browser does not support the video tag.
           </video>

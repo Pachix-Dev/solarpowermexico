@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import { Menu } from './components/Menu/Menu'
 import { Program } from './components/Program/Program'
 import { Home } from './components/Home/Home'
@@ -20,13 +20,14 @@ import { Videos } from './components/Videos/Videos'
 import ScrollToTop from './components/ScrollToTop'
 import { Footer } from './components/Footer/Footer'
 import { useEffect } from 'react'
-import ReactGA from 'react-ga'
 
+import { initializeGA, logPageView } from './analytics'
 function App () {
-  const location = useLocation()
   useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search)
-  }, [location])
+    initializeGA()
+    logPageView()
+  }, [])
+
   return (
     <>
       <ScrollToTop />

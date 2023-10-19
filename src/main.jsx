@@ -5,9 +5,6 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter } from 'react-router-dom'
 import { I18nextProvider } from 'react-i18next'
-import ReactGA from 'react-ga'
-
-ReactGA.initialize('G-6GJCSFD2EH')
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 

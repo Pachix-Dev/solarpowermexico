@@ -75,6 +75,7 @@
 }
 .bgsolarvideo>div{
     width: fit-content;
+    padding-left: 2em;
 }
 .bgsolarvideo video{
     position: absolute;
@@ -155,5 +156,6 @@
     }
     .bgsolarvideo>div{
         width: 100%;
+        padding: 0;
     }
 }

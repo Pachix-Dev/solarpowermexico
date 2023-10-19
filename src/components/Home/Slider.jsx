@@ -19,7 +19,8 @@ export function Slider () {
                     <div className='d-flex justify-content-center'><ul dangerouslySetInnerHTML={{ __html: t('home.energy_night_tags') }} /></div>
                   </Col>
                   <Col md className='pt-5 mt-auto'>
-                    <img src='/logoEnergyNight.webp' alt='Energy Night' width={320} height={243} />
+                    <img src='/logoEnergyNight.webp' alt='Energy Night' width={298} height={316} />
+                    <p className='fw-bold text-light fs-1 lh-1'>ENERGY<br /><span className='fw-light fs-3'>NIGHT</span></p>
                     <p className='mt-5 energy-description' dangerouslySetInnerHTML={{ __html: t('home.energy_night_description') }} />
                   </Col>
                   <Col md className='pt-5 mt-auto'>

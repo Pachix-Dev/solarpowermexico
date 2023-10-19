@@ -1,5 +1,9 @@
+import React, { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
+
 import './App.css'
-import { Route, Routes, useLocation } from 'react-router-dom'
+
 import { Menu } from './components/Menu/Menu'
 import { Program } from './components/Program/Program'
 import { Home } from './components/Home/Home'
@@ -19,16 +23,24 @@ import { EnergyNight } from './components/EnergyNight/EnergyNight'
 import { Videos } from './components/Videos/Videos'
 import ScrollToTop from './components/ScrollToTop'
 import { Footer } from './components/Footer/Footer'
-import React, { useEffect } from 'react'
-import ReactGA from 'react-ga4'
-import { Helmet } from 'react-helmet'
+import { trackPageView } from './google-analytics'
 
-const TRACKING_ID = 'G-6GJCSFD2EH'
-ReactGA.initialize(TRACKING_ID)
+function RouteWithHelmet ({ title, element }) {
+  return (
+    <>
+      <Helmet>
+        <title>{`Solar + Storage Mexico | ${title}`}</title>
+      </Helmet>
+      {element}
+    </>
+  )
+}
+
 function App () {
   const location = useLocation()
+
   useEffect(() => {
-    ReactGA.send({ hitType: 'pageview', page: location.pathname + location.search })
+    trackPageView(location)
   }, [location])
 
   return (
@@ -44,175 +56,22 @@ function App () {
         </a>
       </div>
       <Routes>
-        <Route
-          path='/'
-          element={<Home />}
-        />
-        <Route
-          path='about-ssm'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | About SSM </title>
-              </Helmet>
-              <AboutSSM />
-            </>
-          }
-        />
-        <Route
-          path='about-re-events'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | About Re+Events </title>
-              </Helmet>
-              <AboutReEvents />
-            </>
-          }
-        />
-        <Route
-          path='about-snec'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | About SNEC </title>
-              </Helmet>
-              <AboutSNEC />
-            </>
-}
-        />
-        <Route
-          path='contact'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Contact </title>
-              </Helmet>
-              <Contact />
-            </>
-          }
-        />
-        <Route
-          path='why-exhibit'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Why Exhibit </title>
-              </Helmet>
-              <WhyExhibit />
-            </>
-          }
-        />
-        <Route
-          path='exhibitor-profile'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Exhibitor Profile </title>
-              </Helmet>
-              <ExhibitorProfile />
-            </>
-          }
-        />
-        <Route
-          path='exhibitor-services'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Exhibitor Services </title>
-              </Helmet>
-              <ExhibitorServices />
-            </>
-          }
-        />
-        <Route
-          path='rates'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Rates </title>
-              </Helmet>
-              <Rates />
-            </>
-          }
-        />
-        <Route
-          path='toolkit'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Toolkit </title>
-              </Helmet>
-              <Toolkit />
-            </>
-          }
-        />
-        <Route
-          path='enlightenment-area'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Enlightenment Area </title>
-              </Helmet>
-              <Program />
-            </>
-          }
-        />
-        <Route
-          path='why-visit'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Why visit </title>
-              </Helmet>
-              <WhyVisit />
-            </>
-          }
-        />
-        <Route
-          path='visitor-profile'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Visitor Profile</title>
-              </Helmet>
-              <VisitorProfile />
-            </>
-          }
-        />
-        <Route
-          path='gallery'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Gallery</title>
-              </Helmet>
-              <GallgeryPage />
-            </>
-          }
-        />
-        <Route
-          path='energy-night'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Energy Night</title>
-              </Helmet>
-              <EnergyNight />
-            </>
-          }
-        />
-        <Route
-          path='videos'
-          element={
-            <>
-              <Helmet>
-                <title>Solar + Storage Mexico | Videos</title>
-              </Helmet>
-              <Videos />
-            </>
-}
-        />
+        <Route path='/' element={<RouteWithHelmet title='Home' element={<Home />} />} />
+        <Route path='about-ssm' element={<RouteWithHelmet title='About SSM' element={<AboutSSM />} />} />
+        <Route path='about-re-events' element={<RouteWithHelmet title='About Re+Events' element={<AboutReEvents />} />} />
+        <Route path='about-snec' element={<RouteWithHelmet title='About SNEC' element={<AboutSNEC />} />} />
+        <Route path='contact' element={<RouteWithHelmet title='contact' element={<Contact />} />} />
+        <Route path='why-exhibit' element={<RouteWithHelmet title='About Re+Events' element={<WhyExhibit />} />} />
+        <Route path='exhibitor-profile' element={<RouteWithHelmet title='Exhibitor Profile' element={<ExhibitorProfile />} />} />
+        <Route path='exhibitor-services' element={<RouteWithHelmet title='Exhibitor Services' element={<ExhibitorServices />} />} />
+        <Route path='rates' element={<RouteWithHelmet title='Rates' element={<Rates />} />} />
+        <Route path='toolkit' element={<RouteWithHelmet title='Toolkit' element={<Toolkit />} />} />
+        <Route path='enlightenment-area' element={<RouteWithHelmet title='Enlightenment Area' element={<Program />} />} />
+        <Route path='why-visit' element={<RouteWithHelmet title='Why visit' element={<WhyVisit />} />} />
+        <Route path='visitor-profile' element={<RouteWithHelmet title='Visitor Profile' element={<VisitorProfile />} />} />
+        <Route path='gallery' element={<RouteWithHelmet title='Gallery' element={<GallgeryPage />} />} />
+        <Route path='energy-night' element={<RouteWithHelmet title='Energy Night' element={<EnergyNight />} />} />
+        <Route path='videos' element={<RouteWithHelmet title='Videos' element={<Videos />} />} />
       </Routes>
       <Footer />
     </>

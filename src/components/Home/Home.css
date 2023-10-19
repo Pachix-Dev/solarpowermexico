@@ -23,11 +23,64 @@
     background-color: #570587;
     transform: scale(1.1);
 }
-
-.carousel-item img {
-    width: 100%;
+.slider-bg-energynight{
+    background-image: url('/bgEnergyNight.webp');
+    background-size: cover;
+    text-align: center;
+    background-position: top;
+    text-shadow: 4px 4px 4px black;
 }
-
+.slider-bg-energynight ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: solid 2px #A44DD6;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+.slider-bg-energynight ul li::before{
+    content: "\2022";
+    color: #A44DD6;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+.energy-description{
+    color: white;
+    font-size: 1.5em;
+}
+.energy-description span{
+    color: #A44DCE;
+    font-weight: bold;
+}
+.energy-date{
+    color: white;
+    font-size: 1.8em;
+}
+.energy-date p{
+    color: #A44DD6;
+    font-weight: bold;    
+}
+.energy-date span{
+    background-color: #A44DD6;
+    color: white;
+    padding: 2px;    
+}
+.slider-bg-energynight li{
+    padding: 0 10px;
+}
+.bgsolarvideo>div{
+    width: fit-content;
+}
+.bgsolarvideo video{
+    position: absolute;
+    object-fit: cover;    
+    top: 0;
+    z-index: -1;
+    height: 100%;
+}
 .lg-react-element {
     column-count: 4;
 }

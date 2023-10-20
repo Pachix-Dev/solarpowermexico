@@ -9,6 +9,7 @@ export function EnergyNight () {
   const { stateLang } = useLanguage()
   return (
     <>
+      <CounterDown />
       {
         stateLang === 'en'
           ? <img
@@ -21,8 +22,7 @@ export function EnergyNight () {
               src='/banner2_esp.webp'
               alt='energy night mexico'
             />
-    }
-      <CounterDown />
+      }
       <section className='mt-5 pt-5 pb-5 bg-energy-night'>
         <Container className='pt-5 pb-5'>
           <p className='fs-2' dangerouslySetInnerHTML={{ __html: t('counterDown.description') }} />

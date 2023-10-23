@@ -91,7 +91,9 @@
 .img-gallery, .home-whyexhibit .learnmore, .whatssap-button, .exibitorSlider img {
     cursor: pointer;
 }
-
+.exibitorSlider{
+    margin: 0 25px;
+}
 /* Home Styles */
 .home-whyexhibit {
     background-color: #570587;

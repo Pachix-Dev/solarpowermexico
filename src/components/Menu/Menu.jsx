@@ -40,7 +40,13 @@ export function Menu () {
                 <NavDropdown.Item href='/files/PATROCINIOS-SSM-2024-V4.pdf' target='_blank' onClick={handleClose}>
                   {t('menu.submenu_2.option_5')}
                 </NavDropdown.Item>
-                <NavDropdown.Item href='/files/SOLARSTORAGE-MEXICO_FACTSHEET.pdf' target='_blank' onClick={handleClose}>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-INGLÉS.pdf'
+                    : '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-ESPAÑOL.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
                   {t('menu.submenu_2.option_6')}
                 </NavDropdown.Item>
                 <NavDropdown.Item href='/files/CONTRACT-SSM-2024-V6.pdf' target='_blank' onClick={handleClose}>

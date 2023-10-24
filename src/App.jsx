@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
-import './App.css'
-
 import { Menu } from './components/Menu/Menu'
 import { Program } from './components/Program/Program'
 import { Home } from './components/Home/Home'

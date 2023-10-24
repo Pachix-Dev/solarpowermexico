@@ -146,6 +146,9 @@
     }
 }
 @media(max-width: 425px){
+    .home-solar-submenu a{
+        justify-content: start;
+    }
     .slider-bg-energynight{
         background-color: #322248;
         background-image: none;

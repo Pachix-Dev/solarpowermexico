@@ -14,7 +14,7 @@ export function Menu () {
     <Navbar className='menu-solar text-uppercase text-center' expand='lg'>
       <Container>
         <Navbar.Brand as={Link} to='/'>
-          <img src='/SSM-logo.webp' width={200} height={74} alt='Solarpowermexico' />
+          <img src='/SSM-logo-menu.webp' width={150} height={66} alt='Solarpowermexico' />
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleShow} />
         <Navbar.Offcanvas

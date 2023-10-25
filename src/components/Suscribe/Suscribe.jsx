@@ -70,11 +70,11 @@ const Subscribe = () => {
         <Form id='form-newsletter' onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('footer.name')}</Form.Label>
-            <Form.Control type='text' name='name' required />
+            <Form.Control type='text' name='name' required autoComplete='false' />
           </Form.Group>
           <Form.Group className='mb-3' controlId='formBasicEmail'>
             <Form.Label>{t('footer.email')}</Form.Label>
-            <Form.Control type='email' name='email' required />
+            <Form.Control type='email' name='email' required autoComplete='false' />
           </Form.Group>
           {renderReCAPTCHA()}
           <div style={{ color: '#dc3545' }}>{message}</div>

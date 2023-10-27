@@ -148,6 +148,9 @@
     }
 }
 @media(max-width: 425px){
+    .slider-solar>div{
+        padding-left: 2em;
+    }
     .home-solar-submenu a{
         justify-content: start;
     }

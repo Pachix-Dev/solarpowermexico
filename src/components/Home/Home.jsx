@@ -109,12 +109,12 @@ export function Home () {
         <Row className='mt-5 mb-5'>
           <Col lg={4} className='mt-3 text-center'>
             <a
-              href='https://www.youtube.com/watch?v=8sojVTHwz94'
+              href='https://www.youtube.com/watch?v=FEN9FWUSjJs'
               target='_blank'
               rel='noopener noreferrer'
             >
               <img
-                src='/youtube1.webp'
+                src='/video1.webp'
                 alt='YouTube video preview'
                 width={320}
                 height={180}
@@ -124,12 +124,12 @@ export function Home () {
           </Col>
           <Col lg={4} className='mt-3 text-center'>
             <a
-              href='https://www.youtube.com/watch?v=YaE8Iv6DeQM'
+              href='https://www.youtube.com/watch?v=6ozntz0ZGXM'
               target='_blank'
               rel='noopener noreferrer'
             >
               <img
-                src='/youtube2.webp'
+                src='/video2.webp'
                 alt='YouTube video preview'
                 width={320}
                 height={180}
@@ -139,12 +139,12 @@ export function Home () {
           </Col>
           <Col lg={4} className='mt-3 text-center'>
             <a
-              href='https://www.youtube.com/watch?v=Vgd9L5iemws'
+              href='https://www.youtube.com/watch?v=LJ5uBtHnV34'
               target='_blank'
               rel='noopener noreferrer'
             >
               <img
-                src='/youtube3.webp'
+                src='/video3.webp'
                 alt='YouTube video preview'
                 width={320}
                 height={180}

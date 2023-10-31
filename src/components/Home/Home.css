@@ -15,6 +15,7 @@
     justify-content: center;
     line-height: 1;
     transition: 0.3s ease-in-out;
+    text-align: center;
 }
 
 .home-solar-submenu a:hover {
@@ -148,6 +149,9 @@
     }
 }
 @media(max-width: 425px){
+    .home-solar-submenu a {
+        text-align: left;
+    }
     .slider-solar>div{
         padding-left: 2em;
     }

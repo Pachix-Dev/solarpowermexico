@@ -57,19 +57,19 @@ export function Footer () {
               </strong><br />
               Sandra Elías<br />
               Tel. +52 55 7028 3335 ext. 806<br />
-              <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
+              <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@igeco.mx</a>
             </p>
             <p>
               <strong>Patrocinios y Experiencias</strong><br />
               Samuel Ramírez<br />
               Tel. +52 (55) 70 28 33 35 ext. 806<br />
-              <a href='mailto:samuel.ramirez@hfmexico.mx'>samuel.ramirez@hfmexico.mx</a>
+              <a href='mailto:samuel.ramirez@hfmexico.mx'>samuel.ramirez@igeco.mx</a>
             </p>
             <p>
               <strong>Ejecutivo de Ventas</strong><br />
               Marissa Franco Zermeño<br />
               Tel. +52 55 7028 3335 ext. 806<br />
-              <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@hfmexico.mx</a>
+              <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@igeco.mx</a>
             </p>
           </Col>
           <Col md>

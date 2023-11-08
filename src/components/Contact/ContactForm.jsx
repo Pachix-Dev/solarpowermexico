@@ -107,11 +107,11 @@ export function ContactForm () {
           Col. Oriental 37510<br />
           León Guanajuato, México<br />
           Tel. +49 511 89-0<br />
-          <a href='mailto:info@hfmexico.mx' target='_blank' rel='noreferrer'>
-            info@hfmexico.mx
+          <a href='mailto:info@igeco.mx' target='_blank' rel='noreferrer'>
+            info@igeco.mx
           </a><br />
-          <a href='https://www.hfmexico.mx' target='_blank' rel='noreferrer'>
-            www.hfmexico.mx
+          <a href='https://www.igeco.mx' target='_blank' rel='noreferrer'>
+            www.igeco.mx
           </a><br />
         </p>
       </Container>

@@ -32,7 +32,7 @@ const programSolar = {
     },
     {
       hour: '16:45 –17:15',
-      name: 'AVAILABLE'
+      name: 'SUNBANK'
 
     },
     {

@@ -42,8 +42,8 @@ export function Menu () {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href={i18n.language === 'en'
-                    ? '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-INGLÉS.pdf'
-                    : '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-ESPAÑOL.pdf'}
+                    ? '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-EN-v221123.pdf'
+                    : '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-ES-v221123.pdf'}
                   target='_blank'
                   onClick={handleClose}
                 >

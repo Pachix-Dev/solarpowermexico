@@ -38,8 +38,8 @@ export function Header () {
         </a>
         <a
           href={i18n.language === 'en'
-            ? '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-INGLÉS.pdf'
-            : '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-ESPAÑOL.pdf'}
+            ? '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-EN-v221123.pdf'
+            : '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-ES-v221123.pdf'}
           target='_blank' rel='noreferrer'
         >
           <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>

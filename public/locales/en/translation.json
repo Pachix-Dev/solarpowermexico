@@ -51,7 +51,7 @@
         "energy_night_description": "An exclusive networking event for <strong>executives and industry leaders.</strong><br /> <span>¡Don't miss out on this opportunity!",
         "energy_night_date": "Wednesday <br /><p><span>April</span> 17th, 2024</p> 19:00 hrs",
         "solar_bg_video": "THE <strong>FUTURE OF ENERGY</strong> IN MEXICO <strong>EXPO</strong> <br /> <span>April 17th - 19th, 2024 <br />Expo Guadalajara</span>",
-        "solar_description":"is the first exhibition and conference specialized in the energy and solar technology segment, a business with growth rates of over 25% and an expected investment of over USD $100 billion in renewable energy by 2031. The event will feature a seminar programme and exhibition at Expo Guadalajara.<br><br> This exhibition is operated by Deutsche Messe and Italian Exhibition Group, two of the leading trade show organizers worldwide, SNEC PV Power Expo, the world’s leading solar technology event based in Shanghai, China and Solar Power International, the organizers of North America’s leading events and conferences.",
+        "solar_description":"is the specialized exhibition in the energy storage and solar technology sectors, supported by the four leading trade fair companies in the global renewable energy industry: Deutsche Messe and Italian Exhibition Group, SNEC PV Power Expo, and RE+ events.<br /><br />It is the leading platform that brings the necessary technologies to industries in Mexico and North America, enabling them to rapidly embark on the global renewable energy transition.",
         "gallery": "Gallery",
         "more_videos": "VIDEOS",
         "more_gallery": "GALLERY",
@@ -74,7 +74,7 @@
     },
     "AboutSSM":{
         "title": "ABOUT US",
-        "description": " is organized by three leading event and trade fair companies in the world: Deutsche Messe and Italian Exhibition Group, SNEC PV Power Expo, and RE+ have joined forces to help develop the solar energy market in Mexico.<br /><br /> Due to annual daily solar irradiation levels ranging between 4.4 kWh/m2 and 6.3 kWh/m2, Mexico offers a huge investment and business opportunity in the installation of small to large scale solar systems. <br /><br />Mexico ranks fifth in the world in new capacity planned for 2021, with an area of ​​10,000 MW (a growth of 84%).<br /><br />The Federal Government has recently approved the Development Program of the National Electrical System (PRODESEN) with a great focus on the development of sustainable energies."
+        "description": "is backed by the world's leading event and fair companies: Italian Exhibition Group and Deutsche Messe, SNEC PV Power Expo, and RE+ events. Together, these organizations have joined forces to help develop the solar energy market in Mexico, paving the way towards a sustainable future.<br /><br />According to figures from the International Renewable Energy Agency (IRENA), our country has the potential to have 30 GW of installed solar capacity by 2023, as 85% of the national territory is optimal for solar projects.<br /><br />Likewise, according to studies by the Mexican Solar Energy Association (Asolmex), there are more than 100,000 jobs involved in the value chain of the photovoltaic solar industry in our country"
     },
     "AboutReEvents":{
         "title": "About RE+ Events",

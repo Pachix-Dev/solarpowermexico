@@ -51,7 +51,7 @@
         "energy_night_description": "Un evento exclusivo de networking para <strong>empresarios y líderes</strong> de la industria.<br /> <span>¡No pierdas esta oportunidad!",
         "energy_night_date": "Miércoles <br /><p>17 de <span>abril</span> 2024</p> 19:00 hrs",
         "solar_bg_video": "LA <strong>FERIA DEL FUTURO<br /> ENERGÉTICO</strong> DE MÉXICO <br /><br />Abril 17 - 19, 2024 <br />Expo Guadalajara",
-        "solar_description":"es la exposición especializada en los sectores de almacenamiento de energía y tecnología solar respaldada por las 4 empresas de ferias líderes del sector energético renovables del mundo: Italian Exhibition Group y Deutsche Messe, SNEC PV Power Expo y RE+ events.<br><br>Esta exposición es operada por Deutsche Messe e Italian Exhibition Group, dos de los organizadores más importantes a nivel global, SNEC PV Power Expo, el evento de tecnología solar más importante del mundo con sede en Shanghai, China y Solar Power International, organizadores de los eventos y congresos más importantes de América del Norte.",
+        "solar_description":"es la exposición especializada en los sectores de almacenamiento de energía y tecnología solar respaldada por las 4 empresas de ferias líderes del sector energético renovables del mundo: Deutsche Messe e Italian Exhibition Group, SNEC PV Power Expo y RE+ events.<br /><br /> La plataforma líder que pone al alcance de todas las industrias en México, y Norteamérica, las tecnologías que serán necesarias para emprender aceleradamente la transición energética renovable global.",
         "gallery": "Galería",
         "more_videos": "VIDEOS",
         "more_gallery": "GALERÍA",
@@ -74,7 +74,7 @@
     },
     "AboutSSM":{
         "title": "¿Quiénes Somos?",
-        "description": " es organizado por tres empresas líderes de eventos y ferias en el mundo: Deutsche Messe e Italian Exhibition Group, SNEC PV Power Expo, y RE+ han unido fuerzas para ayudar a desarrollar el mercado de la energía solar en México.<br /><br /> Debido a los niveles de irradiación solar diaria anuales oscilante entre 4,4 kWh / m2 y 6,3 kWh / m2, México ofrece una enorme oportunidad de inversión y negocio en la instalación de sistemas solares de pequeña a gran escala.<br /><br />México ocupa el quinto lugar mundial en nueva capacidad prevista para el año 2021, con una amplitud de 10.000 MW (un crecimiento del 84%).<br /><br />El Gobierno Federal recientemente ha aprobado el Programa de Desarrollo del Sistema Eléctrico Nacional (PRODESEN) con un gran enfoque en el desarrollo de energías sustentables."
+        "description": "cuenta con el respaldo de las empresas líderes de eventos y ferias en el mundo: Italian Exhibition Group y Deutsche Messe, SNEC PV Power Expo, y RE+ events. Juntas, estas organizaciones han unido fuerzas para ayudar a desarrollar el mercado de la energía solar en México, en el camino hacia un futuro sostenible.<br /><br />Según cifras de la Agencia Internacional de las Energías Renovables (IRENA, por sus siglas en inglés), nuestro país tiene el potencial de contar con 30 GW de capacidad solar instalada en el 2023, ya que el 85 % del territorio nacional es óptimo para proyectos solares.<br /><br />Asimismo, de acuerdo con estudios de la Asociación Mexicana de Energía Solar (Asolmex), en nuestro país existen más de 100 mil empleos involucrados en la cadena de valor de la industria solar fotovoltaica."
     },
     "AboutReEvents":{
         "title": "Acerca de RE+ Events",

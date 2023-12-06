@@ -15,7 +15,7 @@ export function Hotels () {
             return (
               <Card style={{ width: '18rem' }} key={index}>
                 <Card.Img variant='top' src={hotel.src} height={280} className='object-fit-cover' />
-                <Card.Body>
+                <Card.Body style={{ flex: '0' }}>
                   <Card.Title>{hotel.name}</Card.Title>
                   <Card.Text>
                     {hotel.address}<br />
@@ -25,15 +25,17 @@ export function Hotels () {
                   </Card.Text>
                 </Card.Body>
                 <ListGroup className='list-group-flush'>
-                  <ListGroup.Item>{t('hotels.rate')}{hotel.rate}</ListGroup.Item>
+                  <ListGroup.Item>{t('hotels.rate')}{hotel.rate} + {t('hotels.taxes')} </ListGroup.Item>
                   <ListGroup.Item>{hotel.email}</ListGroup.Item>
                   <ListGroup.Item>{t('hotels.code')} <strong>{hotel.code}</strong></ListGroup.Item>
                   <ListGroup.Item><img src='/walk_icon.webp' width={20} /> {hotel.time_walk}</ListGroup.Item>
                   <ListGroup.Item><img src='/car_icon.webp' width={20} /> {hotel.time_drive}</ListGroup.Item>
                 </ListGroup>
-                <Card.Body>
-                  <Button href={hotel.link} target='_blank'>{t('hotels.book')}</Button>
-                </Card.Body>
+                {hotel?.link &&
+                  <Card.Body className='text-center'>
+
+                    <Button href={hotel.link} target='_blank'>{t('hotels.book')}</Button>
+                  </Card.Body>}
               </Card>
             )
           }

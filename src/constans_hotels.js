@@ -2,7 +2,7 @@ const hotels = [
   {
     src: '/hotel_barcelo.webp',
     name: 'Barceló Guadalajara',
-    address: 'Av. De las Rosas 2933 Col. Rinconada del Bosque',
+    address: 'Av. De las Rosas 2933 Col. Rinconada del Bosque.',
     rate: '$1,500 + impuestos',
     phone: '+52 (33) 3678 0505  ext. 3141,3142',
     email: 'guadalajara.res@barcelo.com',
@@ -15,7 +15,7 @@ const hotels = [
   {
     src: '/hotel_westin.webp',
     name: 'The Westin Guadalajara',
-    address: 'Av. Las Rosas 2911, colonia Verde valle, C.P. 44530, Guadalajara, Jalisco',
+    address: 'Av. Las Rosas 2911, colonia Verde valle, C.P. 44530, Guadalajara, Jalisco.',
     rate: '$135.00 dls',
     phone: '+52 (55) 33 3880 2700',
     email: 'reservacionesgdl@westinhotels.com',
@@ -67,7 +67,7 @@ const hotels = [
   {
     src: '/hotel_presidente.webp',
     name: 'Hotel Presidente InterContinental Guadalajara ',
-    address: 'Moctezuma 2515, esquina Av. Adolfo López Mateos, Cd del Sol, Zapopan Jalisco ',
+    address: 'Moctezuma 2515, esquina Av. Adolfo López Mateos, Cd del Sol, Zapopan Jalisco.',
     rate: '15% de Descuento sobre tarifas públicas del hotel',
     phone: '+52 (33) 3880 7000',
     email: 'guadalajara@grupopresidente.com',
@@ -80,7 +80,7 @@ const hotels = [
   {
     src: '/hotel_real_inn.webp',
     name: 'Real Inn Expo',
-    address: 'Av. Mariano Otero N. 1326, Col. Jardines de San Ignacio. C.P 45040',
+    address: 'Av. Mariano Otero N. 1326, Col. Jardines de San Ignacio. C.P 45040.',
     rate: '$1,900.00 + impuestos',
     phone: '+52 (55) 5263 0536 ext 7338',
     email: 'brenda.martinez@caminoreal.com',
@@ -93,7 +93,7 @@ const hotels = [
   {
     src: '/hotel_fiesta_inn.webp',
     name: 'Fiesta Inn Guadalajara Expo',
-    address: 'AV MARIANO OTERO 1550 RINCONADA DEL SOL',
+    address: 'AV. Mariano Otero 1550 Rinconada del Sol.',
     rate: '$1,650.00 + impuestos',
     phone: '+52 33 3669 32 00',
     email: 'ventas3figdl@posadas.com',
@@ -106,7 +106,7 @@ const hotels = [
   {
     src: '/hotel_indigo.webp',
     name: 'Hotel INDIGO Guadalajara Expo',
-    address: 'Av. López Mateos Sur 1280, Col. Chapalita',
+    address: 'Av. López Mateos Sur 1280, Col. Chapalita.',
     rate: '$1,790 MXN más impuestos ',
     phone: '+52 (33) 3121 2424',
     email: 'rm@opratium.mx',

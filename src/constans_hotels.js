@@ -55,7 +55,7 @@ const hotels = [
     src: '/hotel_ibis.webp',
     name: 'IBIS Guadalajara Expo',
     address: 'Av. Mariano Otero 1400 Col, Jardines del Bosque, 44520 Guadalajara, Jal.',
-    rate: '',
+    rate: 'N/A',
     phone: '+52 (33) 3880 9600 ',
     email: 'H3355-SL1@accor.com',
     code: 'Solar + Storage // Ecomondo',

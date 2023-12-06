@@ -22,6 +22,7 @@ import { Videos } from './components/Videos/Videos'
 import ScrollToTop from './components/ScrollToTop'
 import { Footer } from './components/Footer/Footer'
 import { trackPageView } from './google-analytics'
+import { Hotels } from './components/Hotels/Hotels'
 
 function RouteWithHelmet ({ title, element }) {
   return (
@@ -70,6 +71,7 @@ function App () {
         <Route path='gallery' element={<RouteWithHelmet title='Gallery' element={<GallgeryPage />} />} />
         <Route path='energy-night' element={<RouteWithHelmet title='Energy Night' element={<EnergyNight />} />} />
         <Route path='videos' element={<RouteWithHelmet title='Videos' element={<Videos />} />} />
+        <Route path='hotels' element={<RouteWithHelmet title='Hotels' element={<Hotels />} />} />
       </Routes>
       <Footer />
     </>

@@ -42,6 +42,7 @@
         "results": "Results report 2023",
         "floorplan": "Floor Plan 2024",
         "exhibitor_directory": "Exhibitor Directory",
+        "hotels": "Hotels",
         "sponsor_platinum": "Platinum Sponsor",
         "sponsor_gold": "Gold Sponsor",
         "sponsor_silver": "Silver Sponsor",        
@@ -136,5 +137,10 @@
         "name": "Name",
         "email": "Email",
         "subscription": "Suscribe"
+    },
+    "hotels":{
+        "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",
+        "rate": "Rates from: ",
+        "code": "reservation code: "
     }
 }

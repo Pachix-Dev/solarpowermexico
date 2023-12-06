@@ -1,7 +1,7 @@
 .home-solar-submenu {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .home-solar-submenu a {
@@ -148,7 +148,15 @@
         height: 100%;
     }
 }
-@media(max-width: 425px){
+@media (max-width: 768px) {
+    .home-solar-submenu {       
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width: 431px){
+    .home-solar-submenu {       
+        grid-template-columns: repeat(2, 1fr);
+    }
     .home-solar-submenu a {
         text-align: left;
     }

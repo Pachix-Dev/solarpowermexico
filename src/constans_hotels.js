@@ -8,8 +8,8 @@ const hotels = [
     email: 'guadalajara.res@barcelo.com',
     code: 'Solar Storage Mexico | Eco Mondo Mexico',
     link: '',
-    time_walk: 'cruzando la calle',
-    time_drive: 'N/A',
+    time_walk: '1 minuto',
+    time_drive: 'El hotel se encuentra justo en frente',
     whatsapp: ''
   },
   {
@@ -48,7 +48,7 @@ const hotels = [
     code: 'SOLAR / ECO 24',
     link: 'https://www.riu.com/consultar-disponibilidad/?corporate',
     time_walk: '30 minutos',
-    time_drive: '08 minutos',
+    time_drive: '8 minutos',
     whatsapp: '33 3956 2291'
   },
   {
@@ -61,7 +61,7 @@ const hotels = [
     code: 'Solar + Storage // Ecomondo',
     link: '',
     time_walk: '3 minutos',
-    time_drive: 'N/A',
+    time_drive: '5 minutos',
     whatsapp: '33 3880 96 00'
   },
   {

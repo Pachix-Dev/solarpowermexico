@@ -32,7 +32,7 @@ export function Hotels () {
                   <ListGroup.Item><img src='/car_icon.webp' width={20} /> {hotel.time_drive}</ListGroup.Item>
                 </ListGroup>
                 {hotel?.link &&
-                  <Card.Body className='text-center d-grid place-content-center'>
+                  <Card.Body className='text-center d-grid' style={{ placeContent: 'center' }}>
                     <Button href={hotel.link} target='_blank'>{t('hotels.book')}</Button>
                   </Card.Body>}
               </Card>

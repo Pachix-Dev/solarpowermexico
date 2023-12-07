@@ -16,7 +16,7 @@ const hotels = [
     src: '/hotel_westin.webp',
     name: 'The Westin Guadalajara',
     address: 'Av. Las Rosas 2911, colonia Verde valle, C.P. 44530, Guadalajara, Jalisco.',
-    rate: '$135.00 dls',
+    rate: '$135.00 USD',
     phone: '+52 (55) 33 3880 2700',
     email: 'reservacionesgdl@westinhotels.com',
     code: 'SSM Y ECO',

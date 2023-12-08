@@ -1,9 +1,9 @@
 .bg-aboutssm{
-    background-image: url('/BGaboutSSM.webp');
+    background-image: url('/gallery/gallerySSM2023-7.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
 }
 .bg-secondary-text{
     background-color: #EFEFEF;

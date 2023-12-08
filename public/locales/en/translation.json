@@ -77,8 +77,9 @@
         "exhibitors": "Exhibitors"
     },
     "AboutSSM":{
-        "title": "ABOUT US",
-        "description": " is backed by the world's leading event and fair companies: Italian Exhibition Group and Deutsche Messe, SNEC PV Power Expo, and RE+ events. Together, these organizations have joined forces to help develop the solar energy market in Mexico, paving the way towards a sustainable future.<br /><br />According to figures from the International Renewable Energy Agency (IRENA), our country has the potential to have 30 GW of installed solar capacity by 2023, as 85% of the national territory is optimal for solar projects.<br /><br />Likewise, according to studies by the Mexican Solar Energy Association (Asolmex), there are more than 100,000 jobs involved in the value chain of the photovoltaic solar industry in our country"
+        "title": "ABOUT SOLAR + STORAGE MEXICO",
+        "description": " is operated by Deutsche Messe and Italian Exhibition Group, two of the most important organizers globally; SNEC PV Power Expo, the world's largest solar technology event based in Shanghai, China; and Solar Power International, organizers of the most important events and conferences in North America. Together, these organizations have joined forces to help develop the solar energy market in Mexico, moving towards a sustainable future.<br /><br />Our country has immense potential on the path towards the generation of clean energy, contributing to the goal of achieving a sustainable future; by having 30 GW of solar capacity installed in 2023, since 85% of the Mexican territory is optimal for solar projects.<br /><br />This is why Solar + Storage Mexico stands as a point of crucial meeting to promote the development of projects that contribute to the generation of clean energy, in response to market demand. We are the leading platform to catalyze the growth of the national industry by promoting collaboration between professionals, companies and the most prominent experts in the sector; opening the possibility of new and diverse business opportunities and strengthening the value chain of solar energy and storage in Mexico.",
+        "description2": "See you at SOLAR + STORAGE MEXICO 2024, the Energy Future Fair of Mexico."
     },
     "AboutReEvents":{
         "title": "About RE+ Events",
@@ -106,6 +107,7 @@
         "instructions": "BOARDING INSTRUCTIONS"
     },
     "WhyVisit":{
+        "title": "Why Visit?",
         "description": "<strong>SOLAR + STORAGE MEXICO</strong> brings together global solar energy expertise in one place for three days of research, discovery and real business. At this event you will have the opportunity to meet face to face with experts in the solar energy, energy storage and smart grid sectors, such as:<br /><br /><ul><li>Manufacturers</li ><li>System suppliers</li><li>Distributors</li><li>Suppliers</li></ul><br /><br /><strong>SOLAR + STORAGE MEXICO</strong> will feature an exhibition area as well as a comprehensive, first-class educational program. Do you want to learn about new trends, find the latest local and international products and/or get in touch with relevant companies on how they could help you with your next project? Then don't miss this unique opportunity and visit <strong>SOLAR + STORAGE MEXICO.</strong>"
     }, 
     "VisitorProfile":{

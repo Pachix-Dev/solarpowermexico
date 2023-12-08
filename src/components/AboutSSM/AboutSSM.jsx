@@ -5,25 +5,29 @@ export function AboutSSM () {
   const { t } = useTranslation()
   return (
     <>
-      <Container fluid className='mt-5'>
+      <Container className='mt-5'>
         <i className='text-secondary'>
           SOLAR + STORAGE MEXICO
         </i>
         <p className='fs-2 fw-bold'>
           {t('AboutSSM.title')}
         </p>
+
+        <section className='mt-5'>
+          <Row className='m-0'>
+            <Col md className='p-3 bg-secondary-text'>
+              <p>
+                <strong>SOLAR + STORAGE MEXICO</strong>
+                <span dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }} />
+              </p>
+              <p className='text-center fw-bold'>{t('AboutSSM.description2')}</p>
+            </Col>
+            <Col md>
+              <img src='/gallery/gallerySSM2023-7.jpg' alt='' className='w-100 h-100 object-fit-cover' />
+            </Col>
+          </Row>
+        </section>
       </Container>
-      <section className='mt-5'>
-        <Row className='m-0'>
-          <Col md className='p-3 bg-secondary-text'>
-            <p>
-              <strong>SOLAR + STORAGE MEXICO</strong>
-              <span dangerouslySetInnerHTML={{ __html: t('AboutSSM.description') }} />
-            </p>
-          </Col>
-          <Col md className='bg-aboutssm' />
-        </Row>
-      </section>
     </>
   )
 }

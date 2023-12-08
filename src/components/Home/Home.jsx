@@ -192,22 +192,22 @@ export function Home () {
         <Container>
           <p className='fw-bold fs-2 text-secondary text-center'>{t('home.organized_by')}:</p>
           <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://www.iegexpo.it/en/' target='_blank' rel='noreferrer'>
                 <img src='/italianExhibitionGroup.webp' width={150} height={82} loading='lazy' alt='italianExhibitionGroup' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
                 <img src='/deutscheMesse.webp' width={250} height={54} loading='lazy' alt='deutscheMesse' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='http://www.snec.org.cn/' target='_blank' rel='noreferrer'>
                 <img src='/snecPower.webp' width={150} height={114} loading='lazy' alt='snecPower' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://www.re-plus.com/' target='_blank' rel='noreferrer'>
                 <img src='/replus.webp' width={100} height={53} loading='lazy' alt='replus' />
               </a>
@@ -215,22 +215,22 @@ export function Home () {
           </Row>
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>Powered by:</p>
           <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
                 <img src='/amif.webp' width={200} height={59} loading='lazy' alt='amif' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
                 <img src='/asolmex.webp' width={150} height={150} loading='lazy' alt='asolmex' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
                 <img src='/seiaSolarEnergy.webp' width={200} height={62} loading='lazy' alt='seiaSolarEnergy' />
               </a>
             </Col>
-            <Col md={3} className='mx-auto my-auto'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
                 <img src='/SmartElectric.webp' width={200} height={62} loading='lazy' alt='SmartElectric' />
               </a>

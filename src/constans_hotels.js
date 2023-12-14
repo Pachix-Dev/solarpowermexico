@@ -8,8 +8,8 @@ const hotels = [
     email: 'guadalajara.res@barcelo.com',
     code: 'Solar Storage Mexico | Eco Mondo Mexico',
     link: '',
-    time_walk: '1 minuto',
-    time_drive: 'El hotel se encuentra justo en frente',
+    time_walk: '1',
+    time_drive: '1',
     whatsapp: ''
   },
   {
@@ -21,8 +21,8 @@ const hotels = [
     email: 'reservacionesgdl@westinhotels.com',
     code: 'SSM Y ECO',
     link: 'https://www.marriott.com/events/start.mi?id=1701215652259&key=GRP',
-    time_walk: '1 minuto',
-    time_drive: 'El hotel se encuentra justo en frente',
+    time_walk: '1',
+    time_drive: '1',
     whatsapp: ''
   },
   {
@@ -34,8 +34,8 @@ const hotels = [
     email: 'ana.maldonado@aimbridge.com',
     code: 'SOLAR - ECOMONDO',
     link: '',
-    time_walk: '10 a 15 minutos',
-    time_drive: '5 minutos',
+    time_walk: '10 - 15',
+    time_drive: '5',
     whatsapp: '33 18 93 37 90'
   },
   {
@@ -47,8 +47,8 @@ const hotels = [
     email: 'WhatsApp + 33 3956 2291',
     code: 'SOLAR / ECO 24',
     link: 'https://www.riu.com/consultar-disponibilidad/?corporate',
-    time_walk: '30 minutos',
-    time_drive: '8 minutos',
+    time_walk: '30',
+    time_drive: '8',
     whatsapp: '33 3956 2291'
   },
   {
@@ -60,8 +60,8 @@ const hotels = [
     email: 'H3355-SL1@accor.com',
     code: 'Solar + Storage // Ecomondo',
     link: '',
-    time_walk: '3 minutos',
-    time_drive: '5 minutos',
+    time_walk: '3',
+    time_drive: '5',
     whatsapp: '33 3880 96 00'
   },
   {
@@ -73,8 +73,8 @@ const hotels = [
     email: 'guadalajara@grupopresidente.com',
     code: 'Solar Storage Power y ECOMONDO 2024',
     link: '',
-    time_walk: '25 minutos',
-    time_drive: '7 minutos',
+    time_walk: '25',
+    time_drive: '7',
     whatsapp: ''
   },
   {
@@ -86,8 +86,8 @@ const hotels = [
     email: 'brenda.martinez@caminoreal.com',
     code: ': Ind. Solar + Storage Mexico',
     link: '',
-    time_walk: '2 minutos',
-    time_drive: '5 minutos',
+    time_walk: '2',
+    time_drive: '5',
     whatsapp: ''
   },
   {
@@ -99,8 +99,8 @@ const hotels = [
     email: 'ventas3figdl@posadas.com',
     code: 'G1QL6N@FIG',
     link: '',
-    time_walk: '7 minutos',
-    time_drive: '5 minutos',
+    time_walk: '7',
+    time_drive: '5',
     whatsapp: ''
   },
   {
@@ -112,8 +112,8 @@ const hotels = [
     email: 'rm@opratium.mx',
     code: 'SSM',
     link: 'https://www.ihg.com/hotelindigo/hotels/us/es/guadalajara/gdlal/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=GDLAL&qGrpCd=SSM&setPMCookies=true&qSHBrC=IN&qDest=Av.%20Adolfo%20L%C3%B3pez%20Mateos%20Sur%201280%2C%20Guadalajara%2C%20JAL%2C%20MX&srb_u=1',
-    time_walk: '10 minutos',
-    time_drive: '5 minutos',
+    time_walk: '10',
+    time_drive: '5',
     whatsapp: ''
   }
 ]

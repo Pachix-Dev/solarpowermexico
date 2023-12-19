@@ -42,7 +42,7 @@ export function Slider () {
                     </div>
                   </Col>
                 </Row>
-              </Link>https://open.spotify.com/track/4FmVjrmM6DsBQMsGdc9PDa
+              </Link>
             </Container>
           </div>
         </Carousel.Item>

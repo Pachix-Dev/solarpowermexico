@@ -42,16 +42,18 @@ export function Slider () {
                     </div>
                   </Col>
                 </Row>
-              </Link>
+              </Link>https://open.spotify.com/track/4FmVjrmM6DsBQMsGdc9PDa
             </Container>
           </div>
         </Carousel.Item>
         <Carousel.Item className='bgsolarvideo'>
-          <div className='slider-solar'>
+          <div className='slider-solar justify-content-center'>
             <div className='text-center'>
               <img src='/SSM-logo.webp' width={320} height={118} alt='Solarpowermexico' />
               <p className='mt-5 text-light text-center fs-4' dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }} />
+              <p className='mt-5 text-light text-f fs-4' dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }} />
             </div>
+
             <video className='w-100' muted autoPlay loop playsInline poster='/bgVideo.webp'>
               <source src='/solarpowerBG.webm' type='video/webm' />
               Your browser does not support the video tag.

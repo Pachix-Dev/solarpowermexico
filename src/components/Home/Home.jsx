@@ -30,10 +30,7 @@ export function Home () {
             <a href='https://www.longi.com/mx/' target='_blank' rel='noreferrer'>
               <img width={150} height={68} src='/LONGI.webp' alt='LONGI' loading='lazy' />
             </a>
-            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_silver')}</p>
-            <a href='https://en.pylontech.com.cn/' target='_blank' rel='noreferrer'>
-              <img width={200} height={50} src='/Pylontech.webp' alt='Pylontech' loading='lazy' />
-            </a>
+
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
             <a href='https://sunpower.maxeon.com/mx/por-que-sunpower' target='_blank' rel='noreferrer' className='p-3'>
               <img width={200} height={47} src='/SUNPOWER.webp' alt='SUNPOWER' loading='lazy' />

@@ -48,7 +48,7 @@ export function Home () {
               <img width={100} height={100} src='/S-5logo.webp' alt='S-5logo' loading='lazy' />
             </a>
             <a href='https://es.antaisolar.com/' target='_blank' rel='noreferrer' className='p-3'>
-              <img width={200} height={47} src='/antai.webp' alt='Antai' loading='lazy' />
+              <img width={200} height={70} src='/antai.webp' alt='Antai' loading='lazy' />
             </a>
           </div>
         </section>

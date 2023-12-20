@@ -37,7 +37,13 @@ export function Menu () {
                 <NavDropdown.Item as={Link} to='/why-exhibit' onClick={handleClose}>{t('menu.submenu_2.option_2')}</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/exhibitor-profile' onClick={handleClose}>{t('menu.submenu_2.option_3')}</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/exhibitor-services' onClick={handleClose}>{t('menu.submenu_2.option_4')}</NavDropdown.Item>
-                <NavDropdown.Item href='/files/PATROCINIOS-SSM-2024-V4.pdf' target='_blank' onClick={handleClose}>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
+                    ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+                    : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
                   {t('menu.submenu_2.option_5')}
                 </NavDropdown.Item>
                 <NavDropdown.Item

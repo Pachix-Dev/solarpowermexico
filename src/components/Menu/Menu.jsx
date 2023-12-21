@@ -70,6 +70,13 @@ export function Menu () {
               <NavDropdown title={t('menu.submenu_3.title')} renderMenuOnMount disabled>
                 <NavDropdown.Item as={Link} to='/why-visit' onClick={handleClose}>{t('menu.submenu_3.option_1')}</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.submenu_3.option_2')}</NavDropdown.Item>
+                <NavDropdown.Item
+                  href='/files/LETTER-TEMPLATE-2024-SSM.pdf'
+                  onClick={handleClose}
+                  target='_blank'
+                >
+                  {t('menu.submenu_3.option_3')}
+                </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title={t('menu.submenu_4.title')} renderMenuOnMount disabled>
                 <p className='mb-0 fw-bold'>SSM 2023</p>

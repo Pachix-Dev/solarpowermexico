@@ -24,7 +24,8 @@
         "submenu_3": {
             "title": "VISITORS",
             "option_1": "Why Visit",
-            "option_2": "Visitor Profile"
+            "option_2": "Visitor Profile",
+            "option_3": "Visa support"
         },
         "submenu_4": {
             "title": "PAST EVENTS",

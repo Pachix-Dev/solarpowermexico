@@ -16,8 +16,8 @@ export function Header () {
         </Link>
         <a
           href={i18n.language === 'en'
-            ? '/files/ENG-SPONSORSHIPS-SSM-v4.pdf'
-            : '/files/PATROCINIOS-SSM-2024-V4.pdf'}
+            ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+            : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'}
           target='_blank' rel='noreferrer'
         >
           <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={50}>

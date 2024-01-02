@@ -48,6 +48,15 @@ export function Menu () {
                 </NavDropdown.Item>
                 <NavDropdown.Item
                   href={i18n.language === 'en'
+                    ? '/files/MANUAL-DEL-EXPOSITOR-ENG-020124.pdf'
+                    : '/files/MANUAL-DEL-EXPOSITOR-020124.pdf'}
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  {t('menu.submenu_2.option_12')}
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href={i18n.language === 'en'
                     ? '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-EN-v221123.pdf'
                     : '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-ES-v221123.pdf'}
                   target='_blank'

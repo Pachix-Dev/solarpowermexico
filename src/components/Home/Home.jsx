@@ -8,7 +8,7 @@ import { Header } from './Header'
 import { Slider } from './Slider'
 import { Gallery } from './Gallery'
 import { useNearScreen } from '../hooks/useNearScreen'
-import { broadcasting, broadcasting2, exhibitors, partners, partners2 } from '../../constans_logos'
+import { broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, partners, partners2 } from '../../constans_logos'
 
 export function Home () {
   const { t, i18n } = useTranslation()
@@ -239,6 +239,22 @@ export function Home () {
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>{t('home.exhibitors')}</p>
           <Marquee gradient>
             {exhibitors.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`exhibitor ${index}`} loading='lazy' />
+              </div>
+            ))}
+          </Marquee>
+          <Marquee gradient direction='letf'>
+            {exhibitors2.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <a href={sponsor.link} target='_blank' rel='noreferrer'>
+                  <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`Sponsor ${index}`} loading='lazy' />
+                </a>
+              </div>
+            ))}
+          </Marquee>
+          <Marquee gradient>
+            {exhibitors3.map((sponsor, index) => (
               <div key={index} className='exibitorSlider text-center h-100'>
                 <img width={sponsor.width} height={sponsor.height} src={sponsor.image} alt={`exhibitor ${index}`} loading='lazy' />
               </div>

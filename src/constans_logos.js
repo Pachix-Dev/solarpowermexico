@@ -53,4 +53,50 @@ const exhibitors = [
   { image: '/Fronius.webp', width: 200, height: 56 }
 ]
 
-export { partners, partners2, broadcasting, broadcasting2, exhibitors }
+const exhibitors2 = [
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 100 },
+  { image: '/exhibitors/ja_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/leoch.webp', width: 200, height: 80 },
+  { image: '/exhibitors/lux_power_tek.webp', width: 200, height: 80 },
+  { image: '/exhibitors/megarevo.webp', width: 200, height: 80 },
+  { image: '/exhibitors/mg_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/nos-mueve-sol.webp', width: 200, height: 80 },
+  { image: '/exhibitors/pc_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/polyshine_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/pytes.webp', width: 200, height: 80 },
+  { image: '/exhibitors/risen.webp', width: 200, height: 80 },
+  { image: '/exhibitors/rn_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/s_5!.webp', width: 200, height: 80 },
+  { image: '/exhibitors/solar_insurance.webp', width: 200, height: 80 },
+  { image: '/exhibitors/solax_power.webp', width: 200, height: 80 },
+  { image: '/exhibitors/solinteg.webp', width: 200, height: 80 },
+  { image: '/exhibitors/solis.webp', width: 200, height: 80 },
+  { image: '/exhibitors/sunrev_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/suntech.webp', width: 200, height: 80 },
+  { image: '/exhibitors/trinasolar.webp', width: 200, height: 80 }
+]
+
+const exhibitors3 = [
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 }
+]
+
+export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3 }

@@ -54,11 +54,29 @@ const exhibitors = [
 ]
 
 const exhibitors2 = [
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 100 },
+  { image: '/exhibitors/aluminext.webp', width: 200, height: 100 },
+  { image: '/exhibitors/amara_nzero.webp', width: 200, height: 80 },
+  { image: '/exhibitors/astronergy.webp', width: 200, height: 80 },
+  { image: '/exhibitors/atess.webp', width: 200, height: 80 },
+  { image: '/exhibitors/clean_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/cubenenergy.webp', width: 200, height: 80 },
+  { image: '/exhibitors/daa_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/dasolar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/envertech.webp', width: 200, height: 80 },
+  { image: '/exhibitors/fox_ess.webp', width: 200, height: 80 },
+  { image: '/exhibitors/gcl.webp', width: 200, height: 80 },
+  { image: '/exhibitors/goodwe.webp', width: 200, height: 80 },
+  { image: '/exhibitors/growatt.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hoymiles.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hoypower.webp', width: 200, height: 80 },
+  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
   { image: '/exhibitors/ja_solar.webp', width: 200, height: 80 },
   { image: '/exhibitors/leoch.webp', width: 200, height: 80 },
   { image: '/exhibitors/lux_power_tek.webp', width: 200, height: 80 },
-  { image: '/exhibitors/megarevo.webp', width: 200, height: 80 },
+  { image: '/exhibitors/megarevo.webp', width: 200, height: 80 }
+]
+
+const exhibitors3 = [
   { image: '/exhibitors/mg_solar.webp', width: 200, height: 80 },
   { image: '/exhibitors/nos-mueve-sol.webp', width: 200, height: 80 },
   { image: '/exhibitors/pc_solar.webp', width: 200, height: 80 },
@@ -73,30 +91,11 @@ const exhibitors2 = [
   { image: '/exhibitors/solis.webp', width: 200, height: 80 },
   { image: '/exhibitors/sunrev_solar.webp', width: 200, height: 80 },
   { image: '/exhibitors/suntech.webp', width: 200, height: 80 },
-  { image: '/exhibitors/trinasolar.webp', width: 200, height: 80 }
-]
-
-const exhibitors3 = [
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 },
-  { image: '/exhibitors/hyxipower.webp', width: 200, height: 80 }
+  { image: '/exhibitors/trinasolar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/tw_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/weidmuller.webp', width: 200, height: 80 },
+  { image: '/exhibitors/yingli_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/znshine_solar.webp', width: 200, height: 80 }
 ]
 
 export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3 }

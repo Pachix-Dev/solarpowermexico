@@ -115,17 +115,6 @@ export function Footer() {
                 samuel.ramirez@igeco.mx
               </a>
             </p>
-            <p>
-              <strong>Ejecutivo de Ventas</strong>
-              <br />
-              Marissa Franco Zermeño
-              <br />
-              Tel. +52 55 7028 3335 ext. 806
-              <br />
-              <a href='mailto:marissa.franco@igeco.mx'>
-                marissa.franco@igeco.mx
-              </a>
-            </p>
           </Col>
           <Col md>{show && <Subscribe />}</Col>
         </Row>

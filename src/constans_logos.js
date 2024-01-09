@@ -23,7 +23,8 @@ const broadcasting = [
   { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },
   { link: 'https://energiaadebate.com/', image: '/energiadebate.webp', width: 130, height: 75 },
   { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },
-  { link: 'https://energy21.com.mx/', image: '/eneroy21.webp', width: 200, height: 40 }
+  { link: 'https://energy21.com.mx/', image: '/eneroy21.webp', width: 200, height: 40 },
+  { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 250, height: 119 }
 ]
 const broadcasting2 = [
   { link: 'https://globalenergy.mx/', image: '/Global-Energy.webp', width: 140, height: 62 },

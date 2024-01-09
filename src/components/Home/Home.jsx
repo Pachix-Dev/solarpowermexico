@@ -457,11 +457,7 @@ export function Home() {
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto pt-4'>
-              <a
-                href='https://www.re-plus.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
+              <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
                 <img
                   src='/RE_Events_orange.webp'
                   width={100}

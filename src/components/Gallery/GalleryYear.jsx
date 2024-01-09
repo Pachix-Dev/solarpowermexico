@@ -8,7 +8,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import lgZoom from 'lightgallery/plugins/zoom'
 import { useState } from 'react'
 
-export function GalleryYear ({ year }) {
+export function GalleryYear({ year }) {
   const itemsPerPage = 20
 
   const [activePage, setActivePage] = useState(1)
@@ -24,10 +24,7 @@ export function GalleryYear ({ year }) {
   return (
     <>
       <Container className='galleryPage mt-5'>
-        <LightGallery
-          speed={500}
-          plugins={[lgThumbnail, lgZoom]}
-        >
+        <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
           {currentItems.map((img, index) => {
             return (
               <div
@@ -39,14 +36,15 @@ export function GalleryYear ({ year }) {
                 <img
                   src={img}
                   className='w-100 p-3'
+                  style={{ objectFit: 'cover' }}
+                  height={200}
                   loading='lazy'
                 />
               </div>
             )
           })}
         </LightGallery>
-        {
-        totalPages > 1 &&
+        {totalPages > 1 && (
           <div className='gallery mt-4'>
             <Pagination>
               <Pagination.First onClick={() => handlePageChange(1)} />
@@ -56,23 +54,31 @@ export function GalleryYear ({ year }) {
               />
               {activePage > 3 && <Pagination.Ellipsis />}
               {activePage > 2 && (
-                <Pagination.Item onClick={() => handlePageChange(activePage - 2)}>
+                <Pagination.Item
+                  onClick={() => handlePageChange(activePage - 2)}
+                >
                   {activePage - 2}
                 </Pagination.Item>
               )}
               {activePage > 1 && (
-                <Pagination.Item onClick={() => handlePageChange(activePage - 1)}>
+                <Pagination.Item
+                  onClick={() => handlePageChange(activePage - 1)}
+                >
                   {activePage - 1}
                 </Pagination.Item>
               )}
               <Pagination.Item active>{activePage}</Pagination.Item>
               {activePage < totalPages && (
-                <Pagination.Item onClick={() => handlePageChange(activePage + 1)}>
+                <Pagination.Item
+                  onClick={() => handlePageChange(activePage + 1)}
+                >
                   {activePage + 1}
                 </Pagination.Item>
               )}
               {activePage < totalPages - 1 && (
-                <Pagination.Item onClick={() => handlePageChange(activePage + 2)}>
+                <Pagination.Item
+                  onClick={() => handlePageChange(activePage + 2)}
+                >
                   {activePage + 2}
                 </Pagination.Item>
               )}
@@ -84,7 +90,7 @@ export function GalleryYear ({ year }) {
               <Pagination.Last onClick={() => handlePageChange(totalPages)} />
             </Pagination>
           </div>
-        }
+        )}
       </Container>
     </>
   )

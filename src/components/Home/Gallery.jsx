@@ -14,8 +14,7 @@ const images = [
   { src: '/gallery/gallery5.webp', width: 300, height: 200 },
   { src: '/gallery/gallery6.webp', width: 300, height: 200 },
   { src: '/gallery/gallery7.webp', width: 300, height: 200 },
-  { src: '/gallery/gallery8.webp', width: 300, height: 169 }
-
+  { src: '/gallery/gallery8.webp', width: 300, height: 169 },
 ]
 
 const Gallery = () => {
@@ -27,7 +26,8 @@ const Gallery = () => {
             src={image.src}
             className='img-gallery'
             width={image.width}
-            height={image.height}
+            style={{ objectFit: 'cover' }}
+            height={200}
             loading='lazy'
             alt='Energy Night 2023'
           />

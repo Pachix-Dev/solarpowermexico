@@ -16,6 +16,7 @@ const partners2 = [
   { link: 'https://www.solarenergy.org/', image: '/SEI.webp', width: 150, height: 107 }
 ]
 const broadcasting = [
+  { link: 'https://efe.com/', image: '/EFE.webp', width: 200, height: 133 },
   { link: 'https://www.eleconomista.com.mx/', image: '/economista.webp', width: 200, height: 19 },
   { link: 'https://www.pv-magazine-mexico.com/', image: '/pv-magazine-group.webp', width: 200, height: 68 },
   { link: 'https://mexicoindustry.com/es', image: '/mexicoIndustry.webp', width: 150, height: 53 },

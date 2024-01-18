@@ -597,7 +597,7 @@ export function Home() {
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
             Broadcasting Media Partner
           </p>
-          <Row className='text-center mb-5'>
+          {/*<Row className='text-center mb-5'>
             <Col md={3} className='mt-3 mx-auto my-auto'>
               <a
                 href='https://heraldodemexico.com.mx/'
@@ -613,7 +613,7 @@ export function Home() {
                 />
               </a>
             </Col>
-          </Row>
+            </Row>*/}
           <Marquee gradient direction='letf'>
             {broadcasting.map((sponsor, index) => (
               <div key={index} className='exibitorSlider text-center h-100'>

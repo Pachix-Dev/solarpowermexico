@@ -16,8 +16,8 @@ const programSolar = {
 
     },
     {
-      hour: '14:15 –14:45',
-      name: 'AVAILABLE'
+      hour: '14:00 –14:15',
+      name: 'APsystems'
 
     },
     {

@@ -501,10 +501,6 @@ export function Home() {
               </div>
             ))}
           </Marquee>
-
-
-
-{/*  */}
           <Marquee gradient direction='letf'>
             {exhibitors4.map((sponsor, index) => (
               <div key={index} className='exibitorSlider text-center h-100'>
@@ -518,11 +514,6 @@ export function Home() {
               </div>
             ))}
           </Marquee>
-
-
-
-
-
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
             {t('home.strategic_partners')}:
           </p>

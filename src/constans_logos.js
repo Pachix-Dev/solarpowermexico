@@ -100,4 +100,15 @@ const exhibitors3 = [
   { image: '/exhibitors/znshine_solar.webp', width: 200, height: 80 }
 ]
 
-export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3 }
+
+const exhibitors4 = [
+  { image: '/exhibitors/ground_screw.webp', height: 110 },
+  { image: '/exhibitors/wts.webp', height: 110 },
+  { image: '/exhibitors/novotegra.webp', height: 110 },
+  { image: '/exhibitors/bayware.webp', height: 110 },
+  { image: '/exhibitors/suntree+.webp', height: 110 },
+  { image: '/exhibitors/hitachi.webp', height: 110 },
+  { image: '/exhibitors/solarcleano.webp', height: 110 },
+  { image: '/exhibitors/serfimex.webp', height: 110 },
+]
+export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4}

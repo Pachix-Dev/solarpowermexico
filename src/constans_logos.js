@@ -110,5 +110,12 @@ const exhibitors4 = [
   { image: '/exhibitors/hitachi.webp', height: 110 },
   { image: '/exhibitors/solarcleano.webp', height: 110 },
   { image: '/exhibitors/serfimex.webp', height: 110 },
+  { image: '/exhibitors/tresel.webp', height: 90 },
+  { image: '/exhibitors/corey_solar.webp', height: 90 },
+  { image: '/exhibitors/krannich.webp', height: 90 },
+  { image: '/exhibitors/runergy.webp', height: 90 },
+  { image: '/exhibitors/siba.webp', height: 90 },
+
+  
 ]
 export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4}

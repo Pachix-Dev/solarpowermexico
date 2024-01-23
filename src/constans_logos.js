@@ -27,7 +27,7 @@ const broadcasting = [
 const broadcasting2 = [
   { link: 'https://globalenergy.mx/', image: '/Global-Energy.webp', width: 140, height: 62 },
   { link: 'https://globalindustries.mx/', image: '/global-industries.webp', width: 200, height: 62 },
-  { link: 'https://greentology.life/', image: '/GreentologyV2.webp', width: 200, height: 55 },
+  { link: 'https://greentology.life/', image: '/GreentologyV2.webp', width: 200, height: 129 },
   { link: 'https://revistaconsultoria.com.mx/', image: '/revistaConsultoria.webp', width: 200, height: 50 },
   { link: 'https://www.vanguardia-industrial.net/', image: '/VanguardiaIndustrial.webp', width: 150, height: 79 },
   { link: 'https://worldconstruccion.mx/', image: '/worldConstruccion.webp', width: 200, height: 34 },

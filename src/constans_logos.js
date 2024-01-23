@@ -16,15 +16,12 @@ const partners2 = [
   { link: 'https://www.solarenergy.org/', image: '/SEI.webp', width: 150, height: 107 }
 ]
 const broadcasting = [
-  { link: 'https://efe.com/', image: '/EFE.webp', width: 200, height: 133 },
-  { link: 'https://www.eleconomista.com.mx/', image: '/economista.webp', width: 200, height: 19 },
+  { link: 'https://efe.com/', image: '/EFE.webp', width: 200, height: 133 },  
   { link: 'https://www.pv-magazine-mexico.com/', image: '/pv-magazine-group.webp', width: 200, height: 68 },
   { link: 'https://mexicoindustry.com/es', image: '/mexicoIndustry.webp', width: 150, height: 53 },
   { link: 'https://www.cosmos.com.mx/', image: '/onlineCosmos.webp', width: 200, height: 68 },
-  { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },
-  { link: 'https://energiaadebate.com/', image: '/energiadebate.webp', width: 130, height: 75 },
-  { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },
-  { link: 'https://energy21.com.mx/', image: '/eneroy21.webp', width: 200, height: 40 },
+  { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },  
+  { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },  
   { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 250, height: 119 }
 ]
 const broadcasting2 = [

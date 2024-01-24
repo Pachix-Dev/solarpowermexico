@@ -113,6 +113,7 @@ const exhibitors4 = [
   { image: '/exhibitors/runergy.webp', height: 90 },
   { image: '/exhibitors/siba.webp', height: 90 },
   { image: '/exhibitors/soluna.webp', height: 100 },
+  { image: '/exhibitors/metering.webp', height: 100}
   
 ]
 export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4}

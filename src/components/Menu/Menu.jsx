@@ -120,7 +120,7 @@ export function Menu() {
                 <NavDropdown.Item
                   href={
                     i18n.language === 'en'
-                      ? '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-EN-v221123.pdf'
+                      ? '/files/FACTSHEET-SOLAR-STORAGE-MEXICO-EN-v221123-AC.pdf'
                       : '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-ESPAÑOLv5.pdf'
                   }
                   target='_blank'

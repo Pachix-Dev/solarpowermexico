@@ -15,7 +15,7 @@ export function Menu() {
       className='position-sticky top-0'
       style={{ zIndex: 999, backgroundColor: '#212529' }}
     >
-      <a href='https://ecomondo.ahmreg.com/' target='_blank'>
+      <a href='https://solarstorage.ahmreg.com/' target='_blank'>
         <div className='banner-become text-white text-center p-2'>
           <div>
             <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>

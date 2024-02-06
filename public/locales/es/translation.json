@@ -36,7 +36,8 @@
         "submenu_5": {
             "title": "MEDIA HUB",
             "option_1": "Galería"                   
-        }
+        },
+        "banner": "¡Regístrate ahora!"
     },
     "home":{
         "program": "Programa de Conferencias",

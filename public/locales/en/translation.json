@@ -36,7 +36,8 @@
         "submenu_5": {
             "title": "MEDIA HUB",
             "option_1": "Gallery"                   
-        }        
+        },
+        "banner": "Online registration!"        
     },
     "home":{
         "program": "Conference Program",

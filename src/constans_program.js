@@ -89,7 +89,7 @@ const programSolar = {
     },
     {
       hour: '12:45 –13:15',
-      name: 'AVAILABLE'
+      name: 'GRUNDFOS'
 
     },
     {

@@ -49,7 +49,8 @@ const exhibitors = [
   { image: '/emmi.webp', width: 200, height: 69 },
   { image: '/sma.webp', width: 150, height: 96 },
   { image: '/solar_insurance.webp', width: 200, height: 113 },
-  { image: '/Fronius.webp', width: 200, height: 56 }
+  { image: '/Fronius.webp', width: 200, height: 56 },
+  { image: '/exhibitors/ctrlsun.webp', width: 200, height: 93}
 ]
 
 const exhibitors2 = [

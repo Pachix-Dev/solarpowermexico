@@ -32,7 +32,7 @@ const broadcasting2 = [
   { link: 'https://www.vanguardia-industrial.net/', image: '/VanguardiaIndustrial.webp', width: 150, height: 79 },
   { link: 'https://worldconstruccion.mx/', image: '/worldConstruccion.webp', width: 200, height: 34 },
   { link: 'https://discovercleantech.com/', image: '/discoverCleanTech.webp', width: 200, height: 48 },
-  { link: 'http://www.revistadp.com/', image: '/revista-de-preferencia.webp', width: 200, height: 57 },
+  //{ link: 'http://www.revistadp.com/', image: '/revista-de-preferencia.webp', width: 200, height: 57 },
   { link: 'https://petroleoenergia.com/', image: '/petroleo_y_energia.webp', width: 150, height: 83 }
 ]
 const exhibitors = [

@@ -173,6 +173,15 @@ export function Header() {
           />
         </a>
       </nav>
+      <div className='mt-5 text-center'>
+        <a
+          href='https://solarstorage.ahmreg.com/'
+          target='_blank'
+          className='bg-dark text-white text-decoration-none p-2 border border-light rounded-3 fs-5 fw-bold'
+        >
+          <span className='text-uppercase'>{t('menu.banner')}</span>
+        </a>
+      </div>
     </header>
   )
 }

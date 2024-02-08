@@ -22,7 +22,9 @@ const broadcasting = [
   { link: 'https://www.cosmos.com.mx/', image: '/onlineCosmos.webp', width: 200, height: 68 },
   { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },  
   { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },  
-  { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 250, height: 119 }
+  { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 250, height: 119 },
+  { link: 'https://heraldodemexico.com.mx/', image: '/heraldoHorizontal.webp', width: 200 },
+  { link: 'https://cuatro-cero.mx/', image: '/cuatroCero.webp', width: 200 }
 ]
 const broadcasting2 = [
   { link: 'https://globalenergy.mx/', image: '/Global-Energy.webp', width: 140, height: 62 },

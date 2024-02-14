@@ -4,7 +4,9 @@ const partners = [
   { link: 'https://mexiko.ahk.de/es/', image: '/ahk.webp', width: 250, height: 65 },
   { link: 'https://www.emergealliance.org/', image: '/emmerge.webp', width: 200, height: 85 },
   { link: 'https://www.jalisco.gob.mx/', image: '/gobiernoJalisco.webp', width: 150, height: 150 },
-  { link: 'https://mermx.org/', image: '/merm.webp', width: 200, height: 103 }
+  { link: 'https://mermx.org/', image: '/merm.webp', width: 200, height: 103 },
+  { link: 'https://cpef.org.mx/', image: '/CPEF.webp', width: 150, height: 103 }
+
 ]
 const partners2 = [
   { link: 'https://www.eupd-research.com/', image: '/EUPD-Research.webp', width: 200, height: 38 },

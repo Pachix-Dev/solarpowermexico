@@ -1,9 +1,10 @@
 import { Container, Tab, Tabs } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { programSolar } from '../../constans_program'
 import { useTranslation } from 'react-i18next'
 import './Program.css'
-export function Program () {
-  const { t } = useTranslation()
+export function Program() {
+  const { i18n, t } = useTranslation()
   return (
     <div className='program-solar'>
       <Container className='mt-5'>
@@ -25,27 +26,33 @@ export function Program () {
                   {t('program.day_1')}, 17 {t('program.month')}
                 </strong>
               </>
-                }
+            }
           >
             {programSolar?.april_17.map((program, index) => {
               return (
-                <div key={index} className='program-date-item d-flex align-items-center'>
-                  <div style={{ width: '200px' }}>
+                <Row className="align-items-center program-date-item">
+                  <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
                     <p>
-
-                      <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
-                        <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                      </svg> {program.duration}
-                      <strong>{program.hour}</strong>
+                      <svg width={30} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {program.duration} <strong>{program.hour}</strong>
                     </p>
-                  </div>
-
-                  <div className='d-flex align-items-center justify-content-between w-100'>
-                    <div className='w-100'>
-                      <h2>{program.name}</h2>
+                  </Col>
+                  <Col lg={9} xs={12} md={9}>
+                    <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
+                    <p className=''>{program.name}</p>
+                    <p>{program.speakers}</p>
+                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <div className='img-responsive'>
+                      {
+                        program.avatar === ''
+                          ? ''
+                          : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                      }
                     </div>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               )
             })}
           </Tab>
@@ -57,25 +64,48 @@ export function Program () {
                   {t('program.day_2')}, 18 {t('program.month')}
                 </strong>
               </>
-                }
+            }
           >
             {programSolar?.april_18.map((program, index) => {
               return (
-                <div key={index} className='program-date-item d-flex align-items-center'>
-                  <div style={{ width: '200px' }}>
+                // <div key={index} className='program-date-item d-flex align-items-center'>
+                //   <div style={{ width: '200px' }}>
+                //     <p>
+                //       <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
+                //         <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
+                //       </svg> {program.duration}
+                //       <strong>{program.hour}</strong>
+                //     </p>
+                //   </div>
+                //   <div className='d-flex align-items-center justify-content-between w-100'>
+                //     <div className='w-100'>
+                //       <h2>{program.name}</h2>
+                //     </div>
+                //   </div>
+                // </div>
+                <Row className="align-items-center program-date-item">
+                  <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
                     <p>
-                      <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
-                        <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                      </svg> {program.duration}
-                      <strong>{program.hour}</strong>
+                      <svg width={30} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {program.duration} <strong>{program.hour}</strong>
                     </p>
-                  </div>
-                  <div className='d-flex align-items-center justify-content-between w-100'>
-                    <div className='w-100'>
-                      <h2>{program.name}</h2>
+                  </Col>
+                  <Col lg={9} xs={12} md={9}>
+                    <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
+                    <p className=''>{program.name}</p>
+                    <p>{program.speakers}</p>
+                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <div className='img-responsive'>
+                      {
+                        program.avatar === ''
+                          ? ''
+                          : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                      }
                     </div>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               )
             })}
           </Tab>
@@ -87,25 +117,33 @@ export function Program () {
                   {t('program.day_3')}, 19 {t('program.month')}
                 </strong>
               </>
-                }
+            }
           >
             {programSolar?.april_19.map((program, index) => {
               return (
-                <div key={index} className='program-date-item d-flex align-items-center'>
-                  <div style={{ width: '200px' }}>
+                <Row className="align-items-center program-date-item">
+                  <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
                     <p>
-                      <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
-                        <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                      </svg> {program.duration}
-                      <strong>{program.hour}</strong>
+                      <svg width={30} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {program.duration} <strong>{program.hour}</strong>
                     </p>
-                  </div>
-                  <div className='d-flex align-items-center justify-content-between w-100'>
-                    <div>
-                      <h2>{program.name}</h2>
+                  </Col>
+                  <Col lg={9} xs={12} md={9}>
+                    <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
+                    <p className=''>{program.name}</p>
+                    <p>{program.speakers}</p>
+                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <div className='img-responsive'>
+                      {
+                        program.avatar === ''
+                          ? ''
+                          : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                      }
                     </div>
-                  </div>
-                </div>
+                  </Col>
+                </Row>
               )
             })}
           </Tab>

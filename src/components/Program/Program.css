@@ -14,6 +14,12 @@
   color: white !important;
 }
 
+.program-date-avatar {
+  transition: .3s ease-in-out;
+  object-fit: cover;
+  object-position: top;
+}
+
 
 @media (width < 425px) {
   .nav-tabs{

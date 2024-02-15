@@ -9,6 +9,9 @@
 .program-solar .nav-item .nav-link{
   color: black !important;
 }
+.text-position{
+  text-align: justify;
+}
 .nav-tabs .nav-link.active{
   background-color: #570587;
   color: white !important;

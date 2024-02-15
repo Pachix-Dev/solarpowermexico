@@ -43,7 +43,7 @@ export function Program() {
                     <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
                     <p className=''>{program.name}</p>
                     <p>{program.speakers}</p>
-                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                     <div className='img-responsive'>
                       {
                         program.avatar === ''
@@ -96,7 +96,7 @@ export function Program() {
                     <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
                     <p className=''>{program.name}</p>
                     <p>{program.speakers}</p>
-                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                     <div className='img-responsive'>
                       {
                         program.avatar === ''
@@ -134,7 +134,7 @@ export function Program() {
                     <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
                     <p className=''>{program.name}</p>
                     <p>{program.speakers}</p>
-                    <p>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                    <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                     <div className='img-responsive'>
                       {
                         program.avatar === ''

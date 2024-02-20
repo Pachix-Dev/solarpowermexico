@@ -130,6 +130,8 @@ const exhibitors5 = [
   { image: '/exhibitors/solar_max.webp', height: 110 },
   { image: '/exhibitors/comap.webp', height: 110 },
   { image: '/exhibitors/solarama.webp', height: 110 },
+  { image: '/exhibitors/solar_center.webp', height: 110 },
+  { image: '/exhibitors/exel_solar.webp', height: 110 },
 ]
 
 export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4, exhibitors5}

@@ -39,11 +39,11 @@ const programSolar = {
       avatar: '',
 
     },
-    {
-      hour: '16:45 –17:15',
-      name: 'SUNBANK',
-      avatar: ''
-    },
+    // {
+    //   hour: '16:45 –17:15',
+    //   name: 'SUNBANK',
+    //   avatar: ''
+    // },
     {
       hour: '17:30 –18:00',
       name: 'AVAILABLE',

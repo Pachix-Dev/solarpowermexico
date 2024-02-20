@@ -17,6 +17,7 @@ import {
   exhibitors4,
   partners,
   partners2,
+  exhibitors5,
 } from '../../constans_logos'
 
 export function Home() {
@@ -516,6 +517,19 @@ export function Home() {
           </Marquee>
           <Marquee gradient direction='letf'>
             {exhibitors4.map((sponsor, index) => (
+              <div key={index} className='exibitorSlider text-center h-100'>
+                <img
+                  width={sponsor.width}
+                  height={sponsor.height}
+                  src={sponsor.image}
+                  alt={`exhibitor ${index}`}
+                  loading='lazy'
+                />
+              </div>
+            ))}
+          </Marquee>
+          <Marquee gradient>
+            {exhibitors5.map((sponsor, index) => (
               <div key={index} className='exibitorSlider text-center h-100'>
                 <img
                   width={sponsor.width}

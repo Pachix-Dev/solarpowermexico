@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 import "./Program.css";
 export function Program() {
   const { i18n, t } = useTranslation();
-
   const [programSolar, setPrograms] = useState(programSSM.stage_1)
   return (
     <>

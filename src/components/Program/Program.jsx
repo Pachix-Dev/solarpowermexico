@@ -26,7 +26,7 @@ export function Program() {
                 title={t("program.title")}
                 className="item-hijo"
               >
-                AQUÍ VA  INFOMRACIÓN DE LOS PONENTES
+                {/* AQUÍ VA  INFOMRACIÓN DE LOS PONENTES */}
               </Tab>
               <Tab
                 eventKey="longer-tab"

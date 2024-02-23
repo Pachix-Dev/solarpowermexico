@@ -121,8 +121,8 @@
         "description2": "<ul><li>Servicios Legales/Jurídicos</li><li>Prensa</li><li>Gobierno Federal, Estatal y Municipal y sus Dependencias</li><li>Propietarios de Parques Solares</li><li>Desarrolladores Inmobiliarios</li><li>Desarrolladores Corporativos</li><li>EDesarrolladores de Parques Industriales</li><li>Instituciones Sectoriales</li><li>Centros de Investigación, Innovación y Universidades</li></ul>"
     },  
     "program": {
-        "title": "VER PROGRAMA DE CONFERENCIAS",
-        "title2" :"",
+        "title_1": "VER PROGRAMA DE CONFERENCIAS",
+        "title_2" :"PROGRAM ACADEMICO",
         "subtitle": "Construyamos la industria del mañana.",
         "title_s": "Ponentes",
         "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",
@@ -133,7 +133,8 @@
         "day_3": "viernes",
         "stages": "Escenarios",
         "about": "Acerca de",
-        "speech": "Ponencia"
+        "speech": "Ponencia",
+        "button1": "COMPRAR PROGRAMA DE CONFERENCIAS"
     },
     "counterDown":{
         "description": "<strong>Un evento exclusivo de networking para empresarios y líderes de la industria donde podrás</strong> crear redes estratégicas Y conocer nuevos negocios.",

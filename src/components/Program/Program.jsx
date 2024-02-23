@@ -4,9 +4,12 @@ import { Row, Col } from "react-bootstrap";
 import { programSSM } from "../../constans_program";
 import { useTranslation } from "react-i18next";
 import "./Program.css";
+
 export function Program() {
   const { i18n, t } = useTranslation();
   const [programSolar, setPrograms] = useState(programSSM.stage_1)
+  const [show, setContent] = useState()
+
   return (
     <>
       <div className="program-solar">
@@ -14,29 +17,33 @@ export function Program() {
           <Row>
             <Col>
               <Tabs
-                defaultActiveKey="profile"
+                defaultActiveKey="show"
                 id="justify-tab-example"
                 className="fs-3 item-program fw-bolder"
                 justify
               >
                 <Tab
-                  eventKey="home"
-                  title={t("program.title")}
+                  eventKey="show"
+                  title={t("program.title_1")}
                   className="item-hijo"
                 >
                   {/* AQUÍ VA  INFOMRACIÓN DE LOS PONENTES */}
+                  <Row>
+                    <Col className='text-center d-flex justify-content-center' sm={12} md={12} xl={12}>
+                      <div className='btn-buy mt-5'>
+                        <a href="https://solarstorage.ahmreg.com/getContent.php" className='d-flex justify-content-center align-items-center fw-bold text-decoration-none text-white' target='_blank'>
+                          <svg className='mx-2' width="54px" height="54px" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path clip-rule="evenodd" d="M1.82047 1C1.36734 1 1 1.35728 1 1.79801V2.39948C1 2.84021 1.36734 3.19749 1.82047 3.19749H3.72716C4.03867 3.19749 4.3233 3.36906 4.46192 3.64038L5.4947 5.93251C5.53326 6.00798 5.56364 6.09443 5.62081 6.15194L10.057 16.4429C10.0129 16.4634 9.97056 16.4883 9.93075 16.5176C8.70163 17.4226 7.87009 18.5878 7.87001 19.7604C7.86996 20.4429 8.16289 21.0807 8.75002 21.5212C9.30752 21.9394 10.0364 22.1118 10.8189 22.1118H10.8446C10.336 22.6308 10.0238 23.3336 10.0238 24.1072C10.0238 25.7049 11.3554 27 12.998 27C14.6406 27 15.9722 25.7049 15.9722 24.1072C15.9722 23.3336 15.66 22.6308 15.1513 22.1118H19.0494C18.5408 22.6308 18.2285 23.3336 18.2285 24.1072C18.2285 25.7049 19.5601 27 21.2027 27C22.8454 27 24.177 25.7049 24.177 24.1072C24.177 23.3336 23.8647 22.6308 23.3561 22.1118H23.9718C24.425 22.1118 24.7923 21.7545 24.7923 21.3138V20.9148C24.7923 20.474 24.425 20.1167 23.9718 20.1167H10.8189C10.3192 20.1167 10.0864 20.0041 10.0028 19.9414C9.94878 19.9009 9.92119 19.8618 9.9212 19.7606C9.92122 19.4917 10.1711 18.8708 11.069 18.1827C11.1084 18.1524 11.1453 18.1194 11.1792 18.084C11.2692 18.1089 11.3635 18.1221 11.4601 18.1221H23.9235C24.4248 18.1221 24.8527 17.7696 24.9351 17.2885L26.9858 5.31837C27.09 4.71036 26.6079 4.1569 25.9742 4.1569H7.35431C7.1981 4.1569 7.05618 4.06597 6.9909 3.92405L5.84968 1.44289C5.71106 1.17157 5.42642 1 5.11492 1H1.82047ZM8.47667 6.15194C8.18952 6.15194 7.99591 6.44552 8.10899 6.70946L12.04 15.8846C12.103 16.0317 12.2476 16.1271 12.4076 16.1271H22.7173C22.9122 16.1271 23.0787 15.9867 23.1116 15.7946L24.6834 6.61948C24.7253 6.37513 24.5371 6.15194 24.2892 6.15194H8.47667ZM11.8698 24.1072C11.8698 23.5012 12.3749 23.0099 12.998 23.0099C13.621 23.0099 14.1261 23.5012 14.1261 24.1072C14.1261 24.7132 13.621 25.2045 12.998 25.2045C12.3749 25.2045 11.8698 24.7132 11.8698 24.1072ZM21.2027 23.0099C20.5797 23.0099 20.0746 23.5012 20.0746 24.1072C20.0746 24.7132 20.5797 25.2045 21.2027 25.2045C21.8258 25.2045 22.3309 24.7132 22.3309 24.1072C22.3309 23.5012 21.8258 23.0099 21.2027 23.0099Z" fill="#ffffff" fill-rule="evenodd"></path></g></svg>{t("program.button1")}  
+                        </a>
+                      </div>
+                    </Col>
+                  </Row>
                 </Tab>
                 <Tab
                   eventKey="longer-tab"
-                  title="PROGRAM ACADEMICO"
+                  title= {t("program.title_2")}
                   className="item-hijo text-white"
                 >
                   <Container className='mt-5'>
-                    {/* <a href='/files/SSM-2024-ENL-ESP-V8.pdf' target='_blank' className='fw-bold fs-2 text-decoration-none text-black'>
-                      <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={50}>
-                        <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
-                      </svg> Enlightenment Area
-                    </a> */}
                     <Nav variant='tabs' defaultActiveKey='#day1'>
                       <Nav.Item>
                         <Nav.Link href='#day1' onClick={() => setPrograms(programSSM.stage_1)}>

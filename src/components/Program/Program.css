@@ -29,6 +29,22 @@ background: linear-gradient(228deg, rgba(207,165,245,1) 0%, rgba(149,76,172,1) 7
   object-position: top;
 }
 
+.btn-buy{
+  font-size: 20px;
+  background-color: rgb(251, 0, 0);
+  padding: 15px 5px;
+  border-radius: 35px;
+  width: 550px;
+  box-shadow: 1px 6px 15px #0e0e0ea2
+}
+
+.btn-buy:hover{
+  background-color: rgb(210, 0, 0);
+  padding: 15px 5px;
+  border-radius: 50px;
+  box-shadow: 1px 6px 15px #0e0e0e82
+  ;
+}
 
 @media (width < 425px) {
   .nav-tabs{

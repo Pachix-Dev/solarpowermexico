@@ -133,7 +133,9 @@
         "stages": "Stages",
         "about": "About",
         "speech": "Speech",
-        "button1": "BUY CONFERENCE PROGRAM"
+        "button1": "BUY CONFERENCE PROGRAM",
+        "subt_title_1":"Meet our",
+        "sub_title":"ABOUT"
     },
     "counterDown":{
         "description": "<strong>An exclusive networking event for executives and industry leaders where you will be able to</strong> create strategic networks AND meet new business.",

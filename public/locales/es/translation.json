@@ -134,7 +134,9 @@
         "stages": "Escenarios",
         "about": "Acerca de",
         "speech": "Ponencia",
-        "button1": "COMPRAR PROGRAMA DE CONFERENCIAS"
+        "button1": "COMPRAR PROGRAMA DE CONFERENCIAS",
+        "subt_title_1":"Conoce a nuestros",
+        "sub_title":"ACERCA DE"
     },
     "counterDown":{
         "description": "<strong>Un evento exclusivo de networking para empresarios y líderes de la industria donde podrás</strong> crear redes estratégicas Y conocer nuevos negocios.",

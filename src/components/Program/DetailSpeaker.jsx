@@ -13,7 +13,7 @@ export function DetailSpeaker (props) {
     >
       <Modal.Header closeButton/>
       <Modal.Body>
-        <Row>
+        <Row className="m-2"> 
           <Col md={6} className='my-auto'>
             <div className='position-relative'>
               <img src={props?.speaker?.avatar} className='w-100' alt={props?.speaker.name} />
@@ -27,7 +27,7 @@ export function DetailSpeaker (props) {
           <Col md={6} className='my-auto'>
             <h5 className='fw-bold text-danger'>{t("program.sub_title")} </h5>
             <p>{i18n.language === "en" ? props?.speaker?.conference_en : props?.speaker?.conference_es}</p>
-            <p>{i18n.language === "en" ? props?.speaker?.resume_en : props?.speaker?.resume_es}</p>
+            <p className="text-position">{i18n.language === "en" ? props?.speaker?.resume_en : props?.speaker?.resume_es}</p>
           </Col>
         </Row>
       </Modal.Body>

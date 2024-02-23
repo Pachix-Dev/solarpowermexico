@@ -87,6 +87,10 @@
   text-align: left;
 }
 
+.text-posotion{
+  text-align: justify;
+}
+
 @media (max-width: 576px) {
   .nav-tabs {
     justify-content: center;

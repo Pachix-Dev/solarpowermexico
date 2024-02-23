@@ -59,7 +59,7 @@
   background: linear-gradient(228deg, rgb(222, 185, 255) 0%, rgba(149,76,172,1) 75%);
   border-radius: 50% 20% / 10% 40%;
   border: none;
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 
 .btn-speaker:hover{

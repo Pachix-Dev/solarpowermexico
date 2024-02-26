@@ -35,15 +35,15 @@ const speakers=[
         resume_es: 'Luis es el fundador de ErgoSolar, empresa líder en energía solar desde 2010. Ha sido reconocido por sus contribuciones en energía y diseño de dispositivos médicos patentados. Además, preside la comisión de energía en COPARMEX Puebla y es miembro fundador de asociaciones de energía solar. Su compromiso radica en desarrollar tecnología sostenible para México e internacionalmente.',
         resume_en: 'Luis is the founder of ErgoSolar, a leading solar energy company since 2010. He has been recognized for his contributions in energy and patented medical device design. In addition, he chairs the energy commission at COPARMEX Puebla and is a founding member of solar energy associations. His commitment lies in developing sustainable technology for Mexico and internationally.',
     },
-    {
-        id:5,
-        name: 'Enrique Garduño ',
-        avatar: '/speakers/enrique_gardunno.webp',
-        role_es: "CEO Skysense",
-        role_en: "CEO Skysense",
-        resume_es: 'Fundador y Director General de Skysense, ha impulsado más de 800 proyectos en operación. Su enfoque en soluciones fotovoltaicas y de almacenamiento, así como en sistemas híbridos y microrredes, ha dejado una huella significativa en la industria. Su compromiso con la promoción de prácticas empresariales responsables y sostenibles lo convierte en un referente destacado en el sector de la energía.',
-        resume_en: 'Founder and CEO of Skysense, he has driven more than 800 projects in operation. His focus on photovoltaic and storage solutions, as well as hybrid systems and microgrids, has left a significant footprint in the industry. His commitment to promoting responsible and sustainable business practices makes him a leading reference in the energy sector.',
-    },
+    // {
+    //     id:5,
+    //     name: 'Enrique Garduño',
+    //     avatar: '/speakers/enrique_gardunno.webp',
+    //     role_es: "CEO Skysense",
+    //     role_en: "CEO Skysense",
+    //     resume_es: 'Fundador y Director General de Skysense, ha impulsado más de 800 proyectos en operación. Su enfoque en soluciones fotovoltaicas y de almacenamiento, así como en sistemas híbridos y microrredes, ha dejado una huella significativa en la industria. Su compromiso con la promoción de prácticas empresariales responsables y sostenibles lo convierte en un referente destacado en el sector de la energía.',
+    //     resume_en: 'Founder and CEO of Skysense, he has driven more than 800 projects in operation. His focus on photovoltaic and storage solutions, as well as hybrid systems and microgrids, has left a significant footprint in the industry. His commitment to promoting responsible and sustainable business practices makes him a leading reference in the energy sector.',
+    // },
 ]
 export { speakers }
   

@@ -58,10 +58,9 @@ export function Program() {
                               <Col lg={6} md={12} xs={12} className='container-img-speaker'>
                                 <img src="/speakers/back-speakers.webp" alt="" className='p-4 img-back-speaker z-2 position-absolute me-5'/>
                                 <img src={speaker.avatar} alt={speaker.name} className='p-4 img-speaker z-3' />
-                                
                               </Col>
                               <Col className='info_speakers'>
-                                <p className="fs-5"><span className='fs-4 fw-bolder'>{speaker.name}</span> <br />
+                                <p className="fs-6"><span className='fs-4 fw-bolder'>{speaker.name}</span> <br />
                                   {i18n.language === "en" ? speaker?.role_en : speaker?.role_es}</p>
                               </Col>
                             </Row>

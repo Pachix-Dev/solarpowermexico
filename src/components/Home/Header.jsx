@@ -5,8 +5,8 @@ export function Header() {
   const { t, i18n } = useTranslation()
   return (
     <header>
-      <nav className='mt-5 home-solar-submenu'>
-        <Link to='/enlightenment-area'>
+      <nav className='my-5 py-5 home-solar-submenu'>
+        <Link to='/conference-program'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
@@ -174,13 +174,13 @@ export function Header() {
         </a>
       </nav>
       <div className='mt-5 text-center'>
-        <a
-          href='https://solarstorage.ahmreg.com/'
+        <Link
+          to='/hotels'
           target='_blank'
-          className='bg-dark text-white text-decoration-none p-2 border border-light rounded-3 fs-5 fw-bold'
+          className='bg-dark text-white text-decoration-none px-5 py-4 border border-light rounded-3 fs-5 fw-bold'
         >
-          <span className='text-uppercase'>{t('menu.banner')}</span>
-        </a>
+          <span className='text-uppercase'>Reservar Hospedaje</span>
+        </Link>
       </div>
     </header>
   )

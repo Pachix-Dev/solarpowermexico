@@ -65,7 +65,7 @@ function App () {
         <Route path='exhibitor-services' element={<RouteWithHelmet title='Exhibitor Services' element={<ExhibitorServices />} />} />
         <Route path='rates' element={<RouteWithHelmet title='Rates' element={<Rates />} />} />
         <Route path='toolkit' element={<RouteWithHelmet title='Toolkit' element={<Toolkit />} />} />
-        <Route path='enlightenment-area' element={<RouteWithHelmet title='Enlightenment Area' element={<Program />} />} />
+        <Route path='conference-program' element={<RouteWithHelmet title='Enlightenment Area' element={<Program />} />} />
         <Route path='why-visit' element={<RouteWithHelmet title='Why visit' element={<WhyVisit />} />} />
         <Route path='visitor-profile' element={<RouteWithHelmet title='Visitor Profile' element={<VisitorProfile />} />} />
         <Route path='gallery' element={<RouteWithHelmet title='Gallery' element={<GallgeryPage />} />} />

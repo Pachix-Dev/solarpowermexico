@@ -13,7 +13,7 @@ export function DetailSpeaker (props) {
     >
       <Modal.Header closeButton/>
       <Modal.Body>
-        <Row className="m-2"> 
+        <Row> 
           <Col md={6} className='my-auto'>
             <div className='position-relative'>
               <img src={props?.speaker?.avatar} className='w-100' alt={props?.speaker.name} />

@@ -2,12 +2,12 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 
 export function Slider() {
   const { t } = useTranslation()
   return (
-    <div className='mt-5'>
+    <div>
       <Carousel interval={5000} controls={false}>
         <Carousel.Item>
           <div className='slider-solar slider-bg-energynight'>
@@ -97,14 +97,22 @@ export function Slider() {
             <div className='text-center'>
               <img
                 src='/SSM-logo.webp'
-                width={320}
-                height={118}
+                width='250'
                 alt='Solarpowermexico'
               />
               <p
                 className='mt-5 text-light text-center fs-4'
                 dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
               />
+              <div className='mt-5 text-center'>
+                <a
+                  href='https://solarstorage.ahmreg.com/'
+                  target='_blank'
+                  className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
+                >
+                  <span className='text-uppercase'>{t('menu.banner')}</span>
+                </a>
+              </div>
               <p
                 className='mt-5 text-light text-f fs-4'
                 dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}

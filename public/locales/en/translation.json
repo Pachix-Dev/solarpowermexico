@@ -78,7 +78,82 @@
         "organized_by": "Organized by",
         "powered_by": "Powered by",
         "strategic_partners": "Strategic Partners",
-        "exhibitors": "Exhibitors"
+        "exhibitors": "Exhibitors",
+        "attend":{
+            "item_1":"Bring global solar energy expertise together in one place.",
+            "item_2":"Visit the most important solar energy exhibition in the industry.",
+            "item_3":"Learn about the latest industry trends and innovations.",
+            "item_4":"Generate strategic alliances and expand your network.",
+            "item_5":"Get the most specialized knowledge about the energy industry."
+        },
+        "bullet_1":"Visitors",
+        "bullet_2":"Of Exhibition area",
+        "bullet_3":"Exhibitors",
+        "bullet_4":"In on-site business",
+        "bullet_5":"Commercial value of media coverage",
+        "visitor-profile":{
+            "item_1": "Installers",
+            "item_2": "Solar integrators",
+            "item_3": "Solar technology suppliers",
+            "item_4": "Solar panel distributors",
+            "item_5": "Companies in the electrical industry",
+            "item_6": "Project Engineering",
+            "item_7": "EPC Contractors",
+            "item_8": "Manufacturers",
+            "item_9": "Consulting Services",
+            "item_10": "Investors",
+            "item_11": "Power Generators. Independent."
+        },
+        "button_hotels":"Reserve Lodging",
+        "title-testimonials":"The opinion of exhibitors and visitors",
+        "title-visitor-profile":"VISITOR PROFILE",
+        "social_networks":{
+            "title":"SOCIAL MEDIA PRESENCE ",
+            "topic_1":"FOLLOWERS",
+            "dec_1":"ON OUR SOCIAL MEDIA",
+            "topic_2":"PEOPLE",
+            "dec_2":"REACHED",
+            "topic_3":"COVERAGE",
+            "dec_3":"ACROSS ALL OF OUR PLATFORMS"
+         },
+         "rates":{
+            "title":"BOOTHS",
+            "sub-title":"PARTICIPATION FEES",
+            "item1":{
+               "title1":"Sustainable Hub 2sqm",
+               "price1":"USD 1,800 + IVA",
+               "priece2":"USD 900 + IVA",
+               "title2":"Includes",
+               "topic1": "Standard carpet",
+               "topic2": "Label in vinyl",
+               "topic3": "Standard furniture",
+               "topic4": "110v electrical contact",
+               "topic5":"2 badges for staff",
+               "topic6":"Mention in the directory"
+            },
+            "item2":{
+               "title1":"Stan equipado 9m2",
+               "price1":"USD 3,330 + IVA",
+               "title2":"Includes",
+               "topic1": "Standard carpet",
+               "topic2": "partition walls",
+               "topic3": "front with vinyl sign",
+               "topic4": "Illumination",
+               "topic5": "Standard furniture",
+               "topic6": "110v electrical contact",
+               "topic7": "Display badges",
+               "topic8":"Mention in the directory"
+            },
+               "item3":{
+                  "title1":"Superficie Libre 18 m2 minimo",
+                  "price1":"USD 320 / m2 + IVA",
+                  "title2":"Includes",
+                  "topic1": "Stand space",
+                  "topic2": "Display badges",
+                  "topic3":"Mention in the directory",
+                  "topic4":"Does not include carpet, construction, furniture, services"
+               }
+            }
     },
     "AboutSSM":{
         "title": "ABOUT SOLAR + STORAGE MEXICO",

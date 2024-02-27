@@ -78,7 +78,82 @@
         "organized_by": "Organizado por",
         "powered_by": "Powered by",
         "strategic_partners": "Nuestros Aliados Estratégicos",
-        "exhibitors": "Expositores"
+        "exhibitors": "Expositores",
+        "attend":{
+            "item_1":"Reúna la experiencia global en energía solar en un solo lugar.",
+            "item_2":"Visite la exposición de energía solar más importante de la industria.",
+            "item_3":"Conozca las últimas tendencias e innovaciones del sector.",
+            "item_4":"Genere alianzas estratégicas y expanda su red de contactos.",
+            "item_5":"Obtenga el conocimiento más especializado sobre la industria de la energía."
+        },
+            "bullet_1":"Visitantes",
+            "bullet_2":"Piso expositor",
+            "bullet_3":"Expositores",
+            "bullet_4":"En negocios en sitio",
+            "bullet_5":"El valor comercial de cobertura mediática",
+            "visitor-profile":{
+                "item_1":"Instaladores.",
+                "item_2":"Integradores solares.",
+                "item_3":"Proveedores de tecnología solar.",
+                "item_4":"Distribuidores de paneles solares.",
+                "item_5":"Empresas de la industria eléctrica.",
+                "item_6":"Ingeniería de proyectos.",
+                "item_7":"Contratistas EPC.",
+                "item_8":"Fabricantes",
+                "item_9":"Servicios de consultoría.",
+                "item_10":"Inversionistas.",
+                "item_11":"Generadores de energía. Independientes."
+            },
+            "button_hotels":"Reservar Hospedaje",
+            "title-testimonials":"La opinion de expositores y visitantes",
+            "title-visitor-profile":"PERFIL DEL VISITANTE",
+            "social_networks":{
+                "title":"PRESENCIA EN REDES SOCIALES",
+                "topic_1":"SEGUIDORES",
+                "dec_1":"EN REDES",
+                "topic_2":"PERSONAS",
+                "dec_2":"ALCANZADAS",
+                "topic_3":"COBERTURA",
+                "dec_3":"EN TODAS NUESTRAS REDES"
+             },
+             "rates":{
+                "title":"STANDS",
+                "sub-title":"TARIFAS DE PARTICIPACIÓN",
+                "item1":{
+                   "title1":"Sustainable Hub 2m2",
+                   "price1":"USD 1,800 + IVA",
+                   "priece2":"USD 900 + IVA",
+                   "title2":"Incluye",
+                   "topic1":"Alfombra estándar",
+                   "topic2":"Rótulo en vinil",
+                   "topic3":"Moviliario estándar",
+                   "topic4":"Contacto eléctrico de 110v",
+                   "topic5":"2 gafetes para el personal",
+                   "topic6":"Mención en el directorio"
+                },
+                "item2":{
+                   "title1":"Stan equipado 9m2",
+                   "price1":"USD 3,330 + IVA",
+                   "title2":"Incluye",
+                   "topic1":"Alfombra estándar",
+                   "topic2":"Mamparas divisorias",
+                   "topic3":"Antepecho con rótulo en vinil",
+                   "topic4":"Iluminación",
+                   "topic5":"Moviliario estándar",
+                   "topic6":"Contacto electrico de 110v",
+                   "topic7":"Gafetes de expositor",
+                   "topic8":"Mención en el directorio"
+                },
+                "item3":{
+                   "title1":"Superficie Libre 18 m2 minimo",
+                   "price1":"USD 320 / m2 + IVA",
+                   "title2":"Incluye",
+                   "topic1":"Espacio para stand",
+                   "topic2":"Gafetes de expositor",
+                   "topic3":"Mención en el directorio",
+                   "topic4":"No incluye alfombra, construcción, mobiliario, servicios"
+                }
+             }
     },
     "AboutSSM":{
         "title": "ACERCA DE SOLAR + STORAGE MEXICO",

@@ -76,7 +76,8 @@ export function Home() {
           </Row>
         </article>
         <section className='py-5'>
-          <Row className='text-center fs-6 fw-semibold fst-italic mt-5 pt-5'>
+        <p className='text-center fs-2 fw-bolder' style={{ color: '#8C3295' }}> {t("home.attend.reasons_visiting_title")} </p>
+          <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
             <Col xs={12} md={4} lg={4}>
               <div data-aos="flip-left" data-aos-duration="1000">
                 <img src="/attend_icon_1.webp" alt="" width='100' />
@@ -855,7 +856,7 @@ export function Home() {
         <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className='my-5'>
             <Row className='text-secondary text-center mb-5'>
-              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#6f42c1' }}>PRESENCIA EN REDES SOCIALES</Col>
+              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#8C3295' }}>PRESENCIA EN REDES SOCIALES</Col>
               <Col lg={12} className=''>
                 <img src="/instagram.webp" alt="" width={35} className='m-2' />
                 <img src="/facebook.webp" alt="" width={35} className='m-2' />
@@ -871,14 +872,14 @@ export function Home() {
                 <Row className='text-secondary d-flex align-items-center justify-content-center'>
                   <Col lg={3} className='text-center'>
                     <Bullets number='21000' duration='4' simbol_1='+' />
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#6f42c1' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
                   </Col>
                   <Col lg={6} className='text-center'>
                     <Bullets number='2500000' duration='4' simbol_1='+' />
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#6f42c1' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
                   </Col>
                   <Col lg={3} className='text-center'>
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#6f42c1' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
                   </Col>
                 </Row>
               </Col>

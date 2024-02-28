@@ -72,7 +72,43 @@ export function Home() {
           </div>
         </Container>
       </section>
-      <section
+      <section className='background-energy'>
+        <Container fluid>
+          <Row className='py-5'>
+            <Col sm={12} md={6} xl={6}>
+              <video
+                src="/energy_night.mp4"
+                autoPlay
+                muted
+                loop
+                className="w-100 h-100"
+              />
+            </Col>
+            <Col sm={12} md={6} xl={6} className=''>
+              <div className='text-center'>
+                <img
+                  src='/logo_energy_night.webp'
+                  width='250'
+                  alt='EnergyNight'
+                />
+                <p className='text-white fs-5 px-3'>{t("home.energy_date")} | 19:00 hrs | Expo Guadalajara</p>
+                <p className='text-white fs-3 fw-bold' dangerouslySetInnerHTML={{ __html: t('home.energy_description2') }}></p>
+                <div className='pt-4 text-center'>
+                  <a
+                    href='https://energynight.igeco.mx/'
+                    target='_blank'
+                    className='text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold button-energynight'
+                  >
+                    <span className='text-uppercase'>{t('menu.banner')}</span>
+                  </a>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      
+      {/* <section
         className='position-relative w-100 vh-100 d-flex align-items-start justify-content-center' style={{ textShadow: '4px 4px 4px black' }}
       >
         <video
@@ -102,7 +138,7 @@ export function Home() {
             </div>
           </div>
         </Container>
-      </section>
+      </section> */}
       <Container>
         <nav className='my-2 py-5 home-solar-submenu d-flex align-items-center justify-content-center'>
           <Col sm={6} lg={4}>
@@ -182,6 +218,7 @@ export function Home() {
             </Col>
           </Row>
         </article>
+        {/* Patrocinadores */}
         <section>
           <div className='mt-5 pt-5 pb-5 text-center'>
             <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
@@ -234,8 +271,8 @@ export function Home() {
               </Col>
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
-            <Row className='text-center'>
-              <Col className='d-flex align-items-start justify-content-center'>
+            <Row className='text-center gap-1'>
+              <Col className=' d-flex align-items-start justify-content-center'>
                 <a
                   href='https://sunpower.maxeon.com/mx/por-que-sunpower'
                   target='_blank'
@@ -283,7 +320,7 @@ export function Home() {
                   />
                 </a>
               </Col>
-              <Col className='d-flex align-items-start justify-content-center'>
+              <Col className=' d-flex align-items-start justify-content-center'>
                 <a
                   href='https://latam.apsystems.com/'
                   target='_blank'

@@ -517,8 +517,8 @@ export function Home() {
             </p>
           </section>
         </div>
-      </Container>
-      <section>
+        <section>
+        <section>
       <p className='fw-bold fs-2 text-secondary text-center'>
             {t('home.organized_by')}:
           </p>
@@ -630,6 +630,8 @@ export function Home() {
             </Col>
           </Row>
       </section>
+        </section>
+      </Container>
       <Container>
         <section>
           <div className='mt-5 pt-5 pb-5 text-center'>

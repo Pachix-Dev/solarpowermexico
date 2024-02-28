@@ -99,7 +99,7 @@ export function Home() {
                     target='_blank'
                     className='text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold button-energynight'
                   >
-                    <span className='text-uppercase'>{t('menu.banner')}</span>
+                    <span className='text-capitalize'>{t('home.energy_button')}</span>
                   </a>
                 </div>
               </div>

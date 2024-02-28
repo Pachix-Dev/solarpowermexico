@@ -89,7 +89,8 @@ export function Home() {
               width='300'
               alt='EnergyNight'
             />
-            <p className='text-white fs-1 fw-bold'>EL EVENTO MÁS IMPORTANTE DE NETWORKING <br />DE LA INDUSTRIA FOTOVOLTAICA.</p>
+            <p className='text-white fs-4'>{t("home.energy_date")} | 19:00 hrs | Expo Guadalajara</p>
+            <p className='text-white fs-1 fw-bold' dangerouslySetInnerHTML={{ __html: t('home.energy_description2') }}></p>
             <div className='mt-5 text-center'>
               <a
                 href='https://energynight.igeco.mx/'
@@ -992,7 +993,7 @@ export function Home() {
           {show &&
             <Container className='my-5'>
               <Row className='text-secondary text-center mb-5'>
-                <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#8C3295' }}>PRESENCIA EN REDES SOCIALES</Col>
+                <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#8C3295' }}> {t("home.social_networks.title")} </Col>
                 <Col lg={12} className=''>
                   <img src="/instagram.webp" alt="" width={35} className='m-2' />
                   <img src="/facebook.webp" alt="" width={35} className='m-2' />

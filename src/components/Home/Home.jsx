@@ -34,7 +34,44 @@ export function Home() {
 
   return (
     <>
-      <Slider />
+      <section
+        className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
+        style={{ textShadow: '4px 4px 4px black' }}
+      >
+        <video
+          src='/background_Solar_Storage.mp4'
+          autoPlay
+          muted
+          loop
+          className='video-bg-ecomondo'
+        ></video>
+        <Container>
+            <div className='text-center'>
+              <img
+                src='/SSM-logo.webp'
+                width='250'
+                alt='Solarpowermexico'
+              />
+              <p
+                className='mt-5 text-light text-center fs-4'
+                dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
+              />
+              <div className='mt-5 text-center'>
+                <a
+                  href='https://solarstorage.ahmreg.com/'
+                  target='_blank'
+                  className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
+                >
+                  <span className='text-uppercase'>{t('menu.banner')}</span>
+                </a>
+              </div>
+              <p
+                className='mt-5 text-light text-f fs-4'
+                dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
+              />
+            </div>
+        </Container>
+      </section>
       <Container>
         <Header />
       </Container>
@@ -76,7 +113,7 @@ export function Home() {
           </Row>
         </article>
         <section className='py-5'>
-        <p className='text-center fs-2 fw-bolder' style={{ color: '#8C3295' }}> {t("home.attend.reasons_visiting_title")} </p>
+          <p className='text-center fs-2 fw-bolder' style={{ color: '#8C3295' }}> {t("home.attend.reasons_visiting_title")} </p>
           <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
             <Col xs={12} md={4} lg={4}>
               <div data-aos="flip-left" data-aos-duration="1000">
@@ -463,7 +500,7 @@ export function Home() {
               </Col>
             </Row>
 
-            
+
 
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
             <div className='d-grid d-md-table gap-2'>

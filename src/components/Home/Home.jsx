@@ -339,7 +339,7 @@ export function Home() {
         </Marquee>
       </Container>
       <Container>
-        <div data-aos="fade-up" data-aos-duration="1500">
+        <div data-aos="fade-zoom-in" data-aos-duration="2000">
           <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>{t('home.title-testimonials')}</p>
           <Row className='mt-5 mb-5'>
             <Col lg={4} className='mt-3 text-center'>

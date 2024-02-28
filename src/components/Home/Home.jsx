@@ -446,7 +446,7 @@ export function Home() {
         <Container>
           <Row className='p-5 text-light'>
             <Col md className='text-center py-3 fs-5'>
-              <div data-aos="zoom-in-up" data-aos-duration="1000">
+              <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src='/samuel-ramirez.webp' alt='Samuel Ramirez' width={120} height={120} className='rounded-circle' />
                 <p className='mt-3 fw-bold'>México, Centro & Sudamérica</p>
                 <p className='m-0'>Samuel Ramírez</p>
@@ -463,7 +463,7 @@ export function Home() {
               </div>
             </Col>
             <Col md className='text-center py-3 fs-5'>
-              <div data-aos="zoom-in-up" data-aos-duration="1500">
+              <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src='/raymanWu.webp' alt='Rayman Wu' width={120} height={120} className='rounded-circle' />
                 <p className='mt-3 fw-bold'>China</p>
                 <p className='m-0'>Rayman Wu</p>
@@ -480,7 +480,7 @@ export function Home() {
               </div>
             </Col>
             <Col md className='text-center py-3 fs-5'>
-              <div data-aos="zoom-in-up" data-aos-duration="1000">
+              <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src='/Pamela-velazquez.webp' alt='Pamela Velázquez' width={120} height={120} className='rounded-circle' />
                 <p className='mt-3 fw-bold'>USA</p>
                 <p className='m-0'>Pamela Velázquez</p>

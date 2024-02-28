@@ -401,46 +401,104 @@ export function Home() {
         </div>
       </Container>
       <Container className='pt-5 my-5'>
-          <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase text-center'
-            style={{ color: '#8C3295' }}>SOLAR  + STORAGE MEXICO {t("home.rates.title")} 2024
-          </h2>
-          <p className='fst-italic fs-5 mb-5 text-center'>{t("home.rates.sub-title")}</p>
-          <Row className='text-center'>
-            <Col lg={4} md={4} sm={12} className="column-with-border p-5">
-              <h4 className='fw-bolder'>{t("home.rates.item1.title1")}</h4>
-              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item1.priece2")} </p>
-              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
-              <ul class="list-group-flush p-0 m-0">
-                <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
-                <li class="list-group-item fw-bold pt-4"> {t("home.rates.item1.topic3")} </li>
-              </ul>
+        <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase text-center'
+          style={{ color: '#8C3295' }}>SOLAR  + STORAGE MEXICO {t("home.rates.title")} 2024
+        </h2>
+        <p className='fst-italic fs-5 mb-5 text-center'>{t("home.rates.sub-title")}</p>
+        <Row className='text-center'>
+          <Col lg={4} md={4} sm={12} className="column-with-border p-5">
+            <h4 className='fw-bolder'>{t("home.rates.item1.title1")}</h4>
+            <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item1.priece2")} </p>
+            <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+            <ul class="list-group-flush p-0 m-0">
+              <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
+              <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
+              <li class="list-group-item fw-bold pt-4"> {t("home.rates.item1.topic3")} </li>
+            </ul>
+          </Col>
+          <Col lg={4} md={4} sm={12} className="p-5">
+            <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
+            <p className='fs-3 text fw-bolder text-danger'> {t("home.rates.item2.price1")} </p>
+            <ul class="list-group-flush p-0 m-0">
+              <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic3")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic4")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic5")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic6")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic7")} </li>
+              <li class="list-group-item"> {t("home.rates.item2.topic8")} </li>
+            </ul>
+          </Col>
+          <Col lg={4} md={4} sm={12} className='p-5'>
+            <div>
+              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item3.title1")}</p>
+              <p className='fs-4 fw-bolder'> {t("home.rates.item3.topic1")}</p>
+              <p className='fw-bolder'> {t("home.rates.item3.topic2")}</p>
+              <img src="/hand-down-svgrepo-com.svg" alt="mano-price-solar-storage" width='45' />
+            </div>
+            <img src="/solar_qr.webp" alt="price-solar-storage" width='250' />
+          </Col>
+        </Row>
+      </Container>
+      <section className='visitor-background'>
+      <p className='text-center fs-2 fw-bolder text-light pt-5 text-uppercase'>{t('footer.contact')}</p>
+        <Container>
+          <Row className='p-5 text-light'>
+            <Col md className='text-center py-3 fs-5'>
+              <div data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src='/samuel-ramirez.webp' alt='Samuel Ramirez' width={120} height={120} className='rounded-circle' />
+                <p className='mt-3 fw-bold'>México, Centro & Sudamérica</p>
+                <p className='m-0'>Samuel Ramírez</p>
+                <a href='mailto:samuel.ramirez@igeco.mx' className='text-light text-decoration-none'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='#1d7e7a' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={20}>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
+                  </svg> samuel.ramirez@igeco.mx
+                </a>
+                <p className='mt-3'>
+                  <a href='mailto:samuel.ramirez@igeco.mx' className='mt-5'>
+                    <button type="button" class="btn btn-light text-uppercase"> {t("home.button_contact")} </button>
+                  </a>
+                </p>
+              </div>
             </Col>
-            <Col lg={4} md={4} sm={12} className="p-5">
-              <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
-              <p className='fs-3 text fw-bolder text-danger'> {t("home.rates.item2.price1")} </p>
-              <ul class="list-group-flush p-0 m-0">
-                <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic3")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic4")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic5")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic6")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic7")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic8")} </li>
-              </ul>
+            <Col md className='text-center py-3 fs-5'>
+              <div data-aos="zoom-in-up" data-aos-duration="1500">
+                <img src='/raymanWu.webp' alt='Rayman Wu' width={120} height={120} className='rounded-circle' />
+                <p className='mt-3 fw-bold'>China</p>
+                <p className='m-0'>Rayman Wu</p>
+                <a href='mailto:info@snec.org.cn' className='text-light text-decoration-none'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='#1d7e7a' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={20}>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
+                  </svg>  info@snec.org.cn
+                </a>
+                <p className='mt-3'>
+                  <a href='mailto:info@snec.org.cn' className='mt-5'>
+                    <button type="button" class="btn btn-light text-uppercase"> {t("home.button_contact")} </button>
+                  </a>
+                </p>
+              </div>
             </Col>
-            <Col lg={4} md={4} sm={12} className='p-5'>
-               <div>
-                <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item3.title1")}</p>
-                <p className='fs-4 fw-bolder'> {t("home.rates.item3.topic1")}</p>
-                <p className='fw-bolder'> {t("home.rates.item3.topic2")}</p>
-                <img src="/hand-down-svgrepo-com.svg" alt="mano-price-solar-storage" width='45' />
-               </div>
-              <img src="/solar_qr.webp" alt="price-solar-storage" width='250' />
+            <Col md className='text-center py-3 fs-5'>
+              <div data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src='/Pamela-velazquez.webp' alt='Pamela Velázquez' width={120} height={120} className='rounded-circle' />
+                <p className='mt-3 fw-bold'>USA</p>
+                <p className='m-0'>Pamela Velázquez</p>
+                <a href='mailto:pvelazco@re-plus.com' className='text-light text-decoration-none'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='#1d7e7a' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={20}>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
+                  </svg> pvelazco@re-plus.com
+                </a>
+                <p className='mt-3'>
+                  <a href='mailto:pvelazco@re-plus.com' className='mt-5'>
+                    <button type="button" class="btn btn-light text-uppercase"> {t("home.button_contact")} </button>
+                  </a>
+                </p>
+              </div>
             </Col>
           </Row>
-      </Container>
+        </Container>
+      </section>
       <Container>
         <section>
           <div className='mt-5 pt-5 pb-5 text-center'>
@@ -493,9 +551,6 @@ export function Home() {
 
               </Col>
             </Row>
-
-
-
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
             <div className='d-grid d-md-table gap-2'>
               <a

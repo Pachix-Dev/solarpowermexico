@@ -147,7 +147,8 @@
                     "topic1": "Single-payment option",
                     "topic2": "Discover all our sponsorship options"
                     }
-            }
+            },
+            "button_contact":"send message"
     },
     "AboutSSM":{
         "title": "ABOUT SOLAR + STORAGE MEXICO",

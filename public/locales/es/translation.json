@@ -147,7 +147,8 @@
                     "topic1": "Pago en una sola exhibición",
                     "topic2": "Descubre todas nuestras opciones de patrocinio"
                     }
-             }
+             },
+             "button_contact":"enviar mensaje"
     },
     "AboutSSM":{
         "title": "ACERCA DE SOLAR + STORAGE MEXICO",

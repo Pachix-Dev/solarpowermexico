@@ -886,38 +886,40 @@ export function Home() {
         </Container>
       </section>
       <section>
-        <div data-aos="zoom-in" data-aos-duration="2500">
-          <Container className='my-5'>
-            <Row className='text-secondary text-center mb-5'>
-              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#8C3295' }}>PRESENCIA EN REDES SOCIALES</Col>
-              <Col lg={12} className=''>
-                <img src="/instagram.webp" alt="" width={35} className='m-2' />
-                <img src="/facebook.webp" alt="" width={35} className='m-2' />
-                <img src="/twitter.webp" alt="" width={35} className='m-2' />
-                <img src="/linkedin.webp" alt="" width={35} className='m-2' />
-              </Col>
-            </Row>
-            <Row className='d-flex align-items-center justify-content-center'>
-              <Col lg={4}>
-                <img src="/social_networks.webp" alt="" height={350} />
-              </Col>
-              <Col lg={8}>
-                <Row className='text-secondary d-flex align-items-center justify-content-center'>
-                  <Col lg={3} className='text-center'>
-                    <Bullets number='21000' duration='6' simbol_1='+' />
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
-                  </Col>
-                  <Col lg={6} className='text-center'>
-                    <Bullets number='2500000' duration='6' simbol_1='+' />
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
-                  </Col>
-                  <Col lg={3} className='text-center'>
-                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
+        <div data-aos="zoom-in" data-aos-duration="2500" ref={ref}>
+          {show &&
+            <Container className='my-5'>
+              <Row className='text-secondary text-center mb-5'>
+                <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#8C3295' }}>PRESENCIA EN REDES SOCIALES</Col>
+                <Col lg={12} className=''>
+                  <img src="/instagram.webp" alt="" width={35} className='m-2' />
+                  <img src="/facebook.webp" alt="" width={35} className='m-2' />
+                  <img src="/twitter.webp" alt="" width={35} className='m-2' />
+                  <img src="/linkedin.webp" alt="" width={35} className='m-2' />
+                </Col>
+              </Row>
+              <Row className='d-flex align-items-center justify-content-center'>
+                <Col lg={4}>
+                  <img src="/social_networks.webp" alt="" height={350} />
+                </Col>
+                <Col lg={8}>
+                  <Row className='text-secondary d-flex align-items-center justify-content-center'>
+                    <Col lg={3} className='text-center'>
+                      <Bullets number='21000' duration='6' simbol_1='+' />
+                      <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
+                    </Col>
+                    <Col lg={6} className='text-center'>
+                      <Bullets number='2500000' duration='6' simbol_1='+' />
+                      <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
+                    </Col>
+                    <Col lg={3} className='text-center'>
+                      <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          }
         </div>
       </section>
     </>

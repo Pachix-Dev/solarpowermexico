@@ -85,7 +85,7 @@ export function Home() {
               />
             </Col>
             <Col sm={12} md={6} xl={6} className=''>
-              <div className='text-center'>
+              <div className='text-center' data-aos="zoom-in" data-aos-duration="1500">
                 <img
                   src='/logo_energy_night.webp'
                   width='250'
@@ -107,38 +107,6 @@ export function Home() {
           </Row>
         </Container>
       </section>
-      
-      {/* <section
-        className='position-relative w-100 vh-100 d-flex align-items-start justify-content-center' style={{ textShadow: '4px 4px 4px black' }}
-      >
-        <video
-          src="/energy_night.mp4"
-          autoPlay
-          muted
-          loop
-          className="video-bg-ecomondo video-filter"
-        />
-        <Container>
-          <div className='text-center'>
-            <img
-              src='/logo_energy_night.webp'
-              width='300'
-              alt='EnergyNight'
-            />
-            <p className='text-white fs-4 px-3'>{t("home.energy_date")} | 19:00 hrs | Expo Guadalajara</p>
-            <p className='text-white fs-2 fw-bold' dangerouslySetInnerHTML={{ __html: t('home.energy_description2') }}></p>
-            <div className='pt-4 text-center'>
-              <a
-                href='https://energynight.igeco.mx/'
-                target='_blank'
-                className='text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold button-energynight'
-              >
-                <span className='text-uppercase'>{t('menu.banner')}</span>
-              </a>
-            </div>
-          </div>
-        </Container>
-      </section> */}
       <Container>
         <nav className='my-2 py-5 home-solar-submenu d-flex align-items-center justify-content-center'>
           <Col sm={6} lg={4}>

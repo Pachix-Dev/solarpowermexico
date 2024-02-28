@@ -686,7 +686,7 @@ export function Home() {
         </Container>
       </section>
       <Container className='mt-5'>
-        <div data-aos="fade-zoom-in" data-aos-delay="500">
+        <div data-aos="fade-zoom-in" data-aos-delay="800">
           <section className='pt-5' ref={ref}>
             <p className='fw-bold fs-2 text-center home-text-color'>
               {t('home.gallery')} SSM 2023

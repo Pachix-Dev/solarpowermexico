@@ -148,7 +148,11 @@
                     "topic2": "Descubre todas nuestras opciones de patrocinio"
                     }
              },
-             "button_contact":"enviar mensaje"
+             "button_contact":"enviar mensaje",
+             "sponsors":{
+            "title":"¿Quieres ser patrocinador?",
+            "description":"Descarga nuestra brochure para patrocinadores "
+            }
     },
     "AboutSSM":{
         "title": "ACERCA DE SOLAR + STORAGE MEXICO",

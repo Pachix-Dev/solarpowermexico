@@ -235,6 +235,20 @@
 .button_hotels{background-color: #5b027f;}
 .button_hotels:hover{background-color: #e7557a;}
 
+.button-sponsors{
+    background-color: #ffffff;
+    height: 70px;
+    width: 600px;
+    padding: 0px auto;
+    margin: 0px auto;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-sponsors:hover{
+    background-color: hsl(97, 96%, 79%);
+}
+
 @media (max-width: 1440px) {
     .img-gallery {
         width: 100%;
@@ -252,6 +266,14 @@
     .background_num4,
     .background_num5 {
         height: 200px;
+    }
+    .button-sponsors{
+        background-color: #ffffff;
+        height: 70px;
+        width: auto;
+        padding: 0px auto;
+        margin: 0px auto;
+        border-radius: 10px;
     }
 }
 

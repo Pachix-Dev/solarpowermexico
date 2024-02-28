@@ -641,7 +641,19 @@ export function Home() {
           </div>
         </section>
       </Container>
-      <section className='mt-5 home-whyexhibit'>
+      <section className='visitor-background py-5'>
+          <Container className='text-center py-5'>
+            <p className='text-light fs-2 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
+          <div className='d-block button-sponsors d-flex align-items-center justify-content-center'>
+            <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
+              i18n.language === 'en'
+                ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+                : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
+            } target='_blank'><p className='fs-4 fw-semibold'> {t("home.sponsors.description")} </p></a>
+          </div>
+          </Container>
+        </section>
+      {/* <section className='mt-5 home-whyexhibit'>
         <Container>
           <p
             className='fw-bold fs-2'
@@ -739,9 +751,9 @@ export function Home() {
             {t('home.why_exhibit_option_5')}
           </p>
         </Container>
-      </section>
+      </section> */}
       <Container className='mt-5'>
-        <div data-aos="fade-zoom-in" data-aos-delay="800">
+        <div data-aos="fade-zoom-in" data-aos-delay="500">
           <section className='pt-5'>
             <p className='fw-bold fs-2 text-center home-text-color'>
               {t('home.gallery')} SSM 2023

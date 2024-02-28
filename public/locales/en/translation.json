@@ -148,7 +148,12 @@
                     "topic2": "Discover all our sponsorship options"
                     }
             },
-            "button_contact":"send message"
+            "button_contact":"send message",
+            "sponsors":{
+                "title": "Do you want to become a sponsor?",
+                "description": "Download our brochure for sponsors "
+            }
+
     },
     "AboutSSM":{
         "title": "ABOUT SOLAR + STORAGE MEXICO",

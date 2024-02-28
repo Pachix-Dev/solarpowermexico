@@ -53,7 +53,7 @@ export function Home() {
                 alt='Solarpowermexico'
               />
               <p
-                className='mt-5 text-light text-center fs-4'
+                className='mt-5 text-center fs-4'
                 dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
               />
               <div className='mt-5 text-center'>
@@ -66,7 +66,7 @@ export function Home() {
                 </a>
               </div>
               <p
-                className='mt-5 text-light text-f fs-4'
+                className='mt-5 text-f fs-4'
                 dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
               />
             </div>

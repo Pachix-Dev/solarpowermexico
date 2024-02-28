@@ -39,37 +39,37 @@ export function Home() {
         style={{ textShadow: '4px 4px 4px black' }}
       >
         <video
-          src='/background_Solar_Storage.mp4'
+          src="/background_Solar_Storage.mp4"
           autoPlay
           muted
           loop
-          className='video-bg-ecomondo'
-        ></video>
+          className="video-bg-ecomondo video-filter"
+        />
         <Container>
-            <div className='text-center'>
-              <img
-                src='/SSM-logo.webp'
-                width='250'
-                alt='Solarpowermexico'
-              />
-              <p
-                className='mt-5 text-light text-center fs-4'
-                dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
-              />
-              <div className='mt-5 text-center'>
-                <a
-                  href='https://solarstorage.ahmreg.com/'
-                  target='_blank'
-                  className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
-                >
-                  <span className='text-uppercase'>{t('menu.banner')}</span>
-                </a>
-              </div>
-              <p
-                className='mt-5 text-light text-f fs-4'
-                dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
-              />
+          <div className='text-center'>
+            <img
+              src='/SSM-logo.webp'
+              width='250'
+              alt='Solarpowermexico'
+            />
+            <p
+              className='mt-5 text-light text-center fs-4'
+              dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
+            />
+            <div className='mt-5 text-center'>
+              <a
+                href='https://solarstorage.ahmreg.com/'
+                target='_blank'
+                className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
+              >
+                <span className='text-uppercase'>{t('menu.banner')}</span>
+              </a>
             </div>
+            <p
+              className='mt-5 text-light text-f fs-4'
+              dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
+            />
+          </div>
         </Container>
       </section>
       <Container>
@@ -340,7 +340,7 @@ export function Home() {
       </Container>
       <Container>
         <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <p className='my-5 fw-bold fs-2 text-secondary text-center text-uppercase'>{t('home.title-testimonials')}</p>
           <Row className='mt-5 mb-5'>
             <Col lg={4} className='mt-3 text-center'>

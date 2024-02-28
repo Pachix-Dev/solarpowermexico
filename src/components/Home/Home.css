@@ -231,17 +231,12 @@
     z-index: -1;
 }
 
-
 .button_hotels {
     background-color: #5b027f;
     width: 550px;
     border-radius: 10px;
     padding: 0px auto;
     margin: 0px auto
-}
-
-.button_hotels:hover {
-    background-color: #e7557a;
 }
 
 .button-energynight {
@@ -262,15 +257,27 @@
     transition: background-color 0.3s;
 }
 
-.button-sponsors:hover {
-    background-color: hsl(97, 96%, 79%);
-}
 
-.background-energy{
+.background-energy {
     background-image: url('/background_energy_night.webp');
     background-size: cover;
     background-position: center;
+}
 
+.contact-button {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 450px;
+    padding: 2px 2px;
+    margin: 0px auto;
+    transition: background-color 0.3s;
+}
+
+.button_hotels:hover,
+.contact-button:hover,
+.button-sponsors:hover {
+    color: #ffffff;
+    background-color: #e7557a;
 }
 
 @media (max-width: 1440px) {
@@ -301,12 +308,17 @@
         margin: 0px auto;
         border-radius: 10px;
     }
+
     .button_hotels {
         background-color: #5b027f;
         width: auto;
         align-items: center;
         padding: 0px auto;
         margin: 0px 15px;
+    }
+
+    .contact-button {
+        width: auto;
     }
 }
 

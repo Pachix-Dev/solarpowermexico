@@ -342,11 +342,12 @@ export function Home() {
           <div data-aos="zoom-in" data-aos-duration="1000">
             <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
             <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
-              <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
+              <a className='text-decoration-none text-black' href={
                 i18n.language === 'en'
                   ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
                   : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
+              } target='_blank'></a>
+              <p className='fs-5 fw-bold'> {t("home.sponsors.description")} </p>
             </div>
           </div>
         </Container>
@@ -682,10 +683,11 @@ export function Home() {
           </Col>
         </Row>
       </Container>
+      {/* CONTACTO */}
       <section className='visitor-background'>
         <p className='text-center fs-2 fw-bolder text-light pt-5 text-uppercase'>{t('footer.contact')}</p>
-        <Container>
-          <Row className='p-5 text-light'>
+        <Container className='py-4'>
+          <Row className='text-light mb-4'>
             <Col md className='text-center py-3 fs-5'>
               <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src='/samuel-ramirez.webp' alt='Samuel Ramirez' width={120} height={120} className='rounded-circle' />
@@ -738,6 +740,13 @@ export function Home() {
               </div>
             </Col>
           </Row>
+          <Link to='/contact' className='text-decoration-none text-black '>
+            <p className='text-center'>
+              <div className='contact-button d-flex justify-content-center align-items-center'>
+                <p className='fs-3 fw-bold m-2'>DEJAR UN COMENTARIO</p>
+              </div>
+            </p>
+          </Link>
         </Container>
       </section>
       <Container className='mt-5'>
@@ -794,6 +803,17 @@ export function Home() {
               </a>
             </Col>
             <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
+                <img
+                  src='/RE_Events_orange.webp'
+                  width={100}
+                  height={80}
+                  loading='lazy'
+                  alt='replus'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
               <a
                 href='http://www.snec.org.cn/'
                 target='_blank'
@@ -805,17 +825,6 @@ export function Home() {
                   height={114}
                   loading='lazy'
                   alt='snecPower'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
-                <img
-                  src='/RE_Events_orange.webp'
-                  width={100}
-                  height={80}
-                  loading='lazy'
-                  alt='replus'
                 />
               </a>
             </Col>

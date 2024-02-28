@@ -742,11 +742,11 @@ export function Home() {
       </section>
       <Container className='mt-5'>
         <div data-aos="fade-zoom-in" data-aos-delay="800">
-          <section className='pt-5' ref={ref}>
+          <section className='pt-5'>
             <p className='fw-bold fs-2 text-center home-text-color'>
               {t('home.gallery')} SSM 2023
             </p>
-            {show && <Gallery />}
+            <Gallery />
             <p className='mt-5 text-center'>
               <Link
                 to='/gallery'

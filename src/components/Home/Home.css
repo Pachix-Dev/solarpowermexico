@@ -238,16 +238,14 @@
 .button-sponsors{
     background-color: #ffffff;
     height: 70px;
-    width: 600px;
+    width: 480px;
     padding: 0px auto;
     margin: 0px auto;
     border-radius: 10px;
     transition: background-color 0.3s;
 }
 
-.button-sponsors:hover{
-    background-color: hsl(97, 96%, 79%);
-}
+.button-sponsors:hover{background-color: hsl(97, 96%, 79%);}
 
 @media (max-width: 1440px) {
     .img-gallery {

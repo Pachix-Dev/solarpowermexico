@@ -777,13 +777,13 @@ export function Home() {
       <section className='visitor-background py-5'>
         <Container className='text-center py-5'>
           <div data-aos="zoom-in" data-aos-duration="1000">
-            <p className='text-light fs-2 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
-            <div className='d-block button-sponsors d-flex align-items-center justify-content-center'>
+            <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
+            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
               <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
                 i18n.language === 'en'
                   ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
                   : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'><p className='fs-4 fw-semibold'> {t("home.sponsors.description")} </p></a>
+              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
             </div>
           </div>
         </Container>

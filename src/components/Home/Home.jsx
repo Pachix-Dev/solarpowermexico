@@ -89,9 +89,9 @@ export function Home() {
               width='300'
               alt='EnergyNight'
             />
-            <p className='text-white fs-4'>{t("home.energy_date")} | 19:00 hrs | Expo Guadalajara</p>
-            <p className='text-white fs-1 fw-bold' dangerouslySetInnerHTML={{ __html: t('home.energy_description2') }}></p>
-            <div className='mt-5 text-center'>
+            <p className='text-white fs-4 px-3'>{t("home.energy_date")} | 19:00 hrs | Expo Guadalajara</p>
+            <p className='text-white fs-2 fw-bold' dangerouslySetInnerHTML={{ __html: t('home.energy_description2') }}></p>
+            <div className='pt-4 text-center'>
               <a
                 href='https://energynight.igeco.mx/'
                 target='_blank'
@@ -104,10 +104,49 @@ export function Home() {
         </Container>
       </section>
       <Container>
-        <Header />
+        <nav className='my-2 py-5 home-solar-submenu d-flex align-items-center justify-content-center'>
+          <Col sm={6} lg={4}>
+            <Link to='/conference-program'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 24 24'
+                strokeWidth={1.5}
+                stroke='currentColor'
+                width={40}
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z'
+                />
+              </svg>
+              {t('home.program')}
+            </Link>
+          </Col>
+          <Col sm={6} lg={4}>
+            <Link to='/hotels'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 24 24'
+                strokeWidth={1.5}
+                stroke='currentColor'
+                width={40}
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z'
+                />
+              </svg>
+              {t("home.button_hotels")}
+            </Link>
+          </Col>
+        </nav>
       </Container>
       <Container>
-        <article className='mt-5 pt-5'>
+        <article className='mt-2'>
           <Row className='pt-5'>
             <Col md={6}>
               <p className='fw-bold fs-2 home-text-color'>
@@ -195,22 +234,73 @@ export function Home() {
               </Col>
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
-            <div className='d-grid d-md-table gap-2'>
-              <a
-                href='https://sunpower.maxeon.com/mx/por-que-sunpower'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={47}
-                  src='/SUNPOWER.webp'
-                  alt='SUNPOWER'
-                  loading='lazy'
-                />
-              </a>
-              <a
+            <Row className='text-center'>
+              <Col className='d-flex align-items-start justify-content-center'>
+                <a
+                  href='https://sunpower.maxeon.com/mx/por-que-sunpower'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='p-3'
+                >
+                  <img
+                    width={200}
+                    height={47}
+                    src='/SUNPOWER.webp'
+                    alt='SUNPOWER'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+              <Col className=''>
+                <a
+                  href='https://es.s-5.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='p-3'
+                >
+                  <img
+                    width={80}
+                    height={80}
+                    src='/S-5logo.webp'
+                    alt='S-5logo'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+              <Col className=''>
+                <a
+                  href='https://es.antaisolar.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='p-3'
+                >
+                  <img
+                    width={200}
+                    height={70}
+                    src='/antai.webp'
+                    alt='Antai'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+              <Col className='d-flex align-items-start justify-content-center'>
+                <a
+                  href='https://latam.apsystems.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='p-3'
+                >
+                  <img
+                    width={200}
+                    height={50}
+                    src='/apSystems.webp'
+                    alt='apSystems'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+            </Row>
+              {/* <a
                 href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/'
                 target='_blank'
                 rel='noreferrer'
@@ -223,8 +313,8 @@ export function Home() {
                   alt='Ibedrola'
                   loading='lazy'
                 />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href='https://solar-distribution.baywa-re.mx/es/'
                 target='_blank'
                 rel='noreferrer'
@@ -237,50 +327,7 @@ export function Home() {
                   alt='BayWar'
                   loading='lazy'
                 />
-              </a>
-              <a
-                href='https://es.s-5.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={80}
-                  height={80}
-                  src='/S-5logo.webp'
-                  alt='S-5logo'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://es.antaisolar.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={70}
-                  src='/antai.webp'
-                  alt='Antai'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://latam.apsystems.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={50}
-                  src='/apSystems.webp'
-                  alt='apSystems'
-                  loading='lazy'
-                />
-              </a>
-            </div>
+              </a> */}
           </div>
         </section>
       </Container>

@@ -103,12 +103,12 @@
 
 .video-filter {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(70, 70, 70, 0.149);  
-  }
+    background-color: rgba(70, 70, 70, 0.149);
+}
 
 .lg-react-element {
     column-count: 4;
@@ -168,7 +168,7 @@
 }
 
 .position-num {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 0px 0px 30px 0px;
@@ -214,7 +214,7 @@
     height: 350px;
 }
 
-.visitor-background{
+.visitor-background {
     background-color: #f770b4;
     background-image: linear-gradient(73deg, #f770b4 0%, #5b027f 95%);
     background-size: cover;
@@ -222,23 +222,37 @@
     height: auto;
 }
 
-.video-bg-ecomondo{
+.video-bg-ecomondo {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     left: 0;
     z-index: -1;
-  }
+}
 
 
-.button_hotels{background-color: #5b027f;}
-.button_hotels:hover{background-color: #e7557a;}
+.button_hotels {
+    background-color: #5b027f;
+    width: 550px;
+    border-radius: 10px;
+    padding: 0px auto;
+    margin: 0px auto
+}
 
-.button-energynight{background-color: #A44DD6;}
-.button-energynight:hover{background-color: #7901b4;}
+.button_hotels:hover {
+    background-color: #e7557a;
+}
 
-.button-sponsors{
+.button-energynight {
+    background-color: #A44DD6;
+}
+
+.button-energynight:hover {
+    background-color: #7901b4;
+}
+
+.button-sponsors {
     background-color: #ffffff;
     height: 70px;
     width: 480px;
@@ -248,7 +262,9 @@
     transition: background-color 0.3s;
 }
 
-.button-sponsors:hover{background-color: hsl(97, 96%, 79%);}
+.button-sponsors:hover {
+    background-color: hsl(97, 96%, 79%);
+}
 
 @media (max-width: 1440px) {
     .img-gallery {
@@ -261,6 +277,7 @@
     .home-solar-submenu {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .background_num1,
     .background_num2,
     .background_num3,
@@ -268,13 +285,21 @@
     .background_num5 {
         height: 200px;
     }
-    .button-sponsors{
+
+    .button-sponsors {
         background-color: #ffffff;
         height: 70px;
         width: auto;
         padding: 0px auto;
         margin: 0px auto;
         border-radius: 10px;
+    }
+    .button_hotels {
+        background-color: #5b027f;
+        width: auto;
+        align-items: center;
+        padding: 0px auto;
+        margin: 0px 15px;
     }
 }
 
@@ -311,6 +336,7 @@
         width: 100%;
         padding: 0;
     }
+
     .background_num1,
     .background_num2,
     .background_num3,

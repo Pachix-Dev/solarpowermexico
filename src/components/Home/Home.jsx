@@ -254,22 +254,23 @@ export function Home() {
         </section>
       </Container>
       {/* ¿QUIERES SER PATROCINADOR?*/}
-      <section className='visitor-background py-5'>
-        <Container className='text-center py-5'>
-          <div data-aos="zoom-in" data-aos-duration="1000">
-            <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
-            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
-              <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
-                i18n.language === 'en'
-                  ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
-                  : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
+        <section className='visitor-background py-5'>
+          <Container className='text-center py-5'>
+            <div data-aos="zoom-in" data-aos-duration="1000">
+              <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
+              <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
+                <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
+                  i18n.language === 'en'
+                    ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+                    : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
+                } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
+              </div>
             </div>
-          </div>
-        </Container>
-      </section>
+          </Container>
+        </section>
       {/* ¿POR QUÉ ASISTIR? */}
-      <section className='py-5'>
+      <Container>
+        <section className='py-5'>
           <p className='text-center fs-2 fw-bolder' style={{ color: '#8C3295' }}> {t("home.attend.reasons_visiting_title")} </p>
           <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
             <Col xs={12} md={4} lg={4}>
@@ -308,6 +309,7 @@ export function Home() {
             <Col ls={2}></Col>
           </Row>
         </section>
+      </Container>
       {/* <section
         className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
         style={{ textShadow: '4px 4px 4px black' }}
@@ -711,118 +713,118 @@ export function Home() {
             </p>
           </section>
         </div>
-          <section className='mt-5 pt-5'>
-            <p className='fw-bold fs-2 text-secondary text-center'>
-              {t('home.organized_by')}:
-            </p>
-            <Row className='text-center'>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a
-                  href='https://www.iegexpo.it/en/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img
-                    src='/italianExhibitionGroup.webp'
-                    width={150}
-                    height={82}
-                    loading='lazy'
-                    alt='italianExhibitionGroup'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a
-                  href='https://www.messe.de/en/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img
-                    src='/deutscheMesse.webp'
-                    width={250}
-                    height={54}
-                    loading='lazy'
-                    alt='deutscheMesse'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a
-                  href='http://www.snec.org.cn/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img
-                    src='/snecPower.webp'
-                    width={150}
-                    height={114}
-                    loading='lazy'
-                    alt='snecPower'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
-                  <img
-                    src='/RE_Events_orange.webp'
-                    width={100}
-                    height={80}
-                    loading='lazy'
-                    alt='replus'
-                  />
-                </a>
-              </Col>
-            </Row>
-            <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
-              Powered by:
-            </p>
-            <Row className='text-center'>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
-                  <img
-                    src='/amif.webp'
-                    width={200}
-                    height={59}
-                    loading='lazy'
-                    alt='amif'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
-                  <img
-                    src='/asolmex.webp'
-                    width={150}
-                    height={150}
-                    loading='lazy'
-                    alt='asolmex'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
-                  <img
-                    src='/seiaSolarEnergy.webp'
-                    width={200}
-                    height={62}
-                    loading='lazy'
-                    alt='seiaSolarEnergy'
-                  />
-                </a>
-              </Col>
-              <Col md={3} className='mx-auto my-auto pt-4'>
-                <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
-                  <img
-                    src='/SmartElectric.webp'
-                    width={200}
-                    height={62}
-                    loading='lazy'
-                    alt='SmartElectric'
-                  />
-                </a>
-              </Col>
-            </Row>
-          </section>
+        <section className='mt-5 pt-5'>
+          <p className='fw-bold fs-2 text-secondary text-center'>
+            {t('home.organized_by')}:
+          </p>
+          <Row className='text-center'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a
+                href='https://www.iegexpo.it/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/italianExhibitionGroup.webp'
+                  width={150}
+                  height={82}
+                  loading='lazy'
+                  alt='italianExhibitionGroup'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a
+                href='https://www.messe.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/deutscheMesse.webp'
+                  width={250}
+                  height={54}
+                  loading='lazy'
+                  alt='deutscheMesse'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a
+                href='http://www.snec.org.cn/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/snecPower.webp'
+                  width={150}
+                  height={114}
+                  loading='lazy'
+                  alt='snecPower'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
+                <img
+                  src='/RE_Events_orange.webp'
+                  width={100}
+                  height={80}
+                  loading='lazy'
+                  alt='replus'
+                />
+              </a>
+            </Col>
+          </Row>
+          <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
+            Powered by:
+          </p>
+          <Row className='text-center'>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
+                <img
+                  src='/amif.webp'
+                  width={200}
+                  height={59}
+                  loading='lazy'
+                  alt='amif'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
+                <img
+                  src='/asolmex.webp'
+                  width={150}
+                  height={150}
+                  loading='lazy'
+                  alt='asolmex'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
+                <img
+                  src='/seiaSolarEnergy.webp'
+                  width={200}
+                  height={62}
+                  loading='lazy'
+                  alt='seiaSolarEnergy'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='mx-auto my-auto pt-4'>
+              <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
+                <img
+                  src='/SmartElectric.webp'
+                  width={200}
+                  height={62}
+                  loading='lazy'
+                  alt='SmartElectric'
+                />
+              </a>
+            </Col>
+          </Row>
+        </section>
       </Container>
       {/* <section className='mt-5 home-whyexhibit'>
         <Container>

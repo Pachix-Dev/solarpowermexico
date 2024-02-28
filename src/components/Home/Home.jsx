@@ -60,7 +60,7 @@ export function Home() {
               <a
                 href='https://solarstorage.ahmreg.com/'
                 target='_blank'
-                className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
+                className='button-energynight text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
               >
                 <span className='text-uppercase'>{t('menu.banner')}</span>
               </a>

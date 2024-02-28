@@ -112,7 +112,164 @@ export function Home() {
             </Col>
           </Row>
         </article>
-        <section className='py-5'>
+        <section>
+          <div className='mt-5 pt-5 pb-5 text-center'>
+            <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
+            <a
+              href='https://consumer.huawei.com/mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                width={200}
+                height={45}
+                src='/Huawei.webp'
+                alt='Huawei'
+                loading='lazy'
+              />
+            </a>
+            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
+            <Row className='gap-2 d-flex align-items-start justify-content-center'>
+              <Col sm={12} md={4} lg={2} className=''>
+                <a
+                  href='https://www.longi.com/mx/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    width={150}
+                    height={68}
+                    src='/LONGI.webp'
+                    alt='LONGI'
+                    loading='lazy'
+                  />
+                </a>
+
+              </Col>
+              <Col sm={12} md={4} lg={2} className=''>
+                <a
+                  href='https://www.enlight.mx/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    width={150}
+                    height={78}
+                    src='/enlight.webp'
+                    alt='LONGI'
+                    loading='lazy'
+                  />
+                </a>
+
+              </Col>
+            </Row>
+            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
+            <div className='d-grid d-md-table gap-2'>
+              <a
+                href='https://sunpower.maxeon.com/mx/por-que-sunpower'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={200}
+                  height={47}
+                  src='/SUNPOWER.webp'
+                  alt='SUNPOWER'
+                  loading='lazy'
+                />
+              </a>
+              <a
+                href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={150}
+                  height={101}
+                  src='/Ibedrola.webp'
+                  alt='Ibedrola'
+                  loading='lazy'
+                />
+              </a>
+              <a
+                href='https://solar-distribution.baywa-re.mx/es/'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={200}
+                  height={76}
+                  src='/BayWar.webp'
+                  alt='BayWar'
+                  loading='lazy'
+                />
+              </a>
+              <a
+                href='https://es.s-5.com/'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={80}
+                  height={80}
+                  src='/S-5logo.webp'
+                  alt='S-5logo'
+                  loading='lazy'
+                />
+              </a>
+              <a
+                href='https://es.antaisolar.com/'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={200}
+                  height={70}
+                  src='/antai.webp'
+                  alt='Antai'
+                  loading='lazy'
+                />
+              </a>
+              <a
+                href='https://latam.apsystems.com/'
+                target='_blank'
+                rel='noreferrer'
+                className='p-3'
+              >
+                <img
+                  width={200}
+                  height={50}
+                  src='/apSystems.webp'
+                  alt='apSystems'
+                  loading='lazy'
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </Container>
+      {/* ¿QUIERES SER PATROCINADOR?*/}
+      <section className='visitor-background py-5'>
+        <Container className='text-center py-5'>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
+            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
+              <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
+                i18n.language === 'en'
+                  ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+                  : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
+              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
+            </div>
+          </div>
+        </Container>
+      </section>
+      {/* ¿POR QUÉ ASISTIR? */}
+      <section className='py-5'>
           <p className='text-center fs-2 fw-bolder' style={{ color: '#8C3295' }}> {t("home.attend.reasons_visiting_title")} </p>
           <Row className='text-center fs-6 fw-semibold fst-italic pt-4'>
             <Col xs={12} md={4} lg={4}>
@@ -151,7 +308,44 @@ export function Home() {
             <Col ls={2}></Col>
           </Row>
         </section>
-      </Container>
+      {/* <section
+        className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
+        style={{ textShadow: '4px 4px 4px black' }}
+      >
+        <video
+          src="/energy_night.mp4"
+          autoPlay
+          muted
+          loop
+          className="video-bg-ecomondo video-filter"
+        />
+        <Container>
+          <div className='text-center'>
+            <img
+              src='/SSM-logo.webp'
+              width='250'
+              alt='Solarpowermexico'
+            />
+            <p
+              className='mt-5 text-light text-center fs-4'
+              dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
+            />
+            <div className='mt-5 text-center'>
+              <a
+                href='https://solarstorage.ahmreg.com/'
+                target='_blank'
+                className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
+              >
+                <span className='text-uppercase'>{t('menu.banner')}</span>
+              </a>
+            </div>
+            <p
+              className='mt-5 text-light text-f fs-4'
+              dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
+            />
+          </div>
+        </Container>
+      </section> */}
       <Container fluid>
         <section className='mt-5'>
           <Row className='text-light'>
@@ -517,277 +711,119 @@ export function Home() {
             </p>
           </section>
         </div>
-        <section>
-        <section>
-      <p className='fw-bold fs-2 text-secondary text-center'>
-            {t('home.organized_by')}:
-          </p>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a
-                href='https://www.iegexpo.it/en/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/italianExhibitionGroup.webp'
-                  width={150}
-                  height={82}
-                  loading='lazy'
-                  alt='italianExhibitionGroup'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a
-                href='https://www.messe.de/en/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/deutscheMesse.webp'
-                  width={250}
-                  height={54}
-                  loading='lazy'
-                  alt='deutscheMesse'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a
-                href='http://www.snec.org.cn/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/snecPower.webp'
-                  width={150}
-                  height={114}
-                  loading='lazy'
-                  alt='snecPower'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
-                <img
-                  src='/RE_Events_orange.webp'
-                  width={100}
-                  height={80}
-                  loading='lazy'
-                  alt='replus'
-                />
-              </a>
-            </Col>
-          </Row>
-          <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
-            Powered by:
-          </p>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/amif.webp'
-                  width={200}
-                  height={59}
-                  loading='lazy'
-                  alt='amif'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/asolmex.webp'
-                  width={150}
-                  height={150}
-                  loading='lazy'
-                  alt='asolmex'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/seiaSolarEnergy.webp'
-                  width={200}
-                  height={62}
-                  loading='lazy'
-                  alt='seiaSolarEnergy'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto pt-4'>
-              <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/SmartElectric.webp'
-                  width={200}
-                  height={62}
-                  loading='lazy'
-                  alt='SmartElectric'
-                />
-              </a>
-            </Col>
-          </Row>
-      </section>
-        </section>
-      </Container>
-      <Container>
-        <section>
-          <div className='mt-5 pt-5 pb-5 text-center'>
-            <p className='fw-bold fs-2'>{t('home.sponsor_platinum')}</p>
-            <a
-              href='https://consumer.huawei.com/mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                width={200}
-                height={45}
-                src='/Huawei.webp'
-                alt='Huawei'
-                loading='lazy'
-              />
-            </a>
-            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
-            <Row className='gap-2 d-flex align-items-start justify-content-center'>
-              <Col sm={12} md={4} lg={2} className=''>
+          <section className='mt-5 pt-5'>
+            <p className='fw-bold fs-2 text-secondary text-center'>
+              {t('home.organized_by')}:
+            </p>
+            <Row className='text-center'>
+              <Col md={3} className='mx-auto my-auto pt-4'>
                 <a
-                  href='https://www.longi.com/mx/'
+                  href='https://www.iegexpo.it/en/'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img
+                    src='/italianExhibitionGroup.webp'
                     width={150}
-                    height={68}
-                    src='/LONGI.webp'
-                    alt='LONGI'
+                    height={82}
                     loading='lazy'
+                    alt='italianExhibitionGroup'
                   />
                 </a>
-
               </Col>
-              <Col sm={12} md={4} lg={2} className=''>
+              <Col md={3} className='mx-auto my-auto pt-4'>
                 <a
-                  href='https://www.enlight.mx/'
+                  href='https://www.messe.de/en/'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img
-                    width={150}
-                    height={78}
-                    src='/enlight.webp'
-                    alt='LONGI'
+                    src='/deutscheMesse.webp'
+                    width={250}
+                    height={54}
                     loading='lazy'
+                    alt='deutscheMesse'
                   />
                 </a>
-
+              </Col>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a
+                  href='http://www.snec.org.cn/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    src='/snecPower.webp'
+                    width={150}
+                    height={114}
+                    loading='lazy'
+                    alt='snecPower'
+                  />
+                </a>
+              </Col>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a href='https://re-plus.events' target='_blank' rel='noreferrer'>
+                  <img
+                    src='/RE_Events_orange.webp'
+                    width={100}
+                    height={80}
+                    loading='lazy'
+                    alt='replus'
+                  />
+                </a>
               </Col>
             </Row>
-            <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
-            <div className='d-grid d-md-table gap-2'>
-              <a
-                href='https://sunpower.maxeon.com/mx/por-que-sunpower'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={47}
-                  src='/SUNPOWER.webp'
-                  alt='SUNPOWER'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={150}
-                  height={101}
-                  src='/Ibedrola.webp'
-                  alt='Ibedrola'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://solar-distribution.baywa-re.mx/es/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={76}
-                  src='/BayWar.webp'
-                  alt='BayWar'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://es.s-5.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={80}
-                  height={80}
-                  src='/S-5logo.webp'
-                  alt='S-5logo'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://es.antaisolar.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={70}
-                  src='/antai.webp'
-                  alt='Antai'
-                  loading='lazy'
-                />
-              </a>
-              <a
-                href='https://latam.apsystems.com/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={50}
-                  src='/apSystems.webp'
-                  alt='apSystems'
-                  loading='lazy'
-                />
-              </a>
-            </div>
-          </div>
-        </section>
+            <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
+              Powered by:
+            </p>
+            <Row className='text-center'>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a href='https://www.amif.mx/' target='_blank' rel='noreferrer'>
+                  <img
+                    src='/amif.webp'
+                    width={200}
+                    height={59}
+                    loading='lazy'
+                    alt='amif'
+                  />
+                </a>
+              </Col>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a href='https://asolmex.org/' target='_blank' rel='noreferrer'>
+                  <img
+                    src='/asolmex.webp'
+                    width={150}
+                    height={150}
+                    loading='lazy'
+                    alt='asolmex'
+                  />
+                </a>
+              </Col>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a href='https://www.seia.org/' target='_blank' rel='noreferrer'>
+                  <img
+                    src='/seiaSolarEnergy.webp'
+                    width={200}
+                    height={62}
+                    loading='lazy'
+                    alt='seiaSolarEnergy'
+                  />
+                </a>
+              </Col>
+              <Col md={3} className='mx-auto my-auto pt-4'>
+                <a href='https://sepapower.org/' target='_blank' rel='noreferrer'>
+                  <img
+                    src='/SmartElectric.webp'
+                    width={200}
+                    height={62}
+                    loading='lazy'
+                    alt='SmartElectric'
+                  />
+                </a>
+              </Col>
+            </Row>
+          </section>
       </Container>
-      <section className='visitor-background py-5'>
-        <Container className='text-center py-5'>
-          <div data-aos="zoom-in" data-aos-duration="1000">
-            <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
-            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
-              <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
-                i18n.language === 'en'
-                  ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
-                  : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
-            </div>
-          </div>
-        </Container>
-      </section>
       {/* <section className='mt-5 home-whyexhibit'>
         <Container>
           <p

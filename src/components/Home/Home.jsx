@@ -157,7 +157,7 @@ export function Home() {
           <Row className='text-light'>
             <Col md className='background_num1 position-num'>
               <div>
-                <Bullets number='7500' duration='4' simbol_1='+' />
+                <Bullets number='7500' duration='6' simbol_1='+' />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_1')}</i>
                 </div>
@@ -165,7 +165,7 @@ export function Home() {
             </Col>
             <Col md className='background_num2 position-num'>
               <div>
-                <Bullets number='13000' duration='4' simbol_2='m&sup2;' />
+                <Bullets number='13000' duration='6' simbol_2='m&sup2;' />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_2')}</i>
                 </div>
@@ -173,7 +173,7 @@ export function Home() {
             </Col>
             <Col md className='background_num3 position-num'>
               <div>
-                <Bullets number='120' duration='4' simbol_1='+' />
+                <Bullets number='120' duration='6' simbol_1='+' />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_3')}</i><br /><br />
                 </div>
@@ -181,7 +181,7 @@ export function Home() {
             </Col>
             <Col md className='background_num4 position-num'>
               <div>
-                <Bullets number='462' duration='4' simbol_1='+' simbol_2='MDP' />
+                <Bullets number='462' duration='6' simbol_1='+' simbol_2='MDP' />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_4')}</i><br />
                   <i>(2023)</i>
@@ -190,7 +190,7 @@ export function Home() {
             </Col>
             <Col md className='background_num5 position-num'>
               <div>
-                <Bullets number='6' duration='4' simbol_1='+' simbol_2='MDP' />
+                <Bullets number='6' duration='6' simbol_1='+' simbol_2='MDP' />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_5')}</i>
                 </div>
@@ -904,11 +904,11 @@ export function Home() {
               <Col lg={8}>
                 <Row className='text-secondary d-flex align-items-center justify-content-center'>
                   <Col lg={3} className='text-center'>
-                    <Bullets number='21000' duration='4' simbol_1='+' />
+                    <Bullets number='21000' duration='6' simbol_1='+' />
                     <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
                   </Col>
                   <Col lg={6} className='text-center'>
-                    <Bullets number='2500000' duration='4' simbol_1='+' />
+                    <Bullets number='2500000' duration='6' simbol_1='+' />
                     <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#8C3295' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
                   </Col>
                   <Col lg={3} className='text-center'>

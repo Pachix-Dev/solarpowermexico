@@ -72,6 +72,36 @@ export function Home() {
           </div>
         </Container>
       </section>
+      <section
+        className='position-relative w-100 vh-100 d-flex align-items-start justify-content-center' style={{ textShadow: '4px 4px 4px black' }}
+      >
+        <video
+          src="/energy_night.mp4"
+          autoPlay
+          muted
+          loop
+          className="video-bg-ecomondo video-filter"
+        />
+        <Container>
+          <div className='text-center'>
+            <img
+              src='/logo_energy_night.webp'
+              width='300'
+              alt='EnergyNight'
+            />
+            <p className='text-white fs-1 fw-bold'>EL EVENTO MÁS IMPORTANTE DE NETWORKING <br />DE LA INDUSTRIA FOTOVOLTAICA.</p>
+            <div className='mt-5 text-center'>
+              <a
+                href='https://energynight.igeco.mx/'
+                target='_blank'
+                className='text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold button-energynight'
+              >
+                <span className='text-uppercase'>{t('menu.banner')}</span>
+              </a>
+            </div>
+          </div>
+        </Container>
+      </section>
       <Container>
         <Header />
       </Container>
@@ -254,20 +284,20 @@ export function Home() {
         </section>
       </Container>
       {/* ¿QUIERES SER PATROCINADOR?*/}
-        <section className='visitor-background py-5'>
-          <Container className='text-center py-5'>
-            <div data-aos="zoom-in" data-aos-duration="1000">
-              <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
-              <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
-                <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
-                  i18n.language === 'en'
-                    ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
-                    : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-                } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
-              </div>
+      <section className='visitor-background py-5'>
+        <Container className='text-center py-5'>
+          <div data-aos="zoom-in" data-aos-duration="1000">
+            <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
+            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
+              <a className='text-decoration-none' style={{ color: '#8C3295' }} href={
+                i18n.language === 'en'
+                  ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
+                  : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
+              } target='_blank'><p className='fs-5 fw-semibold'> {t("home.sponsors.description")} </p></a>
             </div>
-          </Container>
-        </section>
+          </div>
+        </Container>
+      </section>
       {/* ¿POR QUÉ ASISTIR? */}
       <Container>
         <section className='py-5'>
@@ -310,44 +340,6 @@ export function Home() {
           </Row>
         </section>
       </Container>
-      {/* <section
-        className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
-        style={{ textShadow: '4px 4px 4px black' }}
-      >
-        <video
-          src="/energy_night.mp4"
-          autoPlay
-          muted
-          loop
-          className="video-bg-ecomondo video-filter"
-        />
-        <Container>
-          <div className='text-center'>
-            <img
-              src='/SSM-logo.webp'
-              width='250'
-              alt='Solarpowermexico'
-            />
-            <p
-              className='mt-5 text-light text-center fs-4'
-              dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
-            />
-            <div className='mt-5 text-center'>
-              <a
-                href='https://solarstorage.ahmreg.com/'
-                target='_blank'
-                className='bg-dark text-white text-decoration-none p-3 border border-light rounded-3 fs-5 fw-bold'
-              >
-                <span className='text-uppercase'>{t('menu.banner')}</span>
-              </a>
-            </div>
-            <p
-              className='mt-5 text-light text-f fs-4'
-              dangerouslySetInnerHTML={{ __html: t('home.solar_date_hours') }}
-            />
-          </div>
-        </Container>
-      </section> */}
       <Container fluid>
         <section className='mt-5'>
           <Row className='text-light'>

@@ -235,6 +235,9 @@
 .button_hotels{background-color: #5b027f;}
 .button_hotels:hover{background-color: #e7557a;}
 
+.button-energynight{background-color: #A44DD6;}
+.button-energynight:hover{background-color: #7901b4;}
+
 .button-sponsors{
     background-color: #ffffff;
     height: 70px;

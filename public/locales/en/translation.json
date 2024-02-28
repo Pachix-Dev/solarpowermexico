@@ -121,39 +121,32 @@
             "title":"BOOTHS",
             "sub-title":"PARTICIPATION FEES",
             "item1":{
-               "title1":"Sustainable Hub 2sqm",
-               "price1":"USD 1,800 + IVA",
-               "priece2":"USD 900 + IVA",
-               "title2":"Includes",
-               "topic1": "Standard carpet",
-               "topic2": "Label in vinyl",
-               "topic3": "Standard furniture",
-               "topic4": "110v electrical contact",
-               "topic5":"2 badges for staff",
-               "topic6":"Mention in the directory"
+                "title1":"Raw Space minimum +18 sqm",
+                   "price1":"",
+                   "priece2":"USD 440.00 + IVA / SQM",
+                   "title2":"Includes",
+                   "topic1":"Exhibitor badges",
+                   "topic2":"Mention in the directory",
+                   "topic3":"Excludes: carpet, construction, furnishings and utilities."
             },
-            "item2":{
-               "title1":"Stan equipado 9m2",
-               "price1":"USD 3,330 + IVA",
-               "title2":"Includes",
-               "topic1": "Standard carpet",
-               "topic2": "partition walls",
-               "topic3": "front with vinyl sign",
-               "topic4": "Illumination",
-               "topic5": "Standard furniture",
-               "topic6": "110v electrical contact",
-               "topic7": "Display badges",
-               "topic8":"Mention in the directory"
-            },
-               "item3":{
-                  "title1":"Superficie Libre 18 m2 minimo",
-                  "price1":"USD 320 / m2 + IVA",
-                  "title2":"Includes",
-                  "topic1": "Stand space",
-                  "topic2": "Display badges",
-                  "topic3":"Mention in the directory",
-                  "topic4":"Does not include carpet, construction, furniture, services"
-               }
+                "item2":{
+                "title1":"Shell Scheme Minimum of 9 sqm",
+                "price1":"USD 490.00 + IVA / sqm",
+                "title2":"Includes",
+                "topic1": "Standard carpet",
+                "topic2": "partition walls",
+                "topic3": "counter with vinyl signage",
+                "topic4": "Illumination",
+                "topic5": "Standard furniture",
+                "topic6": "110v electrical contact",
+                "topic7": "Exhibitor badges",
+                "topic8":"Mention in the directory"
+                },
+                "item3":{
+                    "title1":"5% Discounts",
+                    "topic1": "Single-payment option",
+                    "topic2": "Discover all our sponsorship options"
+                    }
             }
     },
     "AboutSSM":{

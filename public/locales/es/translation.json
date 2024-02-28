@@ -121,20 +121,17 @@
                 "title":"STANDS",
                 "sub-title":"TARIFAS DE PARTICIPACIÓN",
                 "item1":{
-                   "title1":"Sustainable Hub 2m2",
-                   "price1":"USD 1,800 + IVA",
-                   "priece2":"USD 900 + IVA",
+                   "title1":"Espacio Libre +18 m2",
+                   "price1":"",
+                   "priece2":"USD 440.00 + IVA / m2",
                    "title2":"Incluye",
-                   "topic1":"Alfombra estándar",
-                   "topic2":"Rótulo en vinil",
-                   "topic3":"Moviliario estándar",
-                   "topic4":"Contacto eléctrico de 110v",
-                   "topic5":"2 gafetes para el personal",
-                   "topic6":"Mención en el directorio"
+                   "topic1":"Gafetes de expositor",
+                   "topic2":"Mención en el directorio",
+                   "topic3":"NO incluye: alfombra, construcción, mobiliario, ni servicios."
                 },
                 "item2":{
-                   "title1":"Stan equipado 9m2",
-                   "price1":"USD 3,330 + IVA",
+                   "title1":"Stan equipado 9 m2 mínimo",
+                   "price1":"USD 490.00 + IVA / m2",
                    "title2":"Incluye",
                    "topic1":"Alfombra estándar",
                    "topic2":"Mamparas divisorias",
@@ -146,14 +143,10 @@
                    "topic8":"Mención en el directorio"
                 },
                 "item3":{
-                   "title1":"Superficie Libre 18 m2 minimo",
-                   "price1":"USD 320 / m2 + IVA",
-                   "title2":"Incluye",
-                   "topic1":"Espacio para stand",
-                   "topic2":"Gafetes de expositor",
-                   "topic3":"Mención en el directorio",
-                   "topic4":"No incluye alfombra, construcción, mobiliario, servicios"
-                }
+                    "title1":"5% Descuento",
+                    "topic1": "Pago en una sola exhibición",
+                    "topic2": "Descubre todas nuestras opciones de patrocinio"
+                    }
              }
     },
     "AboutSSM":{

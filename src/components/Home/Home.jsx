@@ -726,7 +726,7 @@ export function Home() {
               <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <img src='/Pamela-velazquez.webp' alt='Pamela Velázquez' width={120} height={120} className='rounded-circle' />
                 <p className='mt-3 fw-bold'>USA</p>
-                <p className='m-0'>Pamela Velázquez</p>
+                <p className='m-0'>Pamela Velazco</p>
                 <a href='mailto:pvelazco@re-plus.com' className='text-light text-decoration-none'>
                   <svg xmlns='http://www.w3.org/2000/svg' fill='#1d7e7a' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={20}>
                     <path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />

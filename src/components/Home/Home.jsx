@@ -341,13 +341,11 @@ export function Home() {
         <Container className='text-center py-5'>
           <div data-aos="zoom-in" data-aos-duration="1000">
             <p className='text-light fs-1 fw-bold text-uppercase'> {t("home.sponsors.title")} </p>
-            <div className='d-block button-sponsors d-flex align-items-center justify-content-center pt-3 mt-4'>
-              <a className='text-decoration-none text-black' href={
-                i18n.language === 'en'
+            <div className='d-block d-flex align-items-center justify-content-center pt-3 mt-4'>
+              <a className='text-decoration-none text-black' href={i18n.language === 'en'
                   ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
                   : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'></a>
-              <p className='fs-5 fw-bold'> {t("home.sponsors.description")} </p>
+              } target='_blank'><p className='fs-5 fw-bold button-sponsors d-flex align-items-center justify-content-center'> {t("home.sponsors.description")} </p></a>
             </div>
           </div>
         </Container>

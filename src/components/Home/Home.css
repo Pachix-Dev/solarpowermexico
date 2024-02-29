@@ -280,6 +280,10 @@
     background-color: #e7557a;
 }
 
+.text-format{
+    text-align: justify;
+}
+
 @media (max-width: 1440px) {
     .img-gallery {
         width: 100%;

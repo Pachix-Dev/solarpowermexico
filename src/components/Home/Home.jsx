@@ -153,17 +153,19 @@ export function Home() {
         <article className='mt-2'>
           <Row className='pt-5'>
             <Col md={6}>
-              <p className='fw-bold fs-2 home-text-color'>
-                SOLAR + STORAGE MEXICO 2024
-              </p>
-              <p className='fs-5'>
-                <strong>SOLAR + STORAGE MEXICO </strong>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: t('home.solar_description'),
-                  }}
-                />
-              </p>
+              <div className='px-2'>
+                <p className='fw-bold fs-3 home-text-color'>
+                  SOLAR + STORAGE MEXICO 2024
+                </p>
+                <p className='fs-5 text-format'>
+                  <strong>SOLAR + STORAGE MEXICO </strong>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t('home.solar_description'),
+                    }}
+                  />
+                </p>
+              </div>
             </Col>
             <Col md={6} className='my-auto'>
               {i18n.language === 'en' ? (
@@ -179,6 +181,9 @@ export function Home() {
                   className='w-100'
                   controls
                   src='/SSM-2024-ES.mp4'
+                  autoPlay
+                  muted
+                  loop
                   poster='/posterSolarVideo2024.webp'
                   loading='lazy'
                 />

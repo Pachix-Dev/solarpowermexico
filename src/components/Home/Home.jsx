@@ -661,7 +661,7 @@ export function Home() {
               <li class="list-group-item fw-bold pt-4"> {t("home.rates.item1.topic3")} </li>
             </ul>
           </Col>
-          <Col lg={4} md={4} sm={12} className="p-5">
+          <Col lg={4} md={4} sm={12} className="p-5 column-with-border">
             <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
             <p className='fs-3 text fw-bolder text-danger'> {t("home.rates.item2.price1")} </p>
             <ul class="list-group-flush p-0 m-0">
@@ -677,9 +677,7 @@ export function Home() {
           </Col>
           <Col lg={4} md={4} sm={12} className='p-5'>
             <div>
-              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item3.title1")}</p>
-              <p className='fs-4 fw-bolder'> {t("home.rates.item3.topic1")}</p>
-              <p className='fw-bolder'> {t("home.rates.item3.topic2")}</p>
+              <p className='fs-3 text fw-bolder'>{t("home.rates.item3.title1")}</p>
               <img src="/hand-down-svgrepo-com.svg" alt="mano-price-solar-storage" width='45' />
             </div>
             <img src="/solar_qr.webp" alt="price-solar-storage" width='250' />

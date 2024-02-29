@@ -211,7 +211,13 @@
         "speech": "Speech",
         "button1": "BUY CONFERENCE PROGRAM",
         "subt_title_1":"Meet our",
-        "sub_title":"ABOUT"
+        "sub_title":"ABOUT",
+        "promotion":{
+            "title":"Buy your conference program",
+            "preventa":"Pre-sale </br> $6,500 MXN </br> Normal rate after March 17th : $7,500MXN",
+            "includes":"INCLUDES </br> Conference program + Energy Night"
+        }
+
     },
     "counterDown":{
         "description": "<strong>An exclusive networking event for executives and industry leaders where you will be able to</strong> create strategic networks AND meet new business.",

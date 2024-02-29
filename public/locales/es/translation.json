@@ -212,7 +212,12 @@
         "speech": "Ponencia",
         "button1": "COMPRAR PROGRAMA DE CONFERENCIAS",
         "subt_title_1":"Conoce a nuestros",
-        "sub_title":"ACERCA DE"
+        "sub_title":"ACERCA DE",
+        "promotion":{
+            "title":"Adquiere tu programa de conferencias",
+            "preventa":"PREVENTA  <br /> $6,500 MXN <br />Tarifa normal después del 17 de Marzo: $7,500MXN",
+            "includes":"INCLUYE <br /> Programa de Conferencias + Energy Nightes"
+        }
     },
     "counterDown":{
         "description": "<strong>Un evento exclusivo de networking para empresarios y líderes de la industria donde podrás</strong> crear redes estratégicas Y conocer nuevos negocios.",

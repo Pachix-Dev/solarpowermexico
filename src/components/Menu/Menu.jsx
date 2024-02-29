@@ -178,7 +178,7 @@ export function Menu() {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to='enlightenment-area'
+                    to='conference-program'
                     onClick={handleClose}
                   >
                     {t('menu.submenu_2.option_9')}

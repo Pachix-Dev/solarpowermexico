@@ -39,8 +39,8 @@ export function Program() {
                 >
                   {/* AQUÍ VA INFOMRACIÓN DE LOS PONENTES */}
                   <Row>
-                    <Col className='text-center mt-5 text-white' sm={12} md={12} xl={12}>
-                      <div className='p-2 my-5'>
+                    <Col className='text-center text-white py-5' sm={12} md={12} xl={12}>
+                      <div className='p-2'>
                         <p className='fs-1 fw-bold' style={{color:'#450151'}}> {t("program.promotion.title")} </p>
                         <p className='fs-3 fw-semibold' dangerouslySetInnerHTML={{ __html: t("program.promotion.preventa") }}></p>
                         <p className='fs-3 fw-semibold' dangerouslySetInnerHTML={{ __html: t("program.promotion.includes") }}></p>

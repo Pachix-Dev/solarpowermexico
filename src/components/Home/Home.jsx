@@ -45,7 +45,7 @@ export function Home() {
           loop
           className="video-bg-ecomondo video-filter"
         />
-        <Container>
+        <Container className='py-5'>
           <div className='text-center'>
             <img
               src='/SSM-logo.webp'
@@ -53,7 +53,7 @@ export function Home() {
               alt='Solarpowermexico'
             />
             <p
-              className='mt-5 text-light text-center fs-4'
+              className='mt-4 text-light text-center fs-4'
               dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
             />
             <Row className='pt-4'>

@@ -675,6 +675,7 @@ export function Home() {
           <Col lg={4} md={4} sm={12} className="p-5 column-with-border">
             <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
             <p className='fs-3 text fw-bolder text-danger'> {t("home.rates.item2.price1")} </p>
+            <p className='fs-4 text fw-semibold'>{t("home.rates.item2.title2")} </p>
             <ul class="list-group-flush p-0 m-0">
               <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
               <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>

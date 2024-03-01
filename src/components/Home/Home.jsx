@@ -35,7 +35,7 @@ export function Home() {
   return (
     <>
       <section
-        className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
+        className='position-relative d-flex align-items-center justify-content-center'
         style={{ textShadow: '4px 4px 4px black' }}
       >
         <video

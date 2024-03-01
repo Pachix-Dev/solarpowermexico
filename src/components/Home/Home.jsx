@@ -43,6 +43,7 @@ export function Home() {
           autoPlay
           muted
           loop
+          poster='/solarStorage-background.webp'
           className="video-bg-ecomondo video-filter"
         />
         <Container className='py-5'>

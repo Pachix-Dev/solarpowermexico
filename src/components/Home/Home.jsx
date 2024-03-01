@@ -23,7 +23,6 @@ import {
   exhibitors5,
 } from '../../constans_logos'
 import { Bullets } from './Bullets'
-import { ModalBanner } from './ModalBanner'
 
 export function Home() {
   const { t, i18n } = useTranslation()
@@ -35,7 +34,6 @@ export function Home() {
 
   return (
     <>
-    <ModalBanner/>
       <section
         className='position-relative d-flex align-items-center justify-content-center'
         style={{ textShadow: '4px 4px 4px black' }}

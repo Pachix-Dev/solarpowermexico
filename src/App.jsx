@@ -23,6 +23,7 @@ import ScrollToTop from './components/ScrollToTop'
 import { Footer } from './components/Footer/Footer'
 import { trackPageView } from './google-analytics'
 import { Hotels } from './components/Hotels/Hotels'
+import { ModalBanner } from './components/Home/ModalBanner'
 
 function RouteWithHelmet ({ title, element }) {
   return (
@@ -44,6 +45,7 @@ function App () {
 
   return (
     <>
+      <ModalBanner/>
       <ScrollToTop />
       <Menu />
       {/* <div className='whatssap-button'>

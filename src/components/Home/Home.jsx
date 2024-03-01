@@ -421,7 +421,7 @@ export function Home() {
             </Col>
             <Col md className='background_num2 position-num'>
               <div>
-                <Bullets number='13000' duration='6' simbol_2='m&sup2;' />
+                <Bullets number='13000' duration='6' simbol_2={t("home.bullet_6")} />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_2')}</i>
                 </div>
@@ -437,7 +437,7 @@ export function Home() {
             </Col>
             <Col md className='background_num4 position-num'>
               <div>
-                <Bullets number='462' duration='6' simbol_1='+' simbol_2='MDP' />
+                <Bullets number='462' duration='6' simbol_1='+' simbol_2={t('home.bullet_7')} />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_4')}</i><br />
                   <i>(2023)</i>
@@ -446,7 +446,7 @@ export function Home() {
             </Col>
             <Col md className='background_num5 position-num'>
               <div>
-                <Bullets number='6' duration='6' simbol_1='+' simbol_2='MDP' />
+                <Bullets number='6' duration='6' simbol_1='+' simbol_2={t('home.bullet_7')} />
                 <div className='text-center fw-bold text-light'>
                   <i>{t('home.bullet_5')}</i>
                 </div>

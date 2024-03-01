@@ -181,6 +181,8 @@ export function Home() {
                 <video
                   className='w-100'
                   controls
+                  autoPlay
+                  muted
                   src='/SSM-2024-ENG.mp4'
                   poster='/posterSolarVideo2024ENG.webp'
                   loading='lazy'

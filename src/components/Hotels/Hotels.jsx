@@ -50,7 +50,7 @@ export function Hotels() {
                 className='text-description'
                 dangerouslySetInnerHTML={{ __html: t('hotels.description_gdl') }} style={{textAlign:'justify'}}
               />
-              <a href="https://secturjal.jalisco.gob.mx/inicio" target='_blank'>
+              <a href="https://visitagdl.com/" target='_blank'>
                   <Button className='btn-event-topics border border-light mb-5 fs-6 text-uppercase fw-bold'>{t("hotels.button-gdl")}</Button>
               </a>
             </section>

@@ -10,15 +10,37 @@ export function Footer() {
   const [show, ref] = useNearScreen()
   return (
     <footer className='mt-5'>
-      <Container fluid>
-        <img
+      <Container fluid className='' style={{ backgroundColor: '#570587' }}>
+        {/* <img
           src='/plecaSolar2.webp'
           className='w-100 h-100'
           alt='Italian Exhibition Group'
           loading='lazy'
           width={2560}
           height={207}
-        />
+        /> */}
+        <Row className='justify-content-md-center py-3'>
+          <Col md className='d-flex justify-content-center  align-items-center'>
+            <a href="https://igeco.mx/" target='_blank'>
+              <img src="/igeco_bn.webp" alt="" width='200' loading='lazy' />
+            </a>
+          </Col>
+          <Col md className='d-flex justify-content-center  align-items-center'>
+            <a href="https://www.messe.de/en/" target='_blank'>
+              <img src="/deutsche_messe_bn.webp" alt="" width='200' loading='lazy' />
+            </a>
+          </Col>
+          <Col md className='d-flex justify-content-center  align-items-center'>
+            <a href="https://re-plus.events/" target='_blank'>
+              <img src="/RE+ logo wht.webp" alt="" width='150' loading='lazy' />
+            </a>
+          </Col>
+          <Col md className='d-flex justify-content-center  align-items-center'>
+            <a href="https://pv.snec.org.cn/?locale=en-US" target='_blank'>
+              <img src="/SNEC logo wht.webp" alt="" width='120' loading='lazy' />
+            </a>
+          </Col>
+        </Row>
       </Container>
       <Container>
         <div className='footer-socialmedia mt-5'>
@@ -84,7 +106,7 @@ export function Footer() {
               <strong>SOLAR + STORAGE MEXICO 2024</strong>
             </p>
             <p>
-             {t("footer.event-date")}
+              {t("footer.event-date")}
               <br />
               Expo Guadalajara,
               <br />
@@ -92,28 +114,28 @@ export function Footer() {
             </p>
           </Col>
           <Col md>
-          <Row className='mb-5'>
-                <Col xs={4} md={12} lg={3}>
-                  <Image src="/sandra.webp" roundedCircle width='85' />
-                </Col>
-                <Col xs={8} md={12} lg={8}>
-                  <strong>Sandra Elías</strong><br />
-                    {t('footer.project_manager')}<br />
-                    <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
-                    <a href='mailto:sandra.elias@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587', border:'none'}}> {t('footer.message_button')}</Button></a>
-                </Col>
-              </Row>
-              <Row className='mb-5'>
-                <Col xs={4} md={12} lg={3}>
-                  <Image src="/samuel-ramirez.webp" roundedCircle width='85' />
-                </Col>
-                <Col xs={8} md={12} lg={8}>
-                  <strong>Samuel Ramírez</strong><br />
-                    {t('footer.sales_manager')}<br />
-                    <a href='mailto:samuel.ramirez@igeco.mx'>samuel.ramirez@igeco.mx</a>
-                    <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587', border:'none'}} > {t('footer.message_button')}</Button></a>
-                </Col>
-              </Row>
+            <Row className='mb-5'>
+              <Col xs={4} md={12} lg={3}>
+                <Image src="/sandra.webp" roundedCircle width='85' />
+              </Col>
+              <Col xs={8} md={12} lg={8}>
+                <strong>Sandra Elías</strong><br />
+                {t('footer.project_manager')}<br />
+                <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
+                <a href='mailto:sandra.elias@igeco.mx'><Button size="sm" style={{ backgroundColor: '#570587', border: 'none' }}> {t('footer.message_button')}</Button></a>
+              </Col>
+            </Row>
+            <Row className='mb-5'>
+              <Col xs={4} md={12} lg={3}>
+                <Image src="/samuel-ramirez.webp" roundedCircle width='85' />
+              </Col>
+              <Col xs={8} md={12} lg={8}>
+                <strong>Samuel Ramírez</strong><br />
+                {t('footer.sales_manager')}<br />
+                <a href='mailto:samuel.ramirez@igeco.mx'>samuel.ramirez@igeco.mx</a>
+                <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{ backgroundColor: '#570587', border: 'none' }} > {t('footer.message_button')}</Button></a>
+              </Col>
+            </Row>
           </Col>
           <Col md>{show && <Subscribe />}</Col>
         </Row>

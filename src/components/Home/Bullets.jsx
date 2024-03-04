@@ -27,7 +27,7 @@ export function Bullets (props) {
 
   return (
     <div className='text-center'>
-      <span className='fw-bold fs-1'>{simbol_1}{formatNumberWithCommas(count)}{simbol_2}</span>
+      <span className='fw-bold fs-2'>{simbol_1}{formatNumberWithCommas(count)}{simbol_2}</span>
     </div>
   )
 }

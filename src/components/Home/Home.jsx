@@ -361,7 +361,7 @@ export function Home() {
               <a className='text-decoration-none text-black' href={i18n.language === 'en'
                 ? '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6-ENG.pdf'
                 : '/files/SOLAR-STORAGE-MEXICO-SPONSORSHIPS-V6.pdf'
-              } target='_blank'><p className='fs-5 fw-bold button-sponsors d-flex align-items-center justify-content-center'> {t("home.sponsors.description")} </p></a>
+              } target='_blank'><p className='fs-5 fw-bold button-sponsors d-flex align-items-center justify-content-center p-2'> {t("home.sponsors.description")} </p></a>
             </div>
           </div>
         </Container>
@@ -415,7 +415,7 @@ export function Home() {
               <div>
                 <Bullets number='7500' duration='6' simbol_1='+' />
                 <div className='text-center fw-bold text-light'>
-                  <i>{t('home.bullet_1')}</i>
+                  <i className='fs-5'>{t('home.bullet_1')}</i>
                 </div>
               </div>
             </Col>
@@ -423,7 +423,7 @@ export function Home() {
               <div>
                 <Bullets number='13000' duration='6' simbol_2={t("home.bullet_6")} />
                 <div className='text-center fw-bold text-light'>
-                  <i>{t('home.bullet_2')}</i>
+                  <i className='fs-5'>{t('home.bullet_2')}</i>
                 </div>
               </div>
             </Col>
@@ -431,7 +431,7 @@ export function Home() {
               <div>
                 <Bullets number='120' duration='6' simbol_1='+' />
                 <div className='text-center fw-bold text-light'>
-                  <i>{t('home.bullet_3')}</i><br /><br />
+                  <i className='fs-5'>{t('home.bullet_3')}</i><br /><br />
                 </div>
               </div>
             </Col>
@@ -439,7 +439,7 @@ export function Home() {
               <div>
                 <Bullets number='462' duration='6' simbol_1='+' simbol_2={t('home.bullet_7')} />
                 <div className='text-center fw-bold text-light'>
-                  <i>{t('home.bullet_4')}</i><br />
+                  <i className='fs-5'>{t('home.bullet_4')}</i><br />
                   <i>(2023)</i>
                 </div>
               </div>
@@ -448,7 +448,7 @@ export function Home() {
               <div>
                 <Bullets number='6' duration='6' simbol_1='+' simbol_2={t('home.bullet_7')} />
                 <div className='text-center fw-bold text-light'>
-                  <i>{t('home.bullet_5')}</i>
+                  <i className='fs-5'>{t('home.bullet_5')}</i>
                 </div>
               </div>
             </Col>

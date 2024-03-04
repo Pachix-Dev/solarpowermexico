@@ -280,7 +280,7 @@
     font-size: 14px;
     background-color: #a44dd6;
     border: 1px solid #ffffff;
-    padding: 10px;
+    padding: 5px;
 }
 
 .button_hotels:hover,
@@ -309,9 +309,8 @@
     }
 
     .btn-event-topics {
-        height: 105px;
+        height: 95px;
         width: 220px;
-        font-size: 10px;
     }
 }
 
@@ -357,9 +356,10 @@
         width: 100%;
     }
 
-    
-
-    
+    .btn-event-topics {
+        height: 95px;
+        width: 190px;
+    }
 }
 
 @media(max-width: 431px) {

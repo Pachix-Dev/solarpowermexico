@@ -60,7 +60,7 @@ export function Home() {
             <Row className='pt-4'>
               <Col md={3} lg={3} className='my-2'>
                 <Link to='/conference-program'>
-                  <Button className='btn-event-topics border border-light'>
+                  <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       fill='none'
@@ -74,13 +74,13 @@ export function Home() {
                         strokeLinejoin='round'
                         d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z'
                       />
-                    </svg><p className='fs-6 text-uppercase fw-bold'>{t('home.program')}</p>
+                    </svg><br />{t('home.program')}
                   </Button>
                 </Link>
               </Col>
               <Col md={3} lg={3} className='my-2'>
                 <Link to='/hotels'>
-                  <Button className='btn-event-topics border border-light'>
+                  <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       fill='none'
@@ -94,23 +94,23 @@ export function Home() {
                         strokeLinejoin='round'
                         d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z'
                       />
-                    </svg><p className='fs-6 text-uppercase fw-bold'>{t("home.button_hotels")}</p>
+                    </svg><br />{t("home.button_hotels")}
                   </Button>
                 </Link>
               </Col>
               <Col md={3} lg={3} className='my-2'>
                 <a href="https://solarstorage.ahmreg.com/">
-                  <Button className='btn-event-topics border border-light '>
+                  <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
                     <div>
-                      <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 4H18C19.1046 4 20 4.89543 20 6V18C20 19.1046 19.1046 20 18 20H15M11 16L15 12M15 12L11 8M15 12H3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><p className='fs-6 text-uppercase fw-bold'>{t("menu.banner")}</p>
+                      <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15 4H18C19.1046 4 20 4.89543 20 6V18C20 19.1046 19.1046 20 18 20H15M11 16L15 12M15 12L11 8M15 12H3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><br />{t("menu.banner")}
                     </div>
                   </Button>
                 </a>
               </Col>
               <Col md={3} lg={3} className='my-2'>
                 <a href="https://spmx24.mapyourshow.com/8_0/exhview/index.cfm">
-                  <Button className='btn-event-topics border border-light'>
-                    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 20L3 17V4L9 7M9 20L15 17M9 20V7M15 17L21 20V7L15 4M15 17V4M9 7L15 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><p className='fs-6 text-uppercase fw-bold'>{t("home.floorplan")}</p>
+                  <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
+                    <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 20L3 17V4L9 7M9 20L15 17M9 20V7M15 17L21 20V7L15 4M15 17V4M9 7L15 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><br />{t("home.floorplan")}
                   </Button>
                 </a>
               </Col>

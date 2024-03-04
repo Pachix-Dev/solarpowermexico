@@ -258,13 +258,13 @@ export function Menu() {
                   >
                     {t('menu.submenu_4.results')} SPM 2022
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Directorio-SSM-2022.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.submenu_4.directory')} SPM 2022
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
 
                   <p className='mb-0 fw-bold'>SPM 2021</p>
                   <NavDropdown.Item
@@ -278,13 +278,13 @@ export function Menu() {
                   >
                     {t('menu.submenu_4.results')} SPM 2021
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Directorio-SSM-2021.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.submenu_4.directory')} SPM 2021
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
 
                   <p className='mb-0 fw-bold'>SPM 2019</p>
                   <NavDropdown.Item
@@ -298,13 +298,13 @@ export function Menu() {
                   >
                     {t('menu.submenu_4.results')} SPM 2019
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Directorio-SSM-2019.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.submenu_4.directory')} SPM 2019
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.submenu_5.title')}

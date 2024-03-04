@@ -100,7 +100,7 @@ export function Footer() {
                   <strong>Sandra Elías</strong><br />
                     {t('footer.project_manager')}<br />
                     <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
-                    <a href='mailto:sandra.elias@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587'}}> {t('footer.message_button')}</Button></a>
+                    <a href='mailto:sandra.elias@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587', border:'none'}}> {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
               <Row className='mb-5'>
@@ -111,7 +111,7 @@ export function Footer() {
                   <strong>Sergio López</strong><br />
                     {t('footer.sales_manager')}<br />
                     <a href='mailto:samuel.ramirez@igeco.mx'>samuel.ramirez@igeco.mx</a>
-                    <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587'}} > {t('footer.message_button')}</Button></a>
+                    <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587', border:'none'}} > {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
           </Col>

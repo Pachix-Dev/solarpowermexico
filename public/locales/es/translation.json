@@ -242,6 +242,9 @@
         "rate": "Tarifa desde: ",
         "code": "codigo de reserva: ",
         "book": "Reservar",
-        "taxes": "Impuestos"
+        "taxes": "Impuestos",
+        "about_gdl": "Acerca de Guadalajara",
+        "description_gdl": "Guadalajara, la perla del occidente mexicano, se destaca como una ciudad llena de encanto y diversidad. Conocida como la 'Perla Tapatía', Guadalajara combina la rica herencia histórica de México con una modernidad vibrante. <br /><br />La ciudad es famosa por su arquitectura colonial, plazas pintorescas y una atmósfera que refleja la calidez de su gente. Al caminar por el centro histórico, te sumergirás en calles empedradas que llevan a impresionantes iglesias, como la Catedral de Guadalajara y la Basílica de Zapopan. La cultura mexicana se encuentra en cada rincón, desde los mercados tradicionales hasta los coloridos murales que adornan las calles.",
+        "button-gdl":"Más sobre Guadalajara"
     }
 }

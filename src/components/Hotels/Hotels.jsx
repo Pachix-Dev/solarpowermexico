@@ -1,9 +1,9 @@
-import { Button, Card, ListGroup } from 'react-bootstrap'
+import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { hotels } from '../../constans_hotels'
 import './Hotels.css'
 
-export function Hotels () {
+export function Hotels() {
   const { t } = useTranslation()
   return (
     <>
@@ -41,6 +41,26 @@ export function Hotels () {
           )}
         </div>
       </div>
+      <Container className='pt-5'>
+        <Row>
+          <Col md className='d-flex justify-content-center align-items-center'>
+            <section className='mt-5'>
+              <h2 className='text-description'>{t('hotels.about_gdl')}</h2>
+              <p
+                className='text-description'
+                dangerouslySetInnerHTML={{ __html: t('hotels.description_gdl') }} style={{textAlign:'justify'}}
+              />
+              <a href="https://secturjal.jalisco.gob.mx/inicio" target='_blank'>
+                  <Button className='btn-event-topics border border-light mb-5 fs-6 text-uppercase fw-bold'>{t("hotels.button-gdl")}</Button>
+              </a>
+            </section>
+          </Col>
+          <Col md className='d-flex justify-content-center align-items-center'>
+            <img src="/background-guadalajara.webp" alt="" class="img-fluid" loading='lazy'/>
+          </Col>
+        </Row>
+
+      </Container>
     </>
   )
 }

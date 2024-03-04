@@ -5,6 +5,12 @@
     justify-content: center;
     justify-items: center;
 }
+.background-gdl{
+    background-image: url('/background-guadalajara.webp');
+    background-size: cover; /* Para cubrir toda el área del contenedor */
+    background-position: center;
+    height: 800px;
+}
 @media (max-width: 1280px) {
     .hotels {       
         grid-template-columns: repeat(3, 1fr);

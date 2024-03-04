@@ -232,16 +232,19 @@
         "name": "Name",
         "email": "Email",
         "subscription": "Suscribe",
-        "project_manager" : "Project director",
-        "sales_manager" : "Sponsorships and Experiences",
-        "event-date":"April 17th - 19th, 2024",
-        "message_button":"Send message"
+        "project_manager": "Project director",
+        "sales_manager": "Sponsorships and Experiences",
+        "event-date": "April 17th - 19th, 2024",
+        "message_button": "Send message"
     },
     "hotels": {
         "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",
         "rate": "Rates from: ",
         "code": "reservation code: ",
         "book": "Book now",
-        "taxes": "Taxes"
+        "taxes": "Taxes",
+        "about_gdl": "About Guadalajara",
+        "description_gdl": "Guadalajara, the pearl of western Mexico, stands out as a city full of charm and diversity. Known as the 'Pearl of Tapatia', Guadalajara combines Mexico's rich historical heritage with vibrant modernity. <br /><br />The city is famous for its colonial architecture, picturesque squares and an atmosphere that reflects the warmth of its people. Walking through the historic center, you will immerse yourself in cobblestone streets that lead to impressive churches, such as the Guadalajara Cathedral and the Zapopan Basilica. Mexican culture is found in every corner, from the traditional markets to the colorful murals that adorn the streets.",
+        "button-gdl":"More about Guadalajara"
     }
 }

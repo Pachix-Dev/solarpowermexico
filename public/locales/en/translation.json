@@ -5,8 +5,8 @@
             "option_1": "About SSM",
             "option_2": "About RE+Events",
             "option_3": "About SNEC",
-            "option_4": "About IGECO"                        
-        },     
+            "option_4": "About IGECO"
+        },
         "submenu_2": {
             "title": "EXHIBITORS",
             "option_1": "Contact",
@@ -21,7 +21,7 @@
             "option_10": "Rates",
             "option_11": "Promotional Material",
             "option_12": "Exhibitor's manual"
-        },        
+        },
         "submenu_3": {
             "title": "VISITORS",
             "option_1": "Why Visit",
@@ -35,11 +35,11 @@
         },
         "submenu_5": {
             "title": "MEDIA HUB",
-            "option_1": "Gallery"                   
+            "option_1": "Gallery"
         },
-        "banner": "Online registration!"        
+        "banner": "Online registration!"
     },
-    "home":{
+    "home": {
         "program": "Conference Program",
         "sponsorship": "Sponsorship & Experiences",
         "results": "Results report 2023",
@@ -48,7 +48,7 @@
         "hotels": "Hotels",
         "sponsor_platinum": "Platinum Sponsor",
         "sponsor_gold": "Gold Sponsor",
-        "sponsor_silver": "Silver Sponsor",        
+        "sponsor_silver": "Silver Sponsor",
         "sponsor": "Sponsor",
         "energy_night": "THE <strong>INDUSTRY'S MOST IMPORTANT</strong> EVENT",
         "energy_night_tags": "<li>Networking</li><li>Business</li><li>Music</li><li>Cocktails</li>",
@@ -56,7 +56,7 @@
         "energy_night_date": "Wednesday <br /><p><span>April</span> 17th, 2024</p> 19:00 hrs",
         "solar_bg_video": "THE <strong>FUTURE OF ENERGY</strong> IN MEXICO <strong>EXPO</strong> <br /> <span>April 17th - 19th, 2024 <br />Expo Guadalajara</span>",
         "solar_date_hours": "Wednesday, 17th - 11:00 am - 6:00 pm<br />Thursday, 18th - 11:00 am - 6:00 pm<br />Friday, 19th - 11:00 am - 5:00 pm",
-        "solar_description":"is the leading exhibition specializing in the energy storage and solar technology sectors in Mexico and North America. We make available to all industries the technologies that will be necessary to undertake the global renewable energy transition at an accelerated pace.",
+        "solar_description": "is the leading exhibition specializing in the energy storage and solar technology sectors in Mexico and North America. We make available to all industries the technologies that will be necessary to undertake the global renewable energy transition at an accelerated pace.",
         "gallery": "Gallery",
         "more_videos": "VIDEOS",
         "more_gallery": "GALLERY",
@@ -73,28 +73,28 @@
         "why_exhibit_visit_desc": "the first exhibition focused on the solar energy industry in Mexico",
         "why_exhibit_general": "Get a general market overview",
         "why_exhibit_general_desc": "on an exhibition area of 5.000 sqms",
-        "become_sponsor":"Become a Sponsor",
-        "become_sponsor_desc":"has the backing of the world’s largest solar events. If you are looking to start new business opportunities, or increase your business in Latin America, a sponsorship can give you additional impressions in front of a paying, targeted audience. Learn more about the market opportunity.",
+        "become_sponsor": "Become a Sponsor",
+        "become_sponsor_desc": "has the backing of the world’s largest solar events. If you are looking to start new business opportunities, or increase your business in Latin America, a sponsorship can give you additional impressions in front of a paying, targeted audience. Learn more about the market opportunity.",
         "organized_by": "Organized by",
         "powered_by": "Powered by",
         "strategic_partners": "Strategic Partners",
         "exhibitors": "Exhibitors",
-        "attend":{
-            "reasons_visiting_title":"WHY ATTEND?",
-            "item_1":"Tap Mexico's great renewable energy potential",
-            "item_2":"Access to the latest technologies in solar power and energy storage",
-            "item_3":"Connect with key suppliers to achieve your company's growth goals",
-            "item_4":"Generates alliances with industry decision-makers worldwide",
-            "item_5":"Learn from the leading conference program in the industry"
+        "attend": {
+            "reasons_visiting_title": "WHY ATTEND?",
+            "item_1": "Tap Mexico's great renewable energy potential",
+            "item_2": "Access to the latest technologies in solar power and energy storage",
+            "item_3": "Connect with key suppliers to achieve your company's growth goals",
+            "item_4": "Generates alliances with industry decision-makers worldwide",
+            "item_5": "Learn from the leading conference program in the industry"
         },
-        "bullet_1":"Visitors",
-        "bullet_2":"Of Exhibiton Area",
-        "bullet_3":"Exhibitors",
-        "bullet_4":"On-Site Business",
-        "bullet_5":"Commercial value of media coverage",
-        "bullet_6":" SQM",
-        "bullet_7" :" MDP",
-        "visitor-profile":{
+        "bullet_1": "Visitors",
+        "bullet_2": "Of Exhibiton Area",
+        "bullet_3": "Exhibitors",
+        "bullet_4": "On-Site Business",
+        "bullet_5": "Commercial value of media coverage",
+        "bullet_6": " SQM",
+        "bullet_7": " MDP",
+        "visitor-profile": {
             "item_1": "Installers",
             "item_2": "Solar integrators",
             "item_3": "Solar technology suppliers",
@@ -107,96 +107,95 @@
             "item_10": "Investors",
             "item_11": "Power Generators. Independent."
         },
-        "button_hotels":"Headquarters Hotels",
-        "title-testimonials":"The opinion of exhibitors and visitors",
-        "title-visitor-profile":"VISITOR PROFILE",
-        "social_networks":{
-            "title":"SOCIAL MEDIA PRESENCE ",
-            "topic_1":"FOLLOWERS",
-            "dec_1":"ON OUR SOCIAL MEDIA",
-            "topic_2":"PEOPLE",
-            "dec_2":"REACHED",
-            "topic_3":"COVERAGE",
-            "dec_3":"ACROSS ALL OF OUR PLATFORMS"
-         },
-         "rates":{
-            "title":"BOOTHS",
-            "sub-title":"PARTICIPATION FEES",
-            "item1":{
-                "title1":"Raw Space minimum +18 sqm",
-                   "price1":"",
-                   "priece2":"USD 440.00 + IVA / SQM",
-                   "title2":"Includes",
-                   "topic1":"Exhibitor badges",
-                   "topic2":"Mention in the directory",
-                   "topic3":"Excludes: carpet, construction, furniture and services."
+        "button_hotels": "Headquarters Hotels",
+        "title-testimonials": "EXHIBITOR AND VISITOR EXPERIENCE",
+        "title-visitor-profile": "VISITOR PROFILE",
+        "social_networks": {
+            "title": "SOCIAL MEDIA PRESENCE ",
+            "topic_1": "FOLLOWERS",
+            "dec_1": "ON OUR SOCIAL MEDIA",
+            "topic_2": "PEOPLE",
+            "dec_2": "REACHED",
+            "topic_3": "COVERAGE",
+            "dec_3": "ACROSS ALL OF OUR PLATFORMS"
+        },
+        "rates": {
+            "title": "BOOTHS",
+            "sub-title": "PARTICIPATION FEES",
+            "item1": {
+                "title1": "Raw Space minimum +18 SQM",
+                "price1": "",
+                "priece2": "USD 440.00 + VAT / SQM",
+                "title2": "Includes",
+                "topic1": "Exhibitor badges",
+                "topic2": "Mention in the directory",
+                "topic3": "Excludes: carpet, construction, furniture and services."
             },
-                "item2":{
-                "title1":"Shell Scheme Minimum of 9 sqm",
-                "price1":"USD 490.00 + IVA / sqm",
-                "title2":"Includes",
+            "item2": {
+                "title1": "Shell Scheme Minimum of 9 SQM",
+                "price1": "USD 490.00 + VAT / SQM",
+                "title2": "Includes",
                 "topic1": "Standard carpet",
-                "topic2": "partition walls",
-                "topic3": "counter with vinyl signage",
+                "topic2": "Partition walls",
+                "topic3": "Counter with vinyl signage",
                 "topic4": "Illumination",
                 "topic5": "Standard furniture",
-                "topic6": "110v electrical contact",
+                "topic6": "One 110v electrical outlet",
                 "topic7": "Exhibitor badges",
-                "topic8":"Mention in the directory"
-                },
-                "item3":{
-                    "title1":"Discover all our sponsorship options"
-                    }
+                "topic8": "Mention in the directory"
             },
-            "button_contact":"send message",
-            "sponsors":{
-                "title": "Do you want to become a sponsor?",
-                "description": "Download our brochure for sponsors "
-            },
-            "energy_date":"Wednesday, April 17th, 2024",
-            "energy_description2":"THE MOST IMPORTANT NETWORKING EVENT FOR THE PHOTOVOLTAIC INDUSTRY",
-            "energy_button":"GAIN ACCESS"
-
+            "item3": {
+                "title1": "Discover all our sponsorship options"
+            }
+        },
+        "button_contact": "send message",
+        "sponsors": {
+            "title": "Do you want to become a sponsor?",
+            "description": "Download our brochure for sponsors "
+        },
+        "energy_date": "Wednesday, April 17th, 2024",
+        "energy_description2": "THE MOST IMPORTANT NETWORKING EVENT FOR THE PHOTOVOLTAIC INDUSTRY",
+        "energy_button": "GAIN ACCESS"
     },
-    "AboutSSM":{
+    "AboutSSM": {
         "title": "ABOUT SOLAR + STORAGE MEXICO",
         "description": " is operated by Deutsche Messe and Italian Exhibition Group, two of the most important organizers globally; SNEC PV Power Expo, the world's largest solar technology event based in Shanghai, China; and RE+ Events, organizers of the most important events and conferences in North America. Together, these organizations have joined forces to help develop the solar energy market in Mexico, moving towards a sustainable future.<br /><br />Our country has immense potential on the path towards the generation of clean energy, contributing to the goal of achieving a sustainable future; by having 30 GW of solar capacity installed in 2023, since 85% of the Mexican territory is optimal for solar projects.<br /><br />This is why Solar + Storage Mexico stands as a point of crucial meeting to promote the development of projects that contribute to the generation of clean energy, in response to market demand. We are the leading platform to catalyze the growth of the national industry by promoting collaboration between professionals, companies and the most prominent experts in the sector; opening the possibility of new and diverse business opportunities and strengthening the value chain of solar energy and storage in Mexico.",
         "description2": "See you at SOLAR + STORAGE MEXICO 2024, the Energy Future Fair of Mexico."
     },
-    "AboutReEvents":{
+    "AboutReEvents": {
         "title": "About RE+ Events",
         "description": "<strong>RE+ Events</strong> (formerly Solar Power Events) brings clean energy leaders together in marketplaces across the United States and internationally to expand business prospects and share best practices. These events examine solar, wind power, energy storage, green hydrogen, EVs, microgrids and more to foster business growth among participants and collectively identify ways to move the clean energy industry forward.<br /><br />Developed by the nation’s leading solar energy organizations, the <strong>Solar Energy Industries Association (SEIA)</strong> and the <strong>Smart Electric Power Alliance (SEPA), RE+ Events </strong>(formerly Solar Power Events) represents an ongoing entrepreneurial approach to renewing best practices across the clean energy landscape as the marketplace evolves. Year-round, RE+ Events offers participants access to resources for growing their businesses as the industry changes, as well as opportunities to have an impact on the future of clean energy through exhibition at events and speaking opportunities at educational seminars."
     },
-    "AboutSNEC":{
+    "AboutSNEC": {
         "title": "About SNEC PV POWER EXPO",
         "description": "SNEC 16th (2023) International Photovoltaic Power Generation and Smart Energy Conference & Exhibition [SNEC PV POWER EXPO] will be held in Shanghai, China, on May 24-26, 2023. It was initiated and co-organized by Asian Photovoltaic Industry Association (APVIA), Chinese Renewable Energy Society (CRES), Chinese Renewable Energy Industries Association (CREIA), Shanghai Federation of Economic Organizations (SFEO), Shanghai Science & Technology Exchange Center (SSTEC), Shanghai New Energy Industry Association (SNEIA) and 25 international associations and organizations.<br /><br />The exhibition scale of SNEC has evolved from 15,000sqm in 2007 to over 200,000sqm in 2021 when it attracted over 1600 exhibiting companies from 95 countries and regions all over the world and the overseas exhibitor ratio is over 30%. SNEC has become the biggest international PV tradeshow with incomparable influence in China, in Asia and even in the world.<br /><br />As the most professional PV exhibition, SNEC showcases PV manufacturing facilities, materials, PV cells, PV application products & modules,  PV project and system, energy storage and mobile energy, covering every section of the whole PV industry chain.<br /><br />The SNEC Conference consist of various programs incorporating different topics, covering the market trends of PV industry, collaboration and development strategies, policy directions of different countries, advanced industry technologies, PV finance and investment, etc. It is an opportunity that you cannot miss to stay up to date on the technology and market, present your results to the community, and network with industrial experts, scholars and entrepreneurs and colleagues.<br /><br />We are looking forward to the worldwide PV industry friends gathering at Shanghai, China. From the industry’s viewpoint, let us take pulse of the PV power market of China, Asia, and the world, so as to guide the innovative development of the PV industry! Hope all of us meet at Shanghai, on May 24-26, 2023!"
-    }, 
+    },
     "contactForm": {
         "title": "Leave us a message",
         "subject": "Subject",
         "message": "Message",
         "send": "Send"
-    }, 
-    "ExhibitorProfile":{
+    },
+    "ExhibitorProfile": {
         "description": "<strong>SOLAR + STORAGE MEXICO</strong> provides the entire solar industry with a platform. If your company is engaged in the fields of solar energy, solar thermal, energy storage, power generation, network supply, grid management and/or smart grids, then don’t miss out on exhibiting at <strong>SOLAR + STORAGE MEXICO</strong>. Your product and services can range from solar cells and modules, parts and components, new technology and tracking systems, traditional plants to planners & developers and systems & service providers. A detailed list of products and services is shown below.",
         "description2": "<strong>PHOTOVOLTAIC</strong><br /><br /><strong>PV Technology Systems</strong><br />Stand-Alone Systems <br />Networked PV Systems <br />Solar Chargers <br />Solar Power Supplies for Traffic Control Systems <br />Tracking System <br />Other PV Technology Systems<br /><br /><strong>PV Components and Equipments</strong><br />Solar Cells <br />Crystalline PV Modules <br />Thin-Film Solar Modules <br />Inverters <br />Transformers <br />Monitoring, Measuring and Control Systems <br />DC Circuit Breaks <br />Cables <br />Connectors <br />Other Components and Equipments<br /><strong>SOLAR THERMAL</strong><br /><br />Solar Thermal Technologies <br />Solar Thermal Power Plants <br />Process Heat <br />Air Conditioning and Cooling <br />Engineering and Design <br />Monitoring, Measuring and Control Systems <br />Other Components <br />",
         "description3": "<strong>GRID INFRASTRUCTURE</strong><br /><br />Metering Services <br />Grid Control Systems <br />Grid Management <br />Electricity Trading and Power Marketing <br />Trade Control Systems <br />Virtual Power Plants and DER Aggregation <br />Products, Solutions and Services for Smart Grids <br />Products, Solutions and Services for Micro Grids<br /><strong>STORAGE</strong><br /><br />Chemical Storage <br />Non-chemical Storage <br />Thermal Storage <br />Commercial storage solutions <br />Residential storage solutions<br /> Grid-Connected Storage<br /> Off-Grid Storage <br />Battery Manufacturers <br />Software<br /><br /><strong>INFORMATION, COMMUNICATION AND SERVICES</strong><br /><br />Research and Development <br />Training and Education <br />Consulting Services <br />EPC Contracting, Project Development <br />Maintenance, Repair and Operations <br />Financial Services <br />Associations, Societies <br />Publishers"
     },
-    "ExhibitorServicies":{
+    "ExhibitorServicies": {
         "kit": "BANQUET KIT 2023",
         "contact": "GENERAL EXHIBITOR CONTRACTING FORMAT",
         "contract_food": "FOOD AND BEVERAGE PROCUREMENT FORM",
         "instructions": "BOARDING INSTRUCTIONS"
     },
-    "WhyVisit":{
+    "WhyVisit": {
         "title": "Why Visit?",
         "description": "<strong>SOLAR + STORAGE MEXICO</strong> brings together global solar energy expertise in one place for three days of research, discovery and real business. At this event you will have the opportunity to meet face to face with experts in the solar energy, energy storage and smart grid sectors, such as:<br /><br /><ul><li>Manufacturers</li ><li>System suppliers</li><li>Distributors</li><li>Suppliers</li></ul><br /><br /><strong>SOLAR + STORAGE MEXICO</strong> will feature an exhibition area as well as a comprehensive, first-class educational program. Do you want to learn about new trends, find the latest local and international products and/or get in touch with relevant companies on how they could help you with your next project? Then don't miss this unique opportunity and visit <strong>SOLAR + STORAGE MEXICO.</strong>"
-    }, 
-    "VisitorProfile":{
+    },
+    "VisitorProfile": {
         "title": "Attendee Profile",
         "description": "<ul><li>Installers</li><li>Solar Integrators</li><li>Solar Technology Suppliers</li><li>Solar Panel Distributors</li><li>Companies in the Electrical industry </li><li>Project Engineering</li><li>EPC Contractors</li><li>Manufacturers</li><li>Consulting Services</li><li>Investors</li><li>Independent Power Generators</li></ul>",
         "description2": "<ul><li>Legal/Legal Services</li><li>Press</li><li>Federal, State and Municipal Government and their Agencies</li><li>Solar Park Owners</li><li>Real Estate Developers</li><li>Corporate Developers</li><li>EIndustrial Park Developers</li><li>Sectoral Institutions</li><li>Research, Innovation Centers and Universities</li ></ul>"
-    },  
+    },
     "program": {
         "title_1": "SEE CONFERENCE PROGRAM",
         "title_2": "ACADEMIC PROGRAM",
@@ -212,22 +211,21 @@
         "about": "About",
         "speech": "Speech",
         "button1": "GET CONFERENCE PROGRAM",
-        "subt_title_1":"Meet our",
-        "sub_title":"ABOUT",
-        "promotion":{
-            "title":"Get your conference program",
-            "preventa":"Pre-sale until March 17th. </br> $6,500 MXN </br>   Regular price : $7,500MXN",
-            "includes":"INCLUDES </br> Conference program + Energy Night"
+        "subt_title_1": "Meet our",
+        "sub_title": "ABOUT",
+        "promotion": {
+            "title": "Get your conference program",
+            "preventa": "Pre-sale until March 17th. </br> $6,500 MXN </br>   Regular price : $7,500MXN",
+            "includes": "INCLUDES </br> Conference program + Energy Night"
         }
-
     },
-    "counterDown":{
+    "counterDown": {
         "description": "<strong>An exclusive networking event for executives and industry leaders where you will be able to</strong> create strategic networks AND meet new business.",
         "days": "Days",
         "hours": "Hours",
         "minutes": "Minutes",
         "seconds": "Seconds"
-    },    
+    },
     "footer": {
         "privacy_policy": "Privacy Policy",
         "contact": "Contact Us",
@@ -235,7 +233,7 @@
         "email": "Email",
         "subscription": "Suscribe"
     },
-    "hotels":{
+    "hotels": {
         "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",
         "rate": "Rates from: ",
         "code": "reservation code: ",

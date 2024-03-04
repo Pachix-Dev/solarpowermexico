@@ -58,7 +58,7 @@ export function Home() {
               dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
             />
             <Row className='pt-4'>
-              <Col lg={3} className='my-2'>
+              <Col md={3} lg={3} className='my-2'>
                 <Link to='/conference-program'>
                   <Button className='btn-event-topics border border-light'>
                     <svg
@@ -78,7 +78,7 @@ export function Home() {
                   </Button>
                 </Link>
               </Col>
-              <Col lg={3} className='my-2'>
+              <Col md={3} lg={3} className='my-2'>
                 <Link to='/hotels'>
                   <Button className='btn-event-topics border border-light'>
                     <svg
@@ -98,7 +98,7 @@ export function Home() {
                   </Button>
                 </Link>
               </Col>
-              <Col lg={3} className='my-2'>
+              <Col md={3} lg={3} className='my-2'>
                 <a href="https://solarstorage.ahmreg.com/">
                   <Button className='btn-event-topics border border-light '>
                     <div>
@@ -107,7 +107,7 @@ export function Home() {
                   </Button>
                 </a>
               </Col>
-              <Col lg={3} className='my-2'>
+              <Col md={3} lg={3} className='my-2'>
                 <a href="https://spmx24.mapyourshow.com/8_0/exhview/index.cfm">
                   <Button className='btn-event-topics border border-light'>
                     <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 20L3 17V4L9 7M9 20L15 17M9 20V7M15 17L21 20V7L15 4M15 17V4M9 7L15 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg><p className='fs-6 text-uppercase fw-bold'>{t("home.floorplan")}</p>

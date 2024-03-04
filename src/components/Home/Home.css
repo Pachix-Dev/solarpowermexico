@@ -307,6 +307,12 @@
     .container-banner {
         width: 100%;
     }
+
+    .btn-event-topics {
+        height: 105px;
+        width: 220px;
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -350,6 +356,10 @@
     .container-banner {
         width: 100%;
     }
+
+    
+
+    
 }
 
 @media(max-width: 431px) {
@@ -402,4 +412,5 @@
     .container-banner {
         width: 100%;
     }
+    
 }

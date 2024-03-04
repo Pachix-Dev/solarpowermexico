@@ -60,7 +60,7 @@ const programSSM = {
       },
       {
         hour: '12:45 –13:15',
-        name: 'PYLONTECH',
+        name: 'KRANNICH',
         avatar: '',
   
       },

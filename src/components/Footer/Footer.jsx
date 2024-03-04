@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import { Subscribe } from '../Suscribe/Suscribe'
@@ -84,7 +84,7 @@ export function Footer() {
               <strong>SOLAR + STORAGE MEXICO 2024</strong>
             </p>
             <p>
-              17 – 19 de Abril, 2024
+             {t("footer.event-date")}
               <br />
               Expo Guadalajara,
               <br />
@@ -92,29 +92,28 @@ export function Footer() {
             </p>
           </Col>
           <Col md>
-            <p>
-              <strong>
-                Directora de Proyecto Solar
-                <br />+ Storage México
-              </strong>
-              <br />
-              Sandra Elías
-              <br />
-              Tel. +52 55 7028 3335 ext. 806
-              <br />
-              <a href='mailto:sandra.elias@igeco.mx'>sandra.elias@igeco.mx</a>
-            </p>
-            <p>
-              <strong>Patrocinios y Experiencias</strong>
-              <br />
-              Samuel Ramírez
-              <br />
-              Tel. +52 (55) 70 28 33 35 ext. 806
-              <br />
-              <a href='mailto:samuel.ramirez@igeco.mx'>
-                samuel.ramirez@igeco.mx
-              </a>
-            </p>
+          <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/sandra.webp" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Sandra Elías</strong><br />
+                    {t('footer.project_manager')}<br />
+                    <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
+                    <a href='mailto:sandra.elias@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587'}}> {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
+              <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/samuel-ramirez.webp" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Sergio López</strong><br />
+                    {t('footer.sales_manager')}<br />
+                    <a href='mailto:samuel.ramirez@igeco.mx'>samuel.ramirez@igeco.mx</a>
+                    <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587'}} > {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
           </Col>
           <Col md>{show && <Subscribe />}</Col>
         </Row>

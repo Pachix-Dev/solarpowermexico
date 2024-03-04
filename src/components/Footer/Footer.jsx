@@ -108,7 +108,7 @@ export function Footer() {
                   <Image src="/samuel-ramirez.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
-                  <strong>Sergio López</strong><br />
+                  <strong>Samuel Ramírez</strong><br />
                     {t('footer.sales_manager')}<br />
                     <a href='mailto:samuel.ramirez@igeco.mx'>samuel.ramirez@igeco.mx</a>
                     <a href='mailto:samuel.ramirez@igeco.mx'><Button size="sm" style={{backgroundColor:'#570587', border:'none'}} > {t('footer.message_button')}</Button></a>

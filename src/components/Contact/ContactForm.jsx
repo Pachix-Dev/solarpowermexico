@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
 import { useRef, useState } from 'react'
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { CustomRecaptcha } from '../CustomRecaptcha'
 import { useLanguage } from '../hooks/useLanguage'
 
@@ -88,32 +88,34 @@ export function ContactForm () {
             {t('contactForm.send')}
           </Button>
         </Form>
-        <p className='text-center mt-5'>
-          <strong>Deutsche Messe</strong><br />
-          Messegelände<br />
-          30521 Hannover<br />
-          Alemania<br />
-          Tel. +49 511 89-0<br />
-          <a href='mailto:info@messe.de' target='_blank' rel='noreferrer'>
-            info@messe.de
-          </a><br />
-          <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
-            www.messe.de
-          </a><br />
-        </p>
-        <p className='text-center mt-5'>
-          <strong>IGECO</strong><br />
-          Blvd. Francisco Villa 102, piso 14<br />
-          Col. Oriental 37510<br />
-          León Guanajuato, México<br />
-          Tel. +49 511 89-0<br />
-          <a href='mailto:info@igeco.mx' target='_blank' rel='noreferrer'>
-            info@igeco.mx
-          </a><br />
-          <a href='https://www.igeco.mx' target='_blank' rel='noreferrer'>
-            www.igeco.mx
-          </a><br />
-        </p>
+        <Row className='py-5 justify-content-md-center'>
+          <Col lg={3} className=' d-flex justify-content-center align-items-center border-end border-black'>
+            <img src="/igeco_logo_negro.webp" alt="italian exhibition group" width='200' />
+          </Col>
+          <Col lg={3} className=''>
+            <p className='text-center mt-5'>
+              <strong>IGECO</strong>
+              <br />
+              Blvd. Francisco Villa 102, piso 14
+              <br />
+              Col. Oriental 37510
+              <br />
+              León Guanajuato, México
+              <br />
+              Tel. +49 511 89-0
+              <br />
+              <a href='mailto:info@igeco.mx' target='_blank' rel='noreferrer'>
+                {' '}
+                info@igeco.mx{' '}
+              </a>
+              |
+              <a href='https://www.igeco.mx' target='_blank' rel='noreferrer'>
+                {' '}
+                www.igeco.mx{' '}
+              </a>
+            </p>
+          </Col>
+        </Row>
       </Container>
     </>
   )

@@ -19,23 +19,23 @@ export function Footer() {
           width={2560}
           height={207}
         /> */}
-        <Row className='justify-content-md-center py-3'>
-          <Col md className='d-flex justify-content-center  align-items-center'>
+        <Row className='justify-content-md-center py-3 px-3'>
+          <Col xs={6} md={3} lg={3} className='d-flex justify-content-center  align-items-center'>
             <a href="https://igeco.mx/" target='_blank'>
               <img src="/igeco_bn.webp" alt="" width='200' loading='lazy' />
             </a>
           </Col>
-          <Col md className='d-flex justify-content-center  align-items-center'>
+          <Col xs={6} md={3} lg={3} className='d-flex justify-content-center  align-items-center'>
             <a href="https://www.messe.de/en/" target='_blank'>
               <img src="/deutsche_messe_bn.webp" alt="" width='200' loading='lazy' />
             </a>
           </Col>
-          <Col md className='d-flex justify-content-center  align-items-center'>
+          <Col xs={6} md={3} lg={3} className='d-flex justify-content-center  align-items-center'>
             <a href="https://re-plus.events/" target='_blank'>
               <img src="/RE+ logo wht.webp" alt="" width='150' loading='lazy' />
             </a>
           </Col>
-          <Col md className='d-flex justify-content-center  align-items-center'>
+          <Col xs={6} md={3} lg={3} className='d-flex justify-content-center  align-items-center'>
             <a href="https://pv.snec.org.cn/?locale=en-US" target='_blank'>
               <img src="/SNEC logo wht.webp" alt="" width='120' loading='lazy' />
             </a>

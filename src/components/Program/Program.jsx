@@ -6,6 +6,7 @@ import { speakers } from '../../constans_speakers'
 import { useTranslation } from "react-i18next";
 import "./Program.css";
 import { DetailSpeaker } from './DetailSpeaker';
+import OrderConferences from './OrderConferences';
 
 export function Program() {
   const { i18n, t } = useTranslation();
@@ -54,6 +55,7 @@ export function Program() {
                       </div>
                     </Col>
                   </Row>
+                  {/* <OrderConferences/> */}
                   <Container className='pt-4'>
                     <h2 className='mt-5 text-light text-center' id='ponentes'> {t("program.subt_title_1")} </h2>
                     <p className='title-speakers fw-bold text-uppercase text-center text-light'>KEYNOTE SPEAKERS</p>
@@ -132,9 +134,9 @@ export function Program() {
                                 </p>
                               </Col>
                               <Col lg={9} xs={12} md={9}>
-                                <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
-                                <p className=''>{program.name}</p>
-                                <p>{program.speakers}</p>
+                                <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
+                                <p className='fs-5'>{program.name}</p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {
@@ -170,9 +172,9 @@ export function Program() {
                                 </p>
                               </Col>
                               <Col lg={9} xs={12} md={9}>
-                                <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
-                                <p className=''>{program.name}</p>
-                                <p>{program.speakers}</p>
+                                <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
+                                <p className='fs-5'>{program.name}</p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {
@@ -208,9 +210,9 @@ export function Program() {
                                 </p>
                               </Col>
                               <Col lg={9} xs={12} md={9}>
-                                <h3>{i18n.language === 'en' ? program?.title_en : program?.title}</h3>
-                                <p className=''>{program.name}</p>
-                                <p>{program.speakers}</p>
+                                <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
+                                <p className='fs-5'>{program.name}</p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {

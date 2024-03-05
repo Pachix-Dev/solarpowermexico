@@ -136,7 +136,7 @@ export function Program() {
                               <Col lg={9} xs={12} md={9}>
                                 <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                 <p className='fs-5'>{program.name}</p>
-                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {
@@ -174,7 +174,7 @@ export function Program() {
                               <Col lg={9} xs={12} md={9}>
                                 <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                 <p className='fs-5'>{program.name}</p>
-                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {
@@ -212,7 +212,7 @@ export function Program() {
                               <Col lg={9} xs={12} md={9}>
                                 <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                 <p className='fs-5'>{program.name}</p>
-                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{program.position}</span></p>
+                                <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                 <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                 <div className='img-responsive'>
                                   {

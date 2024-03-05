@@ -6,6 +6,7 @@ const programSSM = {
         name: 'ENLIGHT',
         avatar: '',
         position: '',
+        position_en:''
 
       },
       {
@@ -13,6 +14,7 @@ const programSSM = {
         name: 'PYLONTECH',
         avatar: '',
         position: '',
+        position_en:''
 
       },
       {
@@ -20,6 +22,7 @@ const programSSM = {
         name: 'BATTERY DEPOT',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '14:15 –14:45',
@@ -31,12 +34,14 @@ const programSSM = {
         description_en: 'APsystems presents the new technology for MLPE microinverters and the recent energy storage solution. APsystems technology continually advances to offer the most competent equipment in the Latin American market, adapting to current and future advances. We bring you the latest technology in two-phase and three-phase microinverters, and the APstorage energy storage solution that comes with its Power Conversion Systems (PCS) and the split-phase Transformer.',
         avatar: '',
         position: 'Branch Manager en LATAM APsystems',
+        position_en:'Branch Manager at LATAM APsystems'
       },
       {
         hour: '15:00 –16:00',
         name: 'BREAK',
         avatar: '',
         position: '',
+        position_en:''
 
       },
       {
@@ -44,6 +49,7 @@ const programSSM = {
         name: 'EXEL SOLAR',
         avatar: '',
         position: '',
+        position_en:''
 
       },
       // {
@@ -57,6 +63,7 @@ const programSSM = {
         name: 'AVAILABLE',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_18: [
@@ -65,12 +72,14 @@ const programSSM = {
         name: 'LONGI',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '12:45 –13:15',
         name: 'KRANNICH',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '13:30 –14:00',
@@ -78,22 +87,25 @@ const programSSM = {
         title: 'Caso de estudio: Comportamiento de un proyecto FV en techo metálico engargolado frente a huracán categoría 5 en Acapulco',
         title_en: 'Case study: Performance of a PV project on a metal roof with a metal roof in the face of a category 5 hurricane in Acapulco, Mexico.',
         speakers: 'Alejandro Terán | Juan Carlos Fuentes ',
-        position: 'Director de construcción, en Energía Real | Director de Ventas para Latinoamérica & Europa, en S-5!',
         description: 'Análisis de techos métalicos engargolados como plataforma para Energía FV y la importancia de la elección de un sistema de racking adecuado. Además, se estudiará el comportamiento de un proyecto FV frente a un Huracán con vientos de más de 200 km/h instalado con las piezas de fijación directa sin rieles de S-5!',
         description_en: 'Analysis of metal roofs as a platform for PV energy and the importance of choosing a suitable racking system. In addition, the behavior of a PV project against a Hurricane with winds of more than 200 km/h installed with S-5!',
         avatar: '',
+        position: 'Director de construcción, en Energía Real | Director de Ventas para Latinoamérica & Europa, en S-5!',
+        position_en:'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!'
       },
       {
         hour: '14:15 –14:45',
         name: 'METERING',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '15:00 –16:00',
         name: 'BREAK',
         avatar: '',
         position: '',
+        position_en:''
 
       },
       {
@@ -101,18 +113,21 @@ const programSSM = {
         name: 'EXEL SOLAR',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '16:45 –17:15',
         name: 'SOLAREVER',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '17:30 –18:00',
         name: 'AVAILABLE',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_19: [
@@ -121,6 +136,7 @@ const programSSM = {
         name: 'BATTERY DEPOT',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '12:45 –13:30',
@@ -132,30 +148,35 @@ const programSSM = {
         description_en: 'One of the most important applications of photovoltaic solar energy is undoubtedly the pumping of water using solar panels, this is known as Solar Pumping Systems. This type of systems has had a growing interest, especially in developing countries, as a product of the energy transition that is being experienced worldwide. In countries like Mexico, with a strong dependence on the primary sector, there is a competitive advantage for this type of system, since it solves many of the operational and energy availability problems in productive sites. To explain this, the key points we will review in our talk are: - Grundfos\' role in the sector as a technological pioneer worldwide and key player in Mexico. - How Grundfos collaborates through solar pumping with the Sustainable Development Goals worldwide. - Explanation and evidence of the most common uses of this type of systems in Mexico.',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '13:30 –14:00',
         name: 'SOLAREVER',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '14:15 –14:45',
         name: 'HUAWEI',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '15:00 –15:30',
         name: 'AVAILABLE',
         avatar: '',
         position: '',
+        position_en:''
       },
       {
         hour: '',
         name: 'CLAUSURA',
         avatar: '',
         position: '',
+        position_en:''
       }
     ]
   },
@@ -166,6 +187,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_18: [
@@ -174,6 +196,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_19: [
@@ -182,6 +205,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ]
   },
@@ -192,6 +216,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_18: [
@@ -200,6 +225,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ],
     april_19: [
@@ -208,6 +234,7 @@ const programSSM = {
         name: 'POR CONFIRMAR',
         avatar: '',
         position: '',
+        position_en:''
       }
     ]
   }

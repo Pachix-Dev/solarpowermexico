@@ -60,11 +60,13 @@
   border-radius: 50% 20% / 10% 40%;
   border: none;
   margin: 10px 10px;
+  transition-duration: 500ms, 2s;
 }
 
 .btn-speaker:hover{
   background: #f8f8f835;
   border-radius: 50% 20% / 10% 40%;
+  transition-duration: 500ms, 2s;
 }
 .container-speaker {
   display: grid;

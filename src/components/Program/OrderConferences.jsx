@@ -11,10 +11,10 @@ function OrderConferences() {
             <Tabs
                 defaultActiveKey="home"
                 id="justify-tab-example"
-                className="mb-3 border-bottom border-3 fs-4"
+                className="mb-3 border-bottom border-3 fs-4 fw-bolder"
                 justify
             >
-                <Tab eventKey="home" title="Miércoles 17">
+                <Tab eventKey="home" title={t('program.day_1')}>
                     {conferencesSolar?.day_1.map((conference, index) => {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>
@@ -40,7 +40,7 @@ function OrderConferences() {
                         )
                     })}
                 </Tab>
-                <Tab eventKey="profile" title="Jueves 18">
+                <Tab eventKey="profile" title={t('program.day_2')}>
                     {conferencesSolar?.day_2.map((conference, index) => {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>
@@ -66,7 +66,7 @@ function OrderConferences() {
                         )
                     })}
                 </Tab>
-                <Tab eventKey="longer-tab" title="Viernes 19">
+                <Tab eventKey="longer-tab"  title={t('program.day_3')}>
                     {conferencesSolar?.day_3.map((conference, index) => {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>

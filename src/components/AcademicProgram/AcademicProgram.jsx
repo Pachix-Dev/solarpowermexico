@@ -55,7 +55,7 @@ export function AcademicProgram() {
                             title={
                                 <>
                                     <strong>{t('program.day')} 1<br />
-                                        {t('program.day_1')}, 17 {t('program.month')}
+                                        {t('program.day_1')}
                                     </strong>
                                 </>
                             }
@@ -97,7 +97,7 @@ export function AcademicProgram() {
                             title={
                                 <>
                                     <strong>{t('program.day')} 2<br />
-                                        {t('program.day_2')}, 18 {t('program.month')}
+                                        {t('program.day_2')}
                                     </strong>
                                 </>
                             }
@@ -139,7 +139,7 @@ export function AcademicProgram() {
                             title={
                                 <>
                                     <strong>{t('program.day')} 3<br />
-                                        {t('program.day_3')}, 19 {t('program.month')}
+                                        {t('program.day_3')}
                                     </strong>
                                 </>
                             }

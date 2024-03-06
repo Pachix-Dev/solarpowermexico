@@ -223,6 +223,20 @@ export function Home() {
             <Row className='gap-2 d-flex align-items-center justify-content-center'>
               <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
                 <a
+                  href='https://quartux.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    height={105}
+                    src='/quartux.webp'
+                    alt='quartux'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+              <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
+                <a
                   href='https://www.longi.com/mx/'
                   target='_blank'
                   rel='noreferrer'
@@ -232,21 +246,6 @@ export function Home() {
                     height={68}
                     src='/LONGI.webp'
                     alt='LONGI'
-                    loading='lazy'
-                  />
-                </a>
-
-              </Col>
-              <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
-                <a
-                  href='https://quartux.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img
-                    height={105}
-                    src='/quartux.webp'
-                    alt='quartux'
                     loading='lazy'
                   />
                 </a>

@@ -24,6 +24,7 @@ import { Footer } from './components/Footer/Footer'
 import { trackPageView } from './google-analytics'
 import { Hotels } from './components/Hotels/Hotels'
 import { ModalBanner } from './components/Home/ModalBanner'
+import { AcademicProgram } from './components/AcademicProgram/AcademicProgram'
 
 function RouteWithHelmet ({ title, element }) {
   return (
@@ -74,6 +75,7 @@ function App () {
         <Route path='energy-night' element={<RouteWithHelmet title='Energy Night' element={<EnergyNight />} />} />
         <Route path='videos' element={<RouteWithHelmet title='Videos' element={<Videos />} />} />
         <Route path='hotels' element={<RouteWithHelmet title='Hotels' element={<Hotels />} />} />
+        <Route path='academic-program' element={<RouteWithHelmet title='ACADEMIC PROGRAM' element={<AcademicProgram />} />}/>
       </Routes>
       <Footer />
     </>

@@ -183,6 +183,13 @@ export function Menu() {
                   >
                     {t('menu.submenu_2.option_9')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='academic-program'
+                    onClick={handleClose}
+                  >
+                    {t('menu.submenu_2.option_13')}
+                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/rates' onClick={handleClose}>
                     {t('menu.submenu_2.option_10')}
                   </NavDropdown.Item>

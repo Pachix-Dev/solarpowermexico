@@ -49,8 +49,7 @@
 }
 
 .title-speakers{
-  font-size: 90px;
-  margin-bottom: 70px;
+  font-size: 60px;
   text-shadow: 5px 5px 12px #000000;
 }
 
@@ -125,6 +124,10 @@
     text-shadow: 5px 5px 12px #000000;
   }
 
+  .title-speakers{
+    font-size: 40px;
+  }
+
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -135,5 +138,9 @@
 
   .info_speakers {
     text-align: center;
+  }
+
+  .title-speakers{
+    font-size: 40px;
   }
 }

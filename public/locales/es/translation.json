@@ -20,7 +20,8 @@
             "option_9": "Programa de conferencias",
             "option_10": "Tarifas",
             "option_11": "Toolkit",
-            "option_12": "Manual del expositor"
+            "option_12": "Manual del expositor",
+            "option_13": "Programa Académico"
         },
         "submenu_3": {
             "title": "VISITANTES",
@@ -197,7 +198,7 @@
         "description2": "<ul><li>Servicios Legales/Jurídicos</li><li>Prensa</li><li>Gobierno Federal, Estatal y Municipal y sus Dependencias</li><li>Propietarios de Parques Solares</li><li>Desarrolladores Inmobiliarios</li><li>Desarrolladores Corporativos</li><li>EDesarrolladores de Parques Industriales</li><li>Instituciones Sectoriales</li><li>Centros de Investigación, Innovación y Universidades</li></ul>"
     },
     "program": {
-        "title_1": "VER PROGRAMA DE CONFERENCIAS",
+        "title_1": "PROGRAMA DE CONFERENCIAS",
         "title_2": "PROGRAMA ACADEMICO",
         "subtitle": "Construyamos la industria del mañana.",
         "title_s": "Ponentes",

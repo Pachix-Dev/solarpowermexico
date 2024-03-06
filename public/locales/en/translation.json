@@ -20,7 +20,8 @@
             "option_9": "Conference program",
             "option_10": "Rates",
             "option_11": "Promotional Material",
-            "option_12": "Exhibitor's manual"
+            "option_12": "Exhibitor's manual",
+            "option_13": "Academic Program"
         },
         "submenu_3": {
             "title": "VISITORS",
@@ -197,7 +198,7 @@
         "description2": "<ul><li>Legal/Legal Services</li><li>Press</li><li>Federal, State and Municipal Government and their Agencies</li><li>Solar Park Owners</li><li>Real Estate Developers</li><li>Corporate Developers</li><li>EIndustrial Park Developers</li><li>Sectoral Institutions</li><li>Research, Innovation Centers and Universities</li ></ul>"
     },
     "program": {
-        "title_1": "SEE CONFERENCE PROGRAM",
+        "title_1": "CONFERENCE PROGRAM",
         "title_2": "ACADEMIC PROGRAM",
         "subtitle": "Let's create the industry of tomorrow.",
         "title_s": "Speakers",

@@ -240,15 +240,193 @@ const programSSM = {
   }
 }
 
-const conferences = {
+const conferencesSSM = {
   day_1: [
     {
-      hour: '12:00 - 12:30',
-      name: 'ENLIGHT',
-      avatar: '',
-      position: ''
-    }
+      type:'Conferencia',
+      type_en:'Conference',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Nearshoring, Inversión Extranjera Directa y Energía Limpia',
+      title_en:'Nearshoring, Foreign Direct Investment and Clean Energy',
+      subject:'Políticas Energéticas',
+      subject_en:'Energy Policy',
+      description:'',
+      description_en:'',
+      peakers:'Jesús Carrillo',
+      position:'Director de Economía del Instituto Mexicano para la Competitvidad A.C. (IMCO)',
+      position_en:'Director of Economics at Instituto Mexicano para la Competitvidad A.C. (IMCO)'
+    },
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'La visión subnacional de la transición energética: aprendizajes y desafíos',
+      title_en:'The subnational vision of energy transition: lessons learned and challenge',
+      subject:'Generación Fotovoltaica Distribuida',
+      subject_en:'Distributed Photovoltaic Generation',
+      description:'',
+      description_en:'',
+      peakers:' Ana Lilia Moreno',
+      position:'Coordinadora e investigadora del Programa de Regulación y Competencia Económica en México Evalúa',
+      position_en:'Coordinator and researcher of the Regulation and Economic Competition Program at México Evalúa'
+    },
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Importancia de la certificación en el sector solar',
+      title_en:'Importance of certification in the solar sector',
+      subject:'Generación Fotovoltaica Distribuida',
+      subject_en:'Distributed Photovoltaic Generation',
+      description:'',
+      description_en:'',
+      peakers:'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
+      position:'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
+      position_en:'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies'
+    },
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Acceso a energía renovable a través del Abasto Aislado',
+      title_en:'Access to renewable energy through Isolated Supply',
+      subject:'Escala de Servicio Público',
+      subject_en:'Public Service Scale',
+      description:'',
+      description_en:'',
+      peakers:'Angélica Soto | Humberto Alarcón | Luis Gerardo Sánchez Stone',
+      position:'Directora General de Nx Buena Energía | SUNECO | Director General de ErgoSolar',
+      position_en:'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar'
+    },
+    // {
+    //   type:'',
+    //   type_en:'',
+    //   duration:'0 min',
+    //   timetable:'00:00 - 00:00',
+    //   title:'',
+    //   title_en:'',
+    //   subject:'',
+    //   subject_en:'',
+    //   description:'',
+    //   description_en:'',
+    //   peakers:'',
+    //   position:'',
+    //   position_en:''
+    // },
+  ],
+  day_2: [
+    {
+      type:'Conferencia',
+      type_en:'Conference',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Principales desafíos del sector eléctrico de México',
+      title_en:'Main challenges of Mexico\'s electricity sector',
+      subject:'A Escala de Servicio Público',
+      subject_en:'Public Service Scale',
+      description:'',
+      description_en:'',
+      peakers:' Mario S. DePillis Jr. ',
+      position:'Miembro de Cigré y de la American Economic Association',
+      position_en:'Member of Cigré and the American Economic Association'
+    },
+    {
+      type:'Conferencia',
+      type_en:'Conference',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Propuesta de ruta emisiones netas cero para México',
+      title_en:'Proposed net zero emissions pathway for Mexico',
+      subject:'Políticas Energéticas',
+      subject_en:'Energy Policies',
+      description:'',
+      description_en:'',
+      peakers:'Jorge Villarreal Padilla | Luisa Sierra Brozon',
+      position:'Director de Política Climática, en ICM | Directora del Programa de Energía dentro de la Iniciativa Climática de México (ICM)',
+      position_en:'Director of Climate Policy, MSI | Director of the Energy Program within the Mexico Climate Initiative (MSI)'
+    },
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Equidad de género en el sector energético',
+      title_en:'Gender equity in the energy sector',
+      subject:'Generación Fotovoltaica Distribuida',
+      subject_en:'Distributed Photovoltaic Generation',
+      description:'',
+      description_en:'',
+      peakers:'Adriana Aragón',
+      position:'GIZ',
+      position_en:'GIZ'
+    },
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Almacenamiento de energía eléctrica detrás del medidor',
+      title_en:'Electrical energy storage behind the meter',
+      subject:'Almacenamiento',
+      subject_en:'Storage',
+      description:'',
+      description_en:'',
+      peakers:'Valeria Amezcua Santillán | Enrique Garduño | Ena Gutiérrez',
+      position:'Presidenta de Red Agrovoltaica Mexicana | CEO Skysence | ENLIGHT ',
+      position_en:'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT'
+    },
+    // {
+    //   type:'',
+    //   type_en:'',
+    //   duration:'0 min',
+    //   timetable:'00:00 - 00:00',
+    //   title:'',
+    //   title_en:'',
+    //   subject:'',
+    //   subject_en:'',
+    //   description:'',
+    //   description_en:'',
+    //   peakers:'',
+    //   position:'',
+    //   position_en:''
+    // },
+  ],
+  day_3: [
+    {
+      type:'Panel',
+      type_en:'Panel',
+      duration:'0 min',
+      timetable:'00:00 - 00:00',
+      title:'Electromovilidad y energía renovable',
+      title_en:'Electromobility and renewable energy',
+      subject:'Hidrógeno Verde',
+      subject_en:'Green Hydrogen',
+      description:'',
+      description_en:'',
+      peakers:'Diana Ávalos | Jesús Antonio del Río Portillo',
+      position:'AMIVE | IER-UNAM ',
+      position_en:'AMIVE | IER-UNAM'
+    },
+    // {
+    //   type:'',
+    //   type_en:'',
+    //   duration:'0 min',
+    //   timetable:'00:00 - 00:00',
+    //   title:'',
+    //   title_en:'',
+    //   subject:'',
+    //   subject_en:'',
+    //   description:'',
+    //   description_en:'',
+    //   peakers:'',
+    //   position:'',
+    //   position_en:''
+    // },
   ]
 }
 
-export { programSSM, conferences }
+export { programSSM, conferencesSSM }

@@ -55,7 +55,9 @@ export function Program() {
                       </div>
                     </Col>
                   </Row>
-                  {/* <OrderConferences/> */}
+                  <section className='pt-5'>
+                    <OrderConferences/>
+                  </section>
                   <Container className='pt-4'>
                     <h2 className='mt-5 text-light text-center' id='ponentes'> {t("program.subt_title_1")} </h2>
                     <p className='title-speakers fw-bold text-uppercase text-center text-light'>KEYNOTE SPEAKERS</p>

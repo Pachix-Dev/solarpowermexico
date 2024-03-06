@@ -220,8 +220,8 @@ export function Home() {
               />
             </a>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
-            <Row className='gap-2 d-flex align-items-start justify-content-center'>
-              <Col sm={12} md={4} lg={2} className=''>
+            <Row className='gap-2 d-flex align-items-center justify-content-center'>
+              <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
                 <a
                   href='https://www.longi.com/mx/'
                   target='_blank'
@@ -237,7 +237,21 @@ export function Home() {
                 </a>
 
               </Col>
-              <Col sm={12} md={4} lg={2} className=''>
+              <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
+                <a
+                  href='https://quartux.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    height={105}
+                    src='/quartux.webp'
+                    alt='quartux'
+                    loading='lazy'
+                  />
+                </a>
+              </Col>
+              <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
                 <a
                   href='https://www.enlight.mx/'
                   target='_blank'
@@ -251,7 +265,6 @@ export function Home() {
                     loading='lazy'
                   />
                 </a>
-
               </Col>
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>

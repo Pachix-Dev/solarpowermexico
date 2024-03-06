@@ -3,7 +3,9 @@ const programSSM = {
     april_17: [
       {
         hour: '12:00 - 12:30',
-        name: 'ENLIGHT',
+        name: '',
+        title:'ENLIGHT',
+        title_en:'ENLIGHT',
         avatar: '',
         position: '',
         position_en:''
@@ -11,7 +13,9 @@ const programSSM = {
       },
       {
         hour: '12:45 –13:15',
-        name: 'PYLONTECH',
+        name: '',
+        title:'PYLONTECH',
+        title_en:'PYLONTECH',
         avatar: '',
         position: '',
         position_en:''
@@ -19,7 +23,9 @@ const programSSM = {
       },
       {
         hour: '13:30 –14:00',
-        name: 'BATTERY DEPOT',
+        name: '',
+        title:'BATTERY DEPOT',
+        title_en:'BATTERY DEPOT',
         avatar: '',
         position: '',
         position_en:''
@@ -38,7 +44,9 @@ const programSSM = {
       },
       {
         hour: '15:00 –16:00',
-        name: 'BREAK',
+        name: '',
+        title:'BREAK',
+        title_en:'BREAK',
         avatar: '',
         position: '',
         position_en:''
@@ -46,7 +54,9 @@ const programSSM = {
       },
       {
         hour: '16:00 –16:30',
-        name: 'EXEL SOLAR',
+        name: '',
+        title:'EXEL SOLAR',
+        title_en:'EXEL SOLAR',
         avatar: '',
         position: '',
         position_en:''
@@ -60,7 +70,9 @@ const programSSM = {
       // },
       {
         hour: '17:30 –18:00',
-        name: 'AVAILABLE',
+        name: '',
+        title:'AVAILABLE',
+        title_en:'AVAILABLE',
         avatar: '',
         position: '',
         position_en:''
@@ -69,14 +81,18 @@ const programSSM = {
     april_18: [
       {
         hour: '12:00 - 12:30',
-        name: 'LONGI',
+        name: '',
+        title:'LONGI',
+        title_en:'LONGI',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '12:45 –13:15',
-        name: 'KRANNICH',
+        name: '',
+        title:'KRANNICH',
+        title_en:'KRANNICH',
         avatar: '',
         position: '',
         position_en:''
@@ -95,14 +111,18 @@ const programSSM = {
       },
       {
         hour: '14:15 –14:45',
-        name: 'METERING',
+        name: '',
+        title:'METERING',
+        title_en:'METERING',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '15:00 –16:00',
-        name: 'BREAK',
+        name: '',
+        title:'BREAK',
+        title_en:'BREAK',
         avatar: '',
         position: '',
         position_en:''
@@ -110,21 +130,27 @@ const programSSM = {
       },
       {
         hour: '16:00 –16:30',
-        name: 'EXEL SOLAR',
+        name: '',
+        title:'EXEL SOLAR',
+        title_en:'EXEL SOLAR',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '16:45 –17:15',
-        name: 'SOLAREVER',
+        name: '',
+        title:'SOLAREVER',
+        title_en:'SOLAREVER',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '17:30 –18:00',
-        name: 'AVAILABLE',
+        name: '',
+        title:'AVAILABLE',
+        title_en:'AVAILABLE',
         avatar: '',
         position: '',
         position_en:''
@@ -133,7 +159,9 @@ const programSSM = {
     april_19: [
       {
         hour: '12:00 - 12:30',
-        name: 'BATTERY DEPOT',
+        name: '',
+        title:'BATTERY DEPOT',
+        title_en:'BATTERY DEPOT',
         avatar: '',
         position: '',
         position_en:''
@@ -152,28 +180,36 @@ const programSSM = {
       },
       {
         hour: '13:30 –14:00',
-        name: 'SOLAREVER',
+        name: '',
+        title:'SOLAREVER',
+        title_en:'SOLAREVER',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '14:15 –14:45',
-        name: 'HUAWEI',
+        name: '',
+        title:'HUAWEI',
+        title_en:'HUAWEI',
         avatar: '',
         position: '',
         position_en:''
       },
       {
         hour: '15:00 –15:30',
-        name: 'AVAILABLE',
+        name: '',
+        title:'AVAILABLE',
+        title_en:'AVAILABLE',
         avatar: '',
         position: '',
         position_en:''
       },
       {
-        hour: '',
-        name: 'CLAUSURA',
+        hour: '15:45 - 16:30',
+        name: '',
+        title:'CLAUSURA',
+        title_en:'CLAUSURA',
         avatar: '',
         position: '',
         position_en:''
@@ -256,8 +292,10 @@ const programSSM = {
   stage_3: {
     april_17: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '',
+        name: '',
+        title: 'Más información por confirmar',
+        title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
         position_en:''
@@ -265,8 +303,10 @@ const programSSM = {
     ],
     april_18: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '',
+        name: '',
+        title: 'Más información por confirmar',
+        title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
         position_en:''
@@ -274,8 +314,10 @@ const programSSM = {
     ],
     april_19: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '',
+        name: '',
+        title: 'Más información por confirmar',
+        title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
         position_en:''

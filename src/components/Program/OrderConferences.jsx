@@ -19,7 +19,8 @@ function OrderConferences() {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>
                                 <Col xs={4} md={4} lg={3}>
-                                    <p className='text-start text-uppercase fs-2 fw-bold'>{conference.timetable}<br />
+                                    <p className='text-start text-uppercase fs-2 fw-bold'>
+                                        {/* {conference.timetable}<br /> */}
                                         <span className='text-start text-lowercase fs-5 fw-medium fst-italic text-light'>{conference.duration}</span><br />
                                         <span className='text-start text-uppercase fs-4 fw-medium fst-italic text-light'>{i18n.language === 'en' ? conference?.type_en : conference?.type}</span></p>
                                 </Col>
@@ -44,7 +45,8 @@ function OrderConferences() {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>
                                 <Col xs={4} md={4} lg={3}>
-                                    <p className='text-start text-uppercase fs-2 fw-bold'>{conference.timetable}<br />
+                                    <p className='text-start text-uppercase fs-2 fw-bold'>
+                                        {/* {conference.timetable}<br /> */}
                                         <span className='text-start text-lowercase fs-5 fw-medium fst-italic text-light'>{conference.duration}</span><br />
                                         <span className='text-start text-uppercase fs-4 fw-medium fst-italic text-light'>{i18n.language === 'en' ? conference?.type_en : conference?.type}</span></p>
                                 </Col>
@@ -69,7 +71,8 @@ function OrderConferences() {
                         return (
                             <Row className='border-bottom border-1 text-white py-3'>
                                 <Col xs={4} md={4} lg={3}>
-                                    <p className='text-start text-uppercase fs-2 fw-bold'>{conference.timetable}<br />
+                                    <p className='text-start text-uppercase fs-2 fw-bold'>
+                                        {/* {conference.timetable}<br /> */}
                                         <span className='text-start text-lowercase fs-5 fw-medium fst-italic text-light'>{conference.duration}</span><br />
                                         <span className='text-start text-uppercase fs-4 fw-medium fst-italic text-light'>{i18n.language === 'en' ? conference?.type_en : conference?.type}</span></p>
                                 </Col>

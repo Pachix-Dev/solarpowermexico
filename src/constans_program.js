@@ -211,21 +211,46 @@ const programSSM = {
     ],
     april_18: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '11:30 - 14:30',
+        duration:'3 hrs.',
+        name: '',
+        title: 'IBESA 201 Masterclass de Almacenamiento de Energía : Estrategias de Negocio Innovadoras, Tecnologías de Vanguardia y Sistemas Inteligentes',
+        title_en: 'IBESA 201 Energy Storage Masterclass: Innovative Business Strategies, Cutting-edge Technologies, and Intelligent Systems',
+        speakers: '',
+        description: 'Eleve su experiencia en almacenamiento de energía con nuestro taller avanzado diseñado para el mercado mexicano. Presentamos "Dominio del almacenamiento de energía: estrategias comerciales innovadoras, tecnologías de vanguardia y sistemas inteligentes", diseñado exclusivamente para profesionales dedicados al sector del almacenamiento de energía. Este taller ofrece una comprensión integral de los últimos modelos comerciales, avances tecnológicos y el arte de crear soluciones de almacenamiento inteligentes. A través de estudios de casos inmersivos de la vida real y conocimientos de expertos de la industria, explorará el profundo impacto que tiene el almacenamiento de energía en la conservación del medio ambiente. Obtenga conocimientos invaluables sobre diversas configuraciones y operaciones de almacenamiento que contribuyen significativamente a los esfuerzos de descarbonización.',
+        description_en: 'Elevate your expertise in energy storage with our advanced workshop tailored for the Mexican market. Introducing "Energy Storage Mastery: Innovative Business Strategies, Cutting-edge Technologies, and Intelligent Systems," designed exclusively for professionals engaged in the energy storage sector. This workshop offers a comprehensive understanding of the latest business models, technological advancements, and the art of crafting intelligent storage solutions. Through immersive real-life case studies and insights from industry experts, you\'ll explore the profound impact energy storage has on environmental conservation. Gain invaluable knowledge about diverse storage configurations and operations that contribute significantly to decarbonization efforts.',
         avatar: '',
         position: '',
         position_en:''
-      }
+      },
+      {
+        hour: '16:00 - 17:00',
+        duration:'1 hr.',
+        name: '',
+        title: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Hidrogeno Verde',
+        title_en: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Green Hydrogen',
+        speakers: '',
+        description: 'Más información por confirmar',
+        description_en: 'More information to be confirmed',
+        avatar: '',
+        position: '',
+        position_en:''
+      },
     ],
     april_19: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '12:00 - 13:00',
+        duration:'1 hr',
+        name: '',
+        title: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Hidrogeno Verde',
+        title_en: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Green Hydrogen',
+        speakers: '',
+        description: 'Más información por confirmar',
+        description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
         position_en:''
-      }
+      },
     ]
   },
   stage_3: {

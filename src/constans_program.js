@@ -183,12 +183,31 @@ const programSSM = {
   stage_2: {
     april_17: [
       {
-        hour: '00:00 - 00:00',
-        name: 'POR CONFIRMAR',
+        hour: '11:30 - 14:30',
+        duration:'3 hrs.',
+        name: '',
+        title: 'IBESA 101 Taller de Almacenamiento: Navegando por el panorama de almacenamiento de energía en México: Liberando oportunidades y estrategias de monetización',
+        title_en: 'IBESA 101 Storage Workshop: Navigating the Mexican Energy Storage Landscape: Unlocking Opportunities and Monetization Strategies',
+        speakers: '',
+        description: 'Sumérgete en un taller interactivo que desmitifica la evolución del mercado de almacenamiento de energía en México y sus regiones vecinas. Esta sesión está meticulosamente diseñada para atender a instaladores, desarrolladores, empresas de servicios públicos, proveedores de tecnología, formuladores de políticas y personas influyentes en el almacenamiento, tanto a nivel nacional como internacional. Los participantes profundizarán en una exploración integral de las perspectivas de almacenamiento de energía, tecnologías de vanguardia y la intrincada red de políticas y regulaciones. Adquiere los conocimientos de mercado respaldados por datos proporcionados por prestigiosas organizaciones de investigación, complementados con estudios de casos de la vida real de líderes de la industria. Este taller tiene como objetivo hacer que las propuestas de valor del almacenamiento de energía en los sectores residencial, comercial y de servicios públicos sean más tangibles y accesibles para todos los asistentes.',
+        description_en: 'Dive into an interactive workshop that demystifies the evolving energy storage market in Mexico and its neighboring regions. This session is meticulously designed to cater to installers, developers, utilities, technology providers, policymakers, and pivotal storage influencers, both nationally and internationally. Participants will delve into a comprehensive exploration of energy storage prospects, cutting-edge technologies, and the intricate web of policies and regulations. Immerse yourself in data-backed market insights provided by esteemed research organizations, complemented by real-life case studies from industry leaders. This workshop aims to make the value propositions of energy storage in residential, commercial, and utility-scale sectors more tangible and accessible for all attendees.',
         avatar: '',
         position: '',
         position_en:''
-      }
+      },
+      {
+        hour: '16:00 - 17:00',
+        duration:'1 hrs.',
+        name: '',
+        title: 'REDMEREE',
+        title_en: 'REDMEREE',
+        speakers: '',
+        description: 'Más información por confirmar',
+        description_en: 'More information to be confirmed',
+        avatar: '',
+        position: '',
+        position_en:''
+      },
     ],
     april_18: [
       {

@@ -62,13 +62,17 @@ export function AcademicProgram() {
                         >
                             {programSolar?.april_17.map((program, index) => {
                                 return (
-                                    <Row className="align-items-center program-date-item text-white">
+                                    <Row className="align-items-start justify-content-center program-date-item text-white">
                                         <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
-                                            <p>
-                                                <svg width={30} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                                            <p className='d-flex'>
+                                                <svg width={40} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                                                 </svg>
-                                                {program.duration} <strong>{program.hour}</strong>
+                                                <spam className="fs-5 ms-1">
+                                                    <strong>{program.hour}</strong><br />
+                                                    {program.duration}
+                                                </spam>
+
                                             </p>
                                         </Col>
                                         <Col lg={9} xs={12} md={9}>

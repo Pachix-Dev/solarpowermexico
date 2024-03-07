@@ -266,7 +266,7 @@ export function Home() {
                   <img
                     width={150}
                     height={68}
-                    src='/longi.webp'
+                    src='/longi_logo.webp'
                     alt='LONGI'
                     loading='lazy'
                   />
@@ -282,7 +282,7 @@ export function Home() {
                     width={150}
                     height={68}
                     src='/enlight.webp'
-                    alt='LONGI'
+                    alt='enlight'
                     loading='lazy'
                   />
                 </a>

@@ -57,7 +57,7 @@ export function Home() {
               className='mt-4 text-light text-center fs-4'
               dangerouslySetInnerHTML={{ __html: t('home.solar_bg_video') }}
             />
-            <Row className='pt-4'>
+            <Row className='justify-content-md-center'>
               <Col md={3} lg={3} className='my-2'>
                 <Link to='/conference-program'>
                   <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
@@ -78,6 +78,28 @@ export function Home() {
                   </Button>
                 </Link>
               </Col>
+              <Col md={3} lg={3} className='my-2'>
+                <Link to='/academic-program'>
+                  <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      fill='none'
+                      width="40px" height="40px"
+                      viewBox='0 0 24 24'
+                      strokeWidth={1.5}
+                      stroke='currentColor'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z'
+                      />
+                    </svg><br />{t('program.title_2')}
+                  </Button>
+                </Link>
+              </Col>
+            </Row>
+            <Row className='justify-content-md-center'>
               <Col md={3} lg={3} className='my-2'>
                 <Link to='/hotels'>
                   <Button className='btn-event-topics border border-light text-uppercase fw-bold'>

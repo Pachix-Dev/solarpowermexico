@@ -75,13 +75,11 @@
 
 .img-back-speaker{
   width: 310px;
-  margin-left: -30px;
-  margin-top: -23px;
 }
+
 .img-speaker {
   width: 250px;
   position: relative;
-  z-index: 2; 
 }
 
 .info_speakers {
@@ -104,7 +102,7 @@
   }
 
   .img-speaker {
-    width: 300px;
+    width: 100%;
   }
 
   .info_speakers {
@@ -113,9 +111,7 @@
   }
 
   .img-back-speaker{
-    width: 370px;
-    margin-left: -35px;
-    margin-top: -28px;
+    width: 100%;
   }
 
   .title-speakers{
@@ -142,5 +138,9 @@
 
   .title-speakers{
     font-size: 40px;
+  }
+
+  .img-back-speaker{
+    width: 100%;
   }
 }

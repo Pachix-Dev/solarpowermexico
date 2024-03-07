@@ -26,7 +26,7 @@ function OrderConferences() {
                                 </Col>
                                 <Col xs={8} md={8} lg={9} className='fs-5'>
                                     <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? conference?.title_en : conference?.title}</p>
-                                    <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p>
+                                    {/* <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p> */}
                                     <div>
                                         <Row className='text-left'>
                                             <Col xs={12} md={12} lg={12}>
@@ -52,7 +52,7 @@ function OrderConferences() {
                                 </Col>
                                 <Col xs={8} md={8} lg={9} className='fs-5'>
                                     <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? conference?.title_en : conference?.title}</p>
-                                    <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p>
+                                    {/* <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p> */}
                                     <div>
                                         <Row className='text-left'>
                                             <Col xs={12} md={12} lg={12}>
@@ -78,7 +78,7 @@ function OrderConferences() {
                                 </Col>
                                 <Col xs={8} md={8} lg={9} className='fs-5'>
                                     <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? conference?.title_en : conference?.title}</p>
-                                    <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p>
+                                    {/* <p>{i18n.language === 'en' ? conference?.subject : conference?.subject_en}</p> */}
                                     <div>
                                         <Row className='text-left'>
                                             <Col xs={12} md={12} lg={12}>

@@ -341,7 +341,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Jesús Carrillo',
       position:'Director de Economía del Instituto Mexicano para la Competitvidad A.C. (IMCO)',
-      position_en:'Director of Economics at Instituto Mexicano para la Competitvidad A.C. (IMCO)'
+      position_en:'Director of Economics at Instituto Mexicano para la Competitvidad A.C. (IMCO)',
+      avatar_1: '/speakers/jesus_carrillo.webp',
+      avatar_2: '',
+      avatar_3: ''
     },
     {
       type:'Panel',
@@ -356,7 +359,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:' Ana Lilia Moreno',
       position:'Coordinadora e investigadora del Programa de Regulación y Competencia Económica en México Evalúa',
-      position_en:'Coordinator and researcher of the Regulation and Economic Competition Program at México Evalúa'
+      position_en:'Coordinator and researcher of the Regulation and Economic Competition Program at México Evalúa',
+      avatar_1: '/speakers/ana_lilia.webp',
+      avatar_2: '',
+      avatar_3: ''
     },
     {
       type:'Panel',
@@ -371,7 +377,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
       position:'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
-      position_en:'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies'
+      position_en:'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies',
+      avatar_1: '/speakers/carolin_antoni.webp',
+      avatar_2: '/speakers/eduardo_gomez.webp',
+      avatar_3: ''
     },
     {
       type:'Panel',
@@ -386,7 +395,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Angélica Soto | Humberto Alarcón | Luis Gerardo Sánchez Stone',
       position:'Directora General de Nx Buena Energía | SUNECO | Director General de ErgoSolar',
-      position_en:'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar'
+      position_en:'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar',
+      avatar_1: '/speakers/angelica_soto.webp',
+      avatar_2: '/speakers/luis_sanchez.webp',
+      avatar_3: ''
     },
     // {
     //   type:'',
@@ -418,7 +430,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:' Mario S. DePillis Jr. ',
       position:'Miembro de Cigré y de la American Economic Association',
-      position_en:'Member of Cigré and the American Economic Association'
+      position_en:'Member of Cigré and the American Economic Association',
+      avatar_1: '/speakers/mario_pillis.webp',
+      avatar_2: '',
+      avatar_3: ''
     },
     {
       type:'Conferencia',
@@ -433,7 +448,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Jorge Villarreal Padilla | Luisa Sierra Brozon',
       position:'Director de Política Climática, en ICM | Directora del Programa de Energía dentro de la Iniciativa Climática de México (ICM)',
-      position_en:'Director of Climate Policy, MSI | Director of the Energy Program within the Mexico Climate Initiative (MSI)'
+      position_en:'Director of Climate Policy, MSI | Director of the Energy Program within the Mexico Climate Initiative (MSI)',
+      avatar_1: '/speakers/jorge_villarreal.webp',
+      avatar_2: '/speakers/luisa_sierra.webp',
+      avatar_3: ''
     },
     {
       type:'Panel',
@@ -448,7 +466,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Adriana Aragón',
       position:'GIZ',
-      position_en:'GIZ'
+      position_en:'GIZ',
+      avatar_1: '',
+      avatar_2: '',
+      avatar_3: ''
     },
     {
       type:'Panel',
@@ -463,7 +484,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Valeria Amezcua Santillán | Enrique Garduño | Ena Gutiérrez',
       position:'Presidenta de Red Agrovoltaica Mexicana | CEO Skysence | ENLIGHT ',
-      position_en:'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT'
+      position_en:'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT',
+      avatar_1: '/speakers/valeria_amezcua.webp',
+      avatar_2: '',
+      avatar_3: ''
     },
     // {
     //   type:'',
@@ -495,7 +519,10 @@ const conferencesSSM = {
       description_en:'',
       peakers:'Diana Ávalos | Jesús Antonio del Río Portillo',
       position:'AMIVE | IER-UNAM ',
-      position_en:'AMIVE | IER-UNAM'
+      position_en:'AMIVE | IER-UNAM',
+      avatar_1: '/speakers/diana_avalos.webp',
+      avatar_2: '',
+      avatar_3: ''
     },
     // {
     //   type:'',

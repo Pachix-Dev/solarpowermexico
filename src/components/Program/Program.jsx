@@ -54,7 +54,7 @@ export function Program() {
                   <button key={index} onClick={() => handleModal2(speaker)} className='btn-speaker'>
                     <Row className='d-flex justify-content-center align-items-center'>
                       <Col lg={6} md={12} xs={12} className='container-img-speaker d-flex align-items-center justify-content-center'>
-                        <img src="/speakers/back-speakers.webp" alt="" className='p-4 img-fluid img-back-speaker z-1 position-absolute'/>
+                        <img src="/speakers/back-speakers.webp" alt="" className='p-4 img-fluid img-back-speaker z-1 position-absolute' />
                         <img src={speaker.avatar} alt={speaker.name} className='p-4 img-speaker z-2' />
                       </Col>
                       <Col className='info_speakers'>

@@ -3,11 +3,10 @@ import React, { useState } from 'react'
 import { Button, Container, Nav, Tab, Tabs } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { programSSM } from "../../constans_program";
-import { speakers } from '../../constans_speakers'
+import { speakersEdu } from '../../constans_speakers'
 import { useTranslation } from "react-i18next";
 import "../Program/Program.css";
 import { DetailSpeaker } from '../Program/DetailSpeaker';
-import OrderConferences from '../Program/OrderConferences';
 
 
 export function AcademicProgram() {
@@ -178,7 +177,59 @@ export function AcademicProgram() {
                         </Tab>
                     </Tabs>
                 </Container>
+                <Container className="pt-4">
+            <h2 className="mt-5 text-light text-center" id="ponentes">
+              {" "}
+              {t("program.subt_title_1")}{" "}
+            </h2>
+            <p className="title-speakers fw-bold text-uppercase text-center text-light"> {t("program.title_s")}</p>
+            <div className="mt-5 pb-5 program-wrapper-speakers">
+              <div className="container-speaker">
+                {speakersEdu.map((speaker, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleModal2(speaker)}
+                    className="btn-speaker"
+                  >
+                    <Row className="d-flex justify-content-center align-items-center">
+                      <Col
+                        lg={6}
+                        md={12}
+                        xs={12}
+                        className="container-img-speaker d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="/speakers/back-speakers.webp"
+                          alt=""
+                          className="p-4 img-fluid img-back-speaker z-1 position-absolute"
+                        />
+                        <img
+                          src={speaker.avatar}
+                          alt={speaker.name}
+                          className="p-4 img-speaker z-2"
+                        />
+                      </Col>
+                      <Col className="info_speakers">
+                        <p className="fs-6">
+                          <span className="fs-4 fw-bolder">{speaker.name}</span>{" "}
+                          <br />
+                          {i18n.language === "en"
+                            ? speaker?.role_en
+                            : speaker?.role_es}
+                        </p>
+                      </Col>
+                    </Row>
+                  </button>
+                ))}
+              </div>
             </div>
+          </Container>
+            </div>
+            <DetailSpeaker
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                speaker={detailSpeaker}
+            />
         </>
     )
 }

@@ -108,5 +108,37 @@ const speakers=[
         resume_en: "Economist from Universidad Panamericana, she holds a Master's in Economics from the University of East Anglia, UK, and specialized studies in Political Science from the University of Notre Dame. Currently, she is the coordinator and researcher of the Program on Regulation and Economic Competition at Mexico Evalúa. Her recent work has focused on energy transition in Mexico at both national and subnational levels, corporate governance and sustainability for State Productive Enterprises, and the complex energy paradox Mexico faces amidst the challenges of the USMCA and the pursuit of effective and sustainable energy security. Her expertise also extends to regulatory improvement, economic competition, corporate governance, and ESG standards in key institutions such as Pemex and CFE, as well as her contributions to policies against energy poverty. With a vast trajectory, she directed research and communication strategies at CIDAC, aiming to elucidate to the public the processes and significance of the structural reforms that occurred in 2013. From 2015 to 2017, she collaborated with the Federal Telecommunications Institute as Director of an area focusing on economic competition and regulation. Previously, she accumulated over a decade as a senior transfer pricing manager at Deloitte and KPMG. Additionally, she teaches Industrial Economics at Universidad Anáhuac.",
     },
 ]
-export { speakers }
+
+const speakersEdu=[
+    {
+        id:1,
+        name: 'Alejandro Terán',
+        avatar: '/speakers/alejandro_teran.webp',
+        role_es: "Director de Construcción en Energía Real",
+        role_en: "Director of Construction at Energía Real",
+        resume_es: 'Ingeniero en Energías Renovables por la UNAM, con 5 años de experiencia laboral en proyectos solares GD en México. Con +25 MWp instalados en +100 instalaciones trabajando con clientes como Prologis, Chedraui, Casa Ley, Coppel, etc. Actualmente Director de Construcción en Energía Real siendo responsable de los todos proyectos solares y BESS.',
+        resume_en: 'Renewable Energy Engineer by UNAM, with 5 years of work experience in solar DG projects in Mexico. With +25 MWp installed in +100 installations working with clients such as Prologis, Chedraui, Casa Ley, Coppel, etc. Currently Director of Construction at Energía Real being responsible for all solar and BESS projects.',
+    },
+    {
+        id:1,
+        name: 'Gustavo Marín',
+        avatar: '/speakers/gustavo_marin.webp',
+        role_es: "Branch Manager en LATAM APsystems - Altenergy Power Systems",
+        role_en: "Branch Manager en LATAM APsystems - Altenergy Power Systems",
+        resume_es: 'Cuenta con una Ingeniería en Comunicación Electrónica por parte de la UdeG en el Centro de Ciencias Exactas e Ingeniería de la ciudad de Guadalajara, Jalisco, México. Tiene una maestría en Tecnología Ambiental por parte de UTEL y una amplia experiencia en la energía solar desde el 2008. Sus inicios fueron en empresas de manufactura como Flextronics realizando Asset Management. Actualmente, lleva 8 años en APsystems como Branch Manager. Con experiencia en más de 200 entrenamientos virtuales, ha dado entrenamientos en Colombia, Brasil, Guatemala, Honduras, República Dominicana, Panamá, Cuba y México para la industria, profesionalizando al sector sobre las tecnologías de Altenergy Power Systems e impulsando las buenas prácticas. Presentó ante maestros y doctores especializados en eléctrica en Cuba una plática y asesoría acerca de la tecnología en microinversores. Estuvo en Flextronics en cotizaciones Asset Management y también estuvo en el rubro de telecomunicaciones.',
+        resume_en: 'He has a degree in Electronic Communication Engineering from the UdeG at the Center for Exact Sciences and Engineering in Guadalajara, Jalisco, Mexico. He has a master\'s degree in Environmental Technology from UTEL and extensive experience in solar energy since 2008. His beginnings were in manufacturing companies such as Flextronics performing Asset Management. Currently, he has been with APsystems for 8 years as Branch Manager. With experience in more than 200 virtual trainings, he has given trainings in Colombia, Brazil, Guatemala, Honduras, Dominican Republic, Panama, Cuba and Mexico for the industry, professionalizing the sector on Altenergy Power Systems technologies and promoting best practices. Presented a lecture and advice on microinverter technology to teachers and doctors specialized in electricity in Cuba. He was in Flextronics in Asset Management quotations and was also in the telecommunications area.'
+    },
+    {
+        id:2,
+        name: 'Juan Carlos Fuentes',
+        avatar: '/speakers/juan_carlos_fuentes.webp',
+        role_es: "Director de Ventas para Latinoamérica & Europa, en S-5!",
+        role_en: "Director of Sales for Latin America & Europe, at S-5!",
+        resume_es: 'Arquitecto con residencia en EE. UU., cuenta con más de 15 años de experiencia en el desarrollo de mercados internacionales en el sector de materiales de construcción para empresas europeas y americanas. Actualmente, en S-5! dirige iniciativas estratégicas de planificación de ventas, capacitación y desarrollo del equipo de LATAN & Europa; al mismo tiempo, que construye fuertes relaciones con los partners de S-5!',
+        resume_en: 'A U.S.-based architect, he has over 15 years of experience in international market development in the building materials sector for European and American companies. Currently, at S-5! he leads strategic initiatives in sales planning, training and development of the LATAN & Europe team, while building strong relationships with S-5! partners.'
+    },
+    
+]
+
+export { speakers, speakersEdu }
   

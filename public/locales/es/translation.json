@@ -17,11 +17,11 @@
             "option_6": "Factsheet SSM 2024",
             "option_7": "Contrato SSM 2024",
             "option_8": "Plano SSM 2024",
-            "option_9": "Programa de conferencias",
+            "option_9": "PROGRAMA DE CONFERENCIAS PREMIUM",
             "option_10": "Tarifas",
             "option_11": "Toolkit",
             "option_12": "Manual del expositor",
-            "option_13": "Programa Académico"
+            "option_13": "EXPO HALL EDUCATION"
         },
         "submenu_3": {
             "title": "VISITANTES",
@@ -41,7 +41,7 @@
         "banner": "¡Regístrate ahora!"
     },
     "home": {
-        "program": "Programa de Conferencias",
+        "program": "Programa de conferencias premium",
         "sponsorship": "Patrocinios y experiencias",
         "results": "Resultados 2023",
         "floorplan": "Plano SSM 2024",
@@ -198,8 +198,8 @@
         "description2": "<ul><li>Servicios Legales/Jurídicos</li><li>Prensa</li><li>Gobierno Federal, Estatal y Municipal y sus Dependencias</li><li>Propietarios de Parques Solares</li><li>Desarrolladores Inmobiliarios</li><li>Desarrolladores Corporativos</li><li>EDesarrolladores de Parques Industriales</li><li>Instituciones Sectoriales</li><li>Centros de Investigación, Innovación y Universidades</li></ul>"
     },
     "program": {
-        "title_1": "PROGRAMA DE CONFERENCIAS",
-        "title_2": "PROGRAMA ACADEMICO",
+        "title_1": "PROGRAMA DE CONFERENCIAS PREMIUM",
+        "title_2": "EXPO HALL EDUCATION",
         "subtitle": "Construyamos la industria del mañana.",
         "title_s": "Ponentes",
         "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",

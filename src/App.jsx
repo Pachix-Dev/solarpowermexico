@@ -75,7 +75,7 @@ function App () {
         <Route path='energy-night' element={<RouteWithHelmet title='Energy Night' element={<EnergyNight />} />} />
         <Route path='videos' element={<RouteWithHelmet title='Videos' element={<Videos />} />} />
         <Route path='hotels' element={<RouteWithHelmet title='Hotels' element={<Hotels />} />} />
-        <Route path='academic-program' element={<RouteWithHelmet title='ACADEMIC PROGRAM' element={<AcademicProgram />} />}/>
+        <Route path='expo-hall-education' element={<RouteWithHelmet title='ACADEMIC PROGRAM' element={<AcademicProgram />} />}/>
       </Routes>
       <Footer />
     </>

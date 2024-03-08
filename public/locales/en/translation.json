@@ -17,11 +17,11 @@
             "option_6": "Factsheet SSM 2024",
             "option_7": "Contract SSM 2024",
             "option_8": "Floor plan SSM 2024",
-            "option_9": "Conference program",
+            "option_9": "Premium Conference program",
             "option_10": "Rates",
             "option_11": "Promotional Material",
             "option_12": "Exhibitor's manual",
-            "option_13": "Academic Program"
+            "option_13": "EXPO HALL EDUCATION"
         },
         "submenu_3": {
             "title": "VISITORS",
@@ -41,7 +41,7 @@
         "banner": "Online registration!"
     },
     "home": {
-        "program": "Conference Program",
+        "program": "Premium Conference Program",
         "sponsorship": "Sponsorship & Experiences",
         "results": "Results report 2023",
         "floorplan": "Floor Plan 2024",
@@ -198,8 +198,8 @@
         "description2": "<ul><li>Legal/Legal Services</li><li>Press</li><li>Federal, State and Municipal Government and their Agencies</li><li>Solar Park Owners</li><li>Real Estate Developers</li><li>Corporate Developers</li><li>EIndustrial Park Developers</li><li>Sectoral Institutions</li><li>Research, Innovation Centers and Universities</li ></ul>"
     },
     "program": {
-        "title_1": "CONFERENCE PROGRAM",
-        "title_2": "ACADEMIC PROGRAM",
+        "title_1": "PREMIUM CONFERENCE PROGRAM",
+        "title_2": "EXPO HALL EDUCATION",
         "subtitle": "Let's create the industry of tomorrow.",
         "title_s": "Speakers",
         "subtitle_s": "Get inspired by our amazing speakers.",

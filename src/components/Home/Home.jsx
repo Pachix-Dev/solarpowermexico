@@ -79,7 +79,7 @@ export function Home() {
                 </Link>
               </Col>
               <Col md={3} lg={3} className='my-2'>
-                <Link to='/academic-program'>
+                <Link to='/expo-hall-education'>
                   <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'

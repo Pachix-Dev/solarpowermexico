@@ -4,31 +4,31 @@ const programSSM = {
       {
         hour: '12:00 - 12:30',
         name: '',
-        title:'ENLIGHT',
-        title_en:'ENLIGHT',
+        title: 'ENLIGHT',
+        title_en: 'ENLIGHT',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
 
       },
       {
         hour: '12:45 –13:15',
         name: '',
-        title:'PYLONTECH',
-        title_en:'PYLONTECH',
+        title: 'PYLONTECH',
+        title_en: 'PYLONTECH',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
 
       },
       {
         hour: '13:30 –14:00',
         name: '',
-        title:'BATTERY DEPOT',
-        title_en:'BATTERY DEPOT',
+        title: 'BATTERY DEPOT',
+        title_en: 'BATTERY DEPOT',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '14:15 –14:45',
@@ -40,26 +40,26 @@ const programSSM = {
         description_en: 'APsystems presents the new technology for MLPE microinverters and the recent energy storage solution. APsystems technology continually advances to offer the most competent equipment in the Latin American market, adapting to current and future advances. We bring you the latest technology in two-phase and three-phase microinverters, and the APstorage energy storage solution that comes with its Power Conversion Systems (PCS) and the split-phase Transformer.',
         avatar: '',
         position: 'Branch Manager en LATAM APsystems',
-        position_en:'Branch Manager at LATAM APsystems'
+        position_en: 'Branch Manager at LATAM APsystems'
       },
       {
         hour: '15:00 –16:00',
         name: '',
-        title:'BREAK',
-        title_en:'BREAK',
+        title: 'BREAK',
+        title_en: 'BREAK',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
 
       },
       {
         hour: '16:00 –16:30',
         name: '',
-        title:'EXEL SOLAR',
-        title_en:'EXEL SOLAR',
+        title: 'EXEL SOLAR',
+        title_en: 'EXEL SOLAR',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
 
       },
       // {
@@ -71,31 +71,31 @@ const programSSM = {
       {
         hour: '17:30 –18:00',
         name: '',
-        title:'AVAILABLE',
-        title_en:'AVAILABLE',
+        title: 'AVAILABLE',
+        title_en: 'AVAILABLE',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ],
     april_18: [
       {
         hour: '12:00 - 12:30',
         name: '',
-        title:'LONGI',
-        title_en:'LONGI',
+        title: 'LONGI',
+        title_en: 'LONGI',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '12:45 –13:15',
         name: '',
-        title:'KRANNICH',
-        title_en:'KRANNICH',
+        title: 'KRANNICH',
+        title_en: 'KRANNICH',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '13:30 –14:00',
@@ -107,64 +107,64 @@ const programSSM = {
         description_en: 'Analysis of metal roofs as a platform for PV energy and the importance of choosing a suitable racking system. In addition, the behavior of a PV project against a Hurricane with winds of more than 200 km/h installed with S-5!',
         avatar: '',
         position: 'Director de construcción, en Energía Real | Director de Ventas para Latinoamérica & Europa, en S-5!',
-        position_en:'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!'
+        position_en: 'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!'
       },
       {
         hour: '14:15 –14:45',
         name: '',
-        title:'METERING',
-        title_en:'METERING',
+        title: 'METERING',
+        title_en: 'METERING',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '15:00 –16:00',
         name: '',
-        title:'BREAK',
-        title_en:'BREAK',
+        title: 'BREAK',
+        title_en: 'BREAK',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
 
       },
       {
         hour: '16:00 –16:30',
         name: '',
-        title:'EXEL SOLAR',
-        title_en:'EXEL SOLAR',
+        title: 'EXEL SOLAR',
+        title_en: 'EXEL SOLAR',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '16:45 –17:15',
         name: '',
-        title:'SOLAREVER',
-        title_en:'SOLAREVER',
+        title: 'SOLAREVER',
+        title_en: 'SOLAREVER',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '17:30 –18:00',
         name: '',
-        title:'AVAILABLE',
-        title_en:'AVAILABLE',
+        title: 'AVAILABLE',
+        title_en: 'AVAILABLE',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ],
     april_19: [
       {
         hour: '12:00 - 12:30',
         name: '',
-        title:'BATTERY DEPOT',
-        title_en:'BATTERY DEPOT',
+        title: 'BATTERY DEPOT',
+        title_en: 'BATTERY DEPOT',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '12:45 –13:30',
@@ -176,43 +176,43 @@ const programSSM = {
         description_en: 'One of the most important applications of photovoltaic solar energy is undoubtedly the pumping of water using solar panels, this is known as Solar Pumping Systems. This type of systems has had a growing interest, especially in developing countries, as a product of the energy transition that is being experienced worldwide. In countries like Mexico, with a strong dependence on the primary sector, there is a competitive advantage for this type of system, since it solves many of the operational and energy availability problems in productive sites. To explain this, the key points we will review in our talk are: - Grundfos\' role in the sector as a technological pioneer worldwide and key player in Mexico. - How Grundfos collaborates through solar pumping with the Sustainable Development Goals worldwide. - Explanation and evidence of the most common uses of this type of systems in Mexico.',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '13:30 –14:00',
         name: '',
-        title:'SOLAREVER',
-        title_en:'SOLAREVER',
+        title: 'SOLAREVER',
+        title_en: 'SOLAREVER',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '14:15 –14:45',
         name: '',
-        title:'HUAWEI',
-        title_en:'HUAWEI',
+        title: 'HUAWEI',
+        title_en: 'HUAWEI',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '15:00 –15:30',
         name: '',
-        title:'AVAILABLE',
-        title_en:'AVAILABLE',
+        title: 'AVAILABLE',
+        title_en: 'AVAILABLE',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '15:45 - 16:30',
         name: '',
-        title:'CLAUSURA',
-        title_en:'CLAUSURA',
+        title: 'CLAUSURA',
+        title_en: 'CLAUSURA',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ]
   },
@@ -220,7 +220,7 @@ const programSSM = {
     april_17: [
       {
         hour: '11:30 - 14:30',
-        duration:'3 hrs.',
+        duration: '3 hrs.',
         name: '',
         title: 'IBESA 101 Taller de Almacenamiento: Navegando por el panorama de almacenamiento de energía en México: Liberando oportunidades y estrategias de monetización',
         title_en: 'IBESA 101 Storage Workshop: Navigating the Mexican Energy Storage Landscape: Unlocking Opportunities and Monetization Strategies',
@@ -229,11 +229,11 @@ const programSSM = {
         description_en: 'Dive into an interactive workshop that demystifies the evolving energy storage market in Mexico and its neighboring regions. This session is meticulously designed to cater to installers, developers, utilities, technology providers, policymakers, and pivotal storage influencers, both nationally and internationally. Participants will delve into a comprehensive exploration of energy storage prospects, cutting-edge technologies, and the intricate web of policies and regulations. Immerse yourself in data-backed market insights provided by esteemed research organizations, complemented by real-life case studies from industry leaders. This workshop aims to make the value propositions of energy storage in residential, commercial, and utility-scale sectors more tangible and accessible for all attendees.',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '16:00 - 17:00',
-        duration:'1 hrs.',
+        duration: '1 hrs.',
         name: '',
         title: 'REDMEREE',
         title_en: 'REDMEREE',
@@ -242,13 +242,13 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
     ],
     april_18: [
       {
         hour: '11:30 - 14:30',
-        duration:'3 hrs.',
+        duration: '3 hrs.',
         name: '',
         title: 'IBESA 201 Masterclass de Almacenamiento de Energía : Estrategias de Negocio Innovadoras, Tecnologías de Vanguardia y Sistemas Inteligentes',
         title_en: 'IBESA 201 Energy Storage Masterclass: Innovative Business Strategies, Cutting-edge Technologies, and Intelligent Systems',
@@ -257,11 +257,11 @@ const programSSM = {
         description_en: 'Elevate your expertise in energy storage with our advanced workshop tailored for the Mexican market. Introducing "Energy Storage Mastery: Innovative Business Strategies, Cutting-edge Technologies, and Intelligent Systems," designed exclusively for professionals engaged in the energy storage sector. This workshop offers a comprehensive understanding of the latest business models, technological advancements, and the art of crafting intelligent storage solutions. Through immersive real-life case studies and insights from industry experts, you\'ll explore the profound impact energy storage has on environmental conservation. Gain invaluable knowledge about diverse storage configurations and operations that contribute significantly to decarbonization efforts.',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
       {
         hour: '16:00 - 17:00',
-        duration:'1 hr.',
+        duration: '1 hr.',
         name: '',
         title: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Hidrogeno Verde',
         title_en: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Green Hydrogen',
@@ -270,13 +270,13 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
     ],
     april_19: [
       {
         hour: '12:00 - 13:00',
-        duration:'1 hr',
+        duration: '1 hr',
         name: '',
         title: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Hidrogeno Verde',
         title_en: 'ASOCIACIÓN MEXICANA DE HIDRÓGENO: Green Hydrogen',
@@ -285,7 +285,7 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       },
     ]
   },
@@ -298,7 +298,7 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ],
     april_18: [
@@ -309,7 +309,7 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ],
     april_19: [
@@ -320,7 +320,7 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en:''
+        position_en: ''
       }
     ]
   }
@@ -329,200 +329,161 @@ const programSSM = {
 const conferencesSSM = {
   day_1: [
     {
-      type:'Conferencia',
-      type_en:'Conference',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Nearshoring, Inversión Extranjera Directa y Energía Limpia',
-      title_en:'Nearshoring, Foreign Direct Investment and Clean Energy',
-      subject:'Políticas Energéticas',
-      subject_en:'Energy Policy',
-      description:'',
-      description_en:'',
-      peakers:'Jesús Carrillo',
-      position:'Director de Economía del Instituto Mexicano para la Competitvidad A.C. (IMCO)',
-      position_en:'Director of Economics at Instituto Mexicano para la Competitvidad A.C. (IMCO)',
-      avatar_1: '/speakers/jesus_carrillo.webp',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Conferencia',
+      type_en: 'Conference',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Nearshoring, Inversión Extranjera Directa y Energía Limpia',
+      title_en: 'Nearshoring, Foreign Direct Investment and Clean Energy',
+      subject: 'Políticas Energéticas',
+      subject_en: 'Energy Policy',
+      description: '',
+      description_en: '',
+      peakers: 'Jesús Carrillo',
+      position: 'Director de Economía del Instituto Mexicano para la Competitvidad A.C. (IMCO)',
+      position_en: 'Director of Economics at Instituto Mexicano para la Competitvidad A.C. (IMCO)',
+      avatars: ['/speakers/jesus_carrillo.webp', '', ''],
+      id: [7]
     },
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'La visión subnacional de la transición energética: aprendizajes y desafíos',
-      title_en:'The subnational vision of energy transition: lessons learned and challenge',
-      subject:'Generación Fotovoltaica Distribuida',
-      subject_en:'Distributed Photovoltaic Generation',
-      description:'',
-      description_en:'',
-      peakers:' Ana Lilia Moreno',
-      position:'Coordinadora e investigadora del Programa de Regulación y Competencia Económica en México Evalúa',
-      position_en:'Coordinator and researcher of the Regulation and Economic Competition Program at México Evalúa',
-      avatar_1: '/speakers/ana_lilia.webp',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'La visión subnacional de la transición energética: aprendizajes y desafíos',
+      title_en: 'The subnational vision of energy transition: lessons learned and challenge',
+      subject: 'Generación Fotovoltaica Distribuida',
+      subject_en: 'Distributed Photovoltaic Generation',
+      description: '',
+      description_en: '',
+      peakers: ' Ana Lilia Moreno',
+      position: 'Coordinadora e investigadora del Programa de Regulación y Competencia Económica en México Evalúa',
+      position_en: 'Coordinator and researcher of the Regulation and Economic Competition Program at México Evalúa',
+      avatars: ['/speakers/ana_lilia.webp', '', ''],
+      id: [12]
     },
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Importancia de la certificación en el sector solar',
-      title_en:'Importance of certification in the solar sector',
-      subject:'Generación Fotovoltaica Distribuida',
-      subject_en:'Distributed Photovoltaic Generation',
-      description:'',
-      description_en:'',
-      peakers:'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
-      position:'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
-      position_en:'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies',
-      avatar_1: '/speakers/carolin_antoni.webp',
-      avatar_2: '/speakers/eduardo_gomez.webp',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Importancia de la certificación en el sector solar',
+      title_en: 'Importance of certification in the solar sector',
+      subject: 'Generación Fotovoltaica Distribuida',
+      subject_en: 'Distributed Photovoltaic Generation',
+      description: '',
+      description_en: '',
+      peakers: 'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
+      position: 'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
+      position_en: 'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies',
+      avatars: ['/speakers/carolin_antoni.webp', '/speakers/eduardo_gomez.webp', ''],
+      id: [11, 6]
     },
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Acceso a energía renovable a través del Abasto Aislado',
-      title_en:'Access to renewable energy through Isolated Supply',
-      subject:'Escala de Servicio Público',
-      subject_en:'Public Service Scale',
-      description:'',
-      description_en:'',
-      peakers:'Angélica Soto | Humberto Alarcón | Luis Gerardo Sánchez Stone',
-      position:'Directora General de Nx Buena Energía | SUNECO | Director General de ErgoSolar',
-      position_en:'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar',
-      avatar_1: '/speakers/angelica_soto.webp',
-      avatar_2: '/speakers/luis_sanchez.webp',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Acceso a energía renovable a través del Abasto Aislado',
+      title_en: 'Access to renewable energy through Isolated Supply',
+      subject: 'Escala de Servicio Público',
+      subject_en: 'Public Service Scale',
+      description: '',
+      description_en: '',
+      peakers: 'Angélica Soto | Humberto Alarcón | Luis Gerardo Sánchez Stone',
+      position: 'Directora General de Nx Buena Energía | SUNECO | Director General de ErgoSolar',
+      position_en: 'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar',
+      avatars: ['/speakers/angelica_soto.webp', '/speakers/luis_sanchez.webp', ''],
+      id: [1, 4]
     },
-    // {
-    //   type:'',
-    //   type_en:'',
-    //   duration:'0 min',
-    //   timetable:'00:00 - 00:00',
-    //   title:'',
-    //   title_en:'',
-    //   subject:'',
-    //   subject_en:'',
-    //   description:'',
-    //   description_en:'',
-    //   peakers:'',
-    //   position:'',
-    //   position_en:''
-    // },
   ],
   day_2: [
     {
-      type:'Conferencia',
-      type_en:'Conference',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Principales desafíos del sector eléctrico de México',
-      title_en:'Main challenges of Mexico\'s electricity sector',
-      subject:'A Escala de Servicio Público',
-      subject_en:'Public Service Scale',
-      description:'',
-      description_en:'',
-      peakers:' Mario S. DePillis Jr. ',
-      position:'Miembro de Cigré y de la American Economic Association',
-      position_en:'Member of Cigré and the American Economic Association',
-      avatar_1: '/speakers/mario_pillis.webp',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Conferencia',
+      type_en: 'Conference',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Principales desafíos del sector eléctrico de México',
+      title_en: 'Main challenges of Mexico\'s electricity sector',
+      subject: 'A Escala de Servicio Público',
+      subject_en: 'Public Service Scale',
+      description: '',
+      description_en: '',
+      peakers: ' Mario S. DePillis Jr. ',
+      position: 'Miembro de Cigré y de la American Economic Association',
+      position_en: 'Member of Cigré and the American Economic Association',
+      avatars: ['/speakers/mario_pillis.webp', '', ''],
+      id: [3]
     },
     {
-      type:'Conferencia',
-      type_en:'Conference',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Propuesta de ruta emisiones netas cero para México',
-      title_en:'Proposed net zero emissions pathway for Mexico',
-      subject:'Políticas Energéticas',
-      subject_en:'Energy Policies',
-      description:'',
-      description_en:'',
-      peakers:'Jorge Villarreal Padilla | Luisa Sierra Brozon',
-      position:'Director de Política Climática, en ICM | Directora del Programa de Energía dentro de la Iniciativa Climática de México (ICM)',
-      position_en:'Director of Climate Policy, MSI | Director of the Energy Program within the Mexico Climate Initiative (MSI)',
-      avatar_1: '/speakers/jorge_villarreal.webp',
-      avatar_2: '/speakers/luisa_sierra.webp',
-      avatar_3: ''
+      type: 'Conferencia',
+      type_en: 'Conference',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Propuesta de ruta emisiones netas cero para México',
+      title_en: 'Proposed net zero emissions pathway for Mexico',
+      subject: 'Políticas Energéticas',
+      subject_en: 'Energy Policies',
+      description: '',
+      description_en: '',
+      peakers: 'Jorge Villarreal Padilla | Luisa Sierra Brozon',
+      position: 'Director de Política Climática, en ICM | Directora del Programa de Energía dentro de la Iniciativa Climática de México (ICM)',
+      position_en: 'Director of Climate Policy, MSI | Director of the Energy Program within the Mexico Climate Initiative (MSI)',
+      avatars: ['/speakers/jorge_villarreal.webp', '/speakers/luisa_sierra.webp', ''],
+      id: [8, 9]
     },
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Equidad de género en el sector energético',
-      title_en:'Gender equity in the energy sector',
-      subject:'Generación Fotovoltaica Distribuida',
-      subject_en:'Distributed Photovoltaic Generation',
-      description:'',
-      description_en:'',
-      peakers:'Adriana Aragón',
-      position:'GIZ',
-      position_en:'GIZ',
-      avatar_1: '',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Equidad de género en el sector energético',
+      title_en: 'Gender equity in the energy sector',
+      subject: 'Generación Fotovoltaica Distribuida',
+      subject_en: 'Distributed Photovoltaic Generation',
+      description: '',
+      description_en: '',
+      peakers: 'Adriana Aragón',
+      position: 'GIZ',
+      position_en: 'GIZ',
+      avatars: ['', '', ''],
+      id: []
     },
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Almacenamiento de energía eléctrica detrás del medidor',
-      title_en:'Electrical energy storage behind the meter',
-      subject:'Almacenamiento',
-      subject_en:'Storage',
-      description:'',
-      description_en:'',
-      peakers:'Valeria Amezcua Santillán | Enrique Garduño | Ena Gutiérrez',
-      position:'Presidenta de Red Agrovoltaica Mexicana | CEO Skysence | ENLIGHT ',
-      position_en:'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT',
-      avatar_1: '/speakers/valeria_amezcua.webp',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Almacenamiento de energía eléctrica detrás del medidor',
+      title_en: 'Electrical energy storage behind the meter',
+      subject: 'Almacenamiento',
+      subject_en: 'Storage',
+      description: '',
+      description_en: '',
+      peakers: 'Valeria Amezcua Santillán | Enrique Garduño | Ena Gutiérrez',
+      position: 'Presidenta de Red Agrovoltaica Mexicana | CEO Skysence | ENLIGHT ',
+      position_en: 'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT',
+      avatars: ['/speakers/valeria_amezcua.webp', '', ''],
+      id: [2]
     },
-    // {
-    //   type:'',
-    //   type_en:'',
-    //   duration:'0 min',
-    //   timetable:'00:00 - 00:00',
-    //   title:'',
-    //   title_en:'',
-    //   subject:'',
-    //   subject_en:'',
-    //   description:'',
-    //   description_en:'',
-    //   peakers:'',
-    //   position:'',
-    //   position_en:''
-    // },
   ],
   day_3: [
     {
-      type:'Panel',
-      type_en:'Panel',
-      duration:'0 min',
-      timetable:'00:00 - 00:00',
-      title:'Electromovilidad y energía renovable',
-      title_en:'Electromobility and renewable energy',
-      subject:'Hidrógeno Verde',
-      subject_en:'Green Hydrogen',
-      description:'',
-      description_en:'',
-      peakers:'Diana Ávalos | Jesús Antonio del Río Portillo',
-      position:'AMIVE | IER-UNAM ',
-      position_en:'AMIVE | IER-UNAM',
-      avatar_1: '/speakers/diana_avalos.webp',
-      avatar_2: '',
-      avatar_3: ''
+      type: 'Panel',
+      type_en: 'Panel',
+      duration: '0 min',
+      timetable: '00:00 - 00:00',
+      title: 'Electromovilidad y energía renovable',
+      title_en: 'Electromobility and renewable energy',
+      subject: 'Hidrógeno Verde',
+      subject_en: 'Green Hydrogen',
+      description: '',
+      description_en: '',
+      peakers: 'Diana Ávalos | Jesús Antonio del Río Portillo',
+      position: 'AMIVE | IER-UNAM ',
+      position_en: 'AMIVE | IER-UNAM',
+      avatars: ['/speakers/diana_avalos.webp', '', ''],
+      id: [10]
     },
     // {
     //   type:'',

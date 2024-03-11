@@ -21,7 +21,7 @@
             "option_10": "Tarifas",
             "option_11": "Toolkit",
             "option_12": "Manual del expositor",
-            "option_13": "EXPO HALL EDUCATION"
+            "option_13": "CONTENIDO EDUCATIVO EN PISO EXPOSITOR"
         },
         "submenu_3": {
             "title": "VISITANTES",
@@ -199,7 +199,7 @@
     },
     "program": {
         "title_1": "PROGRAMA DE CONFERENCIAS PREMIUM",
-        "title_2": "EXPO HALL EDUCATION",
+        "title_2": "CONTENIDO EDUCATIVO EN PISO EXPOSITOR",
         "subtitle": "Construyamos la industria del mañana.",
         "title_s": "Ponentes",
         "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",

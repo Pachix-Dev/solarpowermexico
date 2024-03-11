@@ -136,6 +136,11 @@ const exhibitors5 = [
   { image: '/exhibitors/unirac.webp', height: 110 },
   { image: '/exhibitors/resanic.webp', height: 110 },
   { image: '/exhibitors/mayorista_solar.webp', height: 110 },
+  { image: '/exhibitors/banverde.webp', height: 110 },
+  { image: '/exhibitors/tiga.webp', height: 110 },
+  { image: '/exhibitors/solida.webp', height: 110 },
+  { image: '/exhibitors/rated-power.webp', height: 110 },
+  { image: '/exhibitors/flex-solar.webp', height: 110 }
 ]
 
 export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4, exhibitors5}

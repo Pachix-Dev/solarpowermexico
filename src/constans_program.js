@@ -88,8 +88,8 @@ const programSSM = {
       {
         hour: '17:30 –18:00',
         name: '',
-        title: 'AVAILABLE',
-        title_en: 'AVAILABLE',
+        title: 'QUARTUX',
+        title_en: 'QUARTUX',
         speakers: '',
         description: '',
         description_en : '',

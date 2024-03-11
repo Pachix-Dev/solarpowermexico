@@ -120,7 +120,7 @@ const speakersEdu=[
         resume_en: 'Renewable Energy Engineer by UNAM, with 5 years of work experience in solar DG projects in Mexico. With +25 MWp installed in +100 installations working with clients such as Prologis, Chedraui, Casa Ley, Coppel, etc. Currently Director of Construction at Energía Real being responsible for all solar and BESS projects.',
     },
     {
-        id:1,
+        id:2,
         name: 'Gustavo Marín',
         avatar: '/speakers/gustavo_marin.webp',
         role_es: "Branch Manager en LATAM APsystems - Altenergy Power Systems",
@@ -129,7 +129,7 @@ const speakersEdu=[
         resume_en: 'He has a degree in Electronic Communication Engineering from the UdeG at the Center for Exact Sciences and Engineering in Guadalajara, Jalisco, Mexico. He has a master\'s degree in Environmental Technology from UTEL and extensive experience in solar energy since 2008. His beginnings were in manufacturing companies such as Flextronics performing Asset Management. Currently, he has been with APsystems for 8 years as Branch Manager. With experience in more than 200 virtual trainings, he has given trainings in Colombia, Brazil, Guatemala, Honduras, Dominican Republic, Panama, Cuba and Mexico for the industry, professionalizing the sector on Altenergy Power Systems technologies and promoting best practices. Presented a lecture and advice on microinverter technology to teachers and doctors specialized in electricity in Cuba. He was in Flextronics in Asset Management quotations and was also in the telecommunications area.'
     },
     {
-        id:2,
+        id:3,
         name: 'Juan Carlos Fuentes',
         avatar: '/speakers/juan_carlos_fuentes.webp',
         role_es: "Director de Ventas para Latinoamérica & Europa, en S-5!",

@@ -12,12 +12,19 @@ import { DetailSpeaker } from '../Program/DetailSpeaker';
 export function AcademicProgram() {
     const { i18n, t } = useTranslation();
     const [programSolar, setPrograms] = useState(programSSM.stage_1)
-    const [show, setContent] = useState()
-
-    const [modalShow, setModalShow] = useState(false)
     const [detailSpeaker, setDetailSpeaker] = useState({})
 
+
+    const [show, setContent] = useState()
+    const [modalShow, setModalShow] = useState(false)
+
     const handleModal2 = (speaker) => {
+        setDetailSpeaker(speaker)
+        setModalShow(true)
+    }
+
+    const handleModal = (id) => {
+        const speaker = speakersEdu.find(speaker => speaker.id === id)
         setDetailSpeaker(speaker)
         setModalShow(true)
     }
@@ -75,15 +82,25 @@ export function AcademicProgram() {
                                             </p>
                                         </Col>
                                         <Col lg={9} xs={12} md={9}>
-                                        <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
+                                            <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                             <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <div className='img-responsive'>
                                                 {
-                                                    program.avatar === ''
-                                                        ? ''
-                                                        : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                        program.avatars[0] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[1] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[2] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>
@@ -123,9 +140,19 @@ export function AcademicProgram() {
                                             <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <div className='img-responsive'>
                                                 {
-                                                    program.avatar === ''
-                                                        ? ''
-                                                        : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                        program.avatars[0] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[1] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[2] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>
@@ -165,9 +192,19 @@ export function AcademicProgram() {
                                             <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <div className='img-responsive'>
                                                 {
-                                                    program.avatar === ''
-                                                        ? ''
-                                                        : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                        program.avatars[0] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[1] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                        program.avatars[2] === ''
+                                                            ? ''
+                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>
@@ -178,52 +215,52 @@ export function AcademicProgram() {
                     </Tabs>
                 </Container>
                 <Container className="pt-4">
-            <h2 className="mt-5 text-light text-center" id="ponentes">
-              {" "}
-              {t("program.subt_title_1")}{" "}
-            </h2>
-            <p className="title-speakers fw-bold text-uppercase text-center text-light"> {t("program.title_s")}</p>
-            <div className="mt-5 pb-5 program-wrapper-speakers">
-              <div className="container-speaker">
-                {speakersEdu.map((speaker, index) => (
-                  <button
-                    key={index}
-                    onClick={() => handleModal2(speaker)}
-                    className="btn-speaker"
-                  >
-                    <Row className="d-flex justify-content-center align-items-center">
-                      <Col
-                        lg={6}
-                        md={12}
-                        xs={12}
-                        className="container-img-speaker d-flex align-items-center justify-content-center"
-                      >
-                        <img
-                          src="/speakers/back-speakers.webp"
-                          alt=""
-                          className="p-4 img-fluid img-back-speaker z-1 position-absolute"
-                        />
-                        <img
-                          src={speaker.avatar}
-                          alt={speaker.name}
-                          className="p-4 img-speaker z-2"
-                        />
-                      </Col>
-                      <Col className="info_speakers">
-                        <p className="fs-6">
-                          <span className="fs-4 fw-bolder">{speaker.name}</span>{" "}
-                          <br />
-                          {i18n.language === "en"
-                            ? speaker?.role_en
-                            : speaker?.role_es}
-                        </p>
-                      </Col>
-                    </Row>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </Container>
+                    <h2 className="mt-5 text-light text-center" id="ponentes">
+                        {" "}
+                        {t("program.subt_title_1")}{" "}
+                    </h2>
+                    <p className="title-speakers fw-bold text-uppercase text-center text-light"> {t("program.title_s")}</p>
+                    <div className="mt-5 pb-5 program-wrapper-speakers">
+                        <div className="container-speaker">
+                            {speakersEdu.map((speaker, index) => (
+                                <button
+                                    key={index}
+                                    onClick={() => handleModal2(speaker)}
+                                    className="btn-speaker"
+                                >
+                                    <Row className="d-flex justify-content-center align-items-center">
+                                        <Col
+                                            lg={6}
+                                            md={12}
+                                            xs={12}
+                                            className="container-img-speaker d-flex align-items-center justify-content-center"
+                                        >
+                                            <img
+                                                src="/speakers/back-speakers.webp"
+                                                alt=""
+                                                className="p-4 img-fluid img-back-speaker z-1 position-absolute"
+                                            />
+                                            <img
+                                                src={speaker.avatar}
+                                                alt={speaker.name}
+                                                className="p-4 img-speaker z-2"
+                                            />
+                                        </Col>
+                                        <Col className="info_speakers">
+                                            <p className="fs-6">
+                                                <span className="fs-4 fw-bolder">{speaker.name}</span>{" "}
+                                                <br />
+                                                {i18n.language === "en"
+                                                    ? speaker?.role_en
+                                                    : speaker?.role_es}
+                                            </p>
+                                        </Col>
+                                    </Row>
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                </Container>
             </div>
             <DetailSpeaker
                 show={modalShow}

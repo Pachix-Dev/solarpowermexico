@@ -6,29 +6,39 @@ const programSSM = {
         name: '',
         title: 'ENLIGHT',
         title_en: 'ENLIGHT',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
-
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '12:45 –13:15',
         name: '',
         title: 'PYLONTECH',
         title_en: 'PYLONTECH',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
-
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '13:30 –14:00',
         name: '',
         title: 'BATTERY DEPOT',
         title_en: 'BATTERY DEPOT',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '14:15 –14:45',
@@ -38,29 +48,36 @@ const programSSM = {
         speakers: 'Gustavo Marín',
         description: 'APsystems presenta lo nuevo en tecnología para microinversores MLPE y la reciente solución de almacenamiento de energía. La tecnología Apsystems avanza continuamente para ofrecer los equipos más competentes en el mercado de Latinoamérica adaptándose a lo actual y futuro. Traemos para ti lo más reciente en microinversores bifásicos y trifásicos, y la solución para almacenamiento de energía el APstorage que viene acompañado de su Power Conversion Systems (PCS) y el Auto-transformador de fase dividida.',
         description_en: 'APsystems presents the new technology for MLPE microinverters and the recent energy storage solution. APsystems technology continually advances to offer the most competent equipment in the Latin American market, adapting to current and future advances. We bring you the latest technology in two-phase and three-phase microinverters, and the APstorage energy storage solution that comes with its Power Conversion Systems (PCS) and the split-phase Transformer.',
-        avatar: '',
         position: 'Branch Manager en LATAM APsystems',
-        position_en: 'Branch Manager at LATAM APsystems'
+        position_en: 'Branch Manager at LATAM APsystems',
+        avatars: ['/speakers/gustavo_marin.webp', '', ''],
+        id: [2]
       },
       {
         hour: '15:00 –16:00',
         name: '',
         title: 'BREAK',
         title_en: 'BREAK',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
-
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '16:00 –16:30',
         name: '',
         title: 'EXEL SOLAR',
         title_en: 'EXEL SOLAR',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
-
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       // {
       //   hour: '16:45 –17:15',
@@ -73,9 +90,13 @@ const programSSM = {
         name: '',
         title: 'AVAILABLE',
         title_en: 'AVAILABLE',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ],
     april_18: [
@@ -84,18 +105,26 @@ const programSSM = {
         name: '',
         title: 'LONGI',
         title_en: 'LONGI',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '12:45 –13:15',
         name: '',
         title: 'KRANNICH',
         title_en: 'KRANNICH',
-        avatar: '',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '13:30 –14:00',
@@ -105,9 +134,10 @@ const programSSM = {
         speakers: 'Alejandro Terán | Juan Carlos Fuentes ',
         description: 'Análisis de techos métalicos engargolados como plataforma para Energía FV y la importancia de la elección de un sistema de racking adecuado. Además, se estudiará el comportamiento de un proyecto FV frente a un Huracán con vientos de más de 200 km/h instalado con las piezas de fijación directa sin rieles de S-5!',
         description_en: 'Analysis of metal roofs as a platform for PV energy and the importance of choosing a suitable racking system. In addition, the behavior of a PV project against a Hurricane with winds of more than 200 km/h installed with S-5!',
-        avatar: '',
         position: 'Director de construcción, en Energía Real | Director de Ventas para Latinoamérica & Europa, en S-5!',
-        position_en: 'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!'
+        position_en: 'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!',
+        avatars: ['/speakers/alejandro_teran.webp', '/speakers/juan_carlos_fuentes.webp', ''],
+        id: [1, 3]
       },
       {
         hour: '14:15 –14:45',
@@ -116,7 +146,9 @@ const programSSM = {
         title_en: 'METERING',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '15:00 –16:00',
@@ -125,7 +157,9 @@ const programSSM = {
         title_en: 'BREAK',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
 
       },
       {
@@ -135,7 +169,9 @@ const programSSM = {
         title_en: 'EXEL SOLAR',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '16:45 –17:15',
@@ -144,7 +180,9 @@ const programSSM = {
         title_en: 'SOLAREVER',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '17:30 –18:00',
@@ -153,7 +191,9 @@ const programSSM = {
         title_en: 'AVAILABLE',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ],
     april_19: [
@@ -162,9 +202,10 @@ const programSSM = {
         name: '',
         title: 'BATTERY DEPOT',
         title_en: 'BATTERY DEPOT',
-        avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '12:45 –13:30',
@@ -174,9 +215,10 @@ const programSSM = {
         speakers: 'José Adolfo Ortiz Martínez',
         description: 'Una de las aplicaciones más importantes de la energía solar fotovoltaica es sin duda alguna el bombeo de agua utilizando paneles solares, esto es conocido como Sistemas de Bombeo Solar. Este tipo de sistemas ha tenido un creciente interés, especialmente en países en vías de desarrollo, como producto de la transición energética que se vive a nivel mundial. En países como México, con una fuerte dependencia del sector primario, se tiene una ventaja competitiva para este tipo de sistemas, ya que resuelve muchos de los problemas operativos y de disponibilidad energética en los sitios productivos. Para explicar esto, los puntos clave que repasaremos en nuestra charla son:- El papel de Grundfos en el sector como pionero tecnológico a nivel mundial y actor clave en México.- Cómo colabora Grundfos a través del bombeo solar con los Objetivos de Desarrollo Sustentable a nivel mundial.- Explicación y evidencias de los usos más comunes de este tipo de sistemas en México.',
         description_en: 'One of the most important applications of photovoltaic solar energy is undoubtedly the pumping of water using solar panels, this is known as Solar Pumping Systems. This type of systems has had a growing interest, especially in developing countries, as a product of the energy transition that is being experienced worldwide. In countries like Mexico, with a strong dependence on the primary sector, there is a competitive advantage for this type of system, since it solves many of the operational and energy availability problems in productive sites. To explain this, the key points we will review in our talk are: - Grundfos\' role in the sector as a technological pioneer worldwide and key player in Mexico. - How Grundfos collaborates through solar pumping with the Sustainable Development Goals worldwide. - Explanation and evidence of the most common uses of this type of systems in Mexico.',
-        avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '13:30 –14:00',
@@ -185,7 +227,9 @@ const programSSM = {
         title_en: 'SOLAREVER',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '14:15 –14:45',
@@ -194,7 +238,9 @@ const programSSM = {
         title_en: 'HUAWEI',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '15:00 –15:30',
@@ -203,7 +249,9 @@ const programSSM = {
         title_en: 'AVAILABLE',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '15:45 - 16:30',
@@ -212,7 +260,9 @@ const programSSM = {
         title_en: 'CLAUSURA',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ]
   },
@@ -227,9 +277,10 @@ const programSSM = {
         speakers: '',
         description: 'Sumérgete en un taller interactivo que desmitifica la evolución del mercado de almacenamiento de energía en México y sus regiones vecinas. Esta sesión está meticulosamente diseñada para atender a instaladores, desarrolladores, empresas de servicios públicos, proveedores de tecnología, formuladores de políticas y personas influyentes en el almacenamiento, tanto a nivel nacional como internacional. Los participantes profundizarán en una exploración integral de las perspectivas de almacenamiento de energía, tecnologías de vanguardia y la intrincada red de políticas y regulaciones. Adquiere los conocimientos de mercado respaldados por datos proporcionados por prestigiosas organizaciones de investigación, complementados con estudios de casos de la vida real de líderes de la industria. Este taller tiene como objetivo hacer que las propuestas de valor del almacenamiento de energía en los sectores residencial, comercial y de servicios públicos sean más tangibles y accesibles para todos los asistentes.',
         description_en: 'Dive into an interactive workshop that demystifies the evolving energy storage market in Mexico and its neighboring regions. This session is meticulously designed to cater to installers, developers, utilities, technology providers, policymakers, and pivotal storage influencers, both nationally and internationally. Participants will delve into a comprehensive exploration of energy storage prospects, cutting-edge technologies, and the intricate web of policies and regulations. Immerse yourself in data-backed market insights provided by esteemed research organizations, complemented by real-life case studies from industry leaders. This workshop aims to make the value propositions of energy storage in residential, commercial, and utility-scale sectors more tangible and accessible for all attendees.',
-        avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '16:00 - 17:00',
@@ -242,7 +293,9 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
     ],
     april_18: [
@@ -257,7 +310,9 @@ const programSSM = {
         description_en: 'Elevate your expertise in energy storage with our advanced workshop tailored for the Mexican market. Introducing "Energy Storage Mastery: Innovative Business Strategies, Cutting-edge Technologies, and Intelligent Systems," designed exclusively for professionals engaged in the energy storage sector. This workshop offers a comprehensive understanding of the latest business models, technological advancements, and the art of crafting intelligent storage solutions. Through immersive real-life case studies and insights from industry experts, you\'ll explore the profound impact energy storage has on environmental conservation. Gain invaluable knowledge about diverse storage configurations and operations that contribute significantly to decarbonization efforts.',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
       {
         hour: '16:00 - 17:00',
@@ -270,7 +325,9 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       },
     ],
     april_19: [
@@ -285,7 +342,9 @@ const programSSM = {
         description_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '', 
+        avatars: ['', '', ''],
+        id: [0]
       },
     ]
   },
@@ -298,7 +357,9 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ],
     april_18: [
@@ -309,7 +370,9 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ],
     april_19: [
@@ -320,7 +383,9 @@ const programSSM = {
         title_en: 'More information to be confirmed',
         avatar: '',
         position: '',
-        position_en: ''
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0]
       }
     ]
   }

@@ -81,20 +81,17 @@ export function Home() {
               <Col md={3} lg={3} className='my-2'>
                 <Link to='/expo-hall-education'>
                   <Button className='btn-event-topics border border-light text-uppercase fw-bold'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      fill='none'
-                      width="40px" height="40px"
-                      viewBox='0 0 24 24'
-                      strokeWidth={1.5}
-                      stroke='currentColor'
-                    >
-                      <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z'
-                      />
-                    </svg><br />{t('program.title_2')}
+                    <svg width="40px" height="40px" viewBox="0 0 32.00 32.00" fill="#ffffff" stroke="#ffffff" strokeWidth="0.00032">
+                      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                      <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <defs id="defs2"></defs>
+                        <g id="layer1" transform="translate(-156,-148)">
+                          <path d="m 163,150.00586 a 1.0001,1.0001 0 0 0 -1,1 v 1 h -2 c -1.09273,0 -2,0.90727 -2,2 v 22 c 0,1.09273 0.90727,2 2,2 h 12 12 c 1.09273,0 2,-0.90727 2,-2 v -22 c 0,-1.09273 -0.90727,-2 -2,-2 h -2 v -1 a 1.0001,1.0001 0 0 0 -1,-1 h -5 c -1.63382,0 -3.08609,0.79779 -4,2.01953 -0.91391,-1.22174 -2.36618,-2.01953 -4,-2.01953 z m 1,2 h 4 c 1.6687,0 3,1.3313 3,3 v 18.10937 c -0.84542,-0.65402 -1.85499,-1.10937 -3,-1.10937 h -4 v -19 z m 12,0 h 4 v 1 19 h -4 c -1.14501,0 -2.15458,0.45535 -3,1.10937 v -18.10937 c 0,-1.6687 1.3313,-3 3,-3 z m -16,2 h 2 v 19 a 1.0001,1.0001 0 0 0 1,1 h 5 c 1.31666,0 2.41981,0.83058 2.82812,2 H 160 Z m 22,0 h 2 v 22 h -10.82812 c 0.40831,-1.16942 1.51146,-2 2.82812,-2 h 5 a 1.0001,1.0001 0 0 0 1,-1 z" style={{ color: "#ffffff", fill: "#ffffff", fillRule: "evenodd", strokeLinecap: "round", strokeLinejoin: "round", strokeMiterlimit: "4.1", inkscapeStroke: "none" }} />
+                        </g>
+                      </g>
+                    </svg>
+                    <br />{t('program.title_2')}
                   </Button>
                 </Link>
               </Col>

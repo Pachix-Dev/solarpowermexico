@@ -481,8 +481,8 @@ const conferencesSSM = {
       id: [3]
     },
     {
-      type: 'Conferencia',
-      type_en: 'Conference',
+      type: 'DUO',
+      type_en: 'DUO',
       duration: '0 min',
       timetable: '00:00 - 00:00',
       title: 'Propuesta de ruta emisiones netas cero para México',

@@ -50,8 +50,8 @@ const speakers=[
         avatar: '/speakers/eduardo_gomez.webp',
         role_es: "Director Comercial, LATAM Maxeon Solar Technologies",
         role_en: "Sales Director, LATAM Maxeon Solar Technologies",
-        resume_es: "Información en proceso",
-        resume_en: "Information in process",
+        resume_es: "Se desempeña como director comercial para Latinoamérica en Maxeon Solar Technologies (fabricante de paneles solares líder en el segmento premium) desde 2021, colaborando en el desarrollo de la generación distribuida en diferentes mercados. Anteriormente Eduardo tuvo posiciones directivas por 15 años en las industrias de tecnología, electrónicos y línea blanca, en Sony Electronics y Electrolux Home Appliances desarrollando varios territorios de América Latina. Es doctor en ciencias administrativas por el Instituto Universitario Veracruzano, tiene una maestría en desarrollo organizacional por la Universidad de Guanajuato y es Ingeniero Industrial por la Universidad de las Américas, Puebla.",
+        resume_en: "He has served as Sales Director for Latin America at Maxeon Solar Technologies (leading solar panel manufacturer in the premium segment) since 2021, collaborating in the development of distributed generation in different markets. Previously Eduardo held management positions for 15 years in the technology, electronics and white goods industries at Sony Electronics and Electrolux Home Appliances developing several territories in Latin America. He holds a doctorate in administrative sciences from the Instituto Universitario Veracruzano, a master's degree in organizational development from the University of Guanajuato and an industrial engineering degree from the Universidad de las Américas, Puebla.",
     },
     {
         id:7,

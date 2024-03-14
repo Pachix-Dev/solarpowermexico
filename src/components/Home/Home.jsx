@@ -286,70 +286,108 @@ export function Home() {
               </Col>
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
-            <Row className='text-center gap-1'>
-              <Col className=' d-flex align-items-start justify-content-center'>
-                <a
-                  href='https://sunpower.maxeon.com/mx/por-que-sunpower'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='p-3'
-                >
-                  <img
-                    width={200}
-                    height={47}
-                    src='/SUNPOWER.webp'
-                    alt='SUNPOWER'
-                    loading='lazy'
-                  />
-                </a>
+            <Row className='d-flex align-items-center justify-content-center'>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+                <div className='d-flex align-items-center justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://hitachi.com.mx/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={120}
+                      src='/hitachi.webp'
+                      alt='hitachi'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
               </Col>
-              <Col className=''>
-                <a
-                  href='https://es.s-5.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='p-3'
-                >
-                  <img
-                    width={80}
-                    height={80}
-                    src='/S-5logo.webp'
-                    alt='S-5logo'
-                    loading='lazy'
-                  />
-                </a>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                    <a
+                      href='https://sunpower.maxeon.com/mx/por-que-sunpower'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='p-3'
+                    >
+                      <img
+                        width={150}
+                        src='/SUNPOWER.webp'
+                        alt='SUNPOWER'
+                        loading='lazy'
+                      />
+                    </a>
+                  </div>
               </Col>
-              <Col className=''>
-                <a
-                  href='https://es.antaisolar.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='p-3'
-                >
-                  <img
-                    width={200}
-                    height={70}
-                    src='/antai.webp'
-                    alt='Antai'
-                    loading='lazy'
-                  />
-                </a>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                    <a
+                      href='https://es.s-5.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                      className='p-3'
+                    >
+                      <img
+                        width={100}
+                        src='/S-5logo.webp'
+                        alt='S-5logo'
+                        loading='lazy'
+                      />
+                    </a>
+                  </div>
               </Col>
-              <Col className=' d-flex align-items-start justify-content-center'>
-                <a
-                  href='https://latam.apsystems.com/'
-                  target='_blank'
-                  rel='noreferrer'
-                  className='p-3'
-                >
-                  <img
-                    width={200}
-                    height={50}
-                    src='/apSystems.webp'
-                    alt='apSystems'
-                    loading='lazy'
-                  />
-                </a>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://es.antaisolar.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={150}
+                      src='/antai.webp'
+                      alt='antai'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://latam.apsystems.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={150}
+                      src='/apSystems.webp'
+                      alt='apSystems'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href=''
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={150}
+                      src='/solargamo.webp'
+                      alt='solargamo'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
               </Col>
             </Row>
             {/* <a

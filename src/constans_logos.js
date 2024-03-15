@@ -123,6 +123,7 @@ const exhibitors4 = [
 ]
 
 const exhibitors5 = [
+  { image: '/exhibitors/enphase.webp', height: 110 },
   { image: '/exhibitors/enerpoint.webp', height: 110 },
   { image: '/exhibitors/pylontech.webp', height: 110 },
   { image: '/exhibitors/cem.webp', height: 110 },

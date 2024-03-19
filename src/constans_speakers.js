@@ -154,7 +154,7 @@ const speakers=[
     },
     {
         id:18,
-        name: "Casiopea Ramírez",
+        name: "Casiopea Ramírez Melgar",
         avatar: '/speakers/casiopea_ramirez.webp',
         role_es: "Socia de Fresh Energy Consulting",
         role_en: "Partner of Fresh Energy Consulting",

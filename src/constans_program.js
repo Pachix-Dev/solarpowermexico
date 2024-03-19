@@ -443,8 +443,8 @@ const conferencesSSM = {
       peakers: 'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
       position: 'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
       position_en: 'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies',
-      avatars: ['/speakers/carolin_antoni.webp', '/speakers/eduardo_gomez.webp', ''],
-      id: [11, 6]
+      avatars: ['/speakers/carolin_antoni.webp', '/speakers/celeste-morales.webp', '/speakers/eduardo_gomez.webp'],
+      id: [11, 14, 6]
     },
     {
       type: 'Conferencia',
@@ -460,8 +460,8 @@ const conferencesSSM = {
       peakers: 'Ana Karina Torres | Leonardo Velasco | Andrew Kiefer McNeil',
       position: 'DYPESA |  Inspecta PV | CEA',
       position_en: '',
-      avatars: ['', '', ''],
-      id: []
+      avatars: ['/speakers/ana_karina_torres.webp', '', '/speakers/andrew_kiefer_v2.webp'],
+      id: [19, , 20]
     },
     {
       type: 'Panel',
@@ -513,8 +513,8 @@ const conferencesSSM = {
       peakers: 'Ángel Mejía Santiago | Gilberto Sánchez Nogueira | Casiopea Ramírez Melgar',
       position: ' Presidente de la Asociación Mexicana de la Industria Fotovoltaica (AMIF)  | Legislative Secretary of the National Association of Solar Energy (ANES) | Socia de Fresh Energy',
       position_en: 'President of the Mexican Photovoltaic Industry Association (AMIF) | Legislative Secretary of the National Association of Solar Energy (ANES)| Partner of Fresh Energy Consulting (Fresh Energy) ',
-      avatars: ['', '', ''],
-      id: []
+      avatars: ['', '/speakers/gilberto_sanchez.webp', '/speakers/casiopea_ramirez.webp'],
+      id: [, 21, 18 ]
     },
     {
       type: 'DUO',
@@ -547,8 +547,8 @@ const conferencesSSM = {
       peakers: 'Carolin Antoni',
       position: 'CAMEXA',
       position_en: 'CAMEXA',
-      avatars: ['', '', ''],
-      id: []
+      avatars: ['/speakers/carolin_antoni.webp', '', ''],
+      id: [11]
     },
     {
       type: 'Panel',
@@ -597,11 +597,11 @@ const conferencesSSM = {
       subject_en:'Storage',
       description:'',
       description_en:'',
-      peakers:'Luisa Sierra | Lorena Espinosa',
+      peakers:'Luisa Sierra Brozon | Lorena Espinosa',
       position:'IMC | GIZ',
       position_en: 'IMC | GIZ',
-      avatars: ['', '', ''],
-      id: []
+      avatars: ['/speakers/luisa_sierra.webp', '', ''],
+      id: [9]
     },
     {
       type: 'Panel',
@@ -617,8 +617,8 @@ const conferencesSSM = {
       peakers: 'Carla Ortiz | Diana Ávalos | Jesús Antonio del Río Portillo',
       position: 'RER | AMIVE | IER-UNAM ',
       position_en: 'RER | AMIVE | IER-UNAM',
-      avatars: ['/speakers/diana_avalos.webp', '', ''],
-      id: [10]
+      avatars: ['', '/speakers/diana_avalos.webp', '/speakers/antonio-portillo.webp'],
+      id: [,10, 15]
     },
     // {
     //   type:'',

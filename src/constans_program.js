@@ -411,8 +411,8 @@ const conferencesSSM = {
       id: [7]
     },
     {
-      type: 'Panel',
-      type_en: 'Panel',
+      type: 'Conferencia',
+      type_en: 'Conferencia',
       duration: '45 min',
       timetable: '10:45 - 11:30',
       title: 'La visión subnacional de la transición energética: aprendizajes y desafíos',
@@ -465,7 +465,7 @@ const conferencesSSM = {
       type: 'Panel',
       type_en: 'Panel',
       duration: '45 min',
-      timetable: '13:30 - 12:15',
+      timetable: '13:30 - 14:15',
       title: 'Acceso a energía renovable a través del Abasto Aislado',
       title_en: 'Access to renewable energy through Isolated Supply',
       subject: 'Escala de Servicio Público',

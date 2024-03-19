@@ -173,7 +173,7 @@ const speakers=[
     {
         id:20,
         name: "Andrew Kiefer McNeill",
-        avatar: '/speakers/andrew_kiefer.webp',
+        avatar: '/speakers/andrew_kiefer_v2.webp',
         role_es: "Desarrollador de negocios globales en energía",
         role_en: "Global energy business developer",
         resume_es: "Tiene más de 15 años de experiencia en desarrollo de negocios en energía, tanto renovables como hidrocarburos, a nivel global, cubriendo múltiples mercados, incluyendo Latino América. Se ha enfocado en el área de renovables, con proyectos de PV, Almacenamiento, Eólico e Hidrogeno Verde, trabajando con variedad de clientes desde desarrolladores, EPC’s, Fondos de Inversión, compañías de distribución eléctrica, fabricantes, startups de tecnología, entre otros. Formó parte de dos giras de Combate en Irak como US Marine.",
@@ -217,6 +217,51 @@ const speakersEdu=[
         role_en: "Director of Sales for Latin America & Europe, at S-5!",
         resume_es: 'Arquitecto con residencia en EE. UU., cuenta con más de 15 años de experiencia en el desarrollo de mercados internacionales en el sector de materiales de construcción para empresas europeas y americanas. Actualmente, en S-5! dirige iniciativas estratégicas de planificación de ventas, capacitación y desarrollo del equipo de LATAN & Europa; al mismo tiempo, que construye fuertes relaciones con los partners de S-5!',
         resume_en: 'A U.S.-based architect, he has over 15 years of experience in international market development in the building materials sector for European and American companies. Currently, at S-5! he leads strategic initiatives in sales planning, training and development of the LATAN & Europe team, while building strong relationships with S-5! partners.'
+    },
+    {
+        id:4,
+        name: 'José Adolfo Ortiz Martínez',
+        avatar: '/speakers/jose_adolfo.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "Información por confirmar",
+        resume_en: "Information to be confirmed",
+    },
+    {
+        id:5,
+        name: 'Iván Zavala Vera',
+        avatar: '/speakers/ivan_zavala_vera.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "Información por confirmar",
+        resume_en: "Information to be confirmed",
+    },
+    {
+        id:6,
+        name: 'Raul Romay',
+        avatar: '/speakers/raul_romay.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: 'Energía solar al alcance de tus manos: Herramientas Financieras para proyectos Fotovoltaicos, ademas de explorar el futuro de la energía con sistemas de lmacenamiento en México',
+        resume_en: 'Solar energy at your fingertips: Financial tools for photovoltaic projects, as well as exploring the future of energy with storage systems in México.'
+    },
+    {
+        id:7,
+        name: 'Mayela Cifuentes',
+        avatar: '/speakers/mayela_cinfuentes.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "Información por confirmar",
+        resume_en: "Information to be confirmed",
+    },
+    {
+        id:8,
+        name: 'Javier López',
+        avatar: '/speakers/javier_lopez.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "Información por confirmar",
+        resume_en: "Information to be confirmed",
     },
     
 ]

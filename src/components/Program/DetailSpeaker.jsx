@@ -7,7 +7,7 @@ export function DetailSpeaker (props) {
   return (
     <Modal
       {...props}
-      size='lg'
+      size='xl'
       aria-labelledby='contained-modal-title-vcenter'
       centered
     >

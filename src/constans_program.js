@@ -15,10 +15,10 @@ const programSSM = {
         id: [0]
       },
       {
-        hour: '12:45 –13:15',
+        hour: '12:45 – 13:15',
         name: '',
-        title: 'PYLONTECH',
-        title_en: 'PYLONTECH',
+        title: 'QUARTUX',
+        title_en: 'QUARTUX',
         speakers: '',
         description: '',
         description_en : '',
@@ -88,8 +88,8 @@ const programSSM = {
       {
         hour: '17:30 –18:00',
         name: '',
-        title: 'QUARTUX',
-        title_en: 'QUARTUX',
+        title: 'Disponible para venta',
+        title_en: 'Available for sale',
         speakers: '',
         description: '',
         description_en : '',

@@ -69,7 +69,7 @@ export function AcademicProgram() {
                             {programSolar?.april_17.map((program, index) => {
                                 return (
                                     <Row className="align-items-start justify-content-center program-date-item text-white">
-                                        <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
+                                        <Col lg={3} xs={12} md={3} className="d-flex align-items-center">
                                             <p className='d-flex'>
                                                 <svg width={40} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -81,7 +81,7 @@ export function AcademicProgram() {
 
                                             </p>
                                         </Col>
-                                        <Col lg={9} xs={12} md={9}>
+                                        <Col lg={8} xs={12} md={9}>
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
@@ -121,7 +121,7 @@ export function AcademicProgram() {
                             {programSolar?.april_18.map((program, index) => {
                                 return (
                                     <Row className="align-items-start justify-content-center program-date-item text-white">
-                                        <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
+                                        <Col lg={3} xs={12} md={3} className="d-flex align-items-center">
                                             <p className='d-flex'>
                                                 <svg width={40} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -133,7 +133,7 @@ export function AcademicProgram() {
 
                                             </p>
                                         </Col>
-                                        <Col lg={9} xs={12} md={9}>
+                                        <Col  lg={8} xs={12} md={9}>
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
@@ -173,7 +173,7 @@ export function AcademicProgram() {
                             {programSolar?.april_19.map((program, index) => {
                                 return (
                                     <Row className="align-items-start justify-content-center program-date-item text-white">
-                                        <Col lg={2} xs={12} md={3} className="d-flex align-items-center">
+                                        <Col lg={3} xs={12} md={3} className="d-flex align-items-center">
                                             <p className='d-flex'>
                                                 <svg width={40} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -185,7 +185,7 @@ export function AcademicProgram() {
 
                                             </p>
                                         </Col>
-                                        <Col lg={9} xs={12} md={9}>
+                                        <Col lg={8} xs={12} md={9}>
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>

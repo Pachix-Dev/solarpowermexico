@@ -239,7 +239,7 @@ export function Home() {
               />
             </a>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor_gold')}</p>
-            <Row className='gap-2 d-flex align-items-center justify-content-center'>
+            <Row className='gap-2 justify-content-md-center'>
               <Col sm={12} md={4} lg={2} className='d-flex align-items-center justify-content-center'>
                 <a
                   href='https://quartux.com/'
@@ -247,10 +247,10 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
-                    height={105}
                     src='/quartux.webp'
                     alt='quartux'
                     loading='lazy'
+                    className='img-fluid'
                   />
                 </a>
               </Col>
@@ -261,11 +261,10 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
-                    width={150}
-                    height={68}
                     src='/longi_logo.webp'
                     alt='LONGI'
                     loading='lazy'
+                    className='img-fluid'
                   />
                 </a>
               </Col>
@@ -276,11 +275,10 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
-                    width={150}
-                    height={68}
-                    src='/enlight.webp'
+                    src='/enlight_v2.webp'
                     alt='enlight'
                     loading='lazy'
+                    className='img-fluid'
                   />
                 </a>
               </Col>
@@ -313,7 +311,7 @@ export function Home() {
                       className='p-3'
                     >
                       <img
-                        width={150}
+                        width={170}
                         src='/SUNPOWER.webp'
                         alt='SUNPOWER'
                         loading='lazy'
@@ -381,7 +379,7 @@ export function Home() {
                     className='p-3'
                   >
                     <img
-                      width={150}
+                      width={170}
                       src='/solargamo.webp'
                       alt='solargamo'
                       loading='lazy'

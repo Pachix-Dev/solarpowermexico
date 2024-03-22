@@ -86,18 +86,19 @@ const programSSM = {
       //   position:'',
       // },
       {
-        hour: '17:30 –18:00',
+        hour: '17:30 - 18:00',
         name: '',
-        title: 'Disponible para venta',
-        title_en: 'Available for sale',
+        title: 'HUAWEI',
+        title_en: 'HUAWEI',
         speakers: '',
         description: '',
         description_en : '',
+        avatar: '',
         position: '',
         position_en: '',
         avatars: ['', '', ''],
         id: [0]
-      }
+      },
     ],
     april_18: [
       {
@@ -236,9 +237,11 @@ const programSSM = {
       {
         hour: '14:15 –14:45',
         name: '',
-        title: 'HUAWEI',
-        title_en: 'HUAWEI',
-        avatar: '',
+        title: 'Disponible para venta',
+        title_en: 'Available for sale',
+        speakers: '',
+        description: '',
+        description_en : '',
         position: '',
         position_en: '',
         avatars: ['', '', ''],

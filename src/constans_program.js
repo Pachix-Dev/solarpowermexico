@@ -460,8 +460,8 @@ const conferencesSSM = {
       peakers: 'Ana Karina Torres | Leonardo Velasco | Andrew Kiefer McNeil',
       position: 'DYPESA |  Inspecta PV | CEA',
       position_en: '',
-      avatars: ['/speakers/ana_karina_torres.webp', '', '/speakers/andrew_kiefer_v2.webp'],
-      id: [19, , 20]
+      avatars: ['/speakers/ana_karina_torres.webp', '/speakers/leonardo_velasco.webp', '/speakers/andrew_kiefer_v2.webp'],
+      id: [19, 22 , 20]
     },
     {
       type: 'Panel',
@@ -513,8 +513,8 @@ const conferencesSSM = {
       peakers: 'Ángel Mejía Santiago | Gilberto Sánchez Nogueira | Casiopea Ramírez Melgar',
       position: ' Presidente de la Asociación Mexicana de la Industria Fotovoltaica (AMIF)  | Legislative Secretary of the National Association of Solar Energy (ANES) | Socia de Fresh Energy',
       position_en: 'President of the Mexican Photovoltaic Industry Association (AMIF) | Legislative Secretary of the National Association of Solar Energy (ANES)| Partner of Fresh Energy Consulting (Fresh Energy) ',
-      avatars: ['', '/speakers/gilberto_sanchez.webp', '/speakers/casiopea_ramirez.webp'],
-      id: [, 21, 18 ]
+      avatars: ['/speakers/angel_mejia.webp', '/speakers/gilberto_sanchez.webp', '/speakers/casiopea_ramirez.webp'],
+      id: [17, 21, 18 ]
     },
     {
       type: 'DUO',

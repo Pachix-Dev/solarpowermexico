@@ -21,6 +21,7 @@ import {
   partners,
   partners2,
   exhibitors5,
+  exhibitors6,
 } from '../../constans_logos'
 import { Bullets } from './Bullets'
 
@@ -649,6 +650,19 @@ export function Home() {
         </Marquee>
         <Marquee gradient>
           {exhibitors5.map((sponsor, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={sponsor.width}
+                height={sponsor.height}
+                src={sponsor.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+        <Marquee gradient direction='letf'>
+          {exhibitors6.map((sponsor, index) => (
             <div key={index} className='exibitorSlider text-center h-100'>
               <img
                 width={sponsor.width}

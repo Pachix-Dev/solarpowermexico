@@ -145,4 +145,19 @@ const exhibitors5 = [
   { image: '/enlight.webp', height: 110 }
 ]
 
-export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4, exhibitors5}
+const exhibitors6 = [
+  { image: '/exhibitors/sungrow.webp', height: 110 },
+  { image: '/exhibitors/syscom.webp', height: 110 },
+  { image: '/exhibitors/nep.webp', height: 110 },
+  { image: '/exhibitors/narada.webp', height: 110 },
+  { image: '/exhibitors/kowint.webp', height: 110 },
+  { image: '/exhibitors/innovacion-solar.webp', height: 110 },
+  { image: '/exhibitors/hypontech.webp', height: 110 },
+  { image: '/exhibitors/fortress.webp', height: 110 },
+  { image: '/exhibitors/exliporc.webp', height: 110 },
+  { image: '/exhibitors/battery-depot.webp', height: 110 },
+]
+
+
+
+export { partners, partners2, broadcasting, broadcasting2, exhibitors, exhibitors2, exhibitors3, exhibitors4, exhibitors5, exhibitors6}

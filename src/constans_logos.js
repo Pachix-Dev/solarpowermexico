@@ -116,7 +116,7 @@ const exhibitors4 = [
   { image: '/exhibitors/corey_solar.webp', height: 90 },
   { image: '/exhibitors/krannich.webp', height: 90 },
   { image: '/exhibitors/runergy.webp', height: 90 },
-  { image: '/exhibitors/siba.webp', height: 90 },
+  { image: '/exhibitors/siba_v2.webp', height: 90 },
   { image: '/exhibitors/soluna.webp', height: 100 },
   { image: '/exhibitors/metering.webp', height: 100}
   

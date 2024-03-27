@@ -143,8 +143,8 @@ const exhibitors5 = [
   { image: '/exhibitors/rated-power.webp', height: 110 },
   { image: '/exhibitors/flex-solar.webp', height: 110 },
   { image: '/enlight.webp', height: 110 },
-  { image: '/thornova.webp', height: 110 },
-  { image: '/wasion.webp', height: 110 }
+  { image: '/exhibitors/thornova.webp', height: 110 },
+  { image: '/exhibitors//wasion.webp', height: 110 }
 ]
 
 const exhibitors6 = [

@@ -81,7 +81,7 @@ const exhibitors2 = [
 ]
 
 const exhibitors3 = [
-  { image: '/exhibitors/mg_solar.webp', width: 200, height: 80 },
+  { image: '/exhibitors/mg_solar_v2.webp', width: 200, height: 90 },
   { image: '/exhibitors/nos-mueve-sol.webp', width: 200, height: 80 },
   { image: '/exhibitors/pc_solar.webp', width: 200, height: 80 },
   { image: '/exhibitors/polyshine_solar.webp', width: 200, height: 80 },
@@ -142,7 +142,9 @@ const exhibitors5 = [
   { image: '/exhibitors/solida.webp', height: 110 },
   { image: '/exhibitors/rated-power.webp', height: 110 },
   { image: '/exhibitors/flex-solar.webp', height: 110 },
-  { image: '/enlight.webp', height: 110 }
+  { image: '/enlight.webp', height: 110 },
+  { image: '/thornova.webp', height: 110 },
+  { image: '/wasion.webp', height: 110 }
 ]
 
 const exhibitors6 = [

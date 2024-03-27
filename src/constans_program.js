@@ -237,8 +237,8 @@ const programSSM = {
       {
         hour: '14:15 –14:45',
         name: '',
-        title: 'Disponible para venta',
-        title_en: 'Available for sale',
+        title: 'HUAWEI',
+        title_en: 'HUAWEI',
         speakers: '',
         description: '',
         description_en : '',

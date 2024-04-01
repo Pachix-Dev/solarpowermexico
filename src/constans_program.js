@@ -359,16 +359,75 @@ const programSSM = {
   stage_3: {
     april_17: [
       {
-        hour: '',
+        hour: '11:00 -12:00',
         name: '',
-        title: 'Más información por confirmar',
-        title_en: 'More information to be confirmed',
+        title: 'Seguridad y salud al enfrentar incendios en los que se involucran baterías de Ion-Litio',
+        title_en: 'Security and health when dealing with fires involving Lithium-Ion batteries',
+        description: '',
+        description_en : '',
+        speakers: 'José de Jesús Martínez Garza',
         avatar: '',
-        position: '',
-        position_en: '',
+        position: 'Director de IAAR',
+        position_en: 'Director of IAAR',
         avatars: ['', '', ''],
         id: [0]
-      }
+      },
+      {
+        hour: '12:00 - 13:00',
+        name: '',
+        title: 'SEI 1',
+        title_en: 'SEI 1',
+        description: '',
+        description_en : '',
+        speakers: '',
+        avatar: '',
+        position: 'Instructor de SEI',
+        position_en: 'SEI Instructor',
+        avatars: ['', '', ''],
+        id: [0]
+      },
+      {
+        hour: '13:00 - 14:00',
+        name: '',
+        title: 'Actualización de estándares de competencia para la industria fotovoltaica',
+        title_en: 'Updating of competency standards for the photovoltaic industry',
+        description: '',
+        description_en : '',
+        speakers: 'Marco Guzmán',
+        avatar: '',
+        position: 'Coordinador Operativo Comité de Gestión de Competencias de Eficiencia Energética y Energía Renovable',
+        position_en: 'Operational Coordinator Energy Efficiency and Renewable Energy Competency Management Committee',
+        avatars: ['', '', ''],
+        id: [0]
+      },
+      {
+        hour: '16:00 - 17:00',
+        name: '',
+        title: 'SEI 2',
+        title_en: 'SEI 2',
+        description: '',
+        description_en : '',
+        speakers: '',
+        avatar: '',
+        position: 'Instructor de SEI',
+        position_en: 'SEI Instructor',
+        avatars: ['', '', ''],
+        id: [0]
+      },
+      {
+        hour: '17:00 - 18:00',
+        name: '',
+        title: '¿Son suficientes las normas que regulan el sector fotovoltaico para asegurar la calidad y la seguridad de las instalaciones?',
+        title_en: 'Are the regulations governing the photovoltaic sector sufficient to ensure the quality and safety of installations?',
+        description: '',
+        description_en : '',
+        speakers: 'Leonardo Velasco Ochoa',
+        avatar: '',
+        position: 'InspectaPV',
+        position_en: 'InspectaPV',
+        avatars: ['', '', ''],
+        id: [0]
+      },
     ],
     april_18: [
       {

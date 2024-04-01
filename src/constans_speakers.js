@@ -272,6 +272,24 @@ const speakersEdu=[
         resume_es: "Información por confirmar",
         resume_en: "Information to be confirmed",
     },
+    {
+        id:9,
+        name: 'Erick Möller',
+        avatar: '/speakers/erick-moller.webp',
+        role_es: "Gerente Regional Ventas LATAM, en Slots Exel Solar",
+        role_en: "Regional Sales Manager LATAM, at Slots Exel Solar",
+        resume_es: "Licenciado en Ingeniería en Desarrollo Sostenible por el Tecnológico de Monterrey. Es apasiado por la sostenibilidad y el bienestar social. Su compromiso con proyectos de Energía Renovable, Desarrollo Urbano Consciente y Emprendimiento Social lo han destacado como un líder visionario. Actualmente, es Gerente Regional de Ventas de Sol-Ark Latinoamérica. Asimismo, continúa impulsando soluciones innovadoras para un futuro más sostenible y prometedor.",
+        resume_en: "He holds a degree in Sustainable Development Engineering from Tecnológico de Monterrey. He is passionate about sustainability and social welfare. His commitment to Renewable Energy, Conscious Urban Development and Social Entrepreneurship projects has made him stand out as a visionary leader. Currently, he is Regional Sales Manager for Sol-Ark Latin America. He also continues to promote innovative solutions for a more sustainable and promising future.",
+    },
+    {
+        id:10,
+        name: 'David Gutiérrez',
+        avatar: '/speakers/david-gutierrez.webp',
+        role_es: "Country Manager México, de Victron Energy",
+        role_en: "Country Manager México, de Victron Energy",
+        resume_es: "Ingeniero en Energía, especialista en Sistemas de Almacenamiento de Energía. Encargado del mercado mexicano para la empresa Victron Energy, ha trabajado en la industria fotovoltaica desde el 2012 desarrollando proyectos fotovoltaicos. Desde 2019 se ha dedicado a la capacitación de profesionales, integradores y empresarios sobre las aplicaciones del almacenamiento de energía. Asimismo, ha participado en el diseño e implementación exitosa de sistemas fotovoltaicos con baterías en todo México.",
+        resume_en: "Energy Engineer, specialist in Energy Storage Systems. In charge of the Mexican market for Victron Energy, he has worked in the photovoltaic industry since 2012 developing photovoltaic projects. Since 2019 he has been dedicated to training professionals, integrators and entrepreneurs on energy storage applications. He has also participated in the design and successful implementation of PV systems with batteries throughout Mexico.",
+    },
     
 ]
 

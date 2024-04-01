@@ -719,7 +719,7 @@ const conferencesSSM = {
       peakers: 'Valeria Amezcua Santillán | Enrique Garduño | Ena Gutiérrez',
       position: 'Presidenta de Red Agrovoltaica Mexicana | CEO Skysence | ENLIGHT ',
       position_en: 'President of the Mexican Agrovoltaic Network | CEO Skysence | ENLIGHT',
-      avatars: ['/speakers/valeria_amezcua.webp', '/speakers/ena_gutierrez.webp', ''],
+      avatars: ['/speakers/valeria_amezcua.webp', '/speakers/ena_gutierrez_v2.webp', ''],
       id: [2, 13]
     },
   ],

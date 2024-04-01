@@ -110,7 +110,7 @@ const speakers=[
     {
         id:13,
         name: "Ena Gutiérrez ",
-        avatar: '/speakers/ena_gutierrez.webp',
+        avatar: '/speakers/ena_gutierrez_v2.webp',
         role_es: "Directora de nuevos negocios en enlight",
         role_en: "Director of new business at enlight",
         resume_es: "Ingeniera en Desarrollo Sustentable por el Tecnológico de Monterrey y se ha especializado en el desarrollo de negocios enfocado en microredes y soluciones distribuidas en México y Latinoamérica. Ha sido parte del sector de generación distribuida en México desde hace 8 años. Gracias a su liderazgo en el proyecto, Enlight fue la primera empresa en desarrollar su propio sistema de monitoreo, Apollo. Cuenta con un amplio conocimiento en el desarrollo de proyectos fotovoltaicos y de almacenamiento de energía y debido a ello, se ha dedicado a crear la nueva unidad de negocio de almacenamiento de energía en Enlight. Su rol como Directora de Nuevos Negocios abarca la ejecución del proceso comercial para proyectos fotovoltaicos y de almacenamiento de energía, así como la elaboración del modelo financiero para ofrecer estos proyectos como servicios financiados en el esquema PPA Onsite y SaaS (Storage as a Service). ",

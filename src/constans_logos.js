@@ -159,6 +159,7 @@ const exhibitors6 = [
   { image: '/exhibitors/exliporc.webp', height: 110 },
   { image: '/exhibitors/battery-depot.webp', height: 110 },
   { image: '/exhibitors/felicity-ess.webp', height: 110 },
+  { image: '/exhibitors/battery-master.webp', height: 110 },
 ]
 
 

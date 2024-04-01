@@ -144,8 +144,8 @@ const programSSM = {
         description_en: 'Diagnosis and evaluation of efficiency of Photovoltaic Systems through IV Curve Tracing Equipment, in accordance with the regulations and requirements for the installation and preventive maintenance of solar panels.',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['/speakers/ivan_zavala_vera.webp', '', ''],
+        id: [5]
       },
       {
         hour: '15:00 –16:00',
@@ -184,8 +184,8 @@ const programSSM = {
         position_en: '',
         description: 'Energía solar al alcance de tus manos: herramientas financieras para proyectos fotovoltaicos, además de explorar el futuro de la energía con sistemas de almacenamiento en México',
         description_en: 'Solar energy at your fingertips: Financial Tools for Photovoltaic projects, in addition to exploring the future of energy with storage systems in Mexico',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['', '/speakers/mayela_cinfuentes.webp', ''],
+        id: [0,7,0]
       },
       {
         hour: '17:30 –18:00',
@@ -220,19 +220,22 @@ const programSSM = {
         description_en: 'One of the most important applications of photovoltaic solar energy is undoubtedly the pumping of water using solar panels, this is known as Solar Pumping Systems. This type of systems has had a growing interest, especially in developing countries, as a product of the energy transition that is being experienced worldwide. In countries like Mexico, with a strong dependence on the primary sector, there is a competitive advantage for this type of system, since it solves many of the operational and energy availability problems in productive sites. To explain this, the key points we will review in our talk are: - Grundfos\' role in the sector as a technological pioneer worldwide and key player in Mexico. - How Grundfos collaborates through solar pumping with the Sustainable Development Goals worldwide. - Explanation and evidence of the most common uses of this type of systems in Mexico.',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['/speakers/jose_adolfo.web', '', ''],
+        id: [4]
       },
       {
         hour: '13:30 –14:00',
         name: '',
-        title: 'SOLAREVER',
-        title_en: 'SOLAREVER',
+        title: 'La electromovilidad, una solución cero emisión',
+        title_en: 'Electric mobility, a zero-emission solution',
+        speakers:"Javier López ",
+        description:"Un panorama de los desafíos y desarrollo de la industria de autos eléctricos en México. Los caminos que ha encontrado para competir en el mundo automotriz. ",
+        description_en:"An overview of the challenges and development of the electric car industry in Mexico. The ways it has found to compete in the automotive world.",
         avatar: '',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['/speakers/javier_lopez.webp', '', ''],
+        id: [8]
       },
       {
         hour: '14:15 –14:45',

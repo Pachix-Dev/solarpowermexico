@@ -23,8 +23,8 @@ const speakers=[
         avatar: '/speakers/mario_pillis.webp',
         role_es: "Miembro de Cigré y de la American Economic Association",
         role_en: "Member of Cigré and the American Economic Association",
-        resume_es: 'Economista y experto en mercados eléctricos, diseño de mercados y supervisión de mercados. Lleva más de 25 años revisando y diseñando mercados de electricidad, ya sea como miembro de un operador del mercado, como supervisor del mercado o como regulador. Fue Director del Monitor Independiente del Mercado Eléctrico Mayorista de México desde diciembre de 2015 hasta 2020. Ha realizado investigaciones para el Departamento de Energía de EE.UU. y asesora a clientes sobre cuestiones relacionadas con el mercado mayorista de la electricidad y con transmisión. Como director del consejo de asesores de Admonitor, proporciona a Admonitor asesoramiento estratégico y experiencia. Ha trabajado con mercados de Sudamérica, Vietnam, Centroamérica y Estados Unidos.',
-        resume_en: 'Economist and expert in electricity markets, market design, and market monitoring. He has been reviewing and designing electricity markets for over 25 years, either as a member of a market operator, as a market monitor, or as a regulator. He was the Director of the Independent Market Monitor of the Mexican wholesale electricity market from December 2015 through 2020. He has conducted research for the US Dept. of Energy and consults on issues in the wholesale electricity market and transmission for clients. As the director of Admonitor’s council of advisors he provides Admonitor with strategic advice and expertise. He has worked with markets in South America, Vietnam, Central America, and the US.',
+        resume_es: 'Economista, consejero de admonitor, experto en mercados eléctricos, diseño de mercados y supervisión de mercados. Lleva más de 25 años revisando y diseñando mercados de electricidad, ya sea como miembro de un operador del mercado, como supervisor del mercado o como regulador. Fue Director del Monitor Independiente del Mercado Eléctrico Mayorista de México desde diciembre de 2015 hasta 2020. Ha realizado investigaciones para el Departamento de Energía de EE.UU. y asesora a clientes sobre cuestiones relacionadas con el mercado mayorista de la electricidad y con transmisión. Como director del consejo de asesores de Admonitor, proporciona a Admonitor asesoramiento estratégico y experiencia. Ha trabajado con mercados de Sudamérica, Vietnam, Centroamérica y Estados Unidos.',
+        resume_en: 'Economist, advisor to admonitor, expert in electricity markets, market design and market supervision. He has been reviewing and designing electricity markets for more than 25 years, either as a member of a market operator, as a market monitor or as a regulator. He was Director of the Independent Monitor of the Mexican Wholesale Electricity Market from December 2015 to 2020. He has conducted research for the U.S. Department of Energy and advises clients on wholesale electricity market and transmission issues. As a director on Admonitor\'s advisory board, he provides Admonitor with strategic advice and expertise. He has worked with markets in South America, Vietnam, Central America and the United States.'
     },
     {
         id:4,
@@ -91,7 +91,7 @@ const speakers=[
     },
     {
         id:11,
-        name: "Carolin Antoni",
+        name: " Dra. Carolin Antoni",
         avatar: '/speakers/carolin_antoni.webp',
         role_es: "Gerente del departamento de desarrollo sostenible de CAMEXA",
         role_en: "Manager of the sustainable development department of CAMEXA",

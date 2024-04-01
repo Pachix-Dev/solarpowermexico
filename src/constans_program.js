@@ -595,7 +595,7 @@ const conferencesSSM = {
       subject_en: 'Distributed Photovoltaic Generation',
       description: '',
       description_en: '',
-      peakers: 'Carolin Antoni |  Celeste Morales | Eduardo Gómez',
+      peakers: 'Dra. Carolin Antoni |  Celeste Morales | Eduardo Gómez',
       position: 'Gerente del departamento de desarrollo sostenible de CAMEXA | IER-UNAM | Director Comercial de LATAM Maxeon Solar Technologies ',
       position_en: 'Manager of CAMEXA\'s Sustainable Development Department | IER-UNAM |Commercial Director of LATAM Maxeon Solar Technologies',
       avatars: ['/speakers/carolin_antoni.webp', '/speakers/celeste-morales.webp', '/speakers/eduardo_gomez.webp'],

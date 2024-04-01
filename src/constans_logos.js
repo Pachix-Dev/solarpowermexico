@@ -160,6 +160,9 @@ const exhibitors6 = [
   { image: '/exhibitors/battery-depot.webp', height: 110 },
   { image: '/exhibitors/felicity-ess.webp', height: 110 },
   { image: '/exhibitors/battery-master.webp', height: 110 },
+  { image: '/exhibitors/power-energy.webp', height: 110 },
+  { image: '/exhibitors/ctrl-sun.webp', height: 110 },
+  { image: '/exhibitors/popular-power.webp', height: 110 },
 ]
 
 

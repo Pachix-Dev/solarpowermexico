@@ -53,19 +53,19 @@ const programSSM = {
         avatars: ['/speakers/gustavo_marin.webp', '', ''],
         id: [2]
       },
-      {
-        hour: '15:00 –16:00',
-        name: '',
-        title: 'BREAK',
-        title_en: 'BREAK',
-        speakers: '',
-        description: '',
-        description_en : '',
-        position: '',
-        position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
-      },
+      // {
+      //   hour: '15:00 –16:00',
+      //   name: '',
+      //   title: 'BREAK',
+      //   title_en: 'BREAK',
+      //   speakers: '',
+      //   description: '',
+      //   description_en : '',
+      //   position: '',
+      //   position_en: '',
+      //   avatars: ['', '', ''],
+      //   id: [0]
+      // },
       {
         hour: '16:00 –16:30',
         name: '',
@@ -147,18 +147,18 @@ const programSSM = {
         avatars: ['/speakers/ivan_zavala_vera.webp', '', ''],
         id: [5]
       },
-      {
-        hour: '15:00 –16:00',
-        name: '',
-        title: 'BREAK',
-        title_en: 'BREAK',
-        avatar: '',
-        position: '',
-        position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
+      // {
+      //   hour: '15:00 –16:00',
+      //   name: '',
+      //   title: 'BREAK',
+      //   title_en: 'BREAK',
+      //   avatar: '',
+      //   position: '',
+      //   position_en: '',
+      //   avatars: ['', '', ''],
+      //   id: [0]
 
-      },
+      // },
       {
         hour: '16:00 –16:30',
         name: '',
@@ -294,14 +294,14 @@ const programSSM = {
         hour: '16:00 - 17:00',
         duration: '1 hrs.',
         name: '',
-        title: 'REDMEREE',
-        title_en: 'REDMEREE',
-        speakers: '',
-        description: 'Más información por confirmar',
-        description_en: 'More information to be confirmed',
+        title: 'REDMEREE - Mujeres en energía ',
+        title_en: 'REDMEREE - Women in energy ',
+        speakers: 'Aideé Zamora | Isabel Bazán ',
+        description: 'Este taller tiene como objetivo proporcionar a las mujeres en la industria energética las herramientas y habilidades necesarias para avanzar en sus carreras, superar los desafíos y contribuir de manera significativa al campo de la energía.',
+        description_en: 'This workshop aims to provide women in the energy industry with the necessary tools and skills to advance in their careers, overcome challenges, and contribute significantly to the field of energy.',
         avatar: '',
-        position: '',
-        position_en: '',
+        position: 'Coordinadora General REDMEREE | Coordinadora de Empleabilidad REDMEREE ',
+        position_en: 'General Coordinator REDMEREE | Employability Coordinator REDMEREE',
         avatars: ['', '', ''],
         id: [0]
       },

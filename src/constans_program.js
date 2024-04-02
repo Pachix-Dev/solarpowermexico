@@ -770,10 +770,10 @@ const conferencesSSM = {
       description: '',
       description_en: '',
       peakers: 'Carla Ortiz | Diana Ávalos | Jesús Antonio del Río Portillo',
-      position: 'RER | AMIVE | IER-UNAM ',
-      position_en: 'RER | AMIVE | IER-UNAM',
-      avatars: ['', '/speakers/diana_avalos.webp', '/speakers/antonio-portillo.webp'],
-      id: [,10, 15]
+      position: 'Directora General en México, RER Energy Group | AMIVE | IER-UNAM ',
+      position_en: 'Chief Executive Officer Mexico, RER Energy Group | AMIVE | IER-UNAM',
+      avatars: ['/speakers/carla-ortiz.webp', '/speakers/diana_avalos.webp', '/speakers/antonio-portillo.webp'],
+      id: [24 ,10, 15]
     },
     // {
     //   type:'',

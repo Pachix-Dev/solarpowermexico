@@ -76,8 +76,8 @@ const programSSM = {
         description_en : 'Explore how Sol-Ark\'s innovative power backup solutions are driving efficiency and sustainability in residential and commercial environments.',
         position: 'Gerente Regional Ventas LATAM, at Sol-Ark',
         position_en: 'Regional Sales Manager LATAM, at Sol-Ark',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['/speakers/erick-moller.webp', '', ''],
+        id: [9]
       },
       {
         hour: '17:30 - 18:00',
@@ -164,14 +164,14 @@ const programSSM = {
         name: '',
         title: 'Soluciones de Energy Storage con Victron Energy',
         title_en: 'Energy Storage Solutions with Victron Energy',
-        speakers: 'David Gutiérreza',
+        speakers: 'David Gutiérrez',
         avatar: '',
         position: 'Country Manager México, de Victron Energy',
         position_en: 'Country Manager México, of Victron Energy',
         description: 'Conoce las oportunidades de negocio y alcance de los equipos de la marca holandesa número 1 en el mercado del Almacenamiento de Energía',
         description_en: 'Learn about the business opportunities and scope of the equipment of the number 1 Dutch brand in the Energy Storage market.',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['/speakers/david-gutierrez.webp', '', ''],
+        id: [10]
       },
       {
         hour: '16:45 –17:15',
@@ -184,8 +184,8 @@ const programSSM = {
         position_en: '',
         description: 'Energía solar al alcance de tus manos: herramientas financieras para proyectos fotovoltaicos, además de explorar el futuro de la energía con sistemas de almacenamiento en México',
         description_en: 'Solar energy at your fingertips: Financial Tools for Photovoltaic projects, in addition to exploring the future of energy with storage systems in Mexico',
-        avatars: ['', '/speakers/mayela_cinfuentes.webp', ''],
-        id: [0,7,0]
+        avatars: ['/speakers/raul_romay.webp', '/speakers/mayela_cinfuentes.webp', ''],
+        id: [6,7,0]
       },
       {
         hour: '17:30 –18:00',
@@ -220,7 +220,7 @@ const programSSM = {
         description_en: 'One of the most important applications of photovoltaic solar energy is undoubtedly the pumping of water using solar panels, this is known as Solar Pumping Systems. This type of systems has had a growing interest, especially in developing countries, as a product of the energy transition that is being experienced worldwide. In countries like Mexico, with a strong dependence on the primary sector, there is a competitive advantage for this type of system, since it solves many of the operational and energy availability problems in productive sites. To explain this, the key points we will review in our talk are: - Grundfos\' role in the sector as a technological pioneer worldwide and key player in Mexico. - How Grundfos collaborates through solar pumping with the Sustainable Development Goals worldwide. - Explanation and evidence of the most common uses of this type of systems in Mexico.',
         position: '',
         position_en: '',
-        avatars: ['/speakers/jose_adolfo.web', '', ''],
+        avatars: ['/speakers/jose_adolfo.webp', '', ''],
         id: [4]
       },
       {

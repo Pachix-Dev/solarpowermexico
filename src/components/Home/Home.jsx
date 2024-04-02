@@ -248,6 +248,7 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
+                    width={200}
                     src='/quartux.webp'
                     alt='quartux'
                     loading='lazy'
@@ -262,6 +263,7 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
+                    width={200}
                     src='/longi_logo.webp'
                     alt='LONGI'
                     loading='lazy'
@@ -276,6 +278,7 @@ export function Home() {
                   rel='noreferrer'
                 >
                   <img
+                    width={200}
                     src='/enlight_v2.webp'
                     alt='enlight'
                     loading='lazy'
@@ -285,8 +288,8 @@ export function Home() {
               </Col>
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
-            <Row className='d-flex align-items-center justify-content-center'>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+            <Row className='d-flex align-items-center justify-content-center gap-5'>
+              <Col xs={12} sm={6} md={4} lg={2}className=''>
                 <div className='d-flex align-items-center justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://hitachi.com.mx/'
@@ -295,7 +298,7 @@ export function Home() {
                     className='p-3'
                   >
                     <img
-                      width={120}
+                      width={150}
                       src='/hitachi.webp'
                       alt='hitachi'
                       loading='lazy'
@@ -303,7 +306,7 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <Col xs={12} sm={6} md={4} lg={2}className=''>
                 <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                     <a
                       href='https://sunpower.maxeon.com/mx/por-que-sunpower'
@@ -320,7 +323,7 @@ export function Home() {
                     </a>
                   </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <Col xs={12} sm={6} md={4} lg={2}className=''>
                 <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                     <a
                       href='https://es.s-5.com/'
@@ -337,7 +340,7 @@ export function Home() {
                     </a>
                   </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <Col xs={12} sm={6} md={4} lg={2}className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://es.antaisolar.com/'
@@ -354,7 +357,9 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+            </Row>
+            <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://latam.apsystems.com/'
@@ -363,7 +368,7 @@ export function Home() {
                     className='p-3'
                   >
                     <img
-                      width={150}
+                      width={200}
                       src='/apSystems.webp'
                       alt='apSystems'
                       loading='lazy'
@@ -371,7 +376,7 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className='py-3'>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href=''
@@ -380,7 +385,7 @@ export function Home() {
                     className='p-3'
                   >
                     <img
-                      width={170}
+                      width={200}
                       src='/solargamo.webp'
                       alt='solargamo'
                       loading='lazy'
@@ -388,35 +393,24 @@ export function Home() {
                   </a>
                 </div>
               </Col>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href=''
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={200}
+                      src='/trina-solar.webp'
+                      alt='solargamo'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
             </Row>
-            {/* <a
-                href='https://www.iberdrolamexico.com/conocenos/iberdrola-en-mexico/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={150}
-                  height={101}
-                  src='/Ibedrola.webp'
-                  alt='Ibedrola'
-                  loading='lazy'
-                />
-              </a> */}
-            {/* <a
-                href='https://solar-distribution.baywa-re.mx/es/'
-                target='_blank'
-                rel='noreferrer'
-                className='p-3'
-              >
-                <img
-                  width={200}
-                  height={76}
-                  src='/BayWar.webp'
-                  alt='BayWar'
-                  loading='lazy'
-                />
-              </a> */}
           </div>
         </section>
       </Container>

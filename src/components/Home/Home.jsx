@@ -396,7 +396,7 @@ export function Home() {
               <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
-                    href=''
+                    href='https://www.trinasolar.com/es'
                     target='_blank'
                     rel='noreferrer'
                     className='p-3'
@@ -404,7 +404,7 @@ export function Home() {
                     <img
                       width={200}
                       src='/trina-solar.webp'
-                      alt='solargamo'
+                      alt='trina solar'
                       loading='lazy'
                     />
                   </a>

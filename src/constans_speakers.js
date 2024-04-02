@@ -119,7 +119,7 @@ const speakers=[
     {
         id:14,
         name: "Celeste Morales ",
-        avatar: '/speakers/celeste-morales.webp',
+        avatar: '/speakers/celeste-morales_v2.webp',
         role_es: "IER-UNAM",
         role_en: "IER-UNAM",
         resume_es: "Tiene experiencia en gestión tecnológica, educación continua y comunicación digital. Actualmente, es Titular de la Secretaría de Gestión Tecnológica y Vinculación en el Instituto de Energías Renovables (IER), de la UNAM. Es coautora de libros como (La gobernanza en la Ciudad de México. Visiones multidisciplinarias) y ( México hacia una transición energética ). Ha publicado artículos en la columna ( Sin embargo se mueve), del periódico La Unión de Morelos. Durante su gestión como Jefa de la Unidad de Educación Continua del IER, lideró la creación y mejora de programas educativos, incluyendo la plataforma de aprendizaje en línea ( Renovando Talentos ) . Está comprometida con la excelencia en la educación continua y tiene intereses en comunicación digital, tecnologías de la información, divulgación científica y estudios de género.",

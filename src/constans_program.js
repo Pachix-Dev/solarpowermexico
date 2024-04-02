@@ -699,11 +699,11 @@ const conferencesSSM = {
       subject_en: 'Distributed Photovoltaic Generation',
       description: '',
       description_en: '',
-      peakers: 'Carolin Antoni',
-      position: 'CAMEXA',
-      position_en: 'CAMEXA',
-      avatars: ['/speakers/carolin_antoni.webp', '', ''],
-      id: [11]
+      peakers: 'Dra. Carolin Antoni | Nimbe Durán | Adriana Aragón',
+      position: 'CAMEXA | Titular de la Unidad de Género e Inclusión, en la Comisión Federal de Electricidad (CFE) | Coordinadora de programa, en GIZ',
+      position_en: 'CAMEXA | Head of the Gender and Inclusion Unit at the Federal Electricity Commission (CFE) | Program Coordinator, GIZ ',
+      avatars: ['/speakers/carolin_antoni.webp', '/speakers/nimbe-duran.webp', '/speakers/adriana-aragon.webp'],
+      id: [11, 27 , 23]
     },
     {
       type: 'Panel',

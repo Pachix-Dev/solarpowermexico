@@ -335,6 +335,15 @@ const speakersEdu=[
         resume_es: "Ingeniero en Energía, especialista en Sistemas de Almacenamiento de Energía. Encargado del mercado mexicano para la empresa Victron Energy, ha trabajado en la industria fotovoltaica desde el 2012 desarrollando proyectos fotovoltaicos. Desde 2019 se ha dedicado a la capacitación de profesionales, integradores y empresarios sobre las aplicaciones del almacenamiento de energía. Asimismo, ha participado en el diseño e implementación exitosa de sistemas fotovoltaicos con baterías en todo México.",
         resume_en: "Energy Engineer, specialist in Energy Storage Systems. In charge of the Mexican market for Victron Energy, he has worked in the photovoltaic industry since 2012 developing photovoltaic projects. Since 2019 he has been dedicated to training professionals, integrators and entrepreneurs on energy storage applications. He has also participated in the design and successful implementation of PV systems with batteries throughout Mexico.",
     },
+    {
+        id:11,
+        name: 'Alejandro Fajer',
+        avatar: '/speakers/alejandro-fajer.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "La información se está actualizando. Por favor, mantente atento.",
+        resume_en: "Information is being updated. Please stay tuned.",
+    },
     
 ]
 

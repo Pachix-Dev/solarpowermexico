@@ -24,8 +24,8 @@ const programSSM = {
         description_en : 'Explore practical applications, financing options and new opportunities in the field of energy storage. Discover how this technology is transforming various sectors and how you can capitalize on these trends in your own context. Join us for an informative session that will help you understand the potential and possibilities of energy storage in today\'s world.',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['', '/speakers/alejandro-fajer.webp', ''],
+        id: [0, 11]
       },
       {
         hour: '13:30 –14:00',
@@ -287,8 +287,8 @@ const programSSM = {
         speakers: 'Daniel Fuchs | Alejandro Fajer | Marcel Gómez Pecina | Erika Ramírez | Carlos Torres Almazán | Maximiliano Orduño | Santiago Torres | Gustavo Marín',
         position: 'Director de Atención al Cliente (CCO), International Battery & Energy Storage Alliance - IBESA | COO de Quartux México | Desarrollador de negocios energéticos, en ON. Energy | Analista Senior de Operaciones en Acclaim Energy México | Director General de EMS Latin America | Especialista de Producto, en Growatt | Socio Director de Pireos Power | Branch Manager LATAM at AP Systems ',
         position_en: 'Chief Customer Officer (CCO), International Battery & Energy Storage Alliance - IBESA | COO at Quartux México | Energy Business Developer at ON. Energy | Operations Sr. Analyst at Acclaim Energy México | Managing Director at EMS Latin America | Product Specialist, at Growatt | Managing Partner at Pireos Power | Branch Manager LATAM at APsystems',
-        avatars: ['', '', ''],
-        id: [0]
+        avatars: ['', '/speakers/alejandro-fajer.webp', ''],
+        id: [0, 11]
       },
       {
         hour: '16:00 - 17:00',

@@ -42,7 +42,7 @@ export function AcademicProgram() {
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href='#day2' onClick={() => setPrograms(programSSM.stage_2)}>
-                                <h4 className='text-light'>Education Area </h4>
+                                <h4 className='text-light'>Educational Area </h4>
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>

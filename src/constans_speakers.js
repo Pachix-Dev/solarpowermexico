@@ -314,8 +314,8 @@ const speakersEdu=[
         avatar: '/speakers/javier_lopez.webp',
         role_es: "",
         role_en: "",
-        resume_es: "Información por confirmar",
-        resume_en: "Information to be confirmed",
+        resume_es: "La información se está actualizando. Por favor, mantente atento.",
+        resume_en: "Information is being updated. Please stay tuned.",
     },
     {
         id:9,

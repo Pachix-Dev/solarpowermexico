@@ -702,7 +702,7 @@ const conferencesSSM = {
       peakers: 'Dra. Carolin Antoni | Nimbe Durán | Adriana Aragón',
       position: 'CAMEXA | Titular de la Unidad de Género e Inclusión, en la Comisión Federal de Electricidad (CFE) | Coordinadora de programa, en GIZ',
       position_en: 'CAMEXA | Head of the Gender and Inclusion Unit at the Federal Electricity Commission (CFE) | Program Coordinator, GIZ ',
-      avatars: ['/speakers/carolin_antoni.webp', '/speakers/nimbe-duran.webp', '/speakers/adriana-aragon.webp'],
+      avatars: ['/speakers/carolin_antoni.webp', '/speakers/nimbe-duran.webp', '/speakers/adriana-aragon_v2.webp'],
       id: [11, 27 , 23]
     },
     {

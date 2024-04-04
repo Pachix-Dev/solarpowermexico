@@ -200,7 +200,7 @@ const speakers=[
     {
         id:23,
         name: "Adriana Aragón",
-        avatar: '/speakers/adriana-aragon.webp',
+        avatar: '/speakers/adriana-aragon_v2.webp',
         role_es: "Coordinadora de programa, en GIZ",
         role_en: "Program Coordinator, GIZ",
         resume_es: "Con una sólida formación académica en Economía Ambiental y Política y Gestión Energética y Medioambiental, esta profesional ha acumulado una amplia experiencia en el sector público y en organizaciones internacionales. Con títulos de prestigiosas instituciones como la Universidad East Anglia en el Reino Unido y la Facultad Latinoamericana de Ciencias Sociales (FLACSO) en México, además de diplomados complementarios en economía ambiental, su perfil refleja un compromiso con el desarrollo sostenible y la gestión ambiental. Su carrera en el sector público, particularmente en la Secretaría de Medio Ambiente y Recursos Naturales y la Secretaría de Energía, la ha visto liderar iniciativas clave en eficiencia energética, política climática y desarrollo de programas de sustentabilidad. Su trayectoria también incluye roles destacados en la cooperación internacional, como en la GIZ, donde ha coordinado programas importantes para la implementación de la transición energética en México y la promoción del uso del hidrógeno como fuente energética. Como Coordinadora de Programas clave, su labor sigue siendo fundamental en la promoción de políticas y proyectos que abordan los desafíos energéticos y ambientales, tanto a nivel nacional como internacional.",

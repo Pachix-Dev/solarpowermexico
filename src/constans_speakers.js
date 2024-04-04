@@ -118,7 +118,7 @@ const speakers=[
     },
     {
         id:14,
-        name: "Celeste Morales ",
+        name: "Celeste Morales",
         avatar: '/speakers/celeste-morales_v2.webp',
         role_es: "IER-UNAM",
         role_en: "IER-UNAM",

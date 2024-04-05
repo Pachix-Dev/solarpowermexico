@@ -163,6 +163,8 @@ const exhibitors6 = [
   { image: '/exhibitors/power-energy.webp', height: 110 },
   { image: '/exhibitors/ctrl-sun.webp', height: 110 },
   { image: '/exhibitors/popular-power.webp', height: 110 },
+  { image: '/exhibitors/rolls.webp', height: 110 },
+  { image: '/exhibitors/ralux.webp', height: 110 },
 ]
 
 

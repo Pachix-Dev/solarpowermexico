@@ -345,7 +345,7 @@ const speakersEdu=[
         resume_en: "Alejandro Fajer is a specialist in the energy sector. He currently serves as director of operations at Quartux, a Mexican company that offers energy storage solutions using lithium-ion technology. He has also collaborated as an energy consultant at Endeavor Mexico in the area of entrepreneurship, as well as at Morgan Stanley Bank in the area of Energy. He graduated from the Universidad Iberoamericana with a degree in chemical engineering and has a diploma in modern philosophy. He has also completed doctoral courses in storage systems technology at the Swiss Federal Institute of Technology (ETH Zurich) and in strategic management at Harvard University. ",
     },
     {
-        id: 0,
+        id: 12,
         name: 'Daniel Fuchs',
         avatar: '/speakers/daniel-fuchs.webp',
         role_es: "Director de Atención al Cliente (CCO), International Battery & Energy Storage Alliance - IBESA",
@@ -354,7 +354,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 13,
         name: 'Marcel Gómez Pecina',
         avatar: '/speakers/marcel-gomez.webp',
         role_es: "Desarrollador de negocios energéticos, en ON. Energy",
@@ -363,7 +363,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 14,
         name: 'Erika Ramírez',
         avatar: '/speakers/erika-ramirez.webp',
         role_es: "Analista Senior de Operaciones, en Acclaim Energy México",
@@ -372,7 +372,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 15,
         name: 'Carlos Torres Almazán',
         avatar: '/speakers/carlos-torres.webp',
         role_es: " Director General, de EMS Latinomérica",
@@ -381,7 +381,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 16,
         name: 'Maximiliano Orduño',
         avatar: '/speakers/maximiliano-orduno.webp',
         role_es: "Especialista de Producto, en Growatt",
@@ -390,7 +390,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 17,
         name: 'Santiago Torres',
         avatar: '/speakers/santiago-torres.webp',
         role_es: "Socio Director de Pireos Power",
@@ -399,7 +399,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 18,
         name: 'Abdiel Portillo',
         avatar: '/speakers/speakers_ssm_eco.png',
         role_es: "Asesor Técnico Comercial, de Fronius Mexico",
@@ -408,7 +408,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 19,
         name: 'Marco V. Calderón Agoitia',
         avatar: '/speakers/marco-v-calderon.webp',
         role_es: "Socio Director de Cosmo Consulting",
@@ -417,7 +417,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 20,
         name: 'Patricia Tatto',
         avatar: '/speakers/speakers_ssm_eco.png',
         role_es: "Vicepresidenta de ATA renewables America",
@@ -426,7 +426,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 21,
         name: 'César Garma',
         avatar: '/speakers/cesar-garma.webp',
         role_es: "Director de Estrategia de Transición Energética, en Saving With Energy México",
@@ -435,7 +435,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 22,
         name: 'Héctor Núñez',
         avatar: '/speakers/hector-nunez.webp',
         role_es: "Jefe de Ventas para Norteamérica en Sungrow Power Supply",
@@ -444,7 +444,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 23,
         name: 'Luis Antonio Hernández García',
         avatar: '/speakers/luis-hernandez.webp',
         role_es: "Director General en Battery DepotMx",
@@ -453,7 +453,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 24,
         name: 'Rogelio Nochebuena',
         avatar: '/speakers/rogelio-nochebuena.webp',
         role_es: "Director de SEBA - Servicios Ambientales de Baja California",
@@ -462,7 +462,7 @@ const speakersEdu=[
         resume_en: "Information is being updated. Please stay tuned.",
     },
     {
-        id: 0,
+        id: 25,
         name: 'Monica Huang',
         avatar: '/speakers/speakers_ssm_eco.png',
         role_es: "Directora Regional de Ventas para América, ATESS POWER TECHNOLOGY",

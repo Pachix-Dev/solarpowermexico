@@ -11,7 +11,7 @@ const programSSM = {
         description_en : '',
         position: 'Director de Instalaciones e Ingeniería',
         position_en: 'Director of Facilities and Engineering',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -24,7 +24,7 @@ const programSSM = {
         description_en : 'Explore practical applications, financing options and new opportunities in the field of energy storage. Discover how this technology is transforming various sectors and how you can capitalize on these trends in your own context. Join us for an informative session that will help you understand the potential and possibilities of energy storage in today\'s world.',
         position: '',
         position_en: '',
-        avatars: ['', '/speakers/alejandro-fajer.webp', ''],
+        avatars: ['', '/speakers/alejandro-fajer.webp', '', '', '', '', '', '', ''],
         id: [0, 11]
       },
       {
@@ -37,7 +37,7 @@ const programSSM = {
         description_en : '',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -50,7 +50,7 @@ const programSSM = {
         description_en: 'APsystems presents the new technology for MLPE microinverters and the recent energy storage solution. APsystems technology continually advances to offer the most competent equipment in the Latin American market, adapting to current and future advances. We bring you the latest technology in two-phase and three-phase microinverters, and the APstorage energy storage solution that comes with its Power Conversion Systems (PCS) and the split-phase Transformer.',
         position: 'Branch Manager en LATAM APsystems',
         position_en: 'Branch Manager at LATAM APsystems',
-        avatars: ['/speakers/gustavo_marin.webp', '', ''],
+        avatars: ['/speakers/gustavo_marin.webp', '', '', '', '', '', '', '', ''],
         id: [2]
       },
       // {
@@ -76,7 +76,7 @@ const programSSM = {
         description_en : 'Explore how Sol-Ark\'s innovative power backup solutions are driving efficiency and sustainability in residential and commercial environments.',
         position: 'Gerente Regional Ventas LATAM, at Sol-Ark',
         position_en: 'Regional Sales Manager LATAM, at Sol-Ark',
-        avatars: ['/speakers/erick-moller.webp', '', ''],
+        avatars: ['/speakers/erick-moller.webp', '', '', '', '', '', '', '', ''],
         id: [9]
       },
       {
@@ -90,7 +90,7 @@ const programSSM = {
         avatar: '',
         position: '',
         position_en: '',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
     ],
@@ -284,11 +284,13 @@ const programSSM = {
         title_en: 'IBESA 101 Storage Workshop: Navigating the Mexican Energy Storage Landscape: Unlocking Opportunities and Monetization Strategies',
         description: 'Taller interactivo que desmitifica la evolución del mercado de almacenamiento de energía en México y sus regiones vecinas, bajo el objetivo de hacer que las propuestas de valor en los sectores residencial, comercial y de servicios públicos sean más tangibles y accesibles para todos los asistentes. ',
         description_en: 'Interactive workshop that demystifies the evolution of the energy storage market in Mexico and its neighboring regions, with the objective of making value propositions in the residential, commercial and utility sectors more tangible and accessible to all attendees.',
-        speakers: 'Daniel Fuchs | Alejandro Fajer | Marcel Gómez Pecina | Erika Ramírez | Carlos Torres Almazán | Maximiliano Orduño | Santiago Torres | Gustavo Marín',
-        position: 'Director de Atención al Cliente (CCO), International Battery & Energy Storage Alliance - IBESA | COO de Quartux México | Desarrollador de negocios energéticos, en ON. Energy | Analista Senior de Operaciones en Acclaim Energy México | Director General de EMS Latin America | Especialista de Producto, en Growatt | Socio Director de Pireos Power | Branch Manager LATAM at AP Systems ',
-        position_en: 'Chief Customer Officer (CCO), International Battery & Energy Storage Alliance - IBESA | COO at Quartux México | Energy Business Developer at ON. Energy | Operations Sr. Analyst at Acclaim Energy México | Managing Director at EMS Latin America | Product Specialist, at Growatt | Managing Partner at Pireos Power | Branch Manager LATAM at APsystems',
-        avatars: ['', '/speakers/alejandro-fajer.webp', ''],
-        id: [0, 11]
+        // speakers: 'Daniel Fuchs | Alejandro Fajer | Marcel Gómez Pecina | Erika Ramírez | Carlos Torres Almazán | Maximiliano Orduño | Santiago Torres | Gustavo Marín',
+        // position: 'Director de Atención al Cliente (CCO), International Battery & Energy Storage Alliance - IBESA | COO de Quartux México | Desarrollador de negocios energéticos, en ON. Energy | Analista Senior de Operaciones en Acclaim Energy México | Director General de EMS Latin America | Especialista de Producto, en Growatt | Socio Director de Pireos Power | Branch Manager LATAM at AP Systems ',
+        // position_en: 'Chief Customer Officer (CCO), International Battery & Energy Storage Alliance - IBESA | COO at Quartux México | Energy Business Developer at ON. Energy | Operations Sr. Analyst at Acclaim Energy México | Managing Director at EMS Latin America | Product Specialist, at Growatt | Managing Partner at Pireos Power | Branch Manager LATAM at APsystems',
+        avatars: ['/speakers/alejandro-fajer.webp', '/speakers/marcel-gomez.webp', '/speakers/erika-ramirez.webp', '/speakers/carlos-torres.webp', '/speakers/maximiliano-orduno.webp', '/speakers/santiago-torres.webp', '/speakers/gustavo_marin.webp', '/speakers/speakers_ssm_eco.png', '/speakers/daniel-fuchs.webp'],
+        id: [11, 13, 14, 15, 16, 17, 2, 18, 12 ],
+        infoWorkshop : "<ul><li>11:40 AM | Nuevas Tendencias en Almacenamiento de Energía en Mercados Emergentes: Tecnología, Operación y Financiamiento -  <strong> Alejandro Fajer </strong></li><li> 12:00 PM | La Fragilidad de la Red Eléctrica Nacional y la Integración de Nuevas Tecnologías para su Eficiencia - <strong> Marcel Gómez Pecina </strong></li><li> 12:20 PM | Perspectivas Financieras: Maximizando el Retorno de la Inversión en Proyectos de Almacenamiento de Energía en México - <strong> Erika Ramírez </strong> </li><li>12:40 PM | Reciclaje de Baterías de Litio: Soluciones en Almacenamiento de Energía - <strong> Carlos Torres Almazán </strong> </li><li>01:00 PM | Más Que Una Solución Energética – Especialistas en Producción y Gestión Inteligente de Energía -  <strong> Maximiliano Orduño </strong> </li><li> 01:20 PM | Almacenamiento en México: Mejores Prácticas en Proyectos C&I - <strong> Santiago Torres </strong> </li><li> 01:40 PM | APstorage: La Nueva Solución de Almacenamiento de Energía - <strong> Gustavo Marín, Branch Manager LATAM </strong> </li><li> 02:00 PM |Más información por confirmar - <strong> Abdiel Portillo </strong> </li><li> 02:20 PM | Q&A + Comentarios finales - <strong> Daniel Fuchs </strong> </li></ul>",
+        infoWorkshop_en : "<ul><li> 11:40 AM : New Trends in Energy Storage in Emerging Markets: Technology, Operation and Financing - <strong> Alejandro Fajer </strong> </li><li> 12:00 PM | The Fragility of the National Grid and the Integration of New Technologies for its Efficiency -  <strong> Marcel Gómez Pecina </strong>  </li><li> 12:20 PM | Financial Perspectives: Maximizing the Return on Investment in Energy Storage Projects in Mexico - <strong>Erika Ramírez</strong> </li><li> 12:40 PM | Lithium Battery Recycling: Energy Storage Solutions - <strong> Carlos Torres Almazán </strong> </li><li>01:00 PM | More Than An Energy Solution - Specialists in Intelligent Energy Production and Management - <strong> Maximiliano Orduño </strong> </li><li> 01:20 PM | Storage in Mexico: Best Practices in C&I Projects - <strong> Santiago Torres </strong>  </li><li> 01:40 PM | APstorage: The New Energy Storage Solution - <strong> Gustavo Marín, Branch Manager LATAM </strong> </li><li> 02:00 PM | More information to be confirmed - <strong> Abdiel Portillo </strong></li><li> 02:20 PM | Q&A + Closing Remarks - <strong> Daniel Fuchs </strong> </li></ul>",
       },
       {
         hour: '16:00 - 17:00',
@@ -302,7 +304,7 @@ const programSSM = {
         avatar: '',
         position: 'Coordinadora General REDMEREE | Coordinadora de Empleabilidad REDMEREE ',
         position_en: 'General Coordinator REDMEREE | Employability Coordinator REDMEREE',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
     ],
@@ -369,7 +371,7 @@ const programSSM = {
         avatar: '',
         position: 'Director de IAAR',
         position_en: 'Director of IAAR',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -383,7 +385,7 @@ const programSSM = {
         avatar: '',
         position: 'Instructor de SEI',
         position_en: 'SEI Instructor',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -397,7 +399,7 @@ const programSSM = {
         avatar: '',
         position: 'Coordinador Operativo Comité de Gestión de Competencias de Eficiencia Energética y Energía Renovable',
         position_en: 'Operational Coordinator Energy Efficiency and Renewable Energy Competency Management Committee',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -411,7 +413,7 @@ const programSSM = {
         avatar: '',
         position: 'Instructor de SEI',
         position_en: 'SEI Instructor',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {
@@ -425,7 +427,7 @@ const programSSM = {
         avatar: '',
         position: 'InspectaPV',
         position_en: 'InspectaPV',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
     ],
@@ -441,7 +443,7 @@ const programSSM = {
         avatar: '',
         position: 'Redmeré',
         position_en: 'Redmeré',
-        avatars: ['', '', ''],
+        avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
       {

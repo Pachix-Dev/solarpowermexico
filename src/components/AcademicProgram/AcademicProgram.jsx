@@ -84,23 +84,55 @@ export function AcademicProgram() {
                                         <Col lg={8} xs={12} md={9}>
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
-                                            <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                                            <p className='text-position fs-5'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
+                                            <p className='fs-5' dangerouslySetInnerHTML={{ __html: i18n.language === 'en' ? program?.infoWorkshop_en : program?.infoWorkshop }}></p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
+                                            <strong></strong>
                                             <div className='img-responsive'>
                                                 {
-                                                        program.avatars[0] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[0] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[1] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[1] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[2] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[2] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[3] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[3])} src={program.avatars[3]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[4] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[4])} src={program.avatars[4]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[5] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[5])} src={program.avatars[5]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[6] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[6])} src={program.avatars[6]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[7] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[7])} src={program.avatars[7]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[8] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[8])} src={program.avatars[8]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>
@@ -133,26 +165,26 @@ export function AcademicProgram() {
 
                                             </p>
                                         </Col>
-                                        <Col  lg={8} xs={12} md={9}>
+                                        <Col lg={8} xs={12} md={9}>
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='text-position'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                             <div className='img-responsive'>
                                                 {
-                                                        program.avatars[0] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[0] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[1] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[1] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[2] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[2] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>
@@ -192,19 +224,19 @@ export function AcademicProgram() {
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                             <div className='img-responsive'>
                                                 {
-                                                        program.avatars[0] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[0] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[0])} src={program.avatars[0]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[1] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[1] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[1])} src={program.avatars[1]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                                 {
-                                                        program.avatars[2] === ''
-                                                            ? ''
-                                                            : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                    program.avatars[2] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
                                             </div>
                                         </Col>

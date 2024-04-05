@@ -340,18 +340,18 @@ export function Home() {
                     </a>
                   </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className=''>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
-                    href='https://es.antaisolar.com/'
+                    href='https://korepower.com/'
                     target='_blank'
                     rel='noreferrer'
                     className='p-3'
                   >
                     <img
-                      width={150}
-                      src='/antai.webp'
-                      alt='antai'
+                      width={240}
+                      src='/korepower.webp'
+                      alt='korepower'
                       loading='lazy'
                     />
                   </a>
@@ -379,23 +379,6 @@ export function Home() {
               <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
-                    href=''
-                    target='_blank'
-                    rel='noreferrer'
-                    className='p-3'
-                  >
-                    <img
-                      width={200}
-                      src='/solargamo.webp'
-                      alt='solargamo'
-                      loading='lazy'
-                    />
-                  </a>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
-                  <a
                     href='https://www.trinasolar.com/es'
                     target='_blank'
                     rel='noreferrer'
@@ -405,25 +388,6 @@ export function Home() {
                       width={200}
                       src='/trina-solar.webp'
                       alt='trina solar'
-                      loading='lazy'
-                    />
-                  </a>
-                </div>
-              </Col>
-            </Row>
-            <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
-              <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
-                  <a
-                    href='https://korepower.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='p-3'
-                  >
-                    <img
-                      width={240}
-                      src='/korepower.webp'
-                      alt='korepower'
                       loading='lazy'
                     />
                   </a>
@@ -446,6 +410,43 @@ export function Home() {
                   </a>
                 </div>
               </Col>
+            </Row>
+            <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
+            <Col xs={12} sm={6} md={4} lg={2} className=''>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href=''
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={200}
+                      src='/solargamo.webp'
+                      alt='solargamo'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={2}className=''>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://es.antaisolar.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={150}
+                      src='/antai.webp'
+                      alt='antai'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              
             </Row>
           </div>
         </section>

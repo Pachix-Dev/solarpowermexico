@@ -410,6 +410,8 @@ export function Home() {
                   </a>
                 </div>
               </Col>
+            </Row>
+            <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
               <Col xs={12} sm={6} md={4} lg={2} className=''>
               <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
@@ -422,6 +424,23 @@ export function Home() {
                       width={240}
                       src='/korepower.webp'
                       alt='korepower'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://solar-distribution.baywa-re.mx/es/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={250}
+                      src='/BayWar.webp'
+                      alt='trina solar'
                       loading='lazy'
                     />
                   </a>

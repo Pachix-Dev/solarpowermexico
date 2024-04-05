@@ -86,6 +86,9 @@ export function AcademicProgram() {
                                             <p className='fs-5'>{program.name}</p>
                                             <p className='text-position fs-5'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <p className='fs-5' dangerouslySetInnerHTML={{ __html: i18n.language === 'en' ? program?.infoWorkshop_en : program?.infoWorkshop }}></p>
+                                            <a href="https://www.ibesalliance.org/events/energy-storage-masterclass-innovative-business-strategies-cutting-edge-technologies-and-intelligent-systems" target='_blank' className='fs-4 fw-semibold link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' >
+                                                {i18n.language === 'en' ? program?.btnInfoWorkshop_en : program?.btnInfoWorkshop}
+                                            </a>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                             <strong></strong>
                                             <div className='img-responsive'>

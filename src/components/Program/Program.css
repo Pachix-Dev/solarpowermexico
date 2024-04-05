@@ -101,6 +101,7 @@
   box-shadow: 0 0 0 1px #000, 0 0 0 2px #9500f1, 0 0 22px 0 #4e0089;
 }
 
+
 @media (max-width: 600px) {
   .nav-tabs {
     justify-content: center;

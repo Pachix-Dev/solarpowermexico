@@ -21,7 +21,7 @@ export function ModalBanner() {
         >
           <Modal.Body className='m-0 p-0'>
             <Link to='/conference-program'>
-              <img src="/banner_keynotes.webp" alt="conferencias solar storage" width='100%' onClick={() => setModalShow(false)} />
+              <img src="/banner_keynotes_v2.webp" alt="conferencias solar storage" width='100%' onClick={() => setModalShow(false)} />
             </Link>
           </Modal.Body>
         </Modal>

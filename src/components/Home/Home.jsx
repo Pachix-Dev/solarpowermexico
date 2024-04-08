@@ -945,8 +945,8 @@ export function Home() {
                 rel='noreferrer'
               >
                 <img
-                  src='/snecPower.webp'
-                  width={150}
+                  src='/snec-logo-new.webp'
+                  // width={150}
                   height={114}
                   loading='lazy'
                   alt='snecPower'

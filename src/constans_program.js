@@ -4,15 +4,16 @@ const programSSM = {
       {
         hour: '12:00 - 12:30',
         name: '',
-        title: 'BESS: 10 puntos clave para instalar almacenamiento en las industrias',
+        title: 'BESS para soporte a la integración generación renovable',
         title_en: 'BESS: 10 key points to install storage in industries',
-        speakers: 'Ricardo Nava',
-        description: '',
-        description_en : '',
-        position: 'Director de Instalaciones e Ingeniería',
-        position_en: 'Director of Facilities and Engineering',
+        speakers: 'Billy Martínez',
+        description: 'Descubre como los sistemas de almacenamiento de energía (BESS) de Hitachi Energy pueden ayudar a una integración suave y rápida de las energías renovables al sistema eléctrico.',
+        description_en : 'Find out how Hitachi Energy\'s energy storage systems (BESS) can support the smooth and rapid integration of renewable energy into the power system.',
+        position: '',
+        position_en: '',
         avatars: ['', '', '', '', '', '', '', '', ''],
-        id: [0]
+        id: [0],
+        company : 'HITACHI (BESS)'
       },
       {
         hour: '12:45 – 13:15',
@@ -25,20 +26,22 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '/speakers/alejandro-fajer.webp', '', '', '', '', '', '', ''],
-        id: [0, 11]
+        id: [0, 11],
+        company : 'QUARTUX'
       },
       {
         hour: '13:30 –14:00',
         name: '',
-        title: 'BATTERY DEPOT',
-        title_en: 'BATTERY DEPOT',
-        speakers: '',
+        title: 'Nuevas Oportunidades de negocio y casos de éxito con Battery Depot y Victron Energy',
+        title_en: 'New business opportunities and success stories with Battery Depot and Victron Energy',
+        speakers: 'Ing. Karen Lugo | Ing. David Gutierrez',
         description: '',
         description_en : '',
         position: '',
         position_en: '',
         avatars: ['', '', '', '', '', '', '', '', ''],
-        id: [0]
+        id: [0],
+        company : 'BATTERY DEPOT | VICTRON ENERGY '
       },
       {
         hour: '14:15 –14:45',
@@ -51,7 +54,8 @@ const programSSM = {
         position: 'Branch Manager en LATAM APsystems',
         position_en: 'Branch Manager at LATAM APsystems',
         avatars: ['/speakers/gustavo_marin.webp', '', '', '', '', '', '', '', ''],
-        id: [2]
+        id: [2],
+        company : 'AP systems '
       },
       // {
       //   hour: '15:00 –16:00',
@@ -77,7 +81,8 @@ const programSSM = {
         position: 'Gerente Regional Ventas LATAM, at Sol-Ark',
         position_en: 'Regional Sales Manager LATAM, at Sol-Ark',
         avatars: ['/speakers/erick-moller.webp', '', '', '', '', '', '', '', ''],
-        id: [9]
+        id: [9],
+        company : 'SOLARK'
       },
       {
         hour: '17:30 - 18:00',
@@ -91,7 +96,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', '', '', '', '', '', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
     ],
     april_18: [
@@ -106,7 +112,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
       {
         hour: '12:45 –13:15',
@@ -119,7 +126,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
       {
         hour: '13:30 –14:00',
@@ -132,7 +140,8 @@ const programSSM = {
         position: 'Director de construcción, en Energía Real | Director de Ventas para Latinoamérica & Europa, en S-5!',
         position_en: 'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!',
         avatars: ['/speakers/alejandro_teran.webp', '/speakers/juan_carlos_fuentes.webp', ''],
-        id: [1, 3]
+        id: [1, 3],
+        company : ''
       },
       {
         hour: '14:15 –14:45',
@@ -145,7 +154,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['/speakers/ivan_zavala_vera.webp', '', ''],
-        id: [5]
+        id: [5],
+        company : ''
       },
       // {
       //   hour: '15:00 –16:00',
@@ -171,7 +181,8 @@ const programSSM = {
         description: 'Conoce las oportunidades de negocio y alcance de los equipos de la marca holandesa número 1 en el mercado del Almacenamiento de Energía',
         description_en: 'Learn about the business opportunities and scope of the equipment of the number 1 Dutch brand in the Energy Storage market.',
         avatars: ['/speakers/david-gutierrez.webp', '', ''],
-        id: [10]
+        id: [10],
+        company : ''
       },
       {
         hour: '16:45 –17:15',
@@ -185,7 +196,8 @@ const programSSM = {
         description: 'Energía solar al alcance de tus manos: herramientas financieras para proyectos fotovoltaicos, además de explorar el futuro de la energía con sistemas de almacenamiento en México',
         description_en: 'Solar energy at your fingertips: Financial Tools for Photovoltaic projects, in addition to exploring the future of energy with storage systems in Mexico',
         avatars: ['/speakers/raul_romay.webp', '/speakers/mayela_cinfuentes.webp', ''],
-        id: [6,7,0]
+        id: [6,7,0],
+        company : ''
       },
       {
         hour: '17:30 –18:00',
@@ -196,7 +208,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       }
     ],
     april_19: [
@@ -208,7 +221,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
       {
         hour: '12:45 –13:30',
@@ -221,7 +235,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['/speakers/jose_adolfo.webp', '', ''],
-        id: [4]
+        id: [4],
+        company : ''
       },
       {
         hour: '13:30 –14:00',
@@ -235,7 +250,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['/speakers/javier_lopez.webp', '', ''],
-        id: [8]
+        id: [8],
+        company : ''
       },
       {
         hour: '14:15 –14:45',
@@ -248,7 +264,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
       {
         hour: '15:00 –15:30',
@@ -259,7 +276,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       },
       {
         hour: '15:45 - 16:30',
@@ -270,7 +288,8 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['', '', ''],
-        id: [0]
+        id: [0],
+        company : ''
       }
     ]
   },

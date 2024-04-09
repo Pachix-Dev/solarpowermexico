@@ -131,7 +131,7 @@ const programSSM = {
       // },
       {
         hour: '13:30 –14:00',
-        name: 'S-5!',
+        name: '',
         title: 'Caso de estudio: Comportamiento de un proyecto FV en techo metálico engargolado frente a huracán categoría 5 en Acapulco',
         title_en: 'Case study: Performance of a PV project on a metal roof with a metal roof in the face of a category 5 hurricane in Acapulco, Mexico.',
         speakers: 'Alejandro Terán | Juan Carlos Fuentes ',
@@ -141,7 +141,7 @@ const programSSM = {
         position_en: 'Director of Construction, at Energía Real | Sales Director for Latin America & Europe at S-5!',
         avatars: ['/speakers/alejandro_teran.webp', '/speakers/juan_carlos_fuentes.webp', ''],
         id: [1, 3],
-        company : ''
+        company : 'S-5!'
       },
       {
         hour: '14:15 –14:45',
@@ -155,7 +155,7 @@ const programSSM = {
         position_en: '',
         avatars: ['/speakers/ivan_zavala_vera.webp', '', ''],
         id: [5],
-        company : ''
+        company : 'METERING'
       },
       // {
       //   hour: '15:00 –16:00',
@@ -182,7 +182,7 @@ const programSSM = {
         description_en: 'Learn about the business opportunities and scope of the equipment of the number 1 Dutch brand in the Energy Storage market.',
         avatars: ['/speakers/david-gutierrez.webp', '', ''],
         id: [10],
-        company : ''
+        company : 'VICTRON ENERGY'
       },
       {
         hour: '16:45 –17:15',
@@ -197,7 +197,7 @@ const programSSM = {
         description_en: 'Solar energy at your fingertips: Financial Tools for Photovoltaic projects, in addition to exploring the future of energy with storage systems in Mexico',
         avatars: ['/speakers/raul_romay.webp', '/speakers/mayela_cinfuentes.webp', ''],
         id: [6,7,0],
-        company : ''
+        company : 'SOLAREVER'
       },
       {
         hour: '17:30 –18:00',
@@ -229,7 +229,7 @@ const programSSM = {
       },
       {
         hour: '12:45 –13:30',
-        name: 'GRUNDFOS',
+        name: '',
         title: 'Sistemas de Bombeo Solar Fotovoltaico: Una visión general y el papel de Grundfos en el sector',
         title_en: 'Photovoltaic Solar Pumping Systems: An overview and the role of Grundfos in the sector',
         speakers: 'José Adolfo Ortiz Martínez',
@@ -239,7 +239,7 @@ const programSSM = {
         position_en: '',
         avatars: ['/speakers/jose_adolfo.webp', '', ''],
         id: [4],
-        company : ''
+        company : 'GRUNDFOS'
       },
       {
         hour: '13:30 –14:00',
@@ -254,7 +254,7 @@ const programSSM = {
         position_en: '',
         avatars: ['/speakers/javier_lopez.webp', '', ''],
         id: [8],
-        company : ''
+        company : 'SOLAREVER'
       },
       {
         hour: '14:15 –14:45',

@@ -34,7 +34,7 @@ const programSSM = {
         name: '',
         title: 'Nuevas Oportunidades de negocio y casos de éxito con Battery Depot y Victron Energy',
         title_en: 'New business opportunities and success stories with Battery Depot and Victron Energy',
-        speakers: 'Ing. Karen Lugo | Ing. David Gutierrez',
+        speakers: 'Karen Lugo | David Gutierrez',
         description: '',
         description_en : '',
         position: '',
@@ -398,20 +398,20 @@ const programSSM = {
         avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
-      {
-        hour: '12:00 - 13:00',
-        name: '',
-        title: 'SEI 1',
-        title_en: 'SEI 1',
-        description: '',
-        description_en : '',
-        speakers: '',
-        avatar: '',
-        position: 'Instructor de SEI',
-        position_en: 'SEI Instructor',
-        avatars: ['', '', '', '', '', '', '', '', ''],
-        id: [0]
-      },
+      // {
+      //   hour: '12:00 - 13:00',
+      //   name: '',
+      //   title: 'SEI 1',
+      //   title_en: 'SEI 1',
+      //   description: '',
+      //   description_en : '',
+      //   speakers: '',
+      //   avatar: '',
+      //   position: 'Instructor de SEI',
+      //   position_en: 'SEI Instructor',
+      //   avatars: ['', '', '', '', '', '', '', '', ''],
+      //   id: [0]
+      // },
       {
         hour: '13:00 - 14:00',
         name: '',
@@ -426,20 +426,20 @@ const programSSM = {
         avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0]
       },
-      {
-        hour: '16:00 - 17:00',
-        name: '',
-        title: 'SEI 2',
-        title_en: 'SEI 2',
-        description: '',
-        description_en : '',
-        speakers: '',
-        avatar: '',
-        position: 'Instructor de SEI',
-        position_en: 'SEI Instructor',
-        avatars: ['', '', '', '', '', '', '', '', ''],
-        id: [0]
-      },
+      // {
+      //   hour: '16:00 - 17:00',
+      //   name: '',
+      //   title: 'SEI 2',
+      //   title_en: 'SEI 2',
+      //   description: '',
+      //   description_en : '',
+      //   speakers: '',
+      //   avatar: '',
+      //   position: 'Instructor de SEI',
+      //   position_en: 'SEI Instructor',
+      //   avatars: ['', '', '', '', '', '', '', '', ''],
+      //   id: [0]
+      // },
       {
         hour: '17:00 - 18:00',
         name: '',

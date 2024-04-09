@@ -13,7 +13,7 @@ const programSSM = {
         position_en: '',
         avatars: ['', '', '', '', '', '', '', '', ''],
         id: [0],
-        company : 'HITACHI (BESS)'
+        company : 'hitachi energy (BESS)'
       },
       {
         hour: '12:45 – 13:15',
@@ -216,13 +216,16 @@ const programSSM = {
       {
         hour: '12:00 - 12:30',
         name: '',
-        title: 'BATTERY DEPOT',
-        title_en: 'BATTERY DEPOT',
+        title: 'Tecnologías detrás del retrofit de vehículos eléctricos',
+        title_en: 'Technologies behind the retrofitting of electric vehicles',
+        speakers: 'Ing. Abel Villa',
         position: '',
         position_en: '',
+        description: '',
+        description_en: '',
         avatars: ['', '', ''],
         id: [0],
-        company : ''
+        company : 'BATTERY DEPOT'
       },
       {
         hour: '12:45 –13:30',

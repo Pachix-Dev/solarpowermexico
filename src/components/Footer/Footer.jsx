@@ -37,7 +37,7 @@ export function Footer() {
           </Col>
           <Col xs={6} md={3} lg={3} className='d-flex justify-content-center  align-items-center'>
             <a href="https://pv.snec.org.cn/?locale=en-US" target='_blank'>
-              <img src="/SNEC logo wht.webp" alt="" width='120' loading='lazy' />
+              <img src="/snec_logo_v2.webp" alt="" width='190' loading='lazy' />
             </a>
           </Col>
         </Row>

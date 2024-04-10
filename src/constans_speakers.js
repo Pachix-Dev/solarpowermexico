@@ -401,7 +401,7 @@ const speakersEdu=[
     {
         id: 18,
         name: 'Abdiel Portillo',
-        avatar: '/speakers/speakers_ssm_eco.png',
+        avatar: '/speakers/abdiel-portillo.webp',
         role_es: "Asesor Técnico Comercial, de Fronius Mexico",
         role_en: "Technical Sales Advisor, Fronius Mexico",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",

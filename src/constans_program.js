@@ -12,7 +12,7 @@ const programSSM = {
         position: '',
         position_en: '',
         avatars: ['/speakers/billy-martinez.webp', '', '', '', '', '', '', '', ''],
-        id: [0],
+        id: [26],
         company : 'hitachi energy (BESS)'
       },
       {

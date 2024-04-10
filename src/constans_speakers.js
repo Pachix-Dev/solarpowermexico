@@ -470,6 +470,15 @@ const speakersEdu=[
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
         resume_en: "Information is being updated. Please stay tuned.",
     },
+    {
+        id: 26,
+        name: 'Billy Martínez',
+        avatar: '/speakers/billy-martinez.webp',
+        role_es: "",
+        role_en: "",
+        resume_es: "La información se está actualizando. Por favor, mantente atento.",
+        resume_en: "Information is being updated. Please stay tuned.",
+    },
     // {
     //     id: 0,
     //     name: '',

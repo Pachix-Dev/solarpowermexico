@@ -11,7 +11,7 @@ const programSSM = {
         description_en : 'Find out how Hitachi Energy\'s energy storage systems (BESS) can support the smooth and rapid integration of renewable energy into the power system.',
         position: '',
         position_en: '',
-        avatars: ['', '', '', '', '', '', '', '', ''],
+        avatars: ['/speakers/billy-martinez.webp', '', '', '', '', '', '', '', ''],
         id: [0],
         company : 'hitachi energy (BESS)'
       },

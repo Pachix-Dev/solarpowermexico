@@ -699,7 +699,7 @@ const programSSM = {
         ]
       },
       {
-        hour: '17:00 - 16:00',
+        hour: '17:00 - 18:00',
         title: 'Entrega de EUPD Installer Awards',
         title_en: 'EUPD Installer Awards Ceremony',
         description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',

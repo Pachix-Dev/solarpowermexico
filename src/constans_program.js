@@ -519,8 +519,8 @@ const programSSM = {
             position_en : 'Managing Partner at Cosmo Consulting'
           },
           {
-            id: 20,
-            photo: '',
+            id: 38,
+            photo: '/speakers/patricia-tatto.webp',
             speakers_name:'Patricia Tatto',
             position : 'Vicepresidenta de ATA renewables America',
             position_en : 'Vice President at ATA renewables America '
@@ -595,8 +595,8 @@ const programSSM = {
         description_en: 'LONGi ESG, a necessary commitment to ensure a sustainable future for all.',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 37,
+            photo: '/speakers/alba-min-ye.webp',
             speakers_name:'Alba Min Ye',
             position : 'Directora General de la región MCC de LONGi',
             position_en : 'General Manager MCC region for LONGi'
@@ -1050,8 +1050,8 @@ const conferencesSSM = {
       peakers:'Patricia Tattó | José María Lijambio',
       position:'Ata Renewables | CCN',
       position_en: 'Ata Renewables | CCN',
-      avatars: ['', '', ''],
-      id: []
+      avatars: ['/speakers/patricia-tatto.webp', '', ''],
+      id: [26]
     },
     {
       type:'Panel',

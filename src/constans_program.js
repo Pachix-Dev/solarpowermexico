@@ -47,8 +47,8 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 27,
+            photo: '/speakers/karen-lugo.webp',
             speakers_name:'Karen Lugo',
             position : 'Departamento de ingeniería de Battery Depot',
             position_en : 'Battery Depot\'s Engineering Department'
@@ -142,8 +142,8 @@ const programSSM = {
         description_en : 'Longi presents the latest in back contact technology for the HiMO X6 models and the recent introduction to the market of HiMO X6 Anti dust. LONGi innovation is continuously raising the bar, setting conversion efficiency world records, and staying on the leading edge of P-type TOPCON, N-type TOPCON, N-type HJT, P-type HJT and other solar technologies. Customer value is at the core of LONGi\’s philosophy, and our life-cycle quality approach can be found in every link of product production and application from component design to mass production and after-sales support, to ensure the highest quality, reliability and performance for our customers.',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 33,
+            photo: '/speakers/kennia-espinoza.webp',
             speakers_name:'Kennia Espinoza',
             position : 'Director de Ventas de la DG México',
             position_en : 'Sales Director DG Mexico'
@@ -479,15 +479,15 @@ const programSSM = {
         description_en: 'This workshop aims to provide women in the energy industry with the necessary tools and skills to advance in their careers, overcome challenges, and contribute significantly to the field of energy.',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 29,
+            photo: '/speakers/aidee-zamora.webp',
             speakers_name:'Aideé Zamora',
             position : 'Coordinadora General REDMEREE',
             position_en : 'General Coordinator REDMEREE'
           },
           {
-            id: 0,
-            photo: '',
+            id: 32,
+            photo: '/speakers/isabel-bazan.webp',
             speakers_name:'Isabel Bazán',
             position : 'Coordinadora de Empleabilidad REDMEREE',
             position_en : 'Employability Coordinator REDMEREE'
@@ -561,8 +561,8 @@ const programSSM = {
             position_en : 'Regional Sales Manager America ATESS POWER TECHNOLOGY'
           },
           {
-            id: 0,
-            photo: '',
+            id: 30,
+            photo: '/speakers/david-aguirre.webp',
             speakers_name:' David Aguirre',
             position : 'Responsable de sistemas de almacenamiento, en BayWa R.E. México',
             position_en : 'Storage Systems Manager, at BayWa R.E. México'
@@ -631,15 +631,15 @@ const programSSM = {
         description_en: 'In this session, you\'ll learn how to look at the roof and PV system as a single asset with supporting. Additionally, this course outlines best practices and “how-to’s” for installing rail-less solar on metal roofs, including accessories, such as microinverters and optimizers. Learning Objectives: -Learn why metal roofing is the perfect platform for solar PV & the ROI of PV on metal vs. other roof types.-Understand the many advantages of rail-less PV mounting systems.Discover best practices for installing rail-less solar on metal roof.',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 34,
+            photo: '/speakers/salvador-barba.webp',
             speakers_name:'Salvador Barba',
             position : 'Gerente de Ventas para LATAM, en S-5!',
             position_en : 'LATAM Sales Manager'
           },
           {
-            id: 0,
-            photo: '',
+            id: 31,
+            photo: '/speakers/erick-rosa.webp',
             speakers_name:'Erick de la Rosa',
             position : 'Gerente de Ventas para LATAM, en S-5!',
             position_en : 'LATAM Sales Manager'
@@ -708,11 +708,11 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 29,
+            photo: '/speakers/aidee-zamora.webp',
             speakers_name:'Aideé Zamora',
-            position : 'Redmeré',
-            position_en : 'Redmeré'
+            position : 'Coordinadora General REDMEREE',
+            position_en : 'General Coordinator REDMEREE'
           },
         ]
       },
@@ -756,8 +756,8 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 35,
+            photo: '/speakers/casiopea_ramirez.webp',
             speakers_name:'Casiopea Ramírez',
             position : 'Socia de Fresh Energy Consulting',
             position_en : 'Partner of Fresh Energy Consulting'
@@ -772,8 +772,8 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 36,
+            photo: '/speakers/gilberto_sanchez.webp',
             speakers_name:'Gilberto Sánchez',
             position : 'Secretario Legislativo en la Asociación Nacional de Energía Solar (ANES)',
             position_en : 'National Solar Energy Association Legislative Secretary'

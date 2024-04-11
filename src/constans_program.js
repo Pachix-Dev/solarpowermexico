@@ -825,15 +825,8 @@ const programSSM = {
             id: 0,
             photo: '',
             speakers_name:'Luciano Ángel Estévez',
-            position : '',
-            position_en : ''
-          },
-          {
-            id: 0,
-            photo: '',
-            speakers_name:' Estevez Books',
-            position : '',
-            position_en : ''
+            position : 'Estevez Books',
+            position_en : 'Estevez Books'
           },
         ]
       },
@@ -872,22 +865,6 @@ const programSSM = {
           },
         ]
       },
-      // {
-      //   hour: '',
-      //   title: 'Entrega de EUPD Installer Awards',
-      //   title_en: 'EUPD Installer Awards Ceremony',
-      //   description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',
-      //   description_en : 'Solar + Storage Mexico and EUPD Research are proud to present for the first time in Mexico the prestigious EUPD Research 2024 Best Branded Installer Award. This award recognizes and celebrates excellence and innovation in the solar industry, honoring the leaders driving the energy transition in our country.',
-      //   person: [
-      //     {
-      //       id: 0,
-      //       photo: '',
-      //       speakers_name:'Solar + Storage Mexico y EUPD Research',
-      //       position : '',
-      //       position_en : ''
-      //     },
-      //   ]
-      // },
     ]
   }
 }

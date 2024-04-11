@@ -683,7 +683,7 @@ const programSSM = {
         ]
       },
       {
-        hour: '17:00 - 18:00',
+        hour: '16:00 - 17:00',
         title: '¿Son suficientes las normas que regulan el sector fotovoltaico para asegurar la calidad y la seguridad de las instalaciones?',
         title_en: 'Are the regulations governing the photovoltaic sector sufficient to ensure the quality and safety of installations?',
         description: '',
@@ -695,6 +695,22 @@ const programSSM = {
             speakers_name:'Leonardo Velasco Ochoa',
             position : 'InspectaPV',
             position_en : 'InspectaPV'
+          },
+        ]
+      },
+      {
+        hour: '17:00 - 16:00',
+        title: 'Entrega de EUPD Installer Awards',
+        title_en: 'EUPD Installer Awards Ceremony',
+        description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',
+        description_en : 'Solar + Storage Mexico and EUPD Research are proud to present for the first time in Mexico the prestigious EUPD Research 2024 Best Branded Installer Award.This award recognizes and celebrates excellence and innovation in the solar industry, honoring the leaders driving the energy transition in our country.',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Solar + Storage Mexico y EUPD Research',
+            position : '',
+            position_en : ''
           },
         ]
       },
@@ -734,22 +750,6 @@ const programSSM = {
       },
       {
         hour: '13:00 - 14:00',
-        title: 'Soluciones de almacenamiento y cero inyección',
-        title_en: 'Storage and zero-injection solutions',
-        description: '',
-        description_en : '',
-        person: [
-          {
-            id: 0,
-            photo: '',
-            speakers_name:'Sergio Rodríguez Solis',
-            position : '',
-            position_en : ''
-          },
-        ]
-      },
-      {
-        hour: '16:00 - 17:00',
         title: 'El modelo de Abasto Aislado',
         title_en: 'The Isolated Supply model',
         description: '',
@@ -761,6 +761,22 @@ const programSSM = {
             speakers_name:'Casiopea Ramírez',
             position : 'Socia de Fresh Energy Consulting',
             position_en : 'Partner of Fresh Energy Consulting'
+          },
+        ]
+      },
+      {
+        hour: '16:00 - 17:00',
+        title: 'Soluciones de almacenamiento y cero inyección',
+        title_en: 'Storage and zero-injection solutions',
+        description: '',
+        description_en : '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Sergio Rodríguez Solis',
+            position : '',
+            position_en : ''
           },
         ]
       },
@@ -784,6 +800,22 @@ const programSSM = {
     april_19: [
       {
         hour: '11:00 - 12:00',
+        title: 'El Futuro del Sector Eléctrico de México',
+        title_en: 'The Future of Mexico\'s Electricity Sector',
+        description: '',
+        description_en : '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Jorge Musalem',
+            position : 'CFE',
+            position_en : 'CFE'
+          },
+        ]
+      },
+      {
+        hour: '12:00 - 13:00',
         title: 'Tecnologías para protección por falla de arco en sistemas fotovoltaicos',
         title_en: 'Technologies for arc-fault protection in photovoltaic systems',
         description: '',
@@ -840,22 +872,22 @@ const programSSM = {
           },
         ]
       },
-      {
-        hour: '',
-        title: 'Entrega de EUPD Installer Awards',
-        title_en: 'EUPD Installer Awards Ceremony',
-        description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',
-        description_en : 'Solar + Storage Mexico and EUPD Research are proud to present for the first time in Mexico the prestigious EUPD Research 2024 Best Branded Installer Award. This award recognizes and celebrates excellence and innovation in the solar industry, honoring the leaders driving the energy transition in our country.',
-        person: [
-          {
-            id: 0,
-            photo: '',
-            speakers_name:'Solar + Storage Mexico y EUPD Research',
-            position : '',
-            position_en : ''
-          },
-        ]
-      },
+      // {
+      //   hour: '',
+      //   title: 'Entrega de EUPD Installer Awards',
+      //   title_en: 'EUPD Installer Awards Ceremony',
+      //   description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',
+      //   description_en : 'Solar + Storage Mexico and EUPD Research are proud to present for the first time in Mexico the prestigious EUPD Research 2024 Best Branded Installer Award. This award recognizes and celebrates excellence and innovation in the solar industry, honoring the leaders driving the energy transition in our country.',
+      //   person: [
+      //     {
+      //       id: 0,
+      //       photo: '',
+      //       speakers_name:'Solar + Storage Mexico y EUPD Research',
+      //       position : '',
+      //       position_en : ''
+      //     },
+      //   ]
+      // },
     ]
   }
 }

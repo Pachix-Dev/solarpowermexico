@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import { Button, Container, Nav, Tab, Tabs } from "react-bootstrap";
+import { Button, Container, Nav, Tab, Tabs, Image  } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { programSSM } from "../../constans_program";
 import { speakersEdu } from '../../constans_speakers'
@@ -91,7 +91,7 @@ export function AcademicProgram() {
                                             </a>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
                                             <strong></strong>
-                                            <div className='img-responsive'>
+                                            {/* <div className='img-responsive'>
                                                 {
                                                     program.avatars[0] === ''
                                                         ? ''
@@ -137,7 +137,28 @@ export function AcademicProgram() {
                                                         ? ''
                                                         : <img onClick={() => handleModal(program?.id[8])} src={program.avatars[8]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
-                                            </div>
+                                            </div> */}
+
+                                            {/* aquí se muestra la información de los Speakers */}
+                                            <Row className=" d-flex justify-content-start">
+                                                {program.person && program.person.map((infoSpeaker, index) =>
+                                                    <Col xs={4} lg={4} key="" className="text-center px-3">
+                                                        {infoSpeaker.photo && ( // Verifica si hay una foto
+                                                            <Image
+                                                                onClick={() => handleModal(infoSpeaker.id)}
+                                                                src={infoSpeaker.photo}
+                                                                width={100}
+                                                                height={100}
+                                                                className='rounded-circle program-date-avatar me-2'
+                                                                alt='speaker'
+                                                            />
+                                                        )}
+                                                        <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                                            <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                                                    </Col>
+                                                )}
+                                            </Row>
+
                                         </Col>
                                     </Row>
                                 )
@@ -173,7 +194,7 @@ export function AcademicProgram() {
                                             <p className='fs-5 text-uppercase fw-bolder fst-italic'>{program.company}</p>
                                             <p className='text-position fs-5'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
-                                            <div className='img-responsive'>
+                                            {/* <div className='img-responsive'>
                                                 {
                                                     program.avatars[0] === ''
                                                         ? ''
@@ -189,7 +210,58 @@ export function AcademicProgram() {
                                                         ? ''
                                                         : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
-                                            </div>
+                                                {
+                                                    program.avatars[3] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[3])} src={program.avatars[3]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[4] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[4])} src={program.avatars[4]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[5] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[5])} src={program.avatars[5]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[6] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[6])} src={program.avatars[6]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[7] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[7])} src={program.avatars[7]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                                {
+                                                    program.avatars[8] === ''
+                                                        ? ''
+                                                        : <img onClick={() => handleModal(program?.id[8])} src={program.avatars[8]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
+                                                }
+                                            </div> */}
+
+                                            {/* aquí se muestra la información de los Speakers */}
+                                            <Row className=" d-flex justify-content-start">
+                                                {program.person && program.person.map((infoSpeaker, index) =>
+                                                    <Col xs={4} lg={4} key="" className="text-center px-3">
+                                                        {infoSpeaker.photo && ( // Verifica si hay una foto
+                                                            <Image
+                                                                onClick={() => handleModal(infoSpeaker.id)}
+                                                                src={infoSpeaker.photo}
+                                                                width={100}
+                                                                height={100}
+                                                                className='rounded-circle program-date-avatar me-2'
+                                                                alt='speaker'
+                                                            />
+                                                        )}
+                                                        <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                                            <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                                                    </Col>
+                                                )}
+                                            </Row>
+
                                         </Col>
                                     </Row>
                                 )
@@ -224,7 +296,7 @@ export function AcademicProgram() {
                                             <p className='text-start text-uppercase fs-2 fw-bold text-light'>{i18n.language === 'en' ? program?.title_en : program?.title}</p>
                                             <p className='fs-5 text-uppercase fw-bolder fst-italic'>{program.company}</p>                                            <p className='text-position fs-5'>{i18n.language === 'en' ? program?.description_en : program?.description}</p>
                                             <p className='fs-5 fw-bold'>{program.speakers} <br /><span className='fw-normal fst-italic'>{i18n.language === 'en' ? program?.position_en : program?.position}</span></p>
-                                            <div className='img-responsive'>
+                                            {/* <div className='img-responsive'>
                                                 {
                                                     program.avatars[0] === ''
                                                         ? ''
@@ -240,7 +312,27 @@ export function AcademicProgram() {
                                                         ? ''
                                                         : <img onClick={() => handleModal(program?.id[2])} src={program.avatars[2]} width={100} height={100} className='rounded-circle program-date-avatar ms-2' alt='speaker' />
                                                 }
-                                            </div>
+                                            </div> */}
+
+                                            {/* aquí se muestra la información de los Speakers */}
+                                            <Row className=" d-flex justify-content-start">
+                                                {program.person && program.person.map((infoSpeaker, index) =>
+                                                    <Col xs={4} lg={4} key="" className="text-center px-3">
+                                                        {infoSpeaker.photo && ( // Verifica si hay una foto
+                                                            <Image
+                                                                onClick={() => handleModal(infoSpeaker.id)}
+                                                                src={infoSpeaker.photo}
+                                                                width={100}
+                                                                height={100}
+                                                                className='rounded-circle program-date-avatar me-2'
+                                                                alt='speaker'
+                                                            />
+                                                        )}
+                                                        <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                                            <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                                                    </Col>
+                                                )}
+                                            </Row>
                                         </Col>
                                     </Row>
                                 )

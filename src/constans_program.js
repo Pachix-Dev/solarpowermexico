@@ -519,9 +519,9 @@ const programSSM = {
             position_en : 'Managing Partner at Cosmo Consulting'
           },
           {
-            id: 38,
+            id: 20,
             photo: '/speakers/patricia-tatto.webp',
-            speakers_name:'Patricia Tatto',
+            speakers_name:'Patricia Tattó',
             position : 'Vicepresidenta de ATA renewables America',
             position_en : 'Vice President at ATA renewables America '
           },
@@ -554,18 +554,18 @@ const programSSM = {
             position_en : 'Principal at SEBA - Baja California Environmental Services'
           },
           {
-            id: 0,
-            photo: '',
-            speakers_name:'Monica Huang',
-            position : 'Directora Regional de Ventas para América, ATESS POWER TECHNOLOGY',
-            position_en : 'Regional Sales Manager America ATESS POWER TECHNOLOGY'
-          },
-          {
             id: 30,
             photo: '/speakers/david-aguirre.webp',
             speakers_name:' David Aguirre',
             position : 'Responsable de sistemas de almacenamiento, en BayWa R.E. México',
             position_en : 'Storage Systems Manager, at BayWa R.E. México'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Monica Huang',
+            position : 'Directora Regional de Ventas para América, ATESS POWER TECHNOLOGY',
+            position_en : 'Regional Sales Manager America ATESS POWER TECHNOLOGY'
           },
         ],
       },

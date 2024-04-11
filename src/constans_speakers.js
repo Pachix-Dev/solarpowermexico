@@ -418,12 +418,12 @@ const speakersEdu=[
     },
     {
         id: 20,
-        name: 'Patricia Tatto',
+        name: "Patricia Tattó",
         avatar: '/speakers/patricia-tatto.webp',
-        role_es: "Vicepresidenta de ATA renewables America",
-        role_en: "Vice President of ATA renewables America",
-        resume_es: "La información se está actualizando. Por favor, mantente atento.",
-        resume_en: "Information is being updated. Please stay tuned.",
+        role_es: "Asesora en VP Ata Renewables America",
+        role_en: "Advisor at VP Ata Renewables America",
+        resume_es: "Licenciada en derecho por la Universidad Iberoamericana, con estudios en Derechos Humanos, por la Universidad Birbeck, en Reino Unido. ha dedicado su carrera a desarrollar e impulsar la industria de Energía Renovable en los mercados energéticos internacionales, como asesora técnica y guía de negocios en la creación de estrategias para la industria en nuevos mercados.En VP Ata Renewables America, asesora a toda la cadena de valor sobre la implementación exitosa de proyectos de energía renovable a gran escala. Fundó y es la actual presidenta de Mujeres en Energía Renovable Mexico AC, una organización sin fines de lucro en todo el sector de las energías renovables, con el propósito de empoderar a las mujeres en el campo de la energía renovable en LATAM.",
+        resume_en: "With a law degree from the Universidad Iberoamericana, with studies in Human Rights from Birbeck University in the United Kingdom, she has dedicated her career to developing and promoting the Renewable Energy industry in international energy markets, as a technical advisor and business guide in the creation of strategies for the industry in new markets. At VP Ata Renewables America, she advises the entire value chain on the successful implementation of large-scale renewable energy projects. She founded and is the current president of Mujeres en Energía Renovable Mexico AC, a non-profit organization in the entire renewable energy sector, with the purpose of empowering women in the field of renewable energy in LATAM.",
     },
     {
         id: 21,
@@ -577,15 +577,6 @@ const speakersEdu=[
         role_en: "General Manager MCC region for LONGi",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
         resume_en: "Information is being updated. Please stay tuned.",
-    },
-    {
-        id: 38,
-        name: "Patricia Tattó",
-        avatar: '/speakers/patricia-tatto.webp',
-        role_es: "Asesora en VP Ata Renewables America",
-        role_en: "Advisor at VP Ata Renewables America",
-        resume_es: "Licenciada en derecho por la Universidad Iberoamericana, con estudios en Derechos Humanos, por la Universidad Birbeck, en Reino Unido. ha dedicado su carrera a desarrollar e impulsar la industria de Energía Renovable en los mercados energéticos internacionales, como asesora técnica y guía de negocios en la creación de estrategias para la industria en nuevos mercados.En VP Ata Renewables America, asesora a toda la cadena de valor sobre la implementación exitosa de proyectos de energía renovable a gran escala. Fundó y es la actual presidenta de Mujeres en Energía Renovable Mexico AC, una organización sin fines de lucro en todo el sector de las energías renovables, con el propósito de empoderar a las mujeres en el campo de la energía renovable en LATAM.",
-        resume_en: "With a law degree from the Universidad Iberoamericana, with studies in Human Rights from Birbeck University in the United Kingdom, she has dedicated her career to developing and promoting the Renewable Energy industry in international energy markets, as a technical advisor and business guide in the creation of strategies for the industry in new markets. At VP Ata Renewables America, she advises the entire value chain on the successful implementation of large-scale renewable energy projects. She founded and is the current president of Mujeres en Energía Renovable Mexico AC, a non-profit organization in the entire renewable energy sector, with the purpose of empowering women in the field of renewable energy in LATAM.",
     },
     // {
     //     id: 0,

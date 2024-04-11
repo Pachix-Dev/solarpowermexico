@@ -826,7 +826,6 @@ const programSSM = {
       },
       {
         hour: '16:00 - 17:00',
-        name: '',
         title: 'Financiamiento y PPA para sistemas fotovoltaicos y de almacenamiento (BESS)',
         title_en: 'Financing and PPAs for photovoltaic and storage systems (BESS)',
         description: '',
@@ -838,6 +837,22 @@ const programSSM = {
             speakers_name:'Chantal Sanabria',
             position : 'Energía Real',
             position_en : 'Energía Real'
+          },
+        ]
+      },
+      {
+        hour: '',
+        title: 'Entrega de EUPD Installer Awards',
+        title_en: 'EUPD Installer Awards Ceremony',
+        description: 'Solar + Storage Mexico y EUPD Research se enorgullecen en presentar por primera vez en México el prestigioso Premio al Mejor Instalador de Marca EUPD Research 2024. Este galardón reconoce y celebra la excelencia y la innovación en la industria solar, honrando a los líderes que impulsan la transición energética en nuestro país.',
+        description_en : 'Solar + Storage Mexico and EUPD Research are proud to present for the first time in Mexico the prestigious EUPD Research 2024 Best Branded Installer Award. This award recognizes and celebrates excellence and innovation in the solar industry, honoring the leaders driving the energy transition in our country.',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Solar + Storage Mexico y EUPD Research',
+            position : '',
+            position_en : ''
           },
         ]
       },

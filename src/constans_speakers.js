@@ -491,7 +491,7 @@ const speakersEdu=[
     {
         id: 28,
         name: 'Abel Villa',
-        avatar: '',
+        avatar: '/speakers/abel-villa.webp',
         role_es: "Ingeniero Líder, en Battery Depot",
         role_en: "Lead Engineer, Battery Depot",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
@@ -536,7 +536,7 @@ const speakersEdu=[
     {
         id: 33,
         name: 'Kennia Espinoza',
-        avatar: '/speaker/kennia-espinoza.webp',
+        avatar: '/speakers/kennia-espinoza.webp',
         role_es: "Director de Ventas de la DG México",
         role_en: "Sales Director DG Mexico",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",

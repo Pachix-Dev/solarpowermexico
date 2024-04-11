@@ -292,8 +292,8 @@ const programSSM = {
         description_en: '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 28,
+            photo: '/speakers/abel-villa.webp',
             speakers_name:'Abel Villa',
             position : 'Ingeniero Líder, en Battery Depot',
             position_en : 'Lead Engineer, Battery Depot'

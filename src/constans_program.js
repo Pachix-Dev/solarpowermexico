@@ -145,7 +145,7 @@ const programSSM = {
             id: 33,
             photo: '/speakers/kennia-espinoza.webp',
             speakers_name:'Kennia Espinoza',
-            position : 'Director de Ventas de la DG México',
+            position : 'Directora de Ventas de la DG México',
             position_en : 'Sales Director DG Mexico'
           },
         ],

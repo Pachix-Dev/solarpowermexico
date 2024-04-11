@@ -537,7 +537,7 @@ const speakersEdu=[
         id: 33,
         name: 'Kennia Espinoza',
         avatar: '/speakers/kennia-espinoza.webp',
-        role_es: "Director de Ventas de la DG México",
+        role_es: "Directora de Ventas de la DG México",
         role_en: "Sales Director DG Mexico",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
         resume_en: "Information is being updated. Please stay tuned.",

@@ -289,7 +289,7 @@ export function Home() {
             </Row>
             <p className='mt-5 fw-bold fs-2'>{t('home.sponsor')}</p>
             <Row className='d-flex align-items-center justify-content-center gap-5'>
-              <Col xs={12} sm={6} md={4} lg={2}className=''>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
                 <div className='d-flex align-items-center justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://hitachi.com.mx/'
@@ -306,42 +306,42 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className=''>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
                 <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
-                    <a
-                      href='https://sunpower.maxeon.com/mx/por-que-sunpower'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='p-3'
-                    >
-                      <img
-                        width={170}
-                        src='/SUNPOWER.webp'
-                        alt='SUNPOWER'
-                        loading='lazy'
-                      />
-                    </a>
-                  </div>
-              </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className=''>
-                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
-                    <a
-                      href='https://es.s-5.com/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='p-3'
-                    >
-                      <img
-                        width={100}
-                        src='/S-5logo.webp'
-                        alt='S-5logo'
-                        loading='lazy'
-                      />
-                    </a>
-                  </div>
+                  <a
+                    href='https://sunpower.maxeon.com/mx/por-que-sunpower'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={170}
+                      src='/SUNPOWER.webp'
+                      alt='SUNPOWER'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
               </Col>
               <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href='https://es.s-5.com/'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={100}
+                      src='/S-5logo.webp'
+                      alt='S-5logo'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://korepower.com/'
                     target='_blank'
@@ -360,7 +360,7 @@ export function Home() {
             </Row>
             <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
               <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://latam.apsystems.com/'
                     target='_blank'
@@ -377,7 +377,7 @@ export function Home() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://www.trinasolar.com/es'
                     target='_blank'
@@ -394,7 +394,7 @@ export function Home() {
                 </div>
               </Col>
               <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://solar-distribution.baywa-re.mx/es/'
                     target='_blank'
@@ -412,8 +412,8 @@ export function Home() {
               </Col>
             </Row>
             <Row className='d-flex align-items-center justify-content-center gap-5 pt-2'>
-            <Col xs={12} sm={6} md={4} lg={2} className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href=''
                     target='_blank'
@@ -429,8 +429,8 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={2}className=''>
-              <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
                   <a
                     href='https://es.antaisolar.com/'
                     target='_blank'
@@ -446,7 +446,23 @@ export function Home() {
                   </a>
                 </div>
               </Col>
-              
+              <Col xs={12} sm={6} md={4} lg={2} className=''>
+                <div className='d-flex align-items-start justify-content-center' style={{ padding: '0px', marginBottom: '0px' }}>
+                  <a
+                    href=''
+                    target='_blank'
+                    rel='noreferrer'
+                    className='p-3'
+                  >
+                    <img
+                      width={200}
+                      src='/seraphim.webp'
+                      alt='seraphim'
+                      loading='lazy'
+                    />
+                  </a>
+                </div>
+              </Col>
             </Row>
           </div>
         </section>

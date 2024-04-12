@@ -18,19 +18,19 @@ const partners2 = [
   { link: 'https://www.solarenergy.org/', image: '/SEI.webp', width: 150, height: 107 }
 ]
 const broadcasting = [
-  { link: 'https://efe.com/', image: '/EFE.webp', width: 200, height: 133 },  
+  { link: 'https://efe.com/', image: '/EFE.webp', width: 'auto', height: 100 },  
   { link: 'https://www.pv-magazine-mexico.com/', image: '/pv-magazine-group.webp', width: 200, height: 68 },
   { link: 'https://mexicoindustry.com/es', image: '/mexicoIndustry.webp', width: 150, height: 53 },
-  { link: 'https://www.cosmos.com.mx/', image: '/onlineCosmos.webp', width: 200, height: 68 },
+  { link: 'https://www.cosmos.com.mx/', image: '/onlineCosmos.webp', width: 'auto', height: 68 },
   { link: 'https://energyandcommerce.com.mx/', image: '/Energy-Commerce.webp', width: 150, height: 60 },  
   { link: 'https://energiahoy.com/', image: '/EnergiaHoy.webp', width: 200, height: 45 },  
-  { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 250, height: 119 },
+  { link: 'https://factorenergetico.mx/', image: '/factor-energetico.webp', width: 'auto', height: 80 },
   { link: 'https://heraldodemexico.com.mx/', image: '/heraldoHorizontal.webp', width: 200 },
   { link: 'https://cuatro-cero.mx/', image: '/cuatroCero.webp', width: 200 }
 ]
 const broadcasting2 = [
-  { link: 'https://globalenergy.mx/', image: '/Global-Energy.webp', width: 140, height: 62 },
-  { link: 'https://globalindustries.mx/', image: '/global-industries.webp', width: 200, height: 62 },
+  { link: 'https://globalenergy.mx/', image: '/global-energy-v2.webp', width:'auto', height: 62 },
+  { link: 'https://globalindustries.mx/', image: '/global-industries_v2.webp', width: 'auto', height: 62 },
   { link: 'https://greentology.life/', image: '/GreentologyV2.webp', width: 200, height: 129 },
   { link: 'https://revistaconsultoria.com.mx/', image: '/revistaConsultoria.webp', width: 200, height: 50 },
   { link: 'https://www.vanguardia-industrial.net/', image: '/VanguardiaIndustrial.webp', width: 150, height: 79 },

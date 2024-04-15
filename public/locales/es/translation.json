@@ -38,7 +38,8 @@
             "title": "MEDIA HUB",
             "option_1": "Galería"
         },
-        "banner": "¡Regístrate ahora!"
+        "banner": "¡Regístrate ahora!",
+        "directory":"Directorio de Expositores 2024"
     },
     "home": {
         "program": "Programa de conferencias premium",

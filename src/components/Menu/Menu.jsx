@@ -109,6 +109,13 @@ export function Menu() {
                     {t('menu.submenu_2.option_1')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
+                    href='/files/DIRECTORIO_SOLAR_15-04-2024 _AC.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.directory')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     as={Link}
                     to='/why-exhibit'
                     onClick={handleClose}

@@ -38,7 +38,9 @@
             "title": "MEDIA HUB",
             "option_1": "Gallery"
         },
-        "banner": "Online registration!"
+        "banner": "Online registration!",
+        "directory":"Exhibitor Directory 2024"
+
     },
     "home": {
         "program": "Premium Conference Program",

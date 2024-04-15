@@ -137,11 +137,11 @@ const speakers=[
     {
         id:16,
         name: "Humberto Alarcón",
-        avatar: '/speakers/humberto_alarcon.webp',
-        role_es: "SUNECO",
-        role_en: "SUNECO",
-        resume_es: "Información por confirmar",
-        resume_en: "Information to be confirmed",
+        avatar: '/speakers/humberto_alarcon_v2.webp',
+        role_es: "Director general en SUNECO MX",
+        role_en: "Managing Director at SUNECO MX",
+        resume_es: "Con una carrera sobresaliente en el ámbito financiero, nuestro protagonista ha sido un impulsor clave de la sustentabilidad y la innovación en México. Desde su papel como Secretario Técnico en la Asociación de Bancos de México (ABM), donde lideró iniciativas para financiar sectores clave como la infraestructura, hasta su actual posición como CEO y fundador de Suneco, una entidad líder en inversiones en energías renovables, ha demostrado un compromiso constante con el desarrollo sostenible. Su experiencia docente en el Tecnológico de Monterrey y su formación académica sólida respaldan su liderazgo y conocimiento en su campo. Reconocido como una figura influyente en el panorama financiero y de la sustentabilidad en México y América Latina, su trabajo en Suneco destaca por su contribución a la transformación del sector energético hacia fuentes renovables.",
+        resume_en: "With an outstanding career in finance, our protagonist has been a key driver of sustainability and innovation in Mexico. From his role as Technical Secretary at the Mexican Banking Association (ABM), where he led initiatives to finance key sectors such as infrastructure, to his current position as CEO and founder of Suneco, a leading renewable energy investment bank, he has demonstrated an ongoing commitment to sustainable development. His teaching experience at Tecnológico de Monterrey and his solid academic background support his leadership and knowledge in his field. Recognised as an influential figure in the financial and sustainability landscape in Mexico and Latin America, his work at Suneco stands out for his contribution to the transformation of the energy sector towards renewable sources.",
     },
     {
         id:17,
@@ -578,7 +578,25 @@ const speakersEdu=[
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
         resume_en: "Information is being updated. Please stay tuned.",
     },
-    // {
+    {
+        id: 38,
+        name: 'Lorena Espinoza',
+        avatar: '/speakers/lorena_espinosa.webp',
+        role_es: "Asesora técnica en la GIZ  - PENDIENTE POR CONFIRMAR",
+        role_en: "Technical Advisor at GIZ - TO BE CONFIRMED",
+        resume_es: "Asesora del Programa Internacional de Promoción del Hidrógeno de la Cooperación Alemana para el Desarrollo Sostenible en México (GIZ), coordina la cooperación del sector privado en materia de Hidrógeno Verde y colabora con la Alianza Energética entre México y Alemania. También ha trabajado en temas de eficiencia energética, edificación sustentable, desarrollo urbano y calentamiento solar de agua. Estudió Ingeniería Química en la Universidad Nacional Autónoma de México (UNAM), y tiene estudios en Gestión Ambiental y Energética en la Universidad de Twente, en Holanda.",
+        resume_en: "Advisor to the International Hydrogen Promotion Programme of the German Cooperation for Sustainable Development in Mexico (GIZ), she coordinates private sector cooperation on Green Hydrogen and collaborates with the Mexico-Germany Energy Partnership. He has also worked on energy efficiency, sustainable building, urban development and solar water heating. He studied Chemical Engineering at the National Autonomous University of Mexico (UNAM), and has studies in Environmental and Energy Management at the University of Twente in the Netherlands.",
+    },
+     {
+        id: 39,
+        name: 'Jorge Hinojosa',
+        avatar: '/speakers/jorge_hinojosa.webp',
+        role_es: "Consultor principal, en Hinicio",
+        role_en: "Senior Consultant, in Hinicio",
+        resume_es: "Egresado de Ingeniería Mecánica, por la Universidad Autónoma de México; cuenta con un maestría en Ciencia y tecnología de las energías renovables, por el École Polytechnique; y una maestría en Energía, por el Institut Polytechnique de París.Fue cofundador y presidente de Rennueva, una startup dedicada al desarrollo de tecnologías sustentables y creadores de la primera máquina mexicana para reciclar EPS (unicel). Fungió como Asesor y Consultor Especializado para la SENER. Además, fue Consultor Líder del programa Mexico Clean Economy 2050, de la Universidad de Stanford; y, Global Solutions Developer, en ENGIE, donde gestionó propuestas de desarrollo de proyectos internacionales de hidrógeno con socios de los sectores químico, y gas natural, entre otras actividades.",
+        resume_en: "He holds a degree in Mechanical Engineering from the Universidad Autónoma de México; a master's degree in Science and Technology of Renewable Energy from the École Polytechnique; and a master's degree in Energy from the Institut Polytechnique de Paris. He was co-founder and president of Rennueva, a startup dedicated to the development of sustainable technologies and creators of the first Mexican machine to recycle EPS (unicel). He served as Advisor and Specialised Consultant for SENER. In addition, he was Lead Consultant for the Mexico Clean Economy 2050 programme at Stanford University; and Global Solutions Developer at ENGIE, where he managed proposals for the development of international hydrogen projects with partners in the chemical and natural gas sectors, among other activities.",
+    },
+     // {
     //     id: 0,
     //     name: '',
     //     avatar: '',

@@ -690,8 +690,8 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 22,
+            photo: '/speakers/leonardo_velasco.webp',
             speakers_name:'Leonardo Velasco Ochoa',
             position : 'InspectaPV',
             position_en : 'InspectaPV'
@@ -1073,9 +1073,9 @@ const conferencesSSM = {
       subject_en:'Storage',
       description:'',
       description_en:'',
-      peakers:'Luisa Sierra Brozon | Lorena Espinosa',
-      position:'IMC | GIZ',
-      position_en: 'IMC | GIZ',
+      peakers:'Jorge Hinojosa | Luisa Sierra Brozon | Lorena Espinosa',
+      position:'Hinicio | IMC | GIZ',
+      position_en: 'Hinicio | IMC | GIZ',
       avatars: ['/speakers/luisa_sierra.webp', '', ''],
       id: [9]
     },

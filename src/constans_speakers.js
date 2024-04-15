@@ -242,6 +242,24 @@ const speakers=[
         resume_es: "Con una impresionante formación académica que abarca Relaciones Internacionales, Derecho y Políticas Públicas y Género, ha acumulado más de 14 años de experiencia en diversas áreas de la administración pública federal. Desde sus primeros pasos como analista de inteligencia hasta su destacado desempeño como Titular de la Agregaduría Regional en San Diego, California, donde se convirtió en la primera mujer en ocupar dicho cargo, ha dejado una marca indeleble en su carrera. Su paso por la Policía Federal y la Procuraduría General de la República, la consolidó como una líder en Inteligencia y Cooperación Internacional. Además, su labor como asesora y representante de la Secretaría de Gobernación ante la Organización de los Estados Americanos destaca su compromiso con temas de seguridad y género. En 2019, se unió a la Comisión Federal de Electricidad (CFE) con la tarea de establecer la Unidad de Género e Inclusión, demostrando su dedicación a promover la participación de las mujeres en la industria eléctrica y asegurar la integración de la perspectiva de género en proyectos de electrificación. Su trayectoria ejemplar la posiciona como una figura destacada en el campo de la administración pública y la promoción de la igualdad de género.",
         resume_en: "With an impressive academic background that encompasses International Relations, Law and Public Policy and Gender, she has accumulated more than 14 years of experience in various areas of the federal public administration. From her first steps as an intelligence analyst to her outstanding performance as Head of the Regional Attaché Office in San Diego, California, where she became the first woman to hold such position, she has left an indelible mark in her career. Her time in the Federal Police and the Attorney General's Office consolidated her as a leader in Intelligence and International Cooperation. In addition, her work as advisor and representative of the Ministry of the Interior to the Organization of American States highlights her commitment to security and gender issues. In 2019, she joined the Federal Electricity Commission (CFE) with the task of establishing the Gender and Inclusion Unit, demonstrating her dedication to promoting women's participation in the electricity industry and ensuring gender mainstreaming in electrification projects. Her exemplary track record positions her as a leading figure in the field of public administration and the promotion of gender equality.",
     },
+    {
+        id: 18,
+        name: 'Lorena Espinoza',
+        avatar: '/speakers/lorena_espinosa.webp',
+        role_es: "Asesora técnica en la GIZ  - PENDIENTE POR CONFIRMAR",
+        role_en: "Technical Advisor at GIZ - TO BE CONFIRMED",
+        resume_es: "Asesora del Programa Internacional de Promoción del Hidrógeno de la Cooperación Alemana para el Desarrollo Sostenible en México (GIZ), coordina la cooperación del sector privado en materia de Hidrógeno Verde y colabora con la Alianza Energética entre México y Alemania. También ha trabajado en temas de eficiencia energética, edificación sustentable, desarrollo urbano y calentamiento solar de agua. Estudió Ingeniería Química en la Universidad Nacional Autónoma de México (UNAM), y tiene estudios en Gestión Ambiental y Energética en la Universidad de Twente, en Holanda.",
+        resume_en: "Advisor to the International Hydrogen Promotion Programme of the German Cooperation for Sustainable Development in Mexico (GIZ), she coordinates private sector cooperation on Green Hydrogen and collaborates with the Mexico-Germany Energy Partnership. He has also worked on energy efficiency, sustainable building, urban development and solar water heating. He studied Chemical Engineering at the National Autonomous University of Mexico (UNAM), and has studies in Environmental and Energy Management at the University of Twente in the Netherlands.",
+    },
+     {
+        id: 99,
+        name: 'Jorge Hinojosa',
+        avatar: '/speakers/jorge_hinojosa.webp',
+        role_es: "Consultor principal, en Hinicio",
+        role_en: "Senior Consultant, in Hinicio",
+        resume_es: "Egresado de Ingeniería Mecánica, por la Universidad Autónoma de México; cuenta con un maestría en Ciencia y tecnología de las energías renovables, por el École Polytechnique; y una maestría en Energía, por el Institut Polytechnique de París.Fue cofundador y presidente de Rennueva, una startup dedicada al desarrollo de tecnologías sustentables y creadores de la primera máquina mexicana para reciclar EPS (unicel). Fungió como Asesor y Consultor Especializado para la SENER. Además, fue Consultor Líder del programa Mexico Clean Economy 2050, de la Universidad de Stanford; y, Global Solutions Developer, en ENGIE, donde gestionó propuestas de desarrollo de proyectos internacionales de hidrógeno con socios de los sectores químico, y gas natural, entre otras actividades.",
+        resume_en: "He holds a degree in Mechanical Engineering from the Universidad Autónoma de México; a master's degree in Science and Technology of Renewable Energy from the École Polytechnique; and a master's degree in Energy from the Institut Polytechnique de Paris. He was co-founder and president of Rennueva, a startup dedicated to the development of sustainable technologies and creators of the first Mexican machine to recycle EPS (unicel). He served as Advisor and Specialised Consultant for SENER. In addition, he was Lead Consultant for the Mexico Clean Economy 2050 programme at Stanford University; and Global Solutions Developer at ENGIE, where he managed proposals for the development of international hydrogen projects with partners in the chemical and natural gas sectors, among other activities.",
+    },
 ]
 
 const speakersEdu=[
@@ -577,24 +595,6 @@ const speakersEdu=[
         role_en: "General Manager MCC region for LONGi",
         resume_es: "La información se está actualizando. Por favor, mantente atento.",
         resume_en: "Information is being updated. Please stay tuned.",
-    },
-    {
-        id: 38,
-        name: 'Lorena Espinoza',
-        avatar: '/speakers/lorena_espinosa.webp',
-        role_es: "Asesora técnica en la GIZ  - PENDIENTE POR CONFIRMAR",
-        role_en: "Technical Advisor at GIZ - TO BE CONFIRMED",
-        resume_es: "Asesora del Programa Internacional de Promoción del Hidrógeno de la Cooperación Alemana para el Desarrollo Sostenible en México (GIZ), coordina la cooperación del sector privado en materia de Hidrógeno Verde y colabora con la Alianza Energética entre México y Alemania. También ha trabajado en temas de eficiencia energética, edificación sustentable, desarrollo urbano y calentamiento solar de agua. Estudió Ingeniería Química en la Universidad Nacional Autónoma de México (UNAM), y tiene estudios en Gestión Ambiental y Energética en la Universidad de Twente, en Holanda.",
-        resume_en: "Advisor to the International Hydrogen Promotion Programme of the German Cooperation for Sustainable Development in Mexico (GIZ), she coordinates private sector cooperation on Green Hydrogen and collaborates with the Mexico-Germany Energy Partnership. He has also worked on energy efficiency, sustainable building, urban development and solar water heating. He studied Chemical Engineering at the National Autonomous University of Mexico (UNAM), and has studies in Environmental and Energy Management at the University of Twente in the Netherlands.",
-    },
-     {
-        id: 39,
-        name: 'Jorge Hinojosa',
-        avatar: '/speakers/jorge_hinojosa.webp',
-        role_es: "Consultor principal, en Hinicio",
-        role_en: "Senior Consultant, in Hinicio",
-        resume_es: "Egresado de Ingeniería Mecánica, por la Universidad Autónoma de México; cuenta con un maestría en Ciencia y tecnología de las energías renovables, por el École Polytechnique; y una maestría en Energía, por el Institut Polytechnique de París.Fue cofundador y presidente de Rennueva, una startup dedicada al desarrollo de tecnologías sustentables y creadores de la primera máquina mexicana para reciclar EPS (unicel). Fungió como Asesor y Consultor Especializado para la SENER. Además, fue Consultor Líder del programa Mexico Clean Economy 2050, de la Universidad de Stanford; y, Global Solutions Developer, en ENGIE, donde gestionó propuestas de desarrollo de proyectos internacionales de hidrógeno con socios de los sectores químico, y gas natural, entre otras actividades.",
-        resume_en: "He holds a degree in Mechanical Engineering from the Universidad Autónoma de México; a master's degree in Science and Technology of Renewable Energy from the École Polytechnique; and a master's degree in Energy from the Institut Polytechnique de Paris. He was co-founder and president of Rennueva, a startup dedicated to the development of sustainable technologies and creators of the first Mexican machine to recycle EPS (unicel). He served as Advisor and Specialised Consultant for SENER. In addition, he was Lead Consultant for the Mexico Clean Economy 2050 programme at Stanford University; and Global Solutions Developer at ENGIE, where he managed proposals for the development of international hydrogen projects with partners in the chemical and natural gas sectors, among other activities.",
     },
      // {
     //     id: 0,

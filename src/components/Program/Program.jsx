@@ -41,13 +41,13 @@ export function Program() {
                   {t("program.promotion.title")}{" "}
                 </p>
                 <p
-                  className="fs-3 fw-semibold"
+                  className="fs-1 fw-bold"
                   dangerouslySetInnerHTML={{
                     __html: t("program.promotion.preventa"),
                   }}
                 ></p>
                 <p
-                  className="fs-3 fw-semibold"
+                  className="fs-2 fw-semibold"
                   dangerouslySetInnerHTML={{
                     __html: t("program.promotion.includes"),
                   }}

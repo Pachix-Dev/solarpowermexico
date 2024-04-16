@@ -974,10 +974,10 @@ const conferencesSSM = {
       description: '',
       description_en: '',
       peakers: 'Angélica Soto | Humberto Alarcón | Luis Gerardo Sánchez Stone',
-      position: 'Directora General de Nx Buena Energía | SUNECO | Director General de ErgoSolar',
-      position_en: 'Managing Director of Nx Buena Energía  | SUNECO | General Manager of ErgoSolar',
-      avatars: ['/speakers/angelica_soto.webp', '/speakers/luis_sanchez.webp', ''],
-      id: [1, 4]
+      position: 'Directora General de Nx Buena Energía | CEO y Fundador de Suneco | Director General de ErgoSolar',
+      position_en: 'Managing Director of Nx Buena Energía  | CEO y Founder of Suneco | General Manager of ErgoSolar',
+      avatars: ['/speakers/angelica_soto.webp', '/speakers/humberto_alarcon_v2.webp' , '/speakers/luis_sanchez.webp'],
+      id: [1, 16, 4]
     },
   ],
   day_2: [

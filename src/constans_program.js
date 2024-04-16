@@ -112,21 +112,21 @@ const programSSM = {
         ],
       },
       {
-        company : '',
+        company : 'HUAWEI',
         hour: '17:30 - 18:00',
         duration: '',
         name: '',
-        title: 'HUAWEI',
-        title_en: 'HUAWEI',
+        title: 'Huawei - Fusion Solar Lanzamiento de productos 2024',
+        title_en: 'Huawei - Fusion Solar Product Launch 2024',
         description: '',
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
-            speakers_name:'',
-            position : '',
-            position_en : ''
+            id: 38,
+            photo: '/speakers/ulises_francisco_alcazar_hernandez.webp',
+            speakers_name:'Ulises Francisco Alcázar Hernández',
+            position : 'HUAWEI',
+            position_en : 'HUAWEI'
           },
         ],
       },
@@ -148,6 +148,29 @@ const programSSM = {
             position : 'Directora de Ventas de la DG México',
             position_en : 'Sales Director DG Mexico'
           },
+        ],
+      },
+       {
+        company : 'HUAWEI',
+        hour: '12:45 –13:15',
+        name: '',
+        title: '¿Hacía donde se dirige la industria de almacenamiento de energía en baterías?',
+        title_en: 'Where is the battery energy storage industry headed?',
+        speakers: '',
+        description: '',
+        description_en : '',
+        position: '',
+        position_en: '',
+        avatars: ['', '', ''],
+        id: [0],
+        person: [
+          {
+            id: 39,
+            photo: '/speakers/carlos_hong_liang.webp',
+            speakers_name:'Carlos Hong Liang',
+            position : 'HUAWEI',
+            position_en : 'HUAWEI'
+          }
         ],
       },
       // {
@@ -1014,8 +1037,8 @@ const conferencesSSM = {
       type_en: 'Panel',
       duration: '45 min',
       timetable: '12:45 - 13:30',
-      title: 'Equidad de género en el sector energético',
-      title_en: 'Gender equity in the energy sector',
+      title: 'Igualdad de género en el sector energético',
+      title_en: 'Gender equality in the energy sector',
       subject: 'Generación Fotovoltaica Distribuida',
       subject_en: 'Distributed Photovoltaic Generation',
       description: '',
@@ -1073,11 +1096,11 @@ const conferencesSSM = {
       subject_en:'Storage',
       description:'',
       description_en:'',
-      peakers:'Jorge Hinojosa | Luisa Sierra Brozon | Lorena Espinosa',
+      peakers:'Jorge Hinojosa | Luisa Sierra Brozon | Lorena Espinoza',
       position:'Hinicio | IMC | GIZ',
       position_en: 'Hinicio | IMC | GIZ',
-      avatars: ['/speakers/luisa_sierra.webp', '', ''],
-      id: [9]
+      avatars: ['/speakers/jorge_hinojosa.webp', '/speakers/luisa_sierra.webp', '/speakers/lorena_espinosa.webp'],
+      id: [29, 9, 28]
     },
     {
       type: 'Panel',

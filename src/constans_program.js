@@ -993,8 +993,8 @@ const conferencesSSM = {
       description: '',
       description_en: '',
       peakers: ' Mario S. DePillis Jr. ',
-      position: 'Miembro de Cigré y de la American Economic Association',
-      position_en: 'Member of Cigré and the American Economic Association',
+      position: 'Director de la Junta de Asesores de Admonitor',
+      position_en: 'Director of Admonitor\'s Board of Advisors',
       avatars: ['/speakers/mario_pillis.webp', '', ''],
       id: [3]
     },

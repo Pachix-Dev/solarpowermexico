@@ -353,8 +353,8 @@ const programSSM = {
             id: 8,
             photo: '/speakers/javier_lopez.webp',
             speakers_name:'Javier López',
-            position : '',
-            position_en : ''
+            position : 'Gerente de Mercadotecnia en SOLAREVER',
+            position_en : 'Marketing Manager at SOLAREVER'
           },
         ],
       },

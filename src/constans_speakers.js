@@ -260,6 +260,15 @@ const speakers=[
         resume_es: "Egresado de Ingeniería Mecánica, por la Universidad Autónoma de México; cuenta con un maestría en Ciencia y tecnología de las energías renovables, por el École Polytechnique; y una maestría en Energía, por el Institut Polytechnique de París.Fue cofundador y presidente de Rennueva, una startup dedicada al desarrollo de tecnologías sustentables y creadores de la primera máquina mexicana para reciclar EPS (unicel). Fungió como Asesor y Consultor Especializado para la SENER. Además, fue Consultor Líder del programa Mexico Clean Economy 2050, de la Universidad de Stanford; y, Global Solutions Developer, en ENGIE, donde gestionó propuestas de desarrollo de proyectos internacionales de hidrógeno con socios de los sectores químico, y gas natural, entre otras actividades.",
         resume_en: "He holds a degree in Mechanical Engineering from the Universidad Autónoma de México; a master's degree in Science and Technology of Renewable Energy from the École Polytechnique; and a master's degree in Energy from the Institut Polytechnique de Paris. He was co-founder and president of Rennueva, a startup dedicated to the development of sustainable technologies and creators of the first Mexican machine to recycle EPS (unicel). He served as Advisor and Specialised Consultant for SENER. In addition, he was Lead Consultant for the Mexico Clean Economy 2050 programme at Stanford University; and Global Solutions Developer at ENGIE, where he managed proposals for the development of international hydrogen projects with partners in the chemical and natural gas sectors, among other activities.",
     },
+    {
+        id: 30,
+        name: 'Francisco Cervantes Mayorga',
+        avatar: '/speakers/francisco-cervantes.webp',
+        role_es: "Director Comercial de Skysense",
+        role_en: "Commercial Director of Skysense",
+        resume_es: "Cuenta con una amplia experiencia en la industria fotovoltaica, almacenamiento de energía, fabricación de equipos eléctricos de potencia y sistemas de transformación y distribución. Con un vasto historial de proyectos innovadores, prioriza la satisfacción del cliente e impulsa soluciones energéticas a la vanguardia, sin precedentes, a través de micro redes inteligentes y sustentables para el futuro de México y Latinoamérica.",
+        resume_en: "He has extensive experience in the photovoltaic industry, energy storage, electrical power equipment manufacturing, and transformation and distribution systems. With a vast history of innovative projects, it prioritizes customer satisfaction and drives unprecedented, cutting-edge energy solutions through smart and sustainable microgrids for the future of Mexico and Latin America.",
+    },
 ]
 
 const speakersEdu=[

@@ -335,8 +335,8 @@ const programSSM = {
             id: 4,
             photo: '/speakers/jose_adolfo.webp',
             speakers_name:'José Adolfo Ortiz Martínez',
-            position : '',
-            position_en : ''
+            position : 'Especialista solar en Grundfos',
+            position_en : 'Solar Specialist, at Grundfos'
           },
         ],
       },

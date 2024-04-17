@@ -274,15 +274,15 @@ const programSSM = {
             id: 6,
             photo: '/speakers/raul_romay.webp',
             speakers_name:'Raul Romay',
-            position : '',
-            position_en : ''
+            position : 'Gerente de PPA, de SOLAREVER',
+            position_en : 'PPA Manager, SOLAREVER'
           },
           {
             id: 7,
             photo: '/speakers/mayela_cinfuentes.webp',
             speakers_name:'Mayela Cifuentes',
-            position : '',
-            position_en : ''
+            position : 'Gerente de ESS, en SOLAREVER',
+            position_en : 'ESS Manager, at SOLAREVER'
           },
         ],
       },

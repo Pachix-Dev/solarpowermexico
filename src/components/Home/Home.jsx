@@ -11,7 +11,7 @@ import { Header } from './Header'
 import { Slider } from './Slider'
 import { Gallery } from './Gallery'
 import { useNearScreen } from '../hooks/useNearScreen'
-import OrderConferences  from '../Program/OrderConferences.jsx'
+import OrderConferences from '../Program/OrderConferences.jsx'
 import {
   broadcasting,
   broadcasting2,
@@ -738,7 +738,8 @@ export function Home() {
       </Container>
       {/* PROGRAMA DE CONFERENCIAS */}
       <section className='visitor-background'>
-      <Row className='pb-5'>
+        <Container>
+          <Row className='pb-5'>
             <Col
               className="text-center text-white py-5"
               sm={12}
@@ -804,12 +805,13 @@ export function Home() {
               </div>
             </Col>
           </Row>
+        </Container>
         <OrderConferences />
       </section>
-      
 
-       {/* Aliados Estratégicos y Media Partner */}
-       <section className='mt-5'>
+
+      {/* Aliados Estratégicos y Media Partner */}
+      <section className='mt-5'>
         <Container>
           <p className='mt-5 fw-bold fs-2 text-secondary text-center'>
             {t('home.strategic_partners')}:
@@ -1286,7 +1288,7 @@ export function Home() {
         </Container>
       </section> */}
 
-     
+
 
       {/* Numeralia redes sociales */}
       {/* <section>

@@ -9,7 +9,7 @@ export function Footer() {
   const { t } = useTranslation()
   const [show, ref] = useNearScreen()
   return (
-    <footer className='mt-5'>
+    <footer className=''>
       <Container fluid className='' style={{ backgroundColor: '#570587' }}>
         {/* <img
           src='/plecaSolar2.webp'

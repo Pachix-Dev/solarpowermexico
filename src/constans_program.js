@@ -770,11 +770,11 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 41,
+            photo: '/speakers/alfonso_german.webp',
             speakers_name:'Alfonso Germán Jalil',
-            position : 'Strip Stell',
-            position_en : 'Strip Stell'
+            position : 'Director de Operaciones , en Strip Stell',
+            position_en : 'Director of Operations, at Strip Stell'
           },
         ]
       },
@@ -802,11 +802,11 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 42,
+            photo: '/speakers/sergio_rodriguez.webp',
             speakers_name:'Sergio Rodríguez Solis',
-            position : '',
-            position_en : ''
+            position : 'Director de Tecnología (CTO) LATAM, en Solis - Ginlong Technologies',
+            position_en : 'Chief Technology Officer (CTO) LATAM, at Solis - Ginlong Technologies'
           },
         ]
       },
@@ -836,11 +836,11 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 43,
+            photo: '/speakers/jorge_musalem.webp',
             speakers_name:'Jorge Musalem',
-            position : 'CFE',
-            position_en : 'CFE'
+            position : 'Gerente de Proyectos Estratégicos, en la Comisión Federal de Electricidad',
+            position_en : 'Strategic Projects Manager, Comisión Federal de Electricidad'
           },
         ]
       },
@@ -852,8 +852,8 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 44,
+            photo: '/speakers/luciano_estevez.webp',
             speakers_name:'Luciano Ángel Estévez',
             position : 'Estevez Books',
             position_en : 'Estevez Books'
@@ -887,11 +887,11 @@ const programSSM = {
         description_en : '',
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 45,
+            photo: '/speakers/chantal_sanabria.webp',
             speakers_name:'Chantal Sanabria',
-            position : 'Energía Real',
-            position_en : 'Energía Real'
+            position : 'Director comercial, en Energía Real',
+            position_en : 'Commercial Director, at Energía Real'
           },
         ]
       },
